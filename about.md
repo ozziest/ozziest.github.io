@@ -10,8 +10,8 @@ Mayıs 2012’de Birey Dershanesi’nde Yazılım Uzmanı olarak iş hayatına b
 
 Ahir Ar-Ge AŞ ile birlikte birçok farklı web tabanlı proje üzerinde çalıştı ve bu projelerin çoğunda Proje Yürütücüsü görevini üstlendi. PHP, Laravel, MySQL, PHPUnit, Selenium, PHPSpec, Codeception, PHPDoc, HTML, CSS, JS, Linux, Apache, MemCache, Redis, Sysmfony2, Node.JS, Sails.JS, Meteor.JS, Angular.JS vb. gibi çeşitli teknolojilerle çalışmalar gerçekleştirdi. Öte yandan Beyn.org üzerinde eğitim ve sosyal konular üzerinde yazılar da yayınlamaktadır.
 
-* [Beyn.org Yazıları](http://beyn.org/yazar/ozguradem)
 * [GitHub Profili](http://github.com/ozziest)
 * [LinkedIn Profili](http://tr.linkedin.com/in/ozguradem)
 * [Kurumsal Web Sayfası](http://ahir.com.tr)
 * [Kişisel Blog](http://ozguradem.net)
+* [Beyn.org Yazıları](http://beyn.org/yazar/ozguradem)
