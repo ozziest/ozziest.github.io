@@ -4,7 +4,7 @@ title: Hakkında
 permalink: /about/
 ---
 
-1988 yılında İstanbul’da doğdu. A.N. Bilimli Teknik Lisesi Yazılım Bölümü‘nü bitirdi. Lisans eğitimini Sakarya Üniversitesi Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasında askerlik hizmetini gerçekleştirdi.
+1988 yılında İstanbul’da doğdu. A.N. Bilimli Teknik Lisesi Yazılım Bölümü‘nü bitirdi ve bu dönemde programlama ile 2003 yılında tanıştı. Lise hayatı boyunca 3 yaz dönemini Solon Yazılım AŞ. bünyesinde geçirdi ve Delphi ile birlikte muhasebe programlarına katkıda bulundu. Lisans eğitimini Sakarya Üniversitesi Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasında askerlik hizmetini gerçekleştirdi.
 
 Mayıs 2012’de Birey Dershanesi’nde Yazılım Uzmanı olarak iş hayatına başladı. PHP ve Oracle ile birlikte web tabanlı uygulamalar geliştirdi. Şubat 2013’de Sakarya’da bulunan Ahir Ar-Ge AŞ bünyesinde startup projeler geliştirmek üzere görevinden ayrıldı.
 
