@@ -3,6 +3,7 @@ layout: post
 title:  "PHP ve Hata Yönetimi"
 date:   2014-08-19 22:39:28
 categories: php
+tags: php, exception, hata, log
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;
@@ -27,7 +28,3 @@ Burada başka bir soruna da göz atmak gerekir. Şahsen ben iki türde hata mesa
 @ işareti ile olası hataları gizlemek, true/false gibi boolean tipte değerler döndürmek, hata kodları ile hata durumlarını geriye döndürmek asla yapmamanız gereken hatalar. Bunlardan uzak durun. Yazılımınıza asla güvenmeyin. Mutlaka sizin görmediğiniz hatalar çıkacaktır. Bunları sürekli loglayın ve sürekli olarak logları inceleyin. Kullanıcı bile ne olduğunu anlamadan hatayı çözme şansınız var. Aksi halde müşteri sizi arar, *“Kullanıcı kayıt olamıyor”* der ve siz saatlerce hatayı ararsınız. Log yoksa elinizde sorun nerededir bilemezsiniz. Sonra cevabınız şu olur;
 
 **“Ama ben de çalışıyor…”**
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help

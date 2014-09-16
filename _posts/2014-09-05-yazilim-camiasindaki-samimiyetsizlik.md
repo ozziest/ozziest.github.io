@@ -3,6 +3,7 @@ layout: post
 title:  "Yazılım Camiasındaki Samimiyetsizlik"
 date:   2014-09-05 22:39:28
 categories: diğer 
+tags: yazılım, samimiyetsizlik
 ---
 
 Kendi sektörümde her denk geldiğim insanın, deyim yerindeyse yakasına yapışıyorum. Çünkü öğrenilecek çok şey olduğunu biliyorum. Ne kadar çok kişiyi Twitter'da takip edersem ve ne kadar çok blog yazısı okursam o kadar ufkum genişliyor. Ancak midemi bulandıran iki mevzu var; birincisi **ego fetişi**, ikincisi **samimiyetsizlik.**
