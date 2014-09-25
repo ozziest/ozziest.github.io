@@ -38,23 +38,29 @@ Ama bu aşamada sesli düşünmek zorundayım. **DRY-Don't Repeat Yourself** fel
 
 Benim için birim testler bir sorun ve hala istediğim noktada değilim. Bu konuda zamanımın çoğunu tanınmış projeler için yazılmış testleri inceleyerek geçiriyorum. Ama iş kendi testlerimi yazmaya geldiğinde, nedense işler istediğim gibi gitmiyor. Yüzlerce, binlerce satır kod yazmak hiç yormuyor ama iki satır test kodu yazmak beni öldürüyor. Tam başlayacağım bir çay alıyorum. Dışarıyı seyrediyorum. Kendime bulabildiğim kadar başka iş buluyorum.  
 
-Bu gidişe bir dur demek amacıyla; hergün **kod kataları** yazma kararı almış bulunuyorum.* Çok basit bir senaryom var. Her oluşturacağım sınıftan önce, o sınıfın test bölümünü oluşturmak. Hedefim içlerini doldurmak değil, sadece test sınıfını oluşturup, testleri isimlendirmek. Belirli bir süre bunu tekrar ettikten sonra, en azından başlangıç aşamasındaki üşengeçliğimi yenebilmeyi umuyorum. Böylece beynimin içinde *"Bırak testi, kodlamaya başla."* diye bağıran **cahili** bir nebze yumuşatabilirim.
+Bu gidişe bir dur demek amacıyla; hergün kod [kata](http://tr.wikipedia.org/wiki/Kata)ları yazma kararı almış bulunuyorum. Çok basit bir senaryom var. Her oluşturacağım sınıftan önce, o sınıfın test bölümünü oluşturmak. Hedefim içlerini doldurmak değil, sadece test sınıfını oluşturup, testleri isimlendirmek. Belirli bir süre bunu tekrar ettikten sonra, en azından başlangıç aşamasındaki üşengeçliğimi yenebilmeyi umuyorum. Böylece beynimin içinde *"Bırak testi, kodlamaya başla."* diye bağıran **cahili** bir nebze yumuşatabilirim.
 
 ### Test Araçları 
 
 Size araçların özelliklerini tek tek anlatmayacağım. **Laracast** üzerindeki test videolarının büyük bir çoğunluğunu izledim ve uyguladım diyebilirim. Ama en çok hoşuma giden **Codeception** oldu. Yukarıda örnek verdiğim kabul testi de, kendi örneklerinden bir tanesi. Lütfen siz de inceleyin. Bağlantı [burada!](http://codeception.com/)
 
-### Gelişme Durumum
+### Gelişme Dönemi
 
 Bu belgeyi elimden geldiğince güncelleyecek ve *test yazma denemelerimi* sizlere aktaracağım. 
 
 #### 1) Her Sınıftan Önce Test Sınıfı
 
-* Amaç: Bir sınıf oluşturmadan önce birim testi yapacak olan sınıfı oluşturacağım. Testleri isimlendireceğim. İçlerini doldurmak gibi bir zorunluluğum yok.
+* `Amaç`: Bir sınıf oluşturmadan önce birim testi yapacak olan sınıfı oluşturacağım. Testleri isimlendireceğim. İçlerini doldurmak gibi bir zorunluluğum yok.
 
-* Sonuç: Pek yakında.  
+Son iki haftalık süreci kendime verdiğim sözleri tutmaya çalışarak geçirdim. Kabul etmeliyim ki oldukça zorlandım. İnsanın alışkanlıklarını bir anda terk etmesi tahmin ettiğimizden daha güç oluyor. Amatörce gitar çaldığım dönemlerde yanlış öğrendiğim bir tekniğin, ileride nasıl gelişmeme engel olduğunu görmüştüm. Yazılım geliştirme için de aynı geçerli. Doğrudan kod yazmayı öğrendiğimiz için test sürecine geçmek kolay olmuyor. 
 
-[* Kata](http://tr.wikipedia.org/wiki/Kata)
+İlk günlerde planıma sadık kalamadım. Sonraları bloga yazmam gerektiğinü düşününce, sadece sınıfları oluşturdum ve test metotlarını görmezden geldim. Sınıfları oluşturmak biraz alışkanlık aldığındaysa içi boş test metotları oluşturdum. Ama bu işlemi tüm test türleri için yapmadım. Sadece repository sınıflarını hedef aldım. 
+
+Şuan itibari ile aldığım karara uymayı başardım ve oluşturduğum her repository için bir test sınıfı ve içi boş test metotlarım var. Tabii burada kendime yeni bir hedef koyarak her test sınıfı için en önemli gördüğüm bir test metodunu yazmaya çalışacağım.  
+
+#### 2) Her Test Sınıfı İçin Bir Tane Test Hedefi
+
+* `Amaç`: Her sınıf için bir test sınıfı ve içi boş test metotlarının yanı sıra, ilgili sınıfta bir tane testin yazılmasını hedefliyorum.  
 
 
 
