@@ -22,7 +22,7 @@ Burada benim vurgulama ihtiyacı hissettiğim gereken detay ingilizcenin değeri
 
 Sunumlarda en çok dikkatimi geçen olay yabancı ve Türk konuşmacıların arasındaki zaman kullanım farkı ve rahatlık. Bu toplum olarak geliştirmemiz gereken bir özellik. Kesinlikle bizden daha rahatlar ve zamanı çok iyi kullanabiliyorlar. Biz başlarken geç kalıyoruz, çok hızlı konuşuyoruz ve hemen sunumu bitirip gidiyoruz. 15 dakika süren sunumlar olması biraz da bu sebepten ötürü. Ama ileride daha da iyi olacağımıza inanıyorum. 
 
-Seminer içerik olarak oldukça zengin bir içeriğe sahipti. Donanım programlamadan front-end'e kadar her konuya değinildi diyebilirim. Özellikle [Sebastiano Armeli](https://twitter.com/sebarmeli) tarafından **ECMAScript 6**'nın hangi özelliklerle geleceğiyle ilgili olan **ES6: the future is now** başlıklı sunum en çok dikkat çeken sunumdu diyebilirim. Beni de en çok heyecanlandıran sunumdu. Bir ara salonda alkışların duyulduğu bile oldu.
+Seminer içerik olarak oldukça zengin bir içeriğe sahipti. Donanım programlamadan front-end'e kadar her konuya değinildi. Özellikle [Sebastiano Armeli](https://twitter.com/sebarmeli) tarafından **ECMAScript 6**'nın hangi özelliklerle geleceğiyle ilgili olan **ES6: the future is now** başlıklı sunum en çok dikkat çeken sunumdu diyebilirim. Beni de en çok heyecanlandıran bu sunumdu. Bir ara salonda alkışların duyulduğu bile oldu.
 
 Tüm bu güzelliklere rağmen bazı sunumlar bilgi vermeden ziyade reklamlara doğru kaydı. Bunun kesinlikle kötü niyetli yapıldığını düşünmüyorum. Sadece "Biz bunu yaptık." demek yerine "Yaparken şu nedenle yaptık ve şu noktalarda zorlandık." demek daha yararlı olabilir.
 
