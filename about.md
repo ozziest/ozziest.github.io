@@ -10,7 +10,7 @@ Mayıs 2012’de Birey Dershanesi’nde Yazılım Uzmanı olarak gerçek manada 
 
 Bugüne kadar yaptığı çalışmalarda PHP, Laravel, CI, MySQL, PHPUnit, Selenium, PHPSpec, Codeception, PHPDoc, HTML, CSS, JS, Linux, Apache, MemCache, Redis, Sysmfony2, Node.JS, Sails.JS, Meteor.JS, Angular.JS vb. gibi çeşitli teknolojileri tecrübe etme imkanı buldu.
 
-Tüm bunların yanında Beyn.org üzerinde 6 ay boyunca eğitim ve sosyal konular ile ilgili yazılar da yayınladı ve Sakarya'da bulunan Mavidurak-IO isimli yazılımcı topluluğunun kurulum aşamasında görev aldı. 
+Tüm bunların yanında Beyn.org üzerinde 6 ay boyunca eğitim ve sosyal konular ile ilgili yazılar yayınladı ve Sakarya'da bulunan Mavidurak-IO isimli yazılımcı topluluğunun kurulum aşamasında görev aldı. 
 
 Hakkında daha detaylı bilgilere ulaşmak için aşağıdaki bağlantıları kullanabilirsiniz. 
 
