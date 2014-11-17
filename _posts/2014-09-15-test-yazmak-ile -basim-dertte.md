@@ -62,7 +62,19 @@ Son iki haftalık süreci kendime verdiğim sözleri tutmaya çalışarak geçir
 
 * `Amaç`: Her sınıf için bir test sınıfı ve içi boş test metotlarının yanı sıra, ilgili sınıfta bir tane testin yazılmasını hedefliyorum.  
 
+> Bu amacı yazdıktan sonra araya giren başka projeler nedeniyle epey bir 
+> süre blogumu güncelleyemedim. Tekrardan işlerin rayına oturmasıyla birlikte 
+> belirlediğim 2 haftalık süre sonundaki gelişmeleri aktarıyorum.
 
+İlk amaca uygun olarak, her sınıftan önce oluşturduğum boş test sınıfları için en az bir tane test metodu ilkemi gerçekleştirmeye koyuldum. Programlamaya test yazarak başlamadığımız için karşıma çıkan sorun ilk önce testi yazarken, kafamın karışmasıydı. Eğer ortada bir çalışan bir metot varsa, onu nasıl test edeceğimi kestirebiliyordum. Ancak ortada hiç bir şey yokken bu durumu aşmak oldukça zordu.
+
+Bu zorluk tahmin ettiğimden daha uzunca bir süre sürdü. Öyleki; önce testi yazdıktan sonra asıl kodu yazmaya başladığımda, test yazarken düşünmediğim bir çok detay ortaya çıkıyordu. Bunun nedeni her zaman kodu önce yazmamdan kaynaklanıyordu. 
+
+Yine bu süreçte dikkatimi çeken bir başka durum; test sürekli kod yazdıktan sonra güncellendiği için, bir noktadan sonra testi tamamen bırakıp sadece asıl kodu yazmaya odaklanmamdı. Yani günün sonunda yine başa dönüyordum ve önce asıl kod, sonra test yazılmış oluyordu. Bunu kırmak için çalışma sistemimi biraz daha değiştirmeye ve daha çok asıl kod öncesi pratik yapmaya karar verdim. Bu çalışmaları da iş dışında gerçekleştireceğim çünkü takdir edersiniz ki her işin bir teslim süresi var ve test yazımı zaman olarak yarardan çok zarar sağlamaya başlamış durumda.
+
+#### 3) Gün Sonunda Test Pratikleri
+
+* `Amaç`: Gün sonunda kendi belirleyeceğim bir senaryoya göre sadece test yazmak. Test yazım anında hiç bir şekilde asıl koda girmeden, teste tekrar dönmeyecek şekilde testi yazmaya çalışmak.
 
 
 

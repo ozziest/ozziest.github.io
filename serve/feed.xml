@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Özgür Adem Işıklı</title>
+    <description>Tecrübe sahibi olduğum konular: PHP, JS, Laravel, Node.js,  Sails.js, Meteor.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemlerler, MySQL, MSSQL, Oracle vb.
+</description>
+    <link>http://ozziest.github.io//</link>
+    <atom:link href="http://ozziest.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>2014-11-17 20:39:47 +0200</pubDate>
+    <lastBuildDate>2014-11-17 20:39:47 +0200</lastBuildDate>
+    <generator>Jekyll v</generator>
+    
+      <item>
+        <title>Jsist-2014 İzlenimlerim</title>
+        <description>&lt;p&gt;Geçtiğimiz haftasonu (27-28 Eylül) İstanbul’da düzenlenen Jsist etkinliğine katıldım. Katılımcılar olarak oldukça verimli bir etkinlik geçirdik. Ben de naçizane görüşlerimle bir etkinlik değerledirmesi yapacağım.&lt;/p&gt;
+
+&lt;h3 id=&quot;organizasyon&quot;&gt;Organizasyon&lt;/h3&gt;
+
+&lt;p&gt;Katılımcılara taahhüt edilen herşey yerine getirildi. Kahvaltı, öğle yemekleri ve aralarda sunulan ikramlar beklenileni karşıladı. Planlanan zamanlarda sunumların başlanmasını pozitif noktolardan biri olarak değerlendiriyorum. Bu nedenle organizasyonu gerçekleştiren ve organizasyonda görev alan herkese şahsım adına teşekkürü borç bilirim.&lt;/p&gt;
+
+&lt;h3 id=&quot;ngilizce&quot;&gt;İngilizce&lt;/h3&gt;
+
+&lt;p&gt;Daha önce web üzerinden yapılan &lt;strong&gt;Google-IO&lt;/strong&gt; gibi konferansları takip etmiştim. Buna rağmen ingilizcem üst düzey olmadığı için etkinlik öncesinde sunumları anlayamamaktan oldukça korkuyordum ve bu katıldığım ilk ingilizce içerikli seminer olacaktı. Hatta etkinlik öncesi simultane çevirmen olup olmadığı hakkında da organizasyondaki arkadaşlara sorularım oluştu. Fakat korktuğum gibi olmadı ve beklediğim daha iyi bir performans sergiledim. Sadece çok soyut olan bazı kavramları dinlerken zorlandım. &lt;/p&gt;
+
+&lt;p&gt;Burada benim vurgulama ihtiyacı hissettiğim gereken detay ingilizcenin değeri. Dil üzerine önümüzdeki dönemde daha çok durmak planlarım arasında. Anlama kısmı pek sorun olmasa da, iletişim kurabilmek için daha çok çalışmam gerekiyor. Bu vesileyle blogum aracılığıyla kendime söz veriyorum. :)&lt;/p&gt;
+
+&lt;h3 id=&quot;sunumlar&quot;&gt;Sunumlar&lt;/h3&gt;
+
+&lt;p&gt;Sunumlarda en çok dikkatimi geçen olay yabancı ve Türk konuşmacıların arasındaki zaman kullanım farkı ve rahatlık. Bu toplum olarak geliştirmemiz gereken bir özellik. Kesinlikle bizden daha rahatlar ve zamanı çok iyi kullanabiliyorlar. Biz başlarken geç kalıyoruz, çok hızlı konuşuyoruz ve hemen sunumu bitirip gidiyoruz. 15 dakika süren sunumlar olması biraz da bu sebepten ötürü. Ama ileride daha da iyi olacağımıza inanıyorum. &lt;/p&gt;
+
+&lt;p&gt;Seminer içerik olarak oldukça zengin bir içeriğe sahipti. Donanım programlamadan front-end’e kadar her konuya değinildi. Özellikle &lt;a href=&quot;https://twitter.com/sebarmeli&quot;&gt;Sebastiano Armeli&lt;/a&gt; tarafından &lt;strong&gt;ECMAScript 6&lt;/strong&gt;‘nın hangi özelliklerle geleceğiyle ilgili olan &lt;strong&gt;ES6: the future is now&lt;/strong&gt; başlıklı sunum en çok dikkat çeken sunumdu diyebilirim. Beni de en çok heyecanlandıran bu sunumdu. Bir ara salonda alkışların duyulduğu bile oldu.&lt;/p&gt;
+
+&lt;p&gt;Tüm bu güzelliklere rağmen bazı sunumlar bilgi vermeden ziyade reklamlara doğru kaydı. Bunun kesinlikle kötü niyetli yapıldığını düşünmüyorum. Sadece “Biz bunu yaptık.” demek yerine “Yaparken şu nedenle yaptık ve şu noktalarda zorlandık.” demek daha yararlı olabilir.&lt;/p&gt;
+
+&lt;h3 id=&quot;fiyatperformans&quot;&gt;Fiyat/Performans&lt;/h3&gt;
+
+&lt;p&gt;Etkinlik ücretli olduğu için ister istemez hepimiz verdiğimiz ücretin karşılığını alabildik mi diye sormadan edemiyoruz. Bu etkinlik için kesinlikle değdiğini söyleyebilirim. Bilgi çok değerli ve böylesine büyük bir organizasyonu gerçekleştirmek oldukça çalışma gerektiriyor. Umarım önümüzdeki günlerde buna benzer başka organizasyonları da görebiliriz. &lt;/p&gt;
+
+</description>
+        <pubDate>2014-09-29 21:00:00 +0300</pubDate>
+        <link>http://ozziest.github.io//js/conference/2014/09/29/jsist-2014-izlenimlerim.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//js/conference/2014/09/29/jsist-2014-izlenimlerim.html</guid>
+        
+        <category>js,</category>
+        
+        <category>jsist,</category>
+        
+        <category>conference</category>
+        
+        
+        <category>js</category>
+        
+        <category>conference</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Yazmak ile  Başım Dertte!</title>
+        <description>&lt;h3 id=&quot;nizleme&quot;&gt;Önizleme&lt;/h3&gt;
+
+&lt;p&gt;Anlatmak istediklerimi anlatmadan önce, lütfen aşağıdaki kod bloğunu satır satır inceleyiniz;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;&lt;code class=&quot;php&quot;&gt;$I = new AcceptanceTester($scenario);
+$I-&amp;gt;wantTo('create wiki page');
+$I-&amp;gt;amOnPage('/');
+$I-&amp;gt;click('Pages');
+$I-&amp;gt;click('New');
+$I-&amp;gt;see('New Page');
+$I-&amp;gt;fillField('title', 'Hobbit');
+$I-&amp;gt;fillField('body', 'By Peter Jackson');
+$I-&amp;gt;click('Save');
+$I-&amp;gt;see('page created'); // notice generated
+$I-&amp;gt;see('Hobbit','h1'); // head of page of is our title
+$I-&amp;gt;seeInCurrentUrl('pages/hobbit'); 
+$I-&amp;gt;seeInDatabase('pages', array('title' =&amp;gt; 'Hobbit'));&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu kod bloğu benim gördüğüm en basit, en sade ve en anlaşılır test bloğu. Böyle yazılmış test satırlarını gördüğünde içimi büyük bir test yazma heyecanı kaplıyor. Satırı satırına ne yapılmak istendiğini sizin de anladığınızı düşünüyorum. Bu oldukça basit bir kabul (Acceptance) testi. &lt;/p&gt;
+
+&lt;h3 id=&quot;kimin-in-test&quot;&gt;Kimin İçin Test?&lt;/h3&gt;
+
+&lt;p&gt;Biz yazılım geliştiriciler CV’lerimize değer katmak (yani daha çok para kazanmak) için her türlü bilgiyi öğrenmeye çalışıyoruz. Testlerde bunlardan biri. Çoğumuz sıkılarak ve gereksiz bularak testleri geçiştiriyoruz. Ya zamanımız olmuyor, ya müşteri bizden iş bekliyor. Testi biraz da işin egosuna kaçarak yazıyor, sağda solda anlatıyoruz. (Bunları öncelikle kendime bir özeleştiri olarak söylüyorum.)&lt;/p&gt;
+
+&lt;p&gt;Ama bu aşamada sesli düşünmek zorundayım. &lt;strong&gt;DRY-Don’t Repeat Yourself&lt;/strong&gt; felsefesi gayet açıktır; kendimizi tekrar etmemeliyiz. Bunun için yaptığımız işlemin doğruluğunu kontrol etmek için tarayıcıyı açıp adımları tek tek kendimiz yapmak yerine, bunları yukarıdaki gibi kodlamalı ve bilgisayara yaptıracağımız her işi kullanışlı hale getirmeliyiz. Testlerin var olma amacı bu kadar basittir.&lt;/p&gt;
+
+&lt;h3 id=&quot;birim-test-sorunsal&quot;&gt;Birim Test Sorunsalı&lt;/h3&gt;
+
+&lt;p&gt;Benim için birim testler bir sorun ve hala istediğim noktada değilim. Bu konuda zamanımın çoğunu tanınmış projeler için yazılmış testleri inceleyerek geçiriyorum. Ama iş kendi testlerimi yazmaya geldiğinde, nedense işler istediğim gibi gitmiyor. Yüzlerce, binlerce satır kod yazmak hiç yormuyor ama iki satır test kodu yazmak beni öldürüyor. Tam başlayacağım bir çay alıyorum. Dışarıyı seyrediyorum. Kendime bulabildiğim kadar başka iş buluyorum.  &lt;/p&gt;
+
+&lt;p&gt;Bu gidişe bir dur demek amacıyla; hergün kod &lt;a href=&quot;http://tr.wikipedia.org/wiki/Kata&quot;&gt;kata&lt;/a&gt;ları yazma kararı almış bulunuyorum. Çok basit bir senaryom var. Her oluşturacağım sınıftan önce, o sınıfın test bölümünü oluşturmak. Hedefim içlerini doldurmak değil, sadece test sınıfını oluşturup, testleri isimlendirmek. Belirli bir süre bunu tekrar ettikten sonra, en azından başlangıç aşamasındaki üşengeçliğimi yenebilmeyi umuyorum. Böylece beynimin içinde &lt;em&gt;“Bırak testi, kodlamaya başla.”&lt;/em&gt; diye bağıran &lt;strong&gt;cahili&lt;/strong&gt; bir nebze yumuşatabilirim.&lt;/p&gt;
+
+&lt;h3 id=&quot;test-aralar&quot;&gt;Test Araçları&lt;/h3&gt;
+
+&lt;p&gt;Size araçların özelliklerini tek tek anlatmayacağım. &lt;strong&gt;Laracast&lt;/strong&gt; üzerindeki test videolarının büyük bir çoğunluğunu izledim ve uyguladım diyebilirim. Ama en çok hoşuma giden &lt;strong&gt;Codeception&lt;/strong&gt; oldu. Yukarıda örnek verdiğim kabul testi de, kendi örneklerinden bir tanesi. Lütfen siz de inceleyin. Bağlantı &lt;a href=&quot;http://codeception.com/&quot;&gt;burada!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gelime-dnemi&quot;&gt;Gelişme Dönemi&lt;/h3&gt;
+
+&lt;p&gt;Bu belgeyi elimden geldiğince güncelleyecek ve &lt;em&gt;test yazma denemelerimi&lt;/em&gt; sizlere aktaracağım. &lt;/p&gt;
+
+&lt;h4 id=&quot;her-snftan-nce-test-snf&quot;&gt;1) Her Sınıftan Önce Test Sınıfı&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;Amaç&lt;/code&gt;: Bir sınıf oluşturmadan önce birim testi yapacak olan sınıfı oluşturacağım. Testleri isimlendireceğim. İçlerini doldurmak gibi bir zorunluluğum yok.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Son iki haftalık süreci kendime verdiğim sözleri tutmaya çalışarak geçirdim. Kabul etmeliyim ki oldukça zorlandım. İnsanın alışkanlıklarını bir anda terk etmesi tahmin ettiğimizden daha güç oluyor. Amatörce gitar çaldığım dönemlerde yanlış öğrendiğim bir tekniğin, ileride nasıl gelişmeme engel olduğunu görmüştüm. Yazılım geliştirme için de aynı geçerli. Doğrudan kod yazmayı öğrendiğimiz için test sürecine geçmek kolay olmuyor. &lt;/p&gt;
+
+&lt;p&gt;İlk günlerde planıma sadık kalamadım. Sonraları bloga yazmam gerektiğinü düşününce, sadece sınıfları oluşturdum ve test metotlarını görmezden geldim. Sınıfları oluşturmak biraz alışkanlık aldığındaysa içi boş test metotları oluşturdum. Ama bu işlemi tüm test türleri için yapmadım. Sadece repository sınıflarını hedef aldım. &lt;/p&gt;
+
+&lt;p&gt;Şuan itibari ile aldığım karara uymayı başardım ve oluşturduğum her repository için bir test sınıfı ve içi boş test metotlarım var. Tabii burada kendime yeni bir hedef koyarak her test sınıfı için en önemli gördüğüm bir test metodunu yazmaya çalışacağım.  &lt;/p&gt;
+
+&lt;h4 id=&quot;her-test-snf-in-bir-tane-test-hedefi&quot;&gt;2) Her Test Sınıfı İçin Bir Tane Test Hedefi&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;Amaç&lt;/code&gt;: Her sınıf için bir test sınıfı ve içi boş test metotlarının yanı sıra, ilgili sınıfta bir tane testin yazılmasını hedefliyorum.  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>2014-09-16 01:39:28 +0300</pubDate>
+        <link>http://ozziest.github.io//php/test/2014/09/16/test-yazmak-ile+-basim-dertte.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//php/test/2014/09/16/test-yazmak-ile+-basim-dertte.html</guid>
+        
+        <category>php,</category>
+        
+        <category>test,</category>
+        
+        <category>unit</category>
+        
+        <category>test,</category>
+        
+        <category>codeception,</category>
+        
+        <category>acceptance</category>
+        
+        
+        <category>php</category>
+        
+        <category>test</category>
+        
+      </item>
+    
+      <item>
+        <title>Yazılım Camiasındaki Samimiyetsizlik</title>
+        <description>&lt;p&gt;Kendi sektörümde her denk geldiğim insanın, deyim yerindeyse yakasına yapışıyorum. Çünkü öğrenilecek çok şey olduğunu biliyorum. Ne kadar çok kişiyi Twitter’da takip edersem ve ne kadar çok blog yazısı okursam o kadar ufkum genişliyor. Ancak midemi bulandıran iki mevzu var; birincisi &lt;strong&gt;ego fetişi&lt;/strong&gt;, ikincisi &lt;strong&gt;samimiyetsizlik.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Çok uzun yıllardan bu yana sektörün içinde olan, kendini bir hayli geliştirmiş üstadlar var. Ben bilginin değerini bilmeyecek kadar cahil bir insan &lt;strong&gt;değilim.&lt;/strong&gt; Bu nedenle üstadların edindikleri her bilgiyi paylaşmalarını beklemiyorum. Hatta edindikleri tüm tecrübeleri paraya dönüştürmek istemeleri kadar doğal bir şey de olamaz.  Ancak çok az bir kesim var ki egolarından yanlarına yaklaşılmıyor. Dünyada hatrı sayılır işleri yapmış kimi insanlara e-posta gönderdiğimde iyi kötü bir cevap alabiliyorken, henüz dünya çapında kabul görmemiş bir projesi dahi olmayan bir insanın e-postalara &lt;em&gt;“Çok yoğunum.”&lt;/em&gt; gibisinden bir cevap bile yazmaması benim için trajikomik bir hal alıyor. Cem Yılmaz’ın deyimiyle; &lt;strong&gt;“Karbonfiber misiniz?”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Gidebildiğim her seminere gitmeye çalışmam, alabildiğim her bilgiyi özümseyip uygulamaya çalışmam olmazsa olmazım. Bilginin kucağıma gelmesini de beklemiyorum. Araştırıyorum, daha çok okuyorum, uyguluyorum, gece yatmadan önce biraz daha okuyorum, kitap satın alıyorum, e-kitap satın alıyorum, arkadaşlarımla tartışıyorum, seminerlere katılıyorum… Ama bazı seminerlerde yapılan bazı sunumlar var ki; kişilerin kendi reklamlarından öteye gidemiyor.&lt;/p&gt;
+
+&lt;p&gt;Bir keresinde yaptıkları bir projeyi anlatan bir üstada denk gelmiştim. Üstad hayranlıkla takip ettiğim, kendime örnek aldığım birisiydi. Sunumunu heyecanla beklememe rağmen sonrasında hayal kırıklığına uğradım. Çünkü anlattığı şeyler tecrübeleri, karşılaştığı zorluklar vs. değildi. Bir saat boyunca ortaya çıkardığı &lt;strong&gt;ürünü&lt;/strong&gt; anlattı. Kendime çok basit bir soru sordum ve cevap bulamadım; &lt;strong&gt;“İyi de anlattığın ürünün özelliklerinden banane?”.&lt;/strong&gt; Çünkü benim o seminerdeki amacım tecrübe ve karşılaşılan zorlukları, püf noktaları vs. öğrenmek. Sunumu yapan arkadaşın niyetini bilemem, belki asla böyle bir şey hedeflememişti. Fakat katılımcılara boş yere zaman kaybettirmiş oldu.&lt;/p&gt;
+
+&lt;p&gt;Son dönemde buna benzer durumlarla, oldukça fazla seminerde ve blog yazısında karşılaşıyorum. &lt;strong&gt;“X Nedir?”&lt;/strong&gt; başlıklı dünya kadar blog yazısı ve seminer var. Bu gibi konular bir işe yaramıyor. Eğer bir seminer olacaksa, X’in sitesinde bulabileceğim bilgilerden daha fazlasını bulmam lazım ki gerçekten değerli olsun. Sitede yazanları papağan gibi tekrarlamak cidden ne işe yarıyor? Eğer benim kaçırdığım önemli bir nüans varsa &lt;strong&gt;lütfen&lt;/strong&gt; beni aydınlatın.&lt;/p&gt;
+
+&lt;p&gt;Özellikle test yazımı ile ilgili dünya kadar seminere katıldım, blog yazısı inceledim. Herkes test nedir, neden gereklidir anlatıyor ve 2+2’yi toplayan metodun testini yazıyor. Zilyon tane blog yazısı bulabilirim bunun için. Ancak kullanıcı kayıt bölümünün sağlıklı çalışmasını test eden geniş bir blog yazısı kaç tane var? (Bu konuda çuvaldızı kendime batırıp, özellikle blog yazısı konusunda aynı hataya kendimin de zaman zaman düştüğümü kabul etmem gerekir. Fakat bu yanlış gidişat düzelmeli.)&lt;/p&gt;
+
+&lt;p&gt;Sorunun sadece yüzeysellik olduğunu sanmıyorum. Yüzeysellikten ziyade, aynı şeylerin tekrar tekrar ısıtılıp önümüzde konulması beni üzen şey. Samimiyetsizlik de; bunu bilerek yaptığını düşündüğüm insanların kendilerini paylaşımcı olarak adledmesi. Kusura bakmayın, değilsiniz. Paylaşımcı olmamanız ve bilgilerinizi paraya dönüştürmek istemenizi anlarım. Ama paylaşımcı görünüp, insanlara hiç bir şey vermeyerek  kendi reklamınızı yapmanızı &lt;strong&gt;asla&lt;/strong&gt; anlamayacağım.&lt;/p&gt;
+
+&lt;p&gt;Belki de yanlış bir bakış açısı ile olaylara yaklaşıyorumdur. Eğer öyleyse lütfen beni uyarın. Nitekim bu yazıdaki amacım kimseyi &lt;em&gt;kırmak&lt;/em&gt; ya da &lt;em&gt;aşağılamak&lt;/em&gt; &lt;strong&gt;değil&lt;/strong&gt;. Sadece naçizane gözlemlerimi paylaşmak. Umarım önce kendim, sonra da sektördeki diğer arkadaşlar asla bu çok yüzlü durumlarla anılmaz.&lt;/p&gt;
+</description>
+        <pubDate>2014-09-06 01:39:28 +0300</pubDate>
+        <link>http://ozziest.github.io//diğer/2014/09/06/yazilim-camiasindaki-samimiyetsizlik.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//diğer/2014/09/06/yazilim-camiasindaki-samimiyetsizlik.html</guid>
+        
+        <category>yazılım,</category>
+        
+        <category>samimiyetsizlik</category>
+        
+        
+        <category>diğer</category>
+        
+      </item>
+    
+      <item>
+        <title>Hazır Kütüphane Kullanma Nedenlerim</title>
+        <description>&lt;p&gt;Son günlerde dikkatimi çeken ve oldukça önemli bulduğum bir konu var; hazır kütüphane kullanımı. Kimi geliştiriciler bunu mantıksız buluyor. Daha da vahimi, hazır kütüphane kullananların yazılım yeteneklerini yetersiz görüyorlar. Bu kocaman bir saçmalık. Aşağıdaki alt başlıklarda bunun nedenlerini açıklamaya çalışacağım.&lt;/p&gt;
+
+&lt;h2 id=&quot;zaman&quot;&gt;1. Zaman&lt;/h2&gt;
+
+&lt;p&gt;Eğer öğrenci değilseniz, zamanınız yoktur. Birçok geliştirici tarafından kullanılan yaygın bir kütüphane zaman konusunda size yardımcı olacaktır. Kazandığınız bu zamanda projenize daha güzel özellikler ekleyebilirsiniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;dokmantasyon&quot;&gt;2. Dokümantasyon&lt;/h2&gt;
+
+&lt;p&gt;Eğer hazır kütüphane kullanmak yerine kendiniz bir kütüphane yazarsanız, yazdığınız bu kütüphaneyi sizden sonra gelecek geliştiricilerin de kullanabilmesi için kullanım kılavuzu hazırlamanız gerekir. Tanıdığım geliştiricilerin yarısından daha fazlası, hayatı boyunca hiç kullanım kılavuzu hazırlamamıştır. Bu yüzden kendiniz bir paket geliştiriyorsanız ve kılavuz hazırlamıyorsanız, ürettiğiniz yazılımın sürdürülebilirliği düşük olacaktır.&lt;/p&gt;
+
+&lt;h2 id=&quot;stabilite&quot;&gt;3. Stabilite&lt;/h2&gt;
+
+&lt;p&gt;Eğer kendi yazdığınız kodların cidden kusursuz olduğunu düşünüyorsanız, büyük bir yanılgı içerisindesinizdir. Egolarınızı bir kenara bırakın ve gerçek dünyaya dönün. Hiçbir kod kusursuz değildir. Ne kadar test yazarsanız yazın bu durumu azaltabilir ama asla yok edemezsiniz. Hazır kütüphane kullandığınızda, kulandığınız kütüphane birçok geliştirici tarafından kullanıldığından geri dönütler oldukça fazla olacak ve ilgili kütüphanenin kararlılığı yükselecektir. Bu da ürettiğiniz yazılımın daha sorunsuz bir şekilde işlemesine neden olacaktır.&lt;/p&gt;
+
+&lt;h2 id=&quot;gncellik&quot;&gt;4. Güncellik&lt;/h2&gt;
+
+&lt;p&gt;Kendiniz bir kütüphane ürettiğinizde, o an için en güncel yazılım metotlarını uygulamış olabilirsiniz. Ancak hiçbir dil yerinde saymıyor ve günden güne gelişiyor. Buna paralel olarak, yazdığınız kütüphaneyi de güncellemeniz gerekecektir. Bu da 1. maddede sözü geçen zaman sorununa yol açacaktır. Ancak hazır bir kütüphane, siz katkı sağlamasanız bile muhtemelen geliştirilmeye devam edecektir. Siz de bu değişikliklerden faydalanabilirsiniz.&lt;/p&gt;
+
+&lt;h2 id=&quot;kullanc-stekleri&quot;&gt;5. Kullanıcı İstekleri&lt;/h2&gt;
+
+&lt;p&gt;Kimi geliştiriciler bazı kütüphanelerin taleplerinden çok daha fazlasını yaptığını düşündükleri için kullanmazlar. Örneğin siz sadece oturum yönetimi için hazır kütüphane kullanmayı saçma bulursunuz. İlkten haklısınızdır da. Ama eğer bir müşteriye iş yapıyorsanız, bir sonraki adımda neye ihtiyacınız olduğunu bilemezsiniz. Müşteri bir telefonla gelişmiş bir yetkilendirme sistemi talebinde bulunabilir. Hazır kütüphaneler genellikle kapsamlı olur ve gelecekte başınıza açılabilecek sorunları önceden çözebilirler.&lt;/p&gt;
+
+&lt;h2 id=&quot;farkl-bak-alar&quot;&gt;6. Farklı Bakış Açıları&lt;/h2&gt;
+
+&lt;p&gt;Çok kaliteli yazılımcılar tanıyorum ama en büyük sorunları birlikte çalışamamak. Tek başına harikalar yaratan fakat bir ekip içerisinde çalışamayan geliştiriciler her zaman için sorundur. Çünkü kimi projeler tek kişilik değildir. Hazır kütüphaneler ile çalışmak sizi iletişime zorunlu kılar. Kütüphane üzerindeki bir hayatı tespit ettiğinizde bununla ilgili issue(sorun) bildirimi yapmak bile başlı başına bir adımdır. Başkalarının yazdığı kodları görmek, ufkunuzu genişletecektir. Sırf bu yüzden yazılmış büyük kütüphaneleri incelediğim oluyor.&lt;/p&gt;
+
+&lt;h2 id=&quot;maliyet&quot;&gt;7. Maliyet&lt;/h2&gt;
+
+&lt;p&gt;Eğer kendi projenizi yapmıyorsanız ve ürettiğiniz yazılım satılarak size para kazandıracaksa, yani amacınız paraysa, maliyetleri göz ardı edemezsiniz. Zaman, maliyetle doğru orantılıdır. Hazır kütüphane size daha çok para kazandırır.&lt;/p&gt;
+
+&lt;h2 id=&quot;sonu&quot;&gt;Sonuç&lt;/h2&gt;
+
+&lt;p&gt;Bunlar ilk bakışta aklıma gelen başlıklar ve zamanla çoğaltılabilir. Bu nedenlerledir ki; egonuzu bir kenara bırakın. Hazır kütüphane sizin &lt;strong&gt;yetersiz&lt;/strong&gt; olduğunuzu göstermez. Bulunduğunuz şartlar göre &lt;strong&gt;zekice&lt;/strong&gt; bir adım attığınızı gösterir.&lt;/p&gt;
+</description>
+        <pubDate>2014-08-21 01:39:28 +0300</pubDate>
+        <link>http://ozziest.github.io//diğer/2014/08/21/hazir-kutuphane-kullanma-nedenlerim.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//diğer/2014/08/21/hazir-kutuphane-kullanma-nedenlerim.html</guid>
+        
+        <category>php,</category>
+        
+        <category>package,</category>
+        
+        <category>kütüphane</category>
+        
+        
+        <category>diğer</category>
+        
+      </item>
+    
+      <item>
+        <title>PHP ve Hata Yönetimi</title>
+        <description>&lt;p&gt;Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Kullanıcının gerçekleştirdiği hatalı işlemler.&lt;/li&gt;
+  &lt;li&gt;Yazılımdan kaynaklanan hatalar.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kullanıcı hataları yanlış bir linki açmaya çalışmak da olabilir, form verileri üzerindeki bilgilerin tarayıcı aracılığı ile düzenlenip gönderilmeye çalışılması da olabilir. Bizim bu ve benzer durumlarda kullanıcı için anlamlı mesajları kullanıcılara iletmemiz gerekiyor.&lt;/p&gt;
+
+&lt;p&gt;Bir işlemi ele alalım; &lt;strong&gt;kullanıcı kayıt işlemi.&lt;/strong&gt; Bu işlem gerçekleştirilirken bir metot çağırdığımızı düşünelim. PHP camiasında genellikle bir metotun işini doğru yapıp yapmadığını &lt;strong&gt;boolean&lt;/strong&gt; tipinde döndürdüğü cevaba bakarak anlarız. Ama bunu kesinlikle yapmayın.&lt;/p&gt;
+
+&lt;p&gt;Çünkü bir metot ilk geliştirme anında yalnızca iki farklı sonuç döndürüyor olabilir (true/false). Ancak zamanla siz o metota tekrar müdahale edeceğiniz için &lt;em&gt;(solid prensiplerine hiç takmadığınızı varsayıyorum)&lt;/em&gt; durumlar değişebilir. Durumlar değiştikçe ikincil bir çözüm yoluna gidiliyor; &lt;strong&gt;hata kodları döndürmek.&lt;/strong&gt; Eğer başarılı ise &lt;strong&gt;0&lt;/strong&gt;, e-posta adresi eksik ise &lt;strong&gt;1&lt;/strong&gt;, e-posta adresi zaten kayıtlı ise &lt;strong&gt;2&lt;/strong&gt; gibi hata kodları geriye döndürülüyor. Bu ilkinden daha büyük bir yanlıştır. Çünkü metotu çağırdığınız yerde bu sefer hata kodlarını kontrol etmek ve ona göre kullanıcıya bir mesaj göstermek zorunluluğunuz ortaya çıkacaktır.&lt;/p&gt;
+
+&lt;p&gt;Bilmeyenler ve bilip de umursamayanlar için söylüyorum: PHP’de de diğer dillerde olduğu gibi &lt;strong&gt;Exception&lt;/strong&gt; dediğimiz bir kavram var ve oldukça kullanışlı. Bir yerde bir hata söz konusu olacaksa ne &lt;strong&gt;true/false&lt;/strong&gt; ne de hata kodu (1, 2, 3 vb.) geriye döndürmeyin. Exception kullanın. Exception bu gibi işler için var.&lt;/p&gt;
+
+&lt;p&gt;Aynı örneğimizi ele alalım. Kullanıcı kaydı anında çıkabilecek her hatada Exception fırlatın ve metotu çağırdığınız yerde Exception oluşması durumunda, Exception mesajını alıp her ne ise kullanıcıya gösterin. Bu saatten sonra dilediğiniz kadar hata mesajı fırlatabilirsiniz. Tekrar tekrar metottan ne dönmüş diye kontrol etmek zorunda kalmazsınız.&lt;/p&gt;
+
+&lt;p&gt;Burada başka bir soruna da göz atmak gerekir. Şahsen ben iki türde hata mesajı kullanılıyorum. Birincisi, kullanıcıya göstermem gereken her mesaj için Exception sınıfından genişletilmiş &lt;strong&gt;UserException&lt;/strong&gt; sınıfını ve yazılımsal hatalar için doğrudan Exception sınıfını. Bu benim ne işime yarıyor? UserException’da izleyeceğim yol belli. Bu hata türlerinde &lt;em&gt;“Kullanıcı sıçmıştır”&lt;/em&gt;. Bu nedenle kullanıcıya hata ne ise gösterir, kendi işime bakarım. Diğer oluşan her türlü Exception’da &lt;em&gt;“Yazılım sıçmıştır”.&lt;/em&gt; Bu durumda da hata ne ise loglarım, kullanıcıya &lt;em&gt;“Bir hata meydana geldi.”&lt;/em&gt; gibi yazılımın hatasını gizleyen bir mesaj veririm. Logları sürekli inceleyerek, kullanım anında ortaya çıkan bu hiç beklenmedik durumlardan haberdar olurum ve hepsini ortaya çıktıkça çözerim.&lt;/p&gt;
+
+&lt;h3 id=&quot;sonu&quot;&gt;Sonuç&lt;/h3&gt;
+
+&lt;p&gt;@ işareti ile olası hataları gizlemek, true/false gibi boolean tipte değerler döndürmek, hata kodları ile hata durumlarını geriye döndürmek asla yapmamanız gereken hatalar. Bunlardan uzak durun. Yazılımınıza asla güvenmeyin. Mutlaka sizin görmediğiniz hatalar çıkacaktır. Bunları sürekli loglayın ve sürekli olarak logları inceleyin. Kullanıcı bile ne olduğunu anlamadan hatayı çözme şansınız var. Aksi halde müşteri sizi arar, &lt;em&gt;“Kullanıcı kayıt olamıyor”&lt;/em&gt; der ve siz saatlerce hatayı ararsınız. Log yoksa elinizde sorun nerededir bilemezsiniz. Sonra cevabınız şu olur;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“Ama ben de çalışıyor…”&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>2014-08-20 01:39:28 +0300</pubDate>
+        <link>http://ozziest.github.io//php/2014/08/20/php-ve-hata-yonetimi.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//php/2014/08/20/php-ve-hata-yonetimi.html</guid>
+        
+        <category>php,</category>
+        
+        <category>exception,</category>
+        
+        <category>hata,</category>
+        
+        <category>log</category>
+        
+        
+        <category>php</category>
+        
+      </item>
+    
+      <item>
+        <title>Döküman Tabanlı Geliştirme</title>
+        <description>&lt;p&gt;Son 6 ayımı &lt;strong&gt;Laravel&lt;/strong&gt; üzerine aktif olarak çalışarak geçirdim. Beni &lt;strong&gt;test yazma&lt;/strong&gt; ve &lt;strong&gt;SOLID Prensipleri&lt;/strong&gt; gibi birçok nimeti kullanmaya zorladığı için kendisine minnettarım. Özellikle paket tabanlı çalışmanın, kodların tekrar tekrar kullanılabilmesi açısından önemli olduğunu düşünmeye başladım bu süreç içerisinde. Ancak en büyük kazancım; tamamen spontane bir şekilde gelişen döküman yazma özelliğim oldu.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Test-driven_development&quot;&gt;TDD&lt;/a&gt; ve &lt;a href=&quot;http://en.wikipedia.org/wiki/Behavior-driven_development&quot;&gt;BDD&lt;/a&gt; gibi kavramlara bir şekilde aşina olduğumuzu düşünüyorum. Ancak ben hiç bir zaman iyi bir test yazarı olamadım. Sonradan farkettim ki ne SOLID’i  ne de ne yapmak istediğimi adam akıllı biliyorum.&lt;/p&gt;
+
+&lt;p&gt;Biz geliştiricilerde gördüğüm; ustalastıkça kod yazmadan önce daha çok düşünüyoruz. Gerek ofisimizdeki tahtalar, gerekse kağıtlar kalemler aracılığı ile aklımızdakilerin görsel bir iskeletini çıkartıyoruz. Ancak çoğu zaman “Hangi sınıfın hangi metodu hangi iş için çalışacak?”, “Bir hata durumunda o metot nasıl davranacak?” gibi şeyleri bu planlara dahil etmiyoruz. Onun yerine kodlama ya da test yazma aşamasında bunları düşünüyoruz. Zihminizdekileri doğrudan koda dökmek tasarım çıkmazlarına sebep verebiliyor. İşte bu noktada &lt;strong&gt;DDD (Document Driven Development)&lt;/strong&gt; bizim yardımımıza koşuyor.&lt;/p&gt;
+
+&lt;p&gt;Ben artık genel planlarımı yaptıktan sonra, henüz tek satır kod yazmadan tasarlayacağım sınıfın dökümanını oluşturuyorum. Hangi parametreleri yollayacağım, ilgili metotdan dönecek istisnalar neler olacak vb. durumların hepsini dökümanı yazarken çok detaylı bir şekilde açıklamış oluyorum. Daha sonrasında eğer &lt;strong&gt;deadline&lt;/strong&gt; için vaktim varsa dökümana göre testlerimi yazıyorum. En son aşamada ise dökümandaki gibi çalışacak kodları yazıyorum. Örneğin bir döküman yazdığımızı düşünelim ve aşağıdaki gibi Kullanıcı silme işleminin nasıl yapılacağını kodla örnekleyelim;&lt;/p&gt;
+
+&lt;div&gt;
+  &lt;pre&gt;&lt;code class=&quot;php&quot;&gt;try
+{
+	// Find the user using the user id
+	$user = Sentry::findUserById(1); 
+	// Delete the user
+	$user-&amp;amp;gt;delete();
+}
+catch (Cartalyst\Sentry\Users\UserNotFoundException $e)
+{
+	echo 'User was not found.';
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bunun gibi bir döküman hazırladıktan sonra, tam olarak neye ihtiyacımız olduğu zaten ortaya çıkmış oluyor.  Ondan sonra tek yapmamız gereken ilgili testleri yazmak ve çalışan sınıflarımızı kodlamak. Planlamada sağlanan bu kolaylığın yanı sıra yazdığımız sınıfın, paketin ya da kod parçacığının nasıl çalıştığı anlatan bir döküman elimizin altında oluyor. Şahsen bu gibi bir dökümanla neleri test edebileceğimi daha iyi kavramış oluyorum. Zira test yazmayı öğrenirken en çok zorlandığım şey, ilgili kod bölümünün nesini test edeceğimi bilmemekti. Belki de ben bu konuda çok beceriksizimdir. Eğer siz de benim gibi test yazmakta zorlanan beceriksizlerdenseniz DDD işinize yarayacaktır.&lt;/p&gt;
+</description>
+        <pubDate>2014-07-19 01:39:28 +0300</pubDate>
+        <link>http://ozziest.github.io//diğer/2014/07/19/dokuman-tabanli-gelistirme.html</link>
+        <guid isPermaLink="true">http://ozziest.github.io//diğer/2014/07/19/dokuman-tabanli-gelistirme.html</guid>
+        
+        <category>php,</category>
+        
+        <category>döküman,</category>
+        
+        <category>ddd,</category>
+        
+        <category>test</category>
+        
+        
+        <category>diğer</category>
+        
+      </item>
+    
+  </channel>
+</rss>
