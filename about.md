@@ -15,9 +15,9 @@ Tüm bunların yanında Beyn.org üzerinde 6 ay boyunca eğitim ve sosyal konula
 Hakkında daha detaylı bilgilere ulaşmak için aşağıdaki bağlantıları kullanabilirsiniz. 
 
 * [GitHub Profili](http://github.com/ozziest)
+* [Özgeçmiş (PDF)](/ozgur-adem-isikli.pdf)
 * [LinkedIn Profili](http://tr.linkedin.com/in/ozguradem)
-* [Kurumsal Web Sayfası](http://ahir.com.tr)
 * [Mavidurak-IO](http://mavidurak.github.io)
 * [Kişisel Blog (Eski)](http://ozguradem.net)
+* [Kurumsal Web Sayfası](http://ahir.com.tr)
 * [Beyn.org Yazıları](http://beyn.org/yazar/ozguradem)
-* [Özgeçmiş (PDF)](/ozgur-adem-isikli.pdf)

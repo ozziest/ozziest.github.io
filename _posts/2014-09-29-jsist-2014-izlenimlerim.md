@@ -4,6 +4,7 @@ title:  "Jsist-2014 İzlenimlerim"
 date:   2014-09-29 21:00
 categories: js conference
 tags: js, jsist, conference
+author: ozziest
 ---
 
 Geçtiğimiz haftasonu (27-28 Eylül) İstanbul'da düzenlenen Jsist etkinliğine katıldım. Katılımcılar olarak oldukça verimli bir etkinlik geçirdik. Ben de naçizane görüşlerimle bir etkinlik değerledirmesi yapacağım.

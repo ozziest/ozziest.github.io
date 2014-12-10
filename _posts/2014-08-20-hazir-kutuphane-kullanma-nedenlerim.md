@@ -4,6 +4,7 @@ title:  "Hazır Kütüphane Kullanma Nedenlerim"
 date:   2014-08-20 22:39:28
 categories: diğer 
 tags: php, package, kütüphane
+author: ozziest
 ---
 
 Son günlerde dikkatimi çeken ve oldukça önemli bulduğum bir konu var; hazır kütüphane kullanımı. Kimi geliştiriciler bunu mantıksız buluyor. Daha da vahimi, hazır kütüphane kullananların yazılım yeteneklerini yetersiz görüyorlar. Bu kocaman bir saçmalık. Aşağıdaki alt başlıklarda bunun nedenlerini açıklamaya çalışacağım.

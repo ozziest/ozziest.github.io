@@ -4,6 +4,7 @@ title:  "CodeIgniter'dan Laravel'e Kaçış"
 date:   2014-04-27 19:00
 categories: php laravel codeigniter
 tags: php laravel codeigniter
+author: ozziest
 ---
 
 Yaklaşık bir buçuk yıl kadar CodeIgniter (CI) ile bir proje geliştirmekteydim. Şartlar CI ile projeye başlamak için gayet uygundu. Tahmin edersiniz ki yapacağımız işi maddi kaygılar belirlediğinden, başladığınız projenin nereye gideceğini ve nerede son bulacağını bilemiyoruz.

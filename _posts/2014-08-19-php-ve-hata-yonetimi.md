@@ -4,6 +4,7 @@ title:  "PHP ve Hata Yönetimi"
 date:   2014-08-19 22:39:28
 categories: php
 tags: php, exception, hata, log
+author: ozziest
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;

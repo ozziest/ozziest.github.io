@@ -4,6 +4,7 @@ title:  "Versiyon Kontrol Sisteminde (Git) Branch Nerelerde Kullanılır?"
 date:   2014-02-24 19:00
 categories: php git
 tags: php git vcs branch
+author: ozziest
 ---
 
 Versiyon Kontrol Sistemleri (VCS) proje geliştirirken olmazsa olmazlarımızın başında geliyor artık. Bir noktadan sonra “Eskiden biz nasıl kod geliştiriyor muşuz?” demeden edemiyoruz. Uzunca bir süredir ben de her projemde ilk olarak versiyon kontrol sistemi (benim için Git) kuruyorum. Ancak özellikle tek başıma çalıştığım geliştirmelerde hiç branch oluşturma ihtiyacı duymuyordum.

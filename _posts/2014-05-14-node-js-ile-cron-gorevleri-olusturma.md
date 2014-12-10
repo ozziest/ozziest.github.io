@@ -4,6 +4,7 @@ title:  "Node.js İle Cron Görevleri Oluşturma"
 date:   2014-05-14 21:00
 categories: nodejs
 tags: nodejs, cron, task, görev
+author: ozziest
 ---
 
 **Cron** görevlerini duyduğunuzu varsayıyorum. ([Detay](http://en.wikipedia.org/wiki/Cron)) Unix gibi işletim sistemlerinde zaman bazlı görev listesi olarak tanımlamak doğru olur. PHP ile geliştirme yaparken, belirlediğimiz zamanlara göre çalışmasını istediğimiz kodların crontab üzerinde tanımlayarak tetiklerdik. Böylece istediğimiz zaman istediğimiz PHP kodunu otomatik olarak çalıştırabilirdik.

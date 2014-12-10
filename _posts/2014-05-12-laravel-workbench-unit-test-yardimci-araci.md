@@ -4,6 +4,7 @@ title:  "Laravel Workbench Unit Test Yardımcı Aracı"
 date:   2014-05-12 21:00
 categories: laravel
 tags: laravel, php, unit, test workbench, package, testcase
+author: ozziest
 ---
 
 **Laravel** üzerinde geliştirme yaptığınız sırada yeni bir paket oluşturarak çalışmanız çoğu zaman yararınıza olacaktır. Bir işi yapan bir paket geliştirdiğinizde, paketi **composer** ve **packagist** yardımıyla yayınlayabilir ve dilediğiniz projenizde sadece composer üzerine ekleme yaparak yeniden kullanabilirsiniz. Bu nedenle paketlerle çalışmak oldukça önemlidir.

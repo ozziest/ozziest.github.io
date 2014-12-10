@@ -4,6 +4,7 @@ title:  "Dependency Injection Neden Önemlidir?"
 date:   2014-05-20 21:00
 categories: yazılım
 tags: yazılım, geliştirme, dependency, injection, bağımlılık
+author: ozziest
 ---
 
 **Dependency Injection** Türkçe’ye çevrildiğinde genelde **Bağımlılık Enjeksiyonu** gibi garip bir kavram ortaya çıkıyor. Bu kavramın zor anlaşılmasındaki esas sorun, her tür teknik bilgiyi birebir çevirmedeki inadımız diyebiliriz. Hatta Enjeksiyon kelimesinin de Fransızca olduğunu düşünürsek, el birliği ile oldukça başarısız bir Türkçeleştirme çalışması yaptığımız aşikardır.
