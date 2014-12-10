@@ -20,3 +20,4 @@ Hakkında daha detaylı bilgilere ulaşmak için aşağıdaki bağlantıları ku
 * [Mavidurak-IO](http://mavidurak.github.io)
 * [Kişisel Blog (Eski)](http://ozguradem.net)
 * [Beyn.org Yazıları](http://beyn.org/yazar/ozguradem)
+* [Özgeçmiş (PDF)](/ozgur-adem-isikli.pdf)
