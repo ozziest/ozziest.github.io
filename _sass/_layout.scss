@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
+    background-color: #f75353;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -19,7 +19,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #ffffff;
     }
 }
 
@@ -32,7 +32,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #ffffff;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -109,7 +109,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #555555;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -186,6 +186,10 @@
 .post-link {
     display: block;
     font-size: 24px;
+    color: #f75353;
+    &:visited {
+        color: #f75353;
+    }    
 }
 
 
