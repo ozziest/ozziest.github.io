@@ -13,6 +13,6 @@ Son dönemde kişisel bilgisayarım sorun çıkardığı için, geç kalan bir b
 
 [Tech Talk #01 - Laravel Sunumum](http://slides.com/iozguradem/laravel)
 
-Geçen hafta bir istisna yaşandığı için ikinci Tech Talk etkinliğini planladığımız gibi gerçekleştiremedik. Ancak bu haftasonu (14 Mart 2015) tarihinde yeniden bir etkinliğimiz olacak. Eğer siz de Sakarya'da yaşıyorsanız, **Sakarya Teknokent**'te gerçekleştireceğimiz [Tech Talk #02](https://www.facebook.com/events/916929318337469/) etkinliğine katılabilirsiniz.
+Geçen hafta bir istisna yaşandığı için ikinci Tech Talk etkinliğini planladığımız gibi gerçekleştiremedik. Ancak bu haftasonu (14 Mart 2015) yeni bir etkinliğimiz olacak. Eğer siz de Sakarya'da yaşıyorsanız, **Sakarya Teknokent**'te gerçekleştireceğimiz [Tech Talk #02](https://www.facebook.com/events/916929318337469/) etkinliğine katılabilirsiniz.
 
 ![Gerçekleştirdiğim Sunumdan Bir Kare](/images/tech-talk-01-ozgur-adem-isikli-laravel-sunumu.jpg)
