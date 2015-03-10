@@ -7,9 +7,9 @@ tags: mavidurak tech talk sunum laravel
 author: ozziest
 ---
 
-Son dönemde kişisel bilgisayarım biraz sorun çıkardığı geç kalan bir blog yazısı oldu. Ancak yeni de eksiklerimi geç de olsa tamamlamalıyım. 
+Son dönemde kişisel bilgisayarım sorun çıkardığı için, geç kalan bir blog yazısı oldu. Ancak yeni de eksiklerimi tamamlamak adına bu yazıyı yazıyorum. 
 
-28 Şubat tarihinde [Mavidurak-IO](http://mavidurak.github.io) ve [Ahir Ar-Ge Danışmanlık](http://ahir.com.tr) işbirliği ile gerçekleştirilen **Tech Talk #01** etkinliğinde 25 dakikalık bir **Laravel** sunumu gerçekleştirdim. Aşağıda sunumla ilgili linki bulabilirsiniz. 
+28 Şubat tarihinde [Mavidurak-IO](http://mavidurak.github.io) ve [Ahir Ar-Ge Danışmanlık](http://ahir.com.tr) işbirliği ile gerçekleştirilen **Tech Talk #01** etkinliğinde 25 dakikalık bir **Laravel** sunumu gerçekleştirdim. Aşağıda sunum linkini bulabilirsiniz. 
 
 [Tech Talk #01 - Laravel Sunumum](http://slides.com/iozguradem/laravel)
 
