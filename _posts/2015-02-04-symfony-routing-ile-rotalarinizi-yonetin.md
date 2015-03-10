@@ -3,7 +3,8 @@ layout: post
 title:  "Symfony/Routing İle Rotalarınızı Yönetin"
 date:   2015-02-04 22:00
 categories: php
-tags: symfony routing rota http-foundation link
+tags: symfony, routing, rota, http-foundation, link
+meta: symfony routing rota http-foundation link
 author: ozziest
 ---
 

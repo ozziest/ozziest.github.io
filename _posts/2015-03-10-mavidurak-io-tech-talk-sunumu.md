@@ -3,7 +3,8 @@ layout: post
 title:  "Mavidurak-IO Tech Talk Sununum"
 date:   2015-03-10 22:00
 categories: php
-tags: mavidurak tech talk sunum laravel
+tags: mavidurak, tech, talk, sunum, laravel
+meta: mavidurak tech talk sunum laravel
 author: ozziest
 ---
 

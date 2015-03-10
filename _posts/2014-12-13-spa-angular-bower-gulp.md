@@ -4,6 +4,7 @@ title:  "SPA, Angular, Bower ve Gulp"
 date:   2014-12-13 22:00
 categories: web
 tags: soa, angular, bower, gulp, spa
+meta: soa, angular, bower, gulp, spa
 author: ozziest
 ---
 

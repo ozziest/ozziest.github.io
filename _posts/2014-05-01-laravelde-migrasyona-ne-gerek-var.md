@@ -3,7 +3,8 @@ layout: post
 title:  "Laravel'de Migrasyona Ne Gerek Var?"
 date:   2014-05-01 19:00
 categories: php laravel
-tags: php laravel migrasyon veritabanı versiyon taşıma migration
+tags: php, laravel, migrasyon, veritabanı, versiyon, taşıma, migration
+meta: php laravel migrasyon veritabanı versiyon taşıma migration
 author: ozziest
 ---
 

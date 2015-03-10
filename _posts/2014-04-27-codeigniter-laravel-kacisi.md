@@ -3,7 +3,8 @@ layout: post
 title:  "CodeIgniter'dan Laravel'e Kaçış"
 date:   2014-04-27 19:00
 categories: php laravel codeigniter
-tags: php laravel codeigniter
+tags: php, laravel, codeigniter
+meta: php laravel codeigniter
 author: ozziest
 ---
 

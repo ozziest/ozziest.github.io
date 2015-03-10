@@ -4,6 +4,7 @@ title:  "Jsist-2014 İzlenimlerim"
 date:   2014-09-29 21:00
 categories: js conference
 tags: js, jsist, conference
+meta: js, jsist, conference
 author: ozziest
 ---
 

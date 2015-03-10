@@ -4,6 +4,7 @@ title:  "Yazılım Camiasındaki Samimiyetsizlik"
 date:   2014-09-05 22:39:28
 categories: diğer 
 tags: yazılım, samimiyetsizlik
+meta: yazılım, samimiyetsizlik
 author: ozziest
 ---
 

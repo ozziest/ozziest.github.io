@@ -3,7 +3,8 @@ layout: post
 title:  "Laravel'de Kullanılabilecek Temel Kütüphaneler"
 date:   2014-05-01 21:00
 categories: php laravel
-tags: php laravel paket kütüphane library package
+tags: php, laravel, paket, kütüphane, library, package
+meta: php laravel paket kütüphane library package
 author: ozziest
 ---
 
