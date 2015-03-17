@@ -78,6 +78,19 @@ Yine bu süreçte dikkatimi çeken bir başka durum; test sürekli kod yazdıkta
 
 * `Amaç`: Gün sonunda kendi belirleyeceğim bir senaryoya göre sadece test yazmak. Test yazım anında hiç bir şekilde asıl koda girmeden, teste tekrar dönmeyecek şekilde testi yazmaya çalışmak.
 
+Çok uzunca bir süredir bu seriye bir ara vermiştim çünkü işler istediğim gibi gitmiyordu ve ciddi aksaklıklar yaşadım. Son iki haftadır yeni yeni toparlıyorum ve bununla birlikte elde ettiğim çözümleri toplu olarak yazacağım. 
+
+## Sonuç
+
+Öncelike test olayını çözdüm diyebilirim. Henüz çok kapsamlı olmasa da CodeCeption'ın sağladığı avantajlar sayesinde çok hızlı, sıkılmadan ve pratik bir şekilde ürettiğimiz yazılımların testlerini geliştirebiliyorum. Özellikle refactoring işlemlerinden sonra testlerin ne kadar büyük bir nimet olduğunu anlıyorsunuz. 
+
+Bu süreçte PHP tarafında önerilen en iyi seçeneklerin hepsini denedim diyebilirim. PHPUnit, PHPSpec ve CodeCeption bunlardan bazılarıydı. PHPSpec Birim test yazma konusunda oldukça yetenekli ancak kod geliştirirken beni yorduğunu düşünüyorum. PHPUnit diğerlerine göre daha bir çaresiz bırakıyor sizi. Çünkü test yazmayı istemek başka şey, ne yazacağınızı bilmek başka şey. Bu konuda PHPUnit'in daha çok dökümana ihtiyacı olduğunu düşünüyorum. 
+
+CodeCeption, PHPUnit'i de içerisinde barındırdığı için doğrudan birim testlerde de kullanabiliyorsunuz. Bu mükemmel bir avantaj ve kendi içinde var olan kabul testi bölümü mükemmel bir dizayna sahip. PHP dışında geliştirdiğiniz sistemlerin testi için de kullanabileceğiniz güzel bir yapısı var. Üst düzey programlama yetenekleri gerektirmiyor ve çok hızlı bir şekilde test yazmanıza olanak sağlıyor. 
+
+Henüz ürettiğim yazılımlar için "%100 Test" amacımın hakkını veremesem de, bu oranı %60'lara çıkarmış bulunuyorum. Ülkemizde bulunan koca koca şirketlerde bile testin adının pek anılmadığını düşündüğümüzde, bu oran bir startup şirketinde çalışan benim için hiç de fena değil. 
+
+Önümüzdeki dönemde CodeCeption hakkında çok detaylı bir makale hazırlamak istiyorum. Umarım fırsat bulabilirim.
 
 
 
