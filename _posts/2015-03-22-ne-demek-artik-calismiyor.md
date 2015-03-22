@@ -51,3 +51,11 @@ Ayrıca testler de kullandıkları yöntemlere göre bazı farklılıklar göste
 Bu testleri yazdığımızda işimiz bitmez. Eğer sürekli geliştirilecek bir sistem üzerinde çalışıyorsak, test yazma, çalıştırma, refactoring işlemlerini tekrar tekrar yapmamız gerecektir. Örneğin yarım saatte bir tüm testleri yeniden çalıştırabilirsiniz. İşlemlerin tekrarlanmasına **"Continious Integration"** adını veriyoruz. Deyim yerindeyse; ***ömür biter, test bitmez.***
 
 Ancak tüm bunlara rağmen bir çok geliştirici test yazmayı fuzuli bulmaktadır. Kimilerine göre bu bir zaman kaybıdır. İlk başta öyledir, yaklaşık 15-20% arasında bir zamanınızı buna ayırmanız gerekecektir. Bu; geliştireceğiniz ürünün piyasaya çıkış süresini uzatacaktır. Ancak daha sonradan çıkabilecek hataları çok kısa bir sürede bulup, daha etkili müdahalelerde bulunacağız için bu zamanı telafi etmeniz mümkündür. Şahsi görüşüm; ***kullanıcıya hata göstermeyen yazılım, çoğu durumda zamandan daha önemlidir.***
+
+## Kaynaklar
+
+* [PHPUnit](http://phpunit.de)
+* [CodeCeption](http://codeception.com/)
+* [Unit Testing](http://en.wikipedia.org/wiki/Unit_testing)
+* [Integration Testing](http://en.wikipedia.org/wiki/Integration_testing)
+* [Acceptance Testing](http://en.wikipedia.org/wiki/Acceptance_testing)
