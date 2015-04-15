@@ -21,21 +21,19 @@ Geçtiğimiz Cumartesi günü (14 Mart 2015) [Mavidurak-IO](http://mavidurak.git
 
 Hemen aşağıdaki kötü isimlendirme örneklerine göz atabilirsiniz;
 
-{% highlight php %}
+<pre><code class="language-php">
 class Trnslatr {
     
-
 }
 
 class UserRepo {
-    
 
 }
-{% endhighlight %}
+</code></pre>
 
 Bu örnekleri incelediğimizde, kısaltmalar kullanıldığını görüyoruz. Yaptığımız kısaltmayı nasıl bir mantıklı yaptığımızı daha sonra hatırlamayabiliriz. Bu nedenle aşağıdaki gibi kısaltma kullanmadan yazacağımız kodlar çok daha **şık** duracaktır;
 
-{% highlight php %}
+<pre><code class="language-php">
 class Translator {
     
 
@@ -45,28 +43,28 @@ class UserRepository {
     
 
 }
-{% endhighlight %}
+</code></pre>
 
 ### X ve Y gibi değişkenler
 
 Bir diğer kötü örnek `$x` ya da '$y' gibi sıklıkla kullanılan değişkenlere örnek olarak verilebilir;
 
-{% highlight php %}
+<pre><code class="language-php">
 foreach ($people as $x) 
 {
     echo $x->name;
 }
-{% endhighlight %}
+</code></pre>
 
 
 Bu kullanımda kodumuz çok fazla okunaklı olmamaktadır. Bunun yerine aşağıdaki gibi bir kullanım daha uygun olacaktır;
 
-{% highlight php %}
+<pre><code class="language-php">
 foreach ($people as $person) 
 {
     echo $person->name;
 }
-{% endhighlight %}
+</code></pre>
 
 `$x` ve `$y` gibi değişkenleri sadece koordinatları belirttiğimiz anlarda kullanmak bizim yararımıza olacaktır.
 
@@ -74,7 +72,7 @@ foreach ($people as $person)
 
 Aşağıdaki örnekte detaylı bir metot ismi görülmektedir;
 
-{% highlight php %}
+<pre><code class="language-php">
 class User {
 
     public function userComments()
@@ -83,18 +81,18 @@ class User {
     }
 
 }
-{% endhighlight %}
+</code></pre>
 
 Bu kullanım ilk başta güzel gibi gözüksede, ilgili sınıfı muhtemelen aşağıdaki gibi kullanacağızdır; 
 
-{% highlight php %}
+<pre><code class="language-php">
 $user->userComments();
-{% endhighlight %}
+</code></pre>
 
 
 Buradaki sorun tekrardan sınıf isminin metotta kullanılmasıdır. Doğrudan aşağıdaki gibi hazırlanacak metotlar daha okunaklı kodumuzun olmasına yardımcı olabilir;
 
-{% highlight php %}
+<pre><code class="language-php">
 class User {
 
     public function comments()
@@ -108,14 +106,14 @@ class User {
     }
 
 }
-{% endhighlight %}
+</code></pre>
 
 
 ## If-Else Kullanımı ve Indent'ler
 
 Algoritma geliştirirken if-else olmazsa olmazlarımızdandır. Ancak çoğu durumda `else` bir fazlalıktır. Hemen aşağıdaki örneğimizi inceleyebiliriz;
 
-{% highlight php %}
+<pre><code class="language-php">
 public function store()
 {
     $inputs = Input::all();
@@ -142,7 +140,7 @@ public function store()
     }
 
 }
-{% endhighlight %}
+</code></pre>
 
 Örneğimizde sadece Cuma günü dışında kayıt alıyoruz. Tabiki kullanıcının gönderdiği verilerin eksiksiz olmasını da kontrol ediyoruz. Ancak burası basit gibi gözüksede, ileride karışmaya çok müsayit bir yapıdadır. Başka şartlar da eklenirse, içinden çıkılmaz bir hale gelebilir. Bu nedenle aşağıdaki adımlara dikkat ederek kodumuzu yeniden düzenliyoruz;
 
@@ -151,7 +149,7 @@ public function store()
 * Asıl işlemi en sona sakla
 
 
-{% highlight php %}
+<pre><code class="language-php">
 public function store()
 {
     $inputs = Input::all();
@@ -171,7 +169,7 @@ public function store()
     return Redirect::home();
 
 }
-{% endhighlight %}
+</code></pre>
 
 Kodumuz bu hale geldikten sonra, bizim için çok temiz ve okunaklı olacaktır. 
 

@@ -20,14 +20,14 @@ Bu paket **Symfony Framework**'ü için geliştirilmiştir. Ancak o kadar güçl
 
 Paketi kullanmanın en iyi yolu, paketi **Composer** ile birlikte projenize dahil etmektir;
 
-{% highlight json %}
+<pre><code class="language-javascript">
 {
     "require": {
         "symfony/routing": "3.0.*@dev",
         "symfony/http-foundation": "3.0.*@dev"
     }
 }
-{% endhighlight %}
+</code></pre>
 
 Bu işlemden sonra `composer update` komutunu kullanarak bağımlılıkların projenize dahil olmasını sağlayabilirsiniz. 
 
@@ -45,19 +45,19 @@ Bu işlemden sonra `composer update` komutunu kullanarak bağımlılıkların pr
 
 Aşağıda koleksiyon oluşturma işlemini görebilirsiniz;
 
-{% highlight php %}
+<pre><code class="language-php">
 // Sınıflar çağırılır
 use Symfony\Component\Routing\RouteCollection;
 
 // Koleksiyon oluşturma işlemi
 $routes = new RouteCollection();
-{% endhighlight %}
+</code></pre>
 
 ### Rota Tanımlama
 
 Bu adımdan sonra rotalarımızı tutacağımız koleksiyonumuz artık hazırdır. Bundan sonra rotaları aşağıdaki gibi ekleyebiliriz;
 
-{% highlight php %}
+<pre><code class="language-php">
 // Sınıflar çağırılır
 use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\Routing\Route;
@@ -69,20 +69,20 @@ $routes = new RouteCollection();
 $route = new Route('/welcome', ['controller' => 'WelcomeController']);
 // Rota koleksiyona dahil edilir.
 $routes->add('welcome', $route);
-{% endhighlight %}
+</code></pre>
 
 Rota oluşturmak işlemini kısaltmak için aşağıdaki gibi kullanmanız da mümkündür;
 
-{% highlight php %}
+<pre><code class="language-php">
 // Rota oluşturulur ve koleksiyona dahil edilir.
 $routes->add('welcome', new Route('/welcome', ['controller' => 'WelcomeController']));
-{% endhighlight %}
+</code></pre>
 
 ### Rota Kontrolü
 
 Rota kontrolü için kullanıcı hangi url'yi çağırıyor kontrol ettirmemiz gerekmektedir. Bunu birçok farklı yol izleyerek yapabilirsiniz. Ancak amacımız az kodla çok iş yapmak olduğundan, Symfony tarafından hazırlanan [HttpFoundation](https://github.com/symfony/HttpFoundation) paketindeki `Request` sınıfını kullanmamız yerinde bir tercih olacaktır. 
 
-{% highlight php %}
+<pre><code class="language-php">
 // Sınıflar çağırılır
 use Symfony\Component\Routing\RouteCollection;
 use Symfony\Component\Routing\Route;
@@ -110,7 +110,7 @@ try {
 } catch (ResourceNotFoundException $e) {
 	echo '404!';
 }
-{% endhighlight %}
+</code></pre>
 
 
 Bu işlem rota karşılaştırma işlemidir. Son satırda eğer rota varsa rota tanımlama aşamasında kaydedilen parametreler bize geri döner. Eğer yoksa bir Exception fırlatılır; `ResourceNotFoundException`. Biz de try-catch blogu ile bu hatayı yaklayamaya çalışıyoruz. 

@@ -7,7 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemlerler,
   MySQL, MSSQL, Oracle vb.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ozziest.github.io/" # the base hostname & protocol for your site
+url: "http://blog.ozguradem.net/" # the base hostname & protocol for your site
 twitter_username: iozguradem
 github_username:  ozziest
 

@@ -12,7 +12,7 @@ author: ozziest
 
 Çevirideki zorlukları bir kenara bırakıp esas konumuza dönersek, bu işin temelinde sınıflarımızın bağımlılığını görürüz. Uygulamamız içerisinde tüm sınıflar bir iş yaparlar. Yaptıkları işlere sorumlulukları diyebiliriz. Örneğin Kullanıcı sınıfı kullanıcı işlemlerini yapar ve içerisinde kullanıcı işlemlerini gerçekleştirecek metotlar barındırır.
 
-{% highlight php %}
+<pre><code class="language-php">
 class User {
  
    public function insert($name)
@@ -21,11 +21,11 @@ class User {
    }
  
 }
-{% endhighlight %}
+</code></pre>
 
 Ancak bu basit sınıf bir yerden sonra bize yetmez. Yukarıdaki örneğimizi geliştiririz ve yeni kullanıcı kaydı esnasında kullanıcıya e-posta gönderilmesini de isteriz. Başka sınıflar içerisinden de e-posta gönderilebilmesi için de ortak kullanacağımız bir Email sınıfı tanımlarız.
 
-{% highlight php %}
+<pre><code class="language-php">
 class Email {
  
    public function send()
@@ -34,11 +34,11 @@ class Email {
    }
  
 }
-{% endhighlight %}
+</code></pre>
 
 Daha sonra User sınıfında aşağıdaki gibi kullanırız.
 
-{% highlight php %}
+<pre><code class="language-php">
 class User {
  
    public function insert($name)
@@ -49,7 +49,7 @@ class User {
    }
  
 }
-{% endhighlight %}
+</code></pre>
 
 
 Yukarıdaki kodumuzu yazdıktan sonra işlerimiz sarpa sarar. Çünkü **User** sınıfının çalışabilmesi için **Email** sınıfını tanımasına ihtiyacı vardır. Siz User sınıfını alıp başka bir yerde de kullanmak isterseniz, Email sınıfını da kopyalamanız ya da e-posta gönderilen satırları yeniden düzenlemeniz gerekecektir.
@@ -59,7 +59,7 @@ Sadece bu da değil. Siz yukarıdaki sınıfı geliştirdiniz ve sistemi yayına
 Bir diğer önemli husus ise Unit Test yazımında karşımıza çıkacaktır. Siz bu User sınıfını test ederken Email sınıfını da çalışır hale getirmek zorundasınız. Eğer Email sınıfında bir hata varsa bu User sınıfını da etkiler. Bu da test yazmanızı zorlaştırır. Email sınıfını taklit de edemezsiniz. Çünkü User ve Email sınıfları artık içli dışlı olmuşlardır. Bu sorunu ortadan kaldırmak için Email sınıfımızın ne olduğunu User sınıfının bilmemesi gerekmektedir.
 
 
-{% highlight php %}
+<pre><code class="language-php">
 class User {
  
    private $notification;
@@ -76,13 +76,13 @@ class User {
    }
  
 }
-{% endhighlight %}
+</code></pre>
 
 User sınıfımızı yukarıdaki gibi değiştirdik. Dikkat ederseniz sınıfımız içinde new komutu ile bir sınıf oluşturulmuyor. User sınıfının oluşturulması anında bir Email sınıfını dışarıdan Notification aracı olarak kullanmak için gönderebiliriz. Böylelikle User sınıfı Email sınıfını kendisi çağırmıyor, çalışacağı sınıfın ne olduğunu hiç mi hiç bilmiyor. Aşağıdaki şekilde User sınıfını, Notification aracı olarak  kullanabiliriz.
 
-{% highlight php %}
+<pre><code class="language-php">
 $user = new User(new Email);
-{% endhighlight %}
+</code></pre>
 
 Böylelikle User sınıfına çalışacağı sınıfı biz göndermiş oluyoruz. User sınıfı, bu sınıf bağımlılığından kurtuluyor. Müşteriden gelen değişiklik isteğini düşündüğümüzde, bu yapı bizim için oldukça uygundur. User sınıfını new komutu ile oluşturmadan önce müşteri adını kontrol eder ve ona göre gerekli olan sınıfı kendisine göndeririz. User sınıfı ise kullanıcıya göndereceği mesajı e-posta ile mi yoksa SMS ile mi gönderdiğini asla bilmez. O sadece send() metodunu çağırır. Yani User sınıfı sadece kendi işini yapar. Böylece oldukça basit bir sınıfımız olmuş olur. (KISS, Keep it simple, stupid)
 

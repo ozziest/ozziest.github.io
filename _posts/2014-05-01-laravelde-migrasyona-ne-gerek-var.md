@@ -22,13 +22,13 @@ Laravel ile veri tabanının yapısı üzerinde değişiklikler yapmak için [Ş
 
 Örneğin; bir kullanıcı tablosu oluşturacağımızı düşünelim. Hemen Laravel konsol uygulamasında aşağıdaki kodu çalıştırırız.
 
-{% highlight bash %}
+<pre><code class="language-bash">
 php artisan migrate:make kullanicilar_tablosunu_olustur
-{% endhighlight %}
+</code></pre>
 
 Bu kod bize “kullanicilar_tablosunu_olustur” adında bir migrasyon oluşturur. Migrasyon app/database/migrations klasörü altında başında zaman damgası eklenerek oluşturulmuştur. Migrasyon içerisinde up ve down olarak iki tane metodumuz bulunmaktadır. Up metodu, migrasyon çalıştırıldığında yapılacak, Down metodu ise migrasyon geri alındığında yapılacak değişiklikleri tanımladığımız bölümdür. Bu bölümlerin içinde şema oluşturucu ile tablo yapısını tanımlarız.
 
-{% highlight php %}
+<pre><code class="language-php">
 public function up()
 {
    Schema::create('users', function($table)
@@ -37,15 +37,15 @@ public function up()
       $table->string('name', 255);
    });
 }
-{% endhighlight %}
+</code></pre>
 
 Yukarıdaki kod örneğinde users adında bir tablo oluşturulur. Tablonun id ve name olmak üzere iki tane alanı vardır. Bu tanımlamayı yaptıktan sonra artık bu migrasyonun nasıl bir tablo yapısı istediğini biliyoruz. Bu kodu ekledikten sonra aşağıdaki kod ile migrasyonlar çalıştırılır.
 
-{% highlight bash %}
+<pre><code class="language-bash">
 php artisan migrate
 Temsili Migrasyon Çalıştırılması
 Temsili Migrasyon Çalıştırılması
-{% endhighlight %}
+</code></pre>
 
 Siz migrasyonları ne kadar çalıştırırsanız çalıştırın, Laravel her seferine aynı kodları tekrardan çalıştırmaz. Migrasyonların daha önce çalıştırılıp çalıştırılmadığını kendi kontrol eder ve böylelikle veri tabanınız güncel kalır. 5 kişilik bir ekipte isteyen geliştirici istediği değişikliği bu yolla yapabilir. Tek yapılması gereken pull yapıldıktan sonra (versiyon kontrol sistemi kullandığınızı varsayıyorum) migrasyonların çalıştırılmasıdır. Gerisini Laravel’e bırakın.
 

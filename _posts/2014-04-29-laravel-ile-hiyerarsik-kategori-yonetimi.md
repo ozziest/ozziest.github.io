@@ -33,10 +33,10 @@ Laravel üzerinde Yerleşim Yapı Kalıbı (Nested Set Model) kullanmak oldukça
 
 Örnek Kullanım
 
-{% highlight php %}
+<pre><code class="language-php">
 $root = Category::create(['name' => 'Yazılım']); 
 $php = Category::create(['name' => 'PHP']); 
 $php->makeChildOf($root);
-{% endhighlight %}
+</code></pre>
 
 

@@ -16,16 +16,16 @@ Eğer yeni bir paket oluşturmak isterseniz [Laravel Türkçe Dökümantasyonu](
 
 Bu aracı geliştirme yaptığınız geliştirdiğiniz paketin composer dosyasına dahil ettikten sonra aşağıdaki şekilde kullanabilirsiniz.
 
-{% highlight php %}
+<pre><code class="language-php">
 class TestCase extends Orchestra\Testbench\TestCase {
 	
 }
-{% endhighlight %}
+</code></pre>
 
 Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda, testiniz içinde doğrudan sınıflarınızı metotlarına ulaşmanız  mümkün olacaktır.
 
 
-{% highlight php %}
+<pre><code class="language-php">
     protected function getPackageProviders()
     {
         return array('Acme\AcmeServiceProvider');
@@ -37,7 +37,7 @@ Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda
             'Acme' =&gt; 'Acme\Facade'
         );
     }
-{% endhighlight %}
+</code></pre>
 
 ## Cannot redeclare crypt_random_string() Hatası
 

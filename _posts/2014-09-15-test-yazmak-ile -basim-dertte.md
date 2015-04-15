@@ -12,7 +12,7 @@ author: ozziest
 
 Anlatmak istediklerimi anlatmadan önce, lütfen aşağıdaki kod bloğunu satır satır inceleyiniz;
 
-{% highlight php %}
+<pre><code class="language-php">
 $I = new AcceptanceTester($scenario);
 $I->wantTo('create wiki page');
 $I->amOnPage('/');
@@ -26,7 +26,7 @@ $I->see('page created'); // notice generated
 $I->see('Hobbit','h1'); // head of page of is our title
 $I->seeInCurrentUrl('pages/hobbit'); 
 $I->seeInDatabase('pages', array('title' => 'Hobbit'));
-{% endhighlight %}
+</code></pre>
 
 Bu kod bloğu benim gördüğüm en basit, en sade ve en anlaşılır test bloğu. Böyle yazılmış test satırlarını gördüğünde içimi büyük bir test yazma heyecanı kaplıyor. Satırı satırına ne yapılmak istendiğini sizin de anladığınızı düşünüyorum. Bu oldukça basit bir kabul (Acceptance) testi. 
 

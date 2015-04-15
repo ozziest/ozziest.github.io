@@ -17,7 +17,7 @@ Biz geliştiricilerde gördüğüm; ustalastıkça kod yazmadan önce daha çok 
 Ben artık genel planlarımı yaptıktan sonra, henüz tek satır kod yazmadan tasarlayacağım sınıfın dökümanını oluşturuyorum. Hangi parametreleri yollayacağım, ilgili metotdan dönecek istisnalar neler olacak vb. durumların hepsini dökümanı yazarken çok detaylı bir şekilde açıklamış oluyorum. Daha sonrasında eğer **deadline** için vaktim varsa dökümana göre testlerimi yazıyorum. En son aşamada ise dökümandaki gibi çalışacak kodları yazıyorum. Örneğin bir döküman yazdığımızı düşünelim ve aşağıdaki gibi Kullanıcı silme işleminin nasıl yapılacağını kodla örnekleyelim;
 
 
-{% highlight php %}
+<pre><code class="language-php">
 try
 {
 	// Find the user using the user id
@@ -29,7 +29,7 @@ catch (Cartalyst\Sentry\Users\UserNotFoundException $e)
 {
 	echo 'User was not found.';
 }
-{% endhighlight %}
+</code></pre>
 
 
 Bunun gibi bir döküman hazırladıktan sonra, tam olarak neye ihtiyacımız olduğu zaten ortaya çıkmış oluyor.  Ondan sonra tek yapmamız gereken ilgili testleri yazmak ve çalışan sınıflarımızı kodlamak. Planlamada sağlanan bu kolaylığın yanı sıra yazdığımız sınıfın, paketin ya da kod parçacığının nasıl çalıştığı anlatan bir döküman elimizin altında oluyor. Şahsen bu gibi bir dökümanla neleri test edebileceğimi daha iyi kavramış oluyorum. Zira test yazmayı öğrenirken en çok zorlandığım şey, ilgili kod bölümünün nesini test edeceğimi bilmemekti. Belki de ben bu konuda çok beceriksizimdir. Eğer siz de benim gibi test yazmakta zorlanan beceriksizlerdenseniz DDD işinize yarayacaktır.

@@ -18,24 +18,24 @@ Bu kütüphane aracılığı ile yazdığınız kodlar içinde cron görevi tan�
 
 NPM (Node Packaged Modules) sayesinde aşağıdaki şekilde kurulur;
 
-{% highlight bash %}
+<pre><code class="language-bash">
 $ npm install cron
-{% endhighlight %}
+</code></pre>
 
 ### Kullanım
 
 Aşağıdaki kodu bir kere çalıştırdığınızda cron göreviniz hazır hale getirilir.
 
-{% highlight js %}
+<pre><code class="language-javascript">
 var CronJob = require('cron').CronJob;
 new CronJob('* * * * * *', function(){
     console.log('Bu yazıyı her saniye göreceksiniz.');
 }, null, true, "Europe/Istanbul");
-{% endhighlight %}
+</code></pre>
 
 Burada dikkat etmeniz gereken, bu kodu tekrar tekrar çalıştırmamaktır. Kodu her çalıştırdığınızda yeni bir cron görevi oluşturulur. Belirlediğiniz cron zamanına göre de fonksiyon içerisindeki kodlarınız çalışacaktır. Ben kendi uygulamalarımda bunu basit bir değişkenle kontrol ediyorum. Eğer bu kontrolü gerçekleştirmezseniz, tekrar tekrar cron görevi oluşturulmuş olur. Örneğin aşağıdaki gibi bir uygulama yazdığımızı varsayalım;
 
-{% highlight js %}
+<pre><code class="language-javascript">
 "use strict";
  
 var http = require("http");
@@ -53,11 +53,11 @@ function processRequest (request, response) {
     response.end();
     
 }
-{% endhighlight %}
+</code></pre>
 
 Bu kodları çalıştırmak için konsol üzerinden `node index.js` komutunu verdikten sonra [localhost:1234](http://localhost:1234) adresini tarayıcımız üzerinden çağırmamız gerekir. Daha sonrasında ise cron mesajımız konsol üzerine her saniye yeniden yazılacaktır. Ancak aynı sayfayı bir daha çağırırsak yeni bir cron görevi set etmiş oluruz. Yukarıda da belirttiğim gibi Node.JS, PHP gibi bir iş yapabilmek için bir yerden direktif bekleyen bir sistem değildir. Uygulama çalıştırıldığında, tek thread üzerinde hazır olarak bekler. Yani konsol üzerinden uygulama kapanana kadar ayarlanan değerler, değişkenler aynen korunur. Bu nedenle kodlarımızı aşağıdaki gibi değiştiriyoruz.
 
-{% highlight js %}
+<pre><code class="language-javascript">
 var http = require("http");
 var CronJob = false; // Cron görevimizi henüz set etmedik
 http.createServer(processRequest).listen(1234, "127.0.0.1");
@@ -80,7 +80,7 @@ function processRequest (request, response) {
     response.end();
  
 }
-{% endhighlight %}
+</code></pre>
 
 Kodlarımızın yeni halinde, genel bir değişkenimiz içinde Cron görevi durumunu tutarak, sadece bir kez görev tanımlama işkemini gerçekleştiriyoruz. Böylece ikinci bir istek yaptığınızda tekrardan Cron görevi oluşturulmuyor.
 

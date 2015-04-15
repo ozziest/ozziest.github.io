@@ -5,7 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-color: #f75353;
+    background-color: #2980b9;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -185,10 +185,10 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
-    color: #f75353;
+    font-size: 20px;
+    color: #2980b9;
     &:visited {
-        color: #f75353;
+        color: #2980b9;
     }    
 }
 

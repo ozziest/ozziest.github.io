@@ -18,7 +18,7 @@ Sentry kütüphanesi ile oturum işlemlerini kolayca yönetebilirsiniz. Kayıt o
 
 Bootforms kütüphanesi Form kütüphanesini (GitHub) temel alarak geliştirilmiştir. Form kütüphanesi ile hızlı bir şekilde form oluşturabiliyorken, Bootforms kütüphanesi ile bootstrap tasarım çatısına uygun olarak formlar üretebilmektesiniz. Uygulamalarınızda eğer bootstrap çatısını kullanıyorsanız çok seveceğiniz bir araç.
 
-{% highlight php %}
+<pre><code class="language-php">
 {{ BootForm::openHorizontal(3, 9) }}
   {{ BootForm::text('First Name', 'first_name') }}
   {{ BootForm::text('Last Name', 'last_name') }}
@@ -27,7 +27,7 @@ Bootforms kütüphanesi Form kütüphanesini (GitHub) temel alarak geliştirilmi
   {{ BootForm::password('Password', 'password') }}
   {{ BootForm::submit('Submit') }}
 {{ BootForm::close() }}
-{% endhighlight %}
+</code></pre>
 
 
 Yukarıdaki kod öğreği ile bootstrap temelinde bir Horizontal Form oluşturabilmektesiniz. Bu kütüphane de Laravel 4’e composer ile hızlıca eklenebilmektedir.
@@ -38,7 +38,7 @@ Yukarıdaki kod öğreği ile bootstrap temelinde bir Horizontal Form oluşturab
 
 Bu kütüphane PHP Debug Bar ile entegre olarak çalışmaktadır. PHP Debug Bar, tıpkı Firebug gibi uygulamanızın web arayüzünde bir panel oluşturularak debug işlemlerinize yardımcı olmak için tasarlanmıştır. Laravel 4 Debugger ise bu kütüphanin hızlı bir şekilde projenize entegre edilmesidir diyebiliriz. Entegre işlemi tamamlandıktan sonra, uygulamanız arasına serpiştirdiğiniz kodlarla Debug Bar’a mesajlar verdirebilirsiniz.
 
-{% highlight php %}
+<pre><code class="language-php">
 Debugbar::info($object);
 Debugbar::error("Error!");
 Debugbar::warning('Watch out..');
@@ -50,7 +50,7 @@ try {
 } catch (Exception $e) {
     Debugbar::addException($e);
 }
-{% endhighlight %}
+</code></pre>
 
 [https://github.com/barryvdh/laravel-debugbar](https://github.com/barryvdh/laravel-debugbar)
 
