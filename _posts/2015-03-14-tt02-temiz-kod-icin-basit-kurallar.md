@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Temiz Kod İçin Basit Kurallar"
+title:  "TT #02 - Temiz Kod İçin Basit Kurallar"
 date:   2015-03-15 18:00
 categories: php
 tags: php, temiz kod, basit kurallar, laracast
