@@ -1,11 +1,11 @@
 # Site settings
-title: Özgür Adem Işıklı - Blog
+title: Özgür Adem Işıklı
 email: i.ozguradem@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tecrübe sahibi olduğum konular: PHP, JS, Laravel, Node.js, 
   Sails.js, Meteor.js, PHPUnit, Selenium, PHPSpec, Codeception,
   Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemlerler,
-  MySQL, MSSQL, Oracle vb.
+  MySQL, MSSQL, Oracle
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ozguradem.net/" # the base hostname & protocol for your site
 twitter_username: iozguradem

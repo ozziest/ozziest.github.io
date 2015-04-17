@@ -12,6 +12,6 @@ permalink: /about/
 
 <img class="author-img-big" src="https://pbs.twimg.com/profile_images/588949233060827136/OkAkWqf7.jpg"/>
 
-1988 yılında İstanbul’da doğdu. 2003 yılında **A.N. Bilimli Teknik Lisesi Yazılım Bölümü**‘nde öğrenim görmekteyken programlama ile tanıştı. Teknik Lise süresince 3 yaz dönemini Solon Yazılım AŞ. bünyesinde geçirdi. Lisans eğitimini **Sakarya Üniversitesi Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü**’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasındaysa askerlik görevini tamamladı.
+1988 yılında İstanbul’da doğdu. 2003 yılında [A.N. Bilimli Teknik Lisesi](http://anbilimlianaokulu.meb.k12.tr) Yazılım Bölümü**‘nde öğrenim görmekteyken programlama ile tanıştı. Teknik Lise süresince 3 yaz dönemini [Solon Yazılım AŞ.](http://www.solon.com.tr) bünyesinde geçirdi. Lisans eğitimini [Sakarya Üniversitesi](http://www.sakarya.edu.tr) Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü**’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasındaysa askerlik görevini tamamladı.
 
-Mayıs 2012’de **Birey Dershanesi**’nde çalışmaya başladı. Şubat 2013’de Sakarya’da bulunan **Ahir Ar-Ge AŞ** bünyesine katıldı. Hala Ahir Ar-Ge AŞ bünyesinde çalışmakta ve Sakarya’da bulunan **Mavidurak-IO** isimli toplulukta aktif olarak faaliyetlerde bulunmaktadır.
+Mayıs 2012’de [Birey Dershanesi](http://www.birey.com)’nde çalışmaya başladı. Şubat 2013’de Sakarya’da bulunan [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr) bünyesine katıldı. Hala [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr) ile beraber çalışmaktadır. Bunun yanında Sakarya’da bulunan [Mavidurak-IO](http://mavidurak.github.io) isimli toplulukta görev almaktadır.
