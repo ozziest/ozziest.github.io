@@ -2,9 +2,9 @@
 title: Özgür Adem Işıklı
 email: i.ozguradem@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Tecrübe sahibi olduğum konular: PHP, JS, Laravel, Node.js, 
+  Tecrübe sahibi olduğum konular: PHP, JS, Node.js, 
   Sails.js, Meteor.js, PHPUnit, Selenium, PHPSpec, Codeception,
-  Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemlerler,
+  Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemler,
   MySQL, MSSQL, Oracle
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.ozguradem.net/" # the base hostname & protocol for your site
