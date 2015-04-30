@@ -40,6 +40,7 @@ PHP, JS, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Symfony
 * [Tech Talks #02 - Temiz Kod İçin Basit Kurallar, 14.03.2015](http://slides.com/iozguradem/temiz-kod-icin-basit-kurallar)
 * [Tech Talks #03 - Ne Demek Artık Çalışmıyor - 21.03.2015](http://slides.com/iozguradem/ne-demek-artik-calismiyor)
 * [Tech Talks #05 - Bitmeyen Proje - 11.04.2015](http://slides.com/iozguradem/bitmeyen-proje)
+* [Tech Talks #07 - Bitmeyen Kavga - 25.04.2015](http://slides.com/iozguradem/bitmeyen-kavga)
 
 ### Sosyal Medya
 
