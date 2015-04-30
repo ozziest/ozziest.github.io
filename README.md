@@ -1,4 +1,4 @@
 ozziest.github.io
 =================
 
-My personal blog.
+Personal web blog.
