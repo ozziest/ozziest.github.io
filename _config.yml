@@ -26,3 +26,6 @@ authors:
     github: ozziest
     facebook: TheMornie
     linkedin: http://tr.linkedin.com/in/ozguradem/
+
+gems:
+  - jekyll-sitemap
