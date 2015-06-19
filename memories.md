@@ -91,3 +91,10 @@ permalink: /memories/
         Mavidurak-IO kod gecesinden bir fotoğraf.
     </p>
 </div>
+
+<div class="img-box">
+    <img class="img-memories" src="/images/memories/2015_06.jpg"/>
+    <p class="img-caption">
+        Argedb için takdim edilen Teşekkür Belgesi
+    </p>
+</div>
