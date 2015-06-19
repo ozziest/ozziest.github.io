@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PHP ve Annotations Kullanımı"
+title:  "PHP ve Annotation Kullanımı"
 date:   2015-06-06 18:00
 categories: php git
 tags: php, annotation, php ve annotations, kullanımı, örnek
