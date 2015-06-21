@@ -27,7 +27,6 @@ Mayıs 2012’de [Birey Dershanesi](http://www.birey.com)’nde çalışmaya ba�
 
 * (Şubat 2013 - ?) Ahir Ar-Ge Danışmanlık A.Ş.
 * (Mayıs 2012 - Şubat 2013) Birey Derhaneleri - Yazılım Depertmanı
-* (Mayıs 2005 - Eylül 2006) Solon Software A.Ş. - Yazılım Departmanı
 
 ### Uzmanlıklar
 
