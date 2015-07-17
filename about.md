@@ -29,7 +29,8 @@ Ayrıca Sakarya’da bulunan [Mavidurak-IO](http://mavidurak.github.io) isimli t
 
 ### İş Deneyimi
 
-* (Şubat 2013 - ?) Ahir Ar-Ge Danışmanlık A.Ş.
+* (Temmuz 2015 - ?) Polisoft
+* (Şubat 2013 - Temmuz 2015) Ahir Ar-Ge Danışmanlık A.Ş.
 * (Mayıs 2012 - Şubat 2013) Birey Derhaneleri - Yazılım Depertmanı
 
 ### Uzmanlıklar
