@@ -10,8 +10,6 @@ author: ozziest
 
 > Bu blog yazısı, geçtiğimiz Cumartesi (21 Mart 2015) günü [Mavidurak-IO](http://mavidurak.github.io) ve [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr)'nin gerçekleştirdiği **Tech Talk #03** etkinliğinde gerçekleştirdiğim sunumun özetini içermektedir.
 
-## Giriş
-
 Hatalar, programlamanın kaçınılmazıdır. Yazdığınız ya da yazmadığınız her satır kod bir hataya neden olabilir. Biz ne kadar mükemmel olduğunu düşünsek de, şuan dünyada var olma nedenimiz dahi geçmişte yapılmış bir hatadır.
 
 Hatalardan tamamen kurtulamayız, ancak doğru zamanda ve doğru yerde tespit edebiliriz. 

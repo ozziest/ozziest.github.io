@@ -8,8 +8,6 @@ meta: php, test, unit test, codeception, acceptance
 author: ozziest
 ---
 
-### Önizleme 
-
 Anlatmak istediklerimi anlatmadan önce, lütfen aşağıdaki kod bloğunu satır satır inceleyiniz;
 
 <pre><code class="language-php">

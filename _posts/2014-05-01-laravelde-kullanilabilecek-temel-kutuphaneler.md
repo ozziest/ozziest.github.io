@@ -8,8 +8,6 @@ meta: php laravel paket kütüphane library package
 author: ozziest
 ---
 
-## Sentry İle Oturum Yönetimi
-
 Sentry kütüphanesi ile oturum işlemlerini kolayca yönetebilirsiniz. Kayıt olma, oturum açma, şifremi unuttum vb. gibi temel işlevlerinin yanında kullanıcı grupları oluşturarak, her gruba ayrı ayrı yetkiler verebilirsiniz. Kurulumu composer ile gerçekleştirilebilir ve hızlı bir şekilde uygulamanıza adapte edebilirsiniz. Temel veri tabanı yapısı için migrasyonları da hazırdır.
 
 [https://cartalyst.com/manual/sentry/introduction](https://cartalyst.com/manual/sentry/introduction)

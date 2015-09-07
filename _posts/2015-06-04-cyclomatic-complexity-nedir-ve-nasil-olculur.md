@@ -8,8 +8,6 @@ meta: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
 author: ozziest
 ---
 
-## Nedir?
-
 **[Cyclomatic Complexity](http://en.wikipedia.org/wiki/Cyclomatic_complexity)** kavramı yazılım camiasına ait bir terimdir ve geliştirilen kodların karmaşasının ölçülmesi olarak ifade edilir. Ölçüm yapılırken akış diyagramındaki bağımsız bölümler ve karar yapıları göz önünde bulundurulur. Ne kadar çok karar yapısı bulunuyorsa, kod karmaşası o kadar artık. Kod karmaşasının arttığı durumlarda üzerinde çalışılan projenin sürdürülebilir olması güçleşir, hata ile karşılaşma oranında artış gözlemlenir. Bu nedenle kod karmaşasının minumumda tutulması her zaman için önerilir.
 
 ## Nasıl Ölçülür?

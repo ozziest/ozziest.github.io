@@ -8,7 +8,7 @@ meta: ros robot operating system robotik c++ python
 author: ozziest
 ---
 
-## ROS Nedir?
+Öncelikle ROS'u kısaca tanımlamaya çalışacağım;
 
 * Robotlar için bir işletim sistemidir.
 * Paketler için bir koleksiyondur ve yazılım derleme aracı olarak kullanılmaktadır.

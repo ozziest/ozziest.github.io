@@ -8,8 +8,6 @@ meta: php laravel migrasyon veritabanı versiyon taşıma migration
 author: ozziest
 ---
 
-## Alışkanlıklar
-
 *“Biz yıllardır phpmyadmin ile veritabanı dizayn etmiş adamız. Eski köye yeni adet getiriyorlar. MVC falan, bunlar bir takım dış mihrakların uydurduğu şeyler. Kendi framework’ümde gül gibi kod yazıyorum. Bir kere daha güvenli. Bir de alışkanlık var tabi. Öğrenmek için ayıracak vakit yok.”*
 
 Bu duyduklarınız size bir yerlerden tanıdık gelebilir. Şuan bir web uygulaması geliştirirken hiç bir yardımcı araçtan yararlanmıyor olabilirsiniz. Ama buna bir son vermek zorundasınız. Bilmemek ayıplanamaz ama sürekli bilmiyor olmak ve yeni şeylere karşı çıkmak ağır bir saplantıdır.

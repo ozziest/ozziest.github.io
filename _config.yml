@@ -1,31 +1,30 @@
-# Site settings
-title: Özgür Adem Işıklı
-email: i.ozguradem@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Tecrübe sahibi olduğum konular: PHP, JS, Node.js, 
-  Sails.js, Meteor.js, PHPUnit, Selenium, PHPSpec, Codeception,
-  Git, Laravel, Symfony2, Memcached, Redis, Linux Sistemler,
-  MySQL, MSSQL, Oracle
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ozguradem.net" # the base hostname & protocol for your site
-twitter_username: iozguradem
-github_username:  ozziest
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
-# Build settings
-markdown: kramdown
-paginate: 10
+# Setup
+title:               Özgür Adem Işıklı
+tagline:             Full Stack Web Developer
+url:                 http://ozguradem.net
+paginate:            7
+baseurl:             ""
 
-authors:
-  ozziest:
-    display_name: Özgür Adem Işıklı
-    bio: Full Stack Developer
-    avatar: https://pbs.twimg.com/profile_images/588949233060827136/OkAkWqf7.jpg
-    email: i.ozguradem@gmail.com
-    web: http://ozziest.github.io
-    twitter: iozguradem
-    github: ozziest
-    facebook: TheMornie
-    linkedin: http://tr.linkedin.com/in/ozguradem/
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
 
-gems:
-  - jekyll-sitemap
+# About/contact
+author:
+  name:              Özgür Adem Işıklı
+  url:               https://twitter.com/iozguradem
+  email:             i.ozguradem@gmail.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole

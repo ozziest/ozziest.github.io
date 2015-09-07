@@ -1,18 +1,11 @@
 ---
 layout: page
 title: Hakkında
-permalink: /about/
 ---
-
-<header class="post-header">
-	<h1 class="post-title">
-		Özgür Adem Işıklı
-	</h1>
-</header>
 
 <img class="author-img-big" src="https://pbs.twimg.com/profile_images/588949233060827136/OkAkWqf7.jpg"/>
 
-1988 yılında İstanbul’da doğdu. 2003 yılında [A.N. Bilimli Teknik Lisesi](http://anbilimlianaokulu.meb.k12.tr) Yazılım Bölümü**‘nde öğrenim görmekteyken programlama ile tanıştı. Teknik Lise süresince 3 yaz dönemini [Solon Yazılım AŞ.](http://www.solon.com.tr) bünyesinde geçirdi. Lisans eğitimini [Sakarya Üniversitesi](http://www.sakarya.edu.tr) Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü**’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasındaysa askerlik görevini tamamladı.
+1988 yılında İstanbul’da doğdu. 2003 yılında [A.N. Bilimli Teknik Lisesi](http://anbilimlianaokulu.meb.k12.tr) Yazılım Bölümü‘nde öğrenim görmekteyken programlama ile tanıştı. Teknik Lise süresince 3 yaz dönemini [Solon Yazılım AŞ.](http://www.solon.com.tr) bünyesinde geçirdi. Lisans eğitimini [Sakarya Üniversitesi](http://www.sakarya.edu.tr) Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü**’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasındaysa askerlik görevini tamamladı.
 
 Mayıs 2012’de [Birey Dershanesi](http://www.birey.com)’nde çalışmaya başladı. Şubat 2013’de Sakarya’da bulunan [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr) bünyesine katıldı ve Temmuz 2015'e kadar [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr) ile beraber çalıştı. 
 
@@ -50,7 +43,6 @@ PHP, JS, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Symfony
 
 <div>
     <a class="github" target="_blank" href="http://github.com/ozziest"></a>
-    <a class="facebook" target="_blank" href="http://facebook.com/TheMornie"></a>
     <a class="twitter" target="_blank" href="http://twitter.com/iozguradem"></a>
     <a class="linkedin" target="_blank" href="http://tr.linkedin.com/in/ozguradem/"></a>
 </div>

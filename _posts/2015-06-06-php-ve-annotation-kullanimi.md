@@ -8,8 +8,6 @@ meta: php, annotation, php ve annotations, kullanımı, örnek
 author: ozziest
 ---
 
-## Genel Bilgiler
-
 Annotation kavramı veriler hakkında ön bilgiler veren başka veri blokları, **notlar** olarak adlandırılır. Normalde bir özellikleri yoktur. PHP ile yazılım geliştirme aşamasında da annotation'lar doküman blokları içerisinde sıkça kullanılır ama yazılıma etki etmezler. Ancak bazen bu durum farklılaşabilir. 
 
 > JAVA gibi bazı dillerde annotation dilin bir parçasıdır ve programın çalışmasına doğrudan etki eder. Ancak konumuz PHP. :)
