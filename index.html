@@ -7,12 +7,13 @@ title: Home
   {% for post in paginator.posts %}
   <article class="post">
     <h1 class="post-title">
+      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">
+        {{ post.date | date: '%d.%m.%Y' }}
+      </time> - 
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-    {{ post.content | truncatewords: 50 }}
   </article>
   {% endfor %}
 </div>
