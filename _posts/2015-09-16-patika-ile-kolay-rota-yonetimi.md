@@ -27,7 +27,7 @@ Paketin kurulumları ve konfigürasyonunu [dokümantasyon](http://ozguradem.net/
 
 <pre><code class="language-php">
 GET localhost/users/all
-# Namespace: App/Controllers/Users
+# Namespace: App\Controllers\Users
 # Method: all
 # Arguments: []
 </code></pre>
@@ -38,7 +38,7 @@ Bu bölümde rotayı PHP'nin izin verdiği ölçüde uzatma imkanımız var.
 
 <pre><code class="language-php">
 GET localhost/admin/manager/users/all
-# Namespace: App/Controllers/Admin/Manage/Users
+# Namespace: App\Controllers\Admin\Manage\Users
 # Method: all
 # Arguments: []
 </code></pre>
@@ -48,7 +48,7 @@ GET localhost/admin/manager/users/all
 <pre><code class="language-php">
 
 GET localhost/admin/manage/users/get/1 
-# Namespace: App/Controllers/Admin/Manage/Users
+# Namespace: App\Controllers\Admin\Manage\Users
 # Method: get
 # Arguments: [1]
 </code></pre>
@@ -70,7 +70,7 @@ class Users {
 
 <pre><code class="language-php">
 GET localhost/admin/manage/users/getByArgument/1/2/3/foo/bar 
-# Namespace: App/Controllers/Admin/Manage/Users
+# Namespace: App\Controllers\Admin\Manage\Users
 # Method: get
 # Arguments: [1, 2, 3, 'foo', 'bar']
 </code></pre>
