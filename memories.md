@@ -108,4 +108,21 @@ permalink: /memories/
             Mavidurak-IO kod gecesinden bir fotoğraf.
         </p>
     </div>
+    <div class="img-box">
+        <img class="img-memories" src="/images/memories/2015_08.jpg"/>
+        <p class="img-caption">
+            2015 - Tanışma Toplantısı
+        </p>
+    </div>
+</div>
+
+### Seminerlerden
+
+<div class="img-row">
+    <div class="img-box">
+        <img class="img-memories" src="/images/memories/2015_07.jpg"/>
+        <p class="img-caption">
+            Tütev - Açık Kaynak Günleri
+        </p>
+    </div>
 </div>
