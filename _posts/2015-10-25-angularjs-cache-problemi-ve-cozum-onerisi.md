@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AngularJS Cache Problemi Ve Öneriler"
+title:  "AngularJS Cache Problemi Ve Çözüm Önerisi"
 date:   2015-10-25 21:00
 categories: javascript
 tags: angularjs, cache, çözüm önerisi, cache sorunu
