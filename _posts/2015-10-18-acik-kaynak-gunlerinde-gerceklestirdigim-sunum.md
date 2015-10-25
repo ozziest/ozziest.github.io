@@ -16,4 +16,4 @@ Geçtiğimiz günlerde (11 Ekim 2015) [Tütev](http://tutev.org.tr) tarafından 
 
 Ayrıca etkinlik sonrası edindiğim acı tecrübeler ışığında, kusursuz bir sunumun nasıl olması gerektiği konusunda bir çalışma hazırladım. Bu çalışmaya [GitHub](https://github.com/ozziest/kusursuz-sunum) üzerinden de destek verebilirsiniz.
 
-[Kusursuz Sunum GitHub](https://github.com/ozziest/perfect-resentation)
+[Kusursuz Sunum GitHub](https://github.com/ozziest/perfect-presentation)
