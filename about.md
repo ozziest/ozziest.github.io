@@ -3,7 +3,7 @@ layout: page
 title: Hakkında
 ---
 
-<img class="author-img-big" src="https://pbs.twimg.com/profile_images/588949233060827136/OkAkWqf7.jpg"/>
+<img class="author-img-big" src="https://avatars2.githubusercontent.com/u/2325140?v=3&s=460"/>
 
 1988 yılında İstanbul’da doğdu. 2003 yılında [A.N. Bilimli Teknik Lisesi](http://anbilimlianaokulu.meb.k12.tr) Yazılım Bölümü‘nde öğrenim görmekteyken programlama ile tanıştı. Teknik Lise süresince 3 yaz dönemini [Solon Yazılım AŞ.](http://www.solon.com.tr) bünyesinde geçirdi. Lisans eğitimini [Sakarya Üniversitesi](http://www.sakarya.edu.tr) Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü**’nde tamamladı. Ocak-Mayıs 2012 tarihleri arasındaysa askerlik görevini tamamladı.
 
@@ -28,7 +28,7 @@ Ayrıca Sakarya’da bulunan [Mavidurak-IO](http://mavidurak.github.io) isimli t
 
 ### Uzmanlıklar
 
-PHP, JS, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Symfony2, Memcached, Redis, Linux Sistemler, MySQL, ORACLE
+PHP, C#, JS, Web API, SPA, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Symfony2, Memcached, Redis, Linux Sistemler, MySQL, ORACLE
 
 ### Eğitim ve Seminerler
 
