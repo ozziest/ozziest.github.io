@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 # Setup
 title:               Özgür Adem Işıklı
@@ -29,5 +29,5 @@ version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
 
-gems:
-  - jekyll-sitemap
+gems: [jekyll-paginate]
+paginate_path: "page:num"
