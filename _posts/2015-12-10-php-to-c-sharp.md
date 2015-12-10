@@ -30,6 +30,8 @@ Her şeyden önce, **Tip Dayatması** tabirini daha çok sevdiğimi belirtmek is
 
 **C#** ile uygulama geliştirecekseniz tek çıkar yol var: **Visual Studio**. Evet **Visual Studio Code**'dan haberim var ve **Microsoft**'un open source hamlelerinden sonra diğer platformlar için geliştirdiği bazı araçları da denedim ancak **C#** gibi bir dil ve **.NET** gibi bir framework ve bileşenlerini `henüz` kaldırabilecek durumda olduklarını düşünmüyorum. Bu nedenle **.NET** dünyasında sizin handikapınızı oluşturacak şey **Visual Studio**'dur, çünkü lisans ücreti ödemek zorundasınızdır. 
 
+> Düzeltme: [Serkan İnce](http://twitter.com/serkanince444) uyardı; **Visual Studio Community** sürümü tamamen ücretsizmiş. Bu ek bilgiyle birlikte Visual Studio'yu bir avantaj olarak değerlendirmek gerekiyor.
+
 ### İşletim Sistemi
 
 **PHP** ile uygulama geliştirken işletim sistemi size sorun çıkarmaz ancak **Visual Studio Code** harici diğer **VS** sürümleri **Windows** dışında çalışmadığı ve bir üst bölümde de belirttiğim gibi **Windows** harici platformlar için geliştirilenler henüz (bence) yeterli olmadığı için geliştirme aşamasında **Windows**'a muhtaç kalırsınız. Uzun lafın kısası; ***büyük geçmiş olsun***.
@@ -57,3 +59,6 @@ Henüz performans konusunda kıyaslama yapabilecek kadar bir bilgi oluşturamad�
 ### Sonuç
 
 Her ne kadar hoşnut olmasam da kapitalist bir dünyada yaşıyoruz ve iyi bir şey ortaya çıkarmak istiyorsanız, bütçenizi ona göre ayarlamanız gerekiyor. **PHP** ile hiç bir şey yapılmaz demek değil bu. Elbette ki bir çok kullanılacağı senaryo vardır. Nerelerde ve hangi şartlarda kullanılabileceği tamamen ayrı bir yazı konusu olduğu ve henüz o kadar tecrübeli olduğumu düşünmediğim için bunu sonraya bırakıyorum. Ancak şuan yeni bir projeye başlayacak olsam ve bu projeyi kısıtlı bir bütçeyle, tek başıma yürütecek olsam **PHP** ile yola çıkardım. Çünkü hala en iyi bildiğim şey PHP ve daha iyi sonuçlar alabileceğime inanıyorum. Ancak sizin ekibiniz ve bütçeniz yeterli ise; ***para var, huzur var.*** 
+
+> Düzenleme: Buradaki bütçede hem developer maliyetini hem de Visual Studio lisansını kastetmiştim. [Serkan İnce](http://twitter.com/serkanince444)'nin uyarısıyla birlikte Visual Studio Community sürümünün ücretsiz olduğu gerçeği, bu cümlede sadece developer maliyetlerini bırakıyor.
+
