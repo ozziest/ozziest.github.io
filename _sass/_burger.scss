@@ -13,8 +13,8 @@ $color-stack:
 }
 
 $b-height: 60px; //Height (and width) of the burger menu
-$b-margin-top: 30px; //Burger menu margin (distance from top)
-$b-margin-left: 30px; //Burger menu margin (distance from left)
+$b-margin-top: 20px; //Burger menu margin (distance from top)
+$b-margin-right: 40px; //Burger menu margin (distance from left)
 $b-border-width: 2px; //Width of the borders and 'buns'
 $b-bun-width: 25px; //Width of the 'buns'
 $b-bun-height: $b-border-width; //Height of the 'buns'
@@ -130,15 +130,16 @@ body {
   font-family: $b-font-family;
   font-size: $b-font-size;
   font-weight: $b-font-weight;
-  margin-left: $b-margin-left;
+  margin-right: $b-margin-right;
   text-decoration: none;
   transition: $b-transition;
   width: auto;
+  padding-left: 10px;
 
   &:hover,
   &--active {
     border-left: color(complement) solid $b-border-width;
-    padding-left: $b-txt-pad;
+    padding-left: 0 + $b-txt-pad;
   }
 }
 
@@ -201,7 +202,7 @@ body {
 
 .b-container {
   height: $b-height;
-  left: $b-margin-left;
+  right: $b-margin-right;
   position: absolute;
   top: $b-margin-top;
 
