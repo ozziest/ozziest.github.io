@@ -39,7 +39,7 @@ PHP, C#, JS, Web API, SPA, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codecep
 * [Tech Talks #05 - Bitmeyen Proje - 11.04.2015](http://slides.com/iozguradem/bitmeyen-proje)
 * [Tech Talks #07 - Bitmeyen Kavga - 25.04.2015](http://slides.com/iozguradem/bitmeyen-kavga)
 * [Açık Kaynak Günleri (Tütev) - Neden Paketlere İhtiyacımız Var? - 11.10.2015](http://slides.com/iozguradem/perfect-presentation)
-* [Mavidurak-IO Meetup - GraphQL - 11.10.2015](http://slides.com/iozguradem/graphql)
+* [Mavidurak-IO Meetup - GraphQL - 19.12.2015](http://slides.com/iozguradem/graphql)
 
 ### Sosyal Medya
 
