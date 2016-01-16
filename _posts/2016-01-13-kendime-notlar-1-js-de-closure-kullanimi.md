@@ -25,7 +25,7 @@ var User = (name) => {
     
     return {
         get: () => name,
-        getFullname(surname) => name + surname
+        getFullname: (surname) => name + surname
     };
 
 };
