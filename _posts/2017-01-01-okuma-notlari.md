@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Okuma Notaları 2016"
+title:  "2016 Okuma Notları"
 date:   2016-01-01 0:00
 categories: genel
 tags: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
