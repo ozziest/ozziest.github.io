@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Not #3 - Microservices Hakkında"
-date:   2016-02-07 11:00
-categories: microservices
-tags: microservice, nedir, ne işe yarar, kendime notlar
-meta: microservice, nedir, ne işe yarar, kendime notlar
+title:  "Not #3 - Microservice Notlarım"
+date:   2016-02-07 19:00
+categories: csharp
+tags: csharp, dosya indirme, string, byte array
+meta: csharp, dosya indirme, string, byte array
 author: ozziest
 ---
 
