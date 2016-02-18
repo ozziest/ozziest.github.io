@@ -3,8 +3,8 @@ layout: post
 title:  "Not #3 - Microservice Notlarım"
 date:   2016-02-07 19:00
 categories: csharp
-tags: csharp, dosya indirme, string, byte array
-meta: csharp, dosya indirme, string, byte array
+tags: microservice, nedir, nasıl, avantajlar
+meta: microservice, nedir, nasıl, avantajlar
 author: ozziest
 ---
 
