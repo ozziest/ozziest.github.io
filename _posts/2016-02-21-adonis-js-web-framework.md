@@ -14,7 +14,7 @@ author: ozziest
 
 Adonis dokümanlarında da yer aldığı gibi; Laravel'in özellikleri kasıtlı olarak framework bünyesinde uygulanmaya çalışılmaktadır. Benzerlikleri anlamak için temel bazı tanımlamaları hem Laravel'de hem de Adonis bünyesinde incelememiz yeterli olacaktır.
 
-#### Routing
+#### Routing
 
 <pre><code class="language-php">
 Route::get('user/{id}', 'UserController@showProfile');  // Laravel
