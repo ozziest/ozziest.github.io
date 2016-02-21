@@ -23,3 +23,7 @@ Yıllarca bir çok girişimde bulunmuş ve kendisini de şahsen tanıdığım Ç
 ## [Yalnızlık Paylaşılmaz](http://www.dr.com.tr/Kitap/Yalnizlik-Paylasilmaz/Ozdemir-Asaf/Edebiyat/Siir/Turk-Siiri/urunno=0000000590613) (Özdemir Asaf)
 
 Tüm hayatım boyunca okuduğum ikinci (birincisi Cemal Süreyya'ya ait) şiir kitabı. Ufak bir kitap olmasından ötürü kısa zamanda bitirdim. Genel olarak oldukça beğenmeme karşın özel olarak ***Kaldı***, ***Harcamalar***, ***Cağaloğlu Yokuşu*** ve ***Yalnız'ın Durumları*** isimli şiirleri not aldım ve tekrar tekrar okunacaklar listeme dahil ettim. 
+
+## [Bir Aşka Vuran Güneş](http://www.dr.com.tr/Kitap/Bir-Aska-Vuran-Gunes/Oktay-Rifat/Edebiyat/Siir/Turk-Siiri/urunno=0000000284604) (Oktay Rifat)
+
+Yine [YKY](http://www.ykykultur.com.tr/) tarafından basılan bir şiir kitabıydı. Kesinlikle daha önce okuduğum şiir kitapları kadar beni etkilemediğini itiraf etmem gerekir. Ancak beğendiğim şiirlere örnek olarak ***Mayıs Girer***, ***Elçiler*** ve ***Bulanık Bir Suda*** şiirlerini söyleyebilirim.
