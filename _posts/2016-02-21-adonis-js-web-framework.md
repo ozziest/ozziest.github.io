@@ -72,7 +72,7 @@ response()->json(['name' => 'foo']);   // Laravel
 response.json({ name: "foo" })  // Adonis
 </code></pre>
 
-#### ORM
+#### ORM
 
 Adonis'de de tıplı Laravel'in Eloquent ORM'si gibi bir [Lucid](http://adonisjs.com/docs/2.0/lucid) adında bir ORM kütüphanesi bulunur.
 
@@ -128,7 +128,7 @@ $ ./ace make:model User
 
 Benim görüşlerime göre ***gelecek vaadeden***, ancak ***zamana*** ve ***desteğe*** ihtiyacı olan bir framework denemesidir. Eğer zaman içerisinde ihtiyacı olan desteği diğer developerlardan bulabilir ve geliştirmeler ivme kazanırsa, NodeJS topluluğu tarafından sahiplenilecektir. 
 
-### Kaynaklar
+### Kaynaklar
 
 - [Adonis Resmi Site ve Dokümantasyon](http://adonisjs.com)
 - [Adonis Core Repo](https://github.com/adonisjs/adonis-framework)
