@@ -2,7 +2,7 @@
 layout: post
 title:  "Türk ve Fin Eğitim Sistemleri – 1"
 date:   2012-07-08 19:00
-categories: eğitim
+categories: egitim
 tags: finlandiya eğitim sistemi, türk eğitim sistemi
 meta: finlandiya eğitim sistemi, türk eğitim sistemi
 author: ozziest
