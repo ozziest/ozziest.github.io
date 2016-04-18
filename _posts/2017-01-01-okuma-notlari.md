@@ -27,3 +27,9 @@ Tüm hayatım boyunca okuduğum ikinci (birincisi Cemal Süreyya'ya ait) şiir k
 ## [Bir Aşka Vuran Güneş](http://www.dr.com.tr/Kitap/Bir-Aska-Vuran-Gunes/Oktay-Rifat/Edebiyat/Siir/Turk-Siiri/urunno=0000000284604) (Oktay Rifat)
 
 Yine [YKY](http://www.ykykultur.com.tr/) tarafından basılan bir şiir kitabıydı. Kesinlikle daha önce okuduğum şiir kitapları kadar beni etkilemediğini itiraf etmem gerekir. Ancak beğendiğim şiirlere örnek olarak ***Mayıs Girer***, ***Elçiler*** ve ***Bulanık Bir Suda*** şiirlerini söyleyebilirim.
+
+## [Gen Bencildir](http://www.dr.com.tr/Kitap/Gen-Bencildir/Richard-Dawkins/Bilim/Biyoloji/urunno=0000000601773) (Richard Dawkins)
+
+"Nasıl var olduk?" sorusuna cevap niteliğinde yazılmış ***muhteşem*** bir kitap. Zaman zaman okumak yorucu ve üzerine düşünmeyi, anlamak için çaba sarfetmeyi gerektirse de genellikle akıcı bir dile sahip. Özellikle **Nesillerin Savaşı** ve **Cinsiyetlerin Savaşı** bölümleri oldukça etkileyici.
+
+
