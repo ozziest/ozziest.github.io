@@ -15,22 +15,22 @@ Ayrıca Sakarya’da bulunan [Mavidurak-IO](http://mavidurak.github.io) isimli t
 
 > Detaylı özgemişi [buradan](/files/OAI_Resume.pdf) indirebilirsiniz.
 
-### Eğitim Bilgileri
+### Eğitim Bilgileri
 
 * (2011) Sakarya Üniversitesi - Teknik Eğitim Fakültesi Bilgisayar ve Elektronik Bölümü
 * (2006) A.N. Bilimli Teknik Lisesi - Bilgisayar Bölümü
 
-### İş Deneyimi
+### İş Deneyimi
 
 * (Temmuz 2015 - ?) Polisoft
 * (Şubat 2013 - Temmuz 2015) Ahir Ar-Ge Danışmanlık A.Ş.
 * (Mayıs 2012 - Şubat 2013) Birey Derhaneleri - Yazılım Depertmanı
 
-### Uzmanlıklar
+### Uzmanlıklar
 
 PHP, C#, JS, Web API, SPA, Laravel, Node.js, PHPUnit, Selenium, PHPSpec, Codeception, Git, Memcached, Redis, Linux Sistemler, MySQL, Oracle
 
-### Eğitim ve Seminerler
+### Eğitim ve Seminerler
 
 * [Workshop - Git Eğitimi, 2014](http://slides.com/iozguradem/versiyon-kontrol-sistemi-ve-git)
 * [Tech Talks #01 - Laravel Sunumu, 28.02.2015](http://slides.com/iozguradem/laravel)
