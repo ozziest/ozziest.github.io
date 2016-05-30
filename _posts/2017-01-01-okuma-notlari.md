@@ -32,4 +32,9 @@ Yine [YKY](http://www.ykykultur.com.tr/) tarafından basılan bir şiir kitabıy
 
 "Nasıl var olduk?" sorusuna cevap niteliğinde yazılmış ***muhteşem*** bir kitap. Zaman zaman okumak yorucu ve üzerine düşünmeyi, anlamak için çaba sarfetmeyi gerektirse de genellikle akıcı bir dile sahip. Özellikle **Nesillerin Savaşı** ve **Cinsiyetlerin Savaşı** bölümleri oldukça etkileyici.
 
+## [Yalıda Sabah](http://www.dr.com.tr/Kitap/Yalida-Sabah/Haldun-Taner/Edebiyat/Turk-Oyku/urunno=0000000646721) (Haldun Taner)
+
+Okuduğum ilk öykü kitabı olduğunu söylesem yalan olmaz sanırım. **Ferhan Şensoy**'un bahsetmesi üzerine merak ederek edindiğim bir **Haldun Taner** kitabı. Rivayete göre her gün hiç bir şey yazmazsa, hiç bir işe yaramaza ya da hiç beğenmese dahi Haldun Taner'in ***20 sayfalık yazma pratiği*** sonucu ortaya çıkmış bir öykü kitabı. Zaman zaman bizi anlatan, eski İstanbul'u yaşamayan bizlere ufak görüntüler aktaran bir roman. Kitap içerisindeki favori öyküm "Yalıda Sabah" olmakla birlikte, "Yaprak Ne Canlı Ne Yeşil" adlı öyküyü de yılda bir defa okumayı kendime tavsiye ediyorum.
+
+
 
