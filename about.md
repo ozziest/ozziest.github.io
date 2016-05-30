@@ -13,7 +13,7 @@ Temmuz 2015'de [Polisoft](http://polisoft.com.tr) bünyesine dahil olarak çalı
 
 Ayrıca Sakarya’da bulunan [Mavidurak-IO](http://mavidurak.github.io) isimli toplulukta görev almaktadır.
 
-> Detaylı özgemişi [buradan](/files/OAI_Resume.pdf) indirebilirsiniz.
+> Detaylı özgemişi [buradan](http://resume.ozguradem.net/) inceleyebilirsiniz.
 
 ### Eğitim Bilgileri
 
