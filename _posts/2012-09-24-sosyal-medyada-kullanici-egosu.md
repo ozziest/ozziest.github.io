@@ -14,7 +14,7 @@ Sosyal medya etkisini her geçen gün ciddi bir oranda arttırmakta ve her aland
 
 Bir çok yerde denk gelmişsinizdir ki; “Sosyal Medya Özgürlüktür.” sloganı sosyal medya için sıklıkla kullanılan bir söylevdir. Bu tabirde anlatılmak istenen, eskiden tek taraflı yapılan yayınların aksine, sosyal medyada yer alan tüm haber ve gönderilen kullanıcıların kendi seçimleriyle yapılmaktadır ve organik bir haber/bilgi paylaşım ağı oluşmaktadır. Böylece propaganda nitelikli bilgiler yerine doğal bilgiler kullanıcılara ulaşmaktadır ve kullanıcılar bu bilgileri kendi birikimlerine göre süzerek eylemlerini bu doğrultuda yönlendirmektedirler. Yani artık yayını alan değil bizzat yayıncı konumunda bulunmaktayız. Ancak sosyal medyanın ortaya çıkışı bu amaçlar için gerçekleşmedi. Bu nedenle sosyal medyayı ortaya çıkartan bilgisayar programcıları ve programcı mantığıyla sosyal medyayı incelememiz gerekmektedir.
 
-#### Programcılar Neden Sosyal Medyayı Ortaya Çıkardı?
+#### Programcılar Neden Sosyal Medyayı Ortaya Çıkardı?
 
 İnternetin eski dönemleri TV sistemleri gibi tek taraflı yayın demekti. Web 2.0 adını verdiğimiz hale geldikten sonra kullanıcılar forumlar ve bloglar aracılığı ile veriler girmeye başladılar. Bunu sözlükler takip etti. Daha sonra kullanıcıların birbirleri ile etkileşimini üst düzeye taşıyan sosyal medya ağları ortaya çıktı. Bu sadece işin tarihsel süreci.  Ancak kırılma anı kesinlikle forumlardan sosyal etkileşimli ağlara geçiştir. İnsanlar forumlarda da yazı yazıyorlardı. MSN Messenger aracılığı ile durum güncellemesi yapıyorlardı. Ancak geri dönüt/etkileşim çok çok azdı. Sosyal ağlar Beğenilme özelliğini ortaya soktu ve internet dünyası bambaşka bir çağa geçti.
 
