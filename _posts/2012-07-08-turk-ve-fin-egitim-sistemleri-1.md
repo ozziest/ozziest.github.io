@@ -16,7 +16,7 @@ Eşitlik; toplumdaki tüm bireylerin aynı haklara sahip olması, özel imtiyaz 
 
 Finlandiya’da nüfus dağılımı ülkemize benzer bir yapıdadır; Fin (% 92), İsveç (%6), Sami (%2). Bu dağılım ülkemizde bulunan Türk, Kürt ve diğer milletlerin yapılanmasına oldukça benzemektedir. Bu yapılanma sonucu Finlandiya’nın iki resmi dili olmuştur ve tüm devlet dairelerinde, resmi yazışmalarda iki resmi dil kullanılabilmektedir; Fince ve İsveççe. Tabii ki sadece bununla sınırlı değildir eşitlik, Fince eğitim veren orta öğrenim ve yüksek öğrenim düzeydeki eğitim kurumlarının yanı sıra, İsveççe ve Sami dilinde de eğitim veren kurumlar bulunmaktadır. Bunlara ek olarak ayrıca İngilizce dilinde eğitim veren ve ufak çaplı başka dillerde eğitim veren kurumları da bulunmaktadır. Ancak böyle bir yapıda tüm ülke üzerinde bulunan vatandaşlar eğitime eşit bir şekilde ulaşabilirler. Aksi takdirde; yani ülkemizdeki gibi bir yapı olduğu sürece azınlıklar her zaman daha fazla emek harcamak zorunda kalmaktadırlar. Bu da fırsat eşitliğini ortadan kaldırmaktadır.
 
-### Eğitimde Fırsat Eşitliği
+### Eğitimde Fırsat Eşitliği
 
 T.C. Anayasası’nda Eğitim ve Öğrenim Hakkı 45. madde desi şöyle der;
 
