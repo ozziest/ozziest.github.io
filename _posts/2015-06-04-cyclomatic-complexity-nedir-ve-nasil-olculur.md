@@ -14,7 +14,7 @@ author: ozziest
 
 Bu ölçümü yapan ve teorinin formüllerine bağlı olarak çalışan hazır araçlar vardır. Ben ağırlıklı olarak PHP tarafında kod geliştiren bir geliştirici olduğum için bu işi yapan ve yanında başka raporlamar da gerçekleştiren [PHPLOC](https://github.com/sebastianbergmann/phploc) isimli bir araç kullanıyorum. Kendisi [PHPUnit](https://github.com/sebastianbergmann/phpunit)'i de geliştiren [Sebastian Bergmann](https://github.com/sebastianbergmann) tarafından geliştirilmiş bir araç. 
 
-## PHPLOC Kurulumu
+## PHPLOC Kurulumu
 
 Aşağıdaki adımları izleyerek kurulumu gerçekleştirebilirsiniz.
 
