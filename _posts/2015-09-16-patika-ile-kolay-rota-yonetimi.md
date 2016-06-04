@@ -16,7 +16,7 @@ PHP'de bir çok farklı ve oldukça başarılı **routing** kütüphaneleri bulu
 
 Özellikle API tasarlarken, elimden geldiğinde hafif ve rotalara göre doğrudan beni Controller sınıflarına iletecek bir yapıya ihtiyacım vardı. Önce bu yapıyı kendim kurdum, kullandım ve daha sonra bunun bir paket olmasının güzel olabileceğini düşündüm. Önümüzdeki günlerde gerçekten bir ihtiyaç mı değil mi göreceğiz. :) 
 
-#### Nasıl?
+#### Nasıl?
 
 Paketin kurulumları ve konfigürasyonunu [dokümantasyon](http://ozguradem.net/patika) üzerinden görmeniz mümkün. Çalışmaya hazır hale getirdikten sonra **Patika** istek yapılan URL'yi çözümleyerek, bu URL'yi bir namespace'e dönüştürüyor. Eğer namespace altında bir sınıf varsa bu sınıfı parametrelerle birlikte çağırıyor. Eğer yoksa Controller ya da Method bulunamadı diyerek 2 farklı Exception altında hata veriyor. Böylelikle rota yazmanıza gerek kalmıyor. 
 
