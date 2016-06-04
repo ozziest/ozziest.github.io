@@ -12,7 +12,7 @@ author: ozziest
 
 Composer’la tanışmam yaklaşık 2 sene öncesinde gerçekleşti. 1 yıldır da aktif olarak Composer kullanıyorum. Ancak son dönemde farkettiğim üzere; benim Composer’ı kulanma amacım sürekli başkalarının geliştirdiği paketleri kullanmaya yönelikti. SOLID prensiplerini istisnasız geliştirdiğim her yazılımda kullanma kararımla birlikte, Composer’ın ve yazılım dünyasında paketlerin kilit rol oynadığını fark ettim.
 
-### Nedir Bu Paket?
+### Nedir Bu Paket?
 
 5 yıllık bir web developer olduğunuzu varsayalım. Bu süre içerisinde PHP ile sayısız proje geliştirdiniz. Her yaptığınız projenizde bir oturum açma/kapatma, kullanıcı kaydı ya da belki de yetkilendirme vardı. Bazı sistemlerde içerik yönetimi, bazılarında ise ortam kütüphanesi ya da galeri vardı. Ancak 5 yıl yazılım dünyası için çok uzun bir süre ve bir çok şey değişiyor. Belki ilk projenizde framework kullanmıyordunuz fakat bugüne gelene kadar bir kaç tanesini aktif olarak kullandınız. Eğer yarın başlayacağınız bir projenizde hazır bir paket kullanmayacaksanız ve basit bir oturum açma işlemini bile yeniden kodlayacaksanız gerçekten çok maceracı olmalısınız. Eğer elinizin altında oturum yönetimi için kullanılacak hazır kodlar varsa bunu başka projelerinizde de kullanmanız kadar güzel bir şey olamaz. Ancak bunun için tüm kodlarınız ortak standartlar üzerine inşaa edilmesi gerekiyor.
 
