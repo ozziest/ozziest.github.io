@@ -26,7 +26,7 @@ Bu hepimizin bilinçaltına yerleştirilmiş bir olgu. Üretmeye en çok bunun i
 
 Gerçek hayatta nasıl bir hayat sürdürdüğünüzün hiç önemi yok eğer sosyal medya kullanıyorsanız. Yazı yazabilirsiniz, kısa ve etkili analizler yapabilirsiniz, fotoğraf çekebilirsiniz… Yeter ki bu tür bir şey yapın ve paylaşın. Eskiden fotoğraflar anı olsun diyerek çekilirdi. Geçmişe özlem duyduğunuzda açar bakardınız, o an yanınızda olmayan ya da olamayan ailenize, arkadaşlarınıza ve dostlarınıza bakardınız. Yani fotoğraflar kendiniz içindi. Kendi özlemlerinizi doyurmak için… Şimdi öyle bir ihtiyaç kalmadı. Fotoğrafların var oluş amaçları sosyal medyada paylaşmak oldu. Peki bir insan neden kendi fotoğrafını bir başkası görsün diye uğraşır? Bunun altında çok ciddi bir beğenilme amacı yatmaktadır. Beğeni dediğimiz olgu sosyal medya ile hayatımıza öylesine girmiştir ki konserde check-in yapmamızın bize hiç bir yararı olmamasına rağmen yaparız.
 
-#### Paylaştık, Beğenildik. Peki Sonra?
+#### Paylaştık, Beğenildik. Peki Sonra?
 
 Şuan bir çoğumuzun Facebook albümlerinde binlerce fotoğraf var. Bir sürü konserin bileti, bir sürü check-in, bir sürü tweet var. Binlerce beğeni almışız. Gigabytelar seviyesinde veri göndermişiz sosyal ağlara. Peki bunları kim okuyor, görüyor ya da takip ediyor hiç düşündünüz mü? Sosyal medya takipçilerimizin %5′i kadar az bir seviye. Ne kadar popüler olursanız olun, takipçinizin çok olması sizi çok iyi bir insan yapmaz. Sadece siz öyle hissedersiniz.
 
