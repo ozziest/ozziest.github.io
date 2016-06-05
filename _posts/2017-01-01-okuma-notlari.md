@@ -36,5 +36,26 @@ Yine [YKY](http://www.ykykultur.com.tr/) tarafından basılan bir şiir kitabıy
 
 Okuduğum ilk öykü kitabı olduğunu söylesem yalan olmaz sanırım. **Ferhan Şensoy**'un bahsetmesi üzerine merak ederek edindiğim bir **Haldun Taner** kitabı. Rivayete göre her gün hiç bir şey yazmazsa, hiç bir işe yaramaza ya da hiç beğenmese dahi Haldun Taner'in ***20 sayfalık yazma pratiği*** sonucu ortaya çıkmış bir öykü kitabı. Zaman zaman bizi anlatan, eski İstanbul'u yaşamayan bizlere ufak görüntüler aktaran bir roman. Kitap içerisindeki favori öyküm "Yalıda Sabah" olmakla birlikte, "Yaprak Ne Canlı Ne Yeşil" adlı öyküyü de yılda bir defa okumayı kendime tavsiye ediyorum.
 
+## [Sancho'nun Sabah Yürüyüşü](http://www.dr.com.tr/Kitap/Sanchonun-Sabah-Yuruyusu/Haldun-Taner/Edebiyat/Turk-Oyku/urunno=0000000665033) (Haldun Taner)
+
+***Yalıda Sabah***'dan sonra ***Haldun Taner Öyküsü***'ne vuruldum sanırım. Kitapçıya girdiğimde elimin ilk gittiği yer Haldun Taner'in öyküleri oluyor. Bu kitabında da yine harika bir uslüp ve akıcılık ile öykülerini anlatıyor Taner. Kitaba adını veren **Sancho'nun Sabah Yürüyüşü**, **Salt İnsana Yöneliş** ve **Ases** en beğendiklerim. Aşağıdaki cümleleri de kitaptan alıntılıyorum;
+
+> Dünyanın en nankör yaratığı insanla en sadık yaratığı köpek arasındaki, dünya tarihi kadar eski bu çözülmez sıkı fıkılık, aslında köpeğin insana değil, insanın köpeğe muhtaç oluşundan geliyor.
+
+Sancho'nun Sabah Yürüyüşü
+
+> "Dün erkendi, yarın geçtir, demiştin Reis. Görüyorsun ki bu memlekette bugün de yarın da henüz çok erkendir." 
+
+Salt İnsana Yöneliş
+
+> "1927'de doğdu, 1955'de evlendi."
+
+Salt İnsana Yöneliş
+
+> Gençliğini boşuna tüketip yaşlılığında bunu telafiye kalkan erkeğin acınacak gayretkeşliği gibi. Ne yapacaksanız, birinci yarıda yapın çocuklar. 
+
+Ases
+
+
 
 
