@@ -24,7 +24,7 @@ Bu başlık altında bir web geliştiricinin ***(Full Stack)*** sık kullandığ
 
 - **[chrome://memory-internals]**, Chrome ile birlikte gelen ve bellek kullanımını incelemenize yarayan bir araçtır. Adres satırına `chrome://memory-internals` yazarak ulaşabilir ve bellek kullanımını inceleyebilirsiniz.
 
-## JavaScript
+## JavaScript
 
 - [protractor](https://angular.github.io/protractor), [AngularJS](https://angularjs.org/) ile birlikte geliştirdiğiniz uygulamalar için [end-to-end](https://www.techopedia.com/definition/7035/end-to-end-test) testleri yazmanızı sağlayan bir kütüphanedir.
 

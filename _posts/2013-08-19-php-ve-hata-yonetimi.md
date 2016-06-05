@@ -25,7 +25,7 @@ Aynı örneğimizi ele alalım. Kullanıcı kaydı anında çıkabilecek her hat
 
 Burada başka bir soruna da göz atmak gerekir. Şahsen ben iki türde hata mesajı kullanılıyorum. Birincisi, kullanıcıya göstermem gereken her mesaj için Exception sınıfından genişletilmiş UserException sınıfını ve yazılımsal hatalar için doğrudan Exception sınıfını. Bu benim ne işime yarıyor? UserException’da izleyeceğim yol belli. Bu hata türlerinde “Kullanıcı sıçmıştır”. Bu nedenle kullanıcıya hata ne ise gösterir, kendi işime bakarım. Diğer oluşan her türlü Exception’da “Yazılım sıçmıştır”. Bu durumda da hata ne ise loglarım, kullanıcıya “Bir hata meydana geldi.” gibi yazılımın hatasını gizleyen bir mesaj veririm. Logları sürekli inceleyerek, kullanım anında ortaya çıkan bu hiç beklenmedik durumlardan haberdar olurum ve hepsini ortaya çıktıkça çözerim.
 
-### Sonuç
+### Sonuç
 
 **@** işareti ile olası hataları gizlemek, true/false gibi boolean tipte değerler döndürmek, hata kodları ile hata durumlarını geriye döndürmek asla yapmamanız gereken hatalar. Bunlardan uzak durun. Yazılımınıza asla güvenmeyin. Mutlaka sizin görmediğiniz hatalar çıkacaktır. Bunları sürekli loglayın ve sürekli olarak logları inceleyin. Kullanıcı bile ne olduğunu anlamadan hatayı çözme şansınız var. Aksi halde müşteri sizi arar, “Kullanıcı kayıt olamıyor” der ve siz saatlerce hatayı ararsınız. Log yoksa elinizde sorun nerededir bilemezsiniz. Sonra cevabınız şu olur;
 

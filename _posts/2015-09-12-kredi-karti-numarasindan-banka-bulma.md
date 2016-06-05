@@ -45,7 +45,7 @@ app.factory('$bin', function ($http) {
 </code></pre>
 
 
-### Gist Üzerindeki Dosyalar
+### Gist Üzerindeki Dosyalar
 
 Bir diğer kaynağımız ***Türkiye*** için hazırlanmış olan BIN listeleri. Bulabildiklerimi aşağıda paylaşıyorum. 
 

@@ -14,7 +14,7 @@ Sosyal medya etkisini her geçen gün ciddi bir oranda arttırmakta ve her aland
 
 Bir çok yerde denk gelmişsinizdir ki; “Sosyal Medya Özgürlüktür.” sloganı sosyal medya için sıklıkla kullanılan bir söylevdir. Bu tabirde anlatılmak istenen, eskiden tek taraflı yapılan yayınların aksine, sosyal medyada yer alan tüm haber ve gönderilen kullanıcıların kendi seçimleriyle yapılmaktadır ve organik bir haber/bilgi paylaşım ağı oluşmaktadır. Böylece propaganda nitelikli bilgiler yerine doğal bilgiler kullanıcılara ulaşmaktadır ve kullanıcılar bu bilgileri kendi birikimlerine göre süzerek eylemlerini bu doğrultuda yönlendirmektedirler. Yani artık yayını alan değil bizzat yayıncı konumunda bulunmaktayız. Ancak sosyal medyanın ortaya çıkışı bu amaçlar için gerçekleşmedi. Bu nedenle sosyal medyayı ortaya çıkartan bilgisayar programcıları ve programcı mantığıyla sosyal medyayı incelememiz gerekmektedir.
 
-#### Programcılar Neden Sosyal Medyayı Ortaya Çıkardı?
+#### Programcılar Neden Sosyal Medyayı Ortaya Çıkardı?
 
 İnternetin eski dönemleri TV sistemleri gibi tek taraflı yayın demekti. Web 2.0 adını verdiğimiz hale geldikten sonra kullanıcılar forumlar ve bloglar aracılığı ile veriler girmeye başladılar. Bunu sözlükler takip etti. Daha sonra kullanıcıların birbirleri ile etkileşimini üst düzeye taşıyan sosyal medya ağları ortaya çıktı. Bu sadece işin tarihsel süreci.  Ancak kırılma anı kesinlikle forumlardan sosyal etkileşimli ağlara geçiştir. İnsanlar forumlarda da yazı yazıyorlardı. MSN Messenger aracılığı ile durum güncellemesi yapıyorlardı. Ancak geri dönüt/etkileşim çok çok azdı. Sosyal ağlar Beğenilme özelliğini ortaya soktu ve internet dünyası bambaşka bir çağa geçti.
 
@@ -26,7 +26,7 @@ Bu hepimizin bilinçaltına yerleştirilmiş bir olgu. Üretmeye en çok bunun i
 
 Gerçek hayatta nasıl bir hayat sürdürdüğünüzün hiç önemi yok eğer sosyal medya kullanıyorsanız. Yazı yazabilirsiniz, kısa ve etkili analizler yapabilirsiniz, fotoğraf çekebilirsiniz… Yeter ki bu tür bir şey yapın ve paylaşın. Eskiden fotoğraflar anı olsun diyerek çekilirdi. Geçmişe özlem duyduğunuzda açar bakardınız, o an yanınızda olmayan ya da olamayan ailenize, arkadaşlarınıza ve dostlarınıza bakardınız. Yani fotoğraflar kendiniz içindi. Kendi özlemlerinizi doyurmak için… Şimdi öyle bir ihtiyaç kalmadı. Fotoğrafların var oluş amaçları sosyal medyada paylaşmak oldu. Peki bir insan neden kendi fotoğrafını bir başkası görsün diye uğraşır? Bunun altında çok ciddi bir beğenilme amacı yatmaktadır. Beğeni dediğimiz olgu sosyal medya ile hayatımıza öylesine girmiştir ki konserde check-in yapmamızın bize hiç bir yararı olmamasına rağmen yaparız.
 
-#### Paylaştık, Beğenildik. Peki Sonra?
+#### Paylaştık, Beğenildik. Peki Sonra?
 
 Şuan bir çoğumuzun Facebook albümlerinde binlerce fotoğraf var. Bir sürü konserin bileti, bir sürü check-in, bir sürü tweet var. Binlerce beğeni almışız. Gigabytelar seviyesinde veri göndermişiz sosyal ağlara. Peki bunları kim okuyor, görüyor ya da takip ediyor hiç düşündünüz mü? Sosyal medya takipçilerimizin %5′i kadar az bir seviye. Ne kadar popüler olursanız olun, takipçinizin çok olması sizi çok iyi bir insan yapmaz. Sadece siz öyle hissedersiniz.
 
