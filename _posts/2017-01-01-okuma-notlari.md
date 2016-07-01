@@ -8,7 +8,7 @@ meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 author: ozziest
 ---
 
-İlk defa böyle bir yazı hazırlıyorum. Bu ihtiyacı hissettim çünkü her şeyden evvel çok az okuduğumu farkettim. Okumalarımı sıklaştırdıktan sonra da, yıllar sonra dönüp baktığımda neler okumuşum ve ne hissetmişim görmenin bana mutluluk vereceğine karar verdim. Gelecekte bir parça mutlu olabilmek ve kendime ***anı*** biriktirebilmek adına, **2016** yılında okuduğum kitapları not alıyorum. 
+İlk defa böyle bir yazı hazırlıyorum. Bu ihtiyacı hissettim çünkü her şeyden evvel çok az okuduğumu farkettim. Okumalarımı sıklaştırdıktan sonra da, yıllar sonra dönüp baktığımda neler okumuşum ve ne hissetmişim görmenin bana mutluluk vereceğine karar verdim. Gelecekte bir parça mutlu olabilmek ve kendime ***anı*** biriktirebilmek adına, **2016** yılında okuduğum kitapları not alıyorum.
 
 ## [Eşeğin Fikri](http://www.dr.com.tr/Kitap/Esegin-Fikri/Ferhan-Sensoy/Mizah/Mizah-Romani-Oyku/urunno=0000000171435) (Ferhan Şensoy)
 
@@ -22,7 +22,7 @@ Yıllarca bir çok girişimde bulunmuş ve kendisini de şahsen tanıdığım Ç
 
 ## [Yalnızlık Paylaşılmaz](http://www.dr.com.tr/Kitap/Yalnizlik-Paylasilmaz/Ozdemir-Asaf/Edebiyat/Siir/Turk-Siiri/urunno=0000000590613) (Özdemir Asaf)
 
-Tüm hayatım boyunca okuduğum ikinci (birincisi Cemal Süreyya'ya ait) şiir kitabı. Ufak bir kitap olmasından ötürü kısa zamanda bitirdim. Genel olarak oldukça beğenmeme karşın özel olarak ***Kaldı***, ***Harcamalar***, ***Cağaloğlu Yokuşu*** ve ***Yalnız'ın Durumları*** isimli şiirleri not aldım ve tekrar tekrar okunacaklar listeme dahil ettim. 
+Tüm hayatım boyunca okuduğum ikinci (birincisi Cemal Süreyya'ya ait) şiir kitabı. Ufak bir kitap olmasından ötürü kısa zamanda bitirdim. Genel olarak oldukça beğenmeme karşın özel olarak ***Kaldı***, ***Harcamalar***, ***Cağaloğlu Yokuşu*** ve ***Yalnız'ın Durumları*** isimli şiirleri not aldım ve tekrar tekrar okunacaklar listeme dahil ettim.
 
 ## [Bir Aşka Vuran Güneş](http://www.dr.com.tr/Kitap/Bir-Aska-Vuran-Gunes/Oktay-Rifat/Edebiyat/Siir/Turk-Siiri/urunno=0000000284604) (Oktay Rifat)
 
@@ -44,7 +44,7 @@ Okuduğum ilk öykü kitabı olduğunu söylesem yalan olmaz sanırım. **Ferhan
 
 Sancho'nun Sabah Yürüyüşü
 
-> "Dün erkendi, yarın geçtir, demiştin Reis. Görüyorsun ki bu memlekette bugün de yarın da henüz çok erkendir." 
+> "Dün erkendi, yarın geçtir, demiştin Reis. Görüyorsun ki bu memlekette bugün de yarın da henüz çok erkendir."
 
 Salt İnsana Yöneliş
 
@@ -52,10 +52,14 @@ Salt İnsana Yöneliş
 
 Salt İnsana Yöneliş
 
-> Gençliğini boşuna tüketip yaşlılığında bunu telafiye kalkan erkeğin acınacak gayretkeşliği gibi. Ne yapacaksanız, birinci yarıda yapın çocuklar. 
+> Gençliğini boşuna tüketip yaşlılığında bunu telafiye kalkan erkeğin acınacak gayretkeşliği gibi. Ne yapacaksanız, birinci yarıda yapın çocuklar.
 
 Ases
 
+## [Eski Sokak](http://www.dr.com.tr/Kitap/Eski-Sokak-Secme-Siirler/Behcet-Necatigil/Edebiyat/Siir/Turk-Siiri/urunno=0000000272746) (Behçet Necatigil)
 
+Bir şiir delisi olduğumu söyleyebilirim lakin bu kitabı biraz zor bitirdim. Araya Haldun Taner'in girmesi de buna sebep olmuş olabilir. Yine de **Mavi Işık**, **Sevgilerde**, **Çocuklar**, **Kitaplarda Ölmek** ve **Arada** isimli şiirleri not etmek gerek.
 
+## [Savaş Sanatı](http://www.dr.com.tr/Kitap/Savas-Sanati/Sun-Tzu/Arastirma-Tarih/Politika-Arastirma/Politika/urunno=0000000619168) (Sun Tzu)
 
+Geç farketmiş olduğum bir başka önemli eser. Yüzyıllar öncesinden gelen bir savaş taktikleri kitabı olarak gözükmesine karşın, bir solukta okunabilen, savaştan daha ziyade akıl ve bilim kitabı adlandırılabilir. Tarihte yaşanılmış onca birikim ve tecrübeye rağmen apartman yönetir gibi ülke yönetenlerin ya da siyasi parti yöneticilerinin alıp tekrar tekrar okuması gereken bir kitap. 
