@@ -62,4 +62,8 @@ Bir şiir delisi olduğumu söyleyebilirim lakin bu kitabı biraz zor bitirdim. 
 
 ## [Savaş Sanatı](http://www.dr.com.tr/Kitap/Savas-Sanati/Sun-Tzu/Arastirma-Tarih/Politika-Arastirma/Politika/urunno=0000000619168) (Sun Tzu)
 
-Geç farketmiş olduğum bir başka önemli eser. Yüzyıllar öncesinden gelen bir savaş taktikleri kitabı olarak gözükmesine karşın, bir solukta okunabilen, savaştan daha ziyade akıl ve bilim kitabı adlandırılabilir. Tarihte yaşanılmış onca birikim ve tecrübeye rağmen apartman yönetir gibi ülke yönetenlerin ya da siyasi parti yöneticilerinin alıp tekrar tekrar okuması gereken bir kitap. 
+Geç farketmiş olduğum bir başka önemli eser. Yüzyıllar öncesinden gelen bir savaş taktikleri kitabı olarak gözükmesine karşın, bir solukta okunabilen, savaştan daha ziyade akıl ve bilim kitabı adlandırılabilir. Tarihte yaşanılmış onca birikim ve tecrübeye rağmen apartman yönetir gibi ülke yönetenlerin ya da siyasi parti yöneticilerinin alıp tekrar tekrar okuması gereken bir kitap.
+
+## [Kapitalizm Hakkında Size Söylenmeyen 23 Şey](http://www.dr.com.tr/Kitap/Kapitalizm-Hakkinda-Size-Soylenmeyen-23-Sey/Ha-Joon-Chang/Arastirma-Tarih/Politika-Arastirma/Dunya-Politika-/urunno=0000000371478) (Ha-Joon Chang)
+
+Güney Koreli ekonomist Ha-Joon Chang tarafından yazılan, bildiğimiz ekonomistlerden çok fazla duyamayacağımız şeylerin söylendiği ilginç bir kitap. Serbest piyasa ekonomisini yerden yere vurduğunu söyleyebiliriz. Ancak bu bir ekonomi kitabı olmaktan ziyade, popüler bilim kitabı olarak adlandırılabilir. Kitabın hemen hemen tamamında somut veriler ve karşılaştırmalara çıkarılan sonuçlar sizi şaşırtabilir. Özellikle ***"Daha fazla eğitim bir ülkeyi daha da zenginleştirmez"*** gibi konu başlıklarını düşündüğümüzde, herkesin söylediklerinden farklı şeyler söylendiğini kestirebilirsiniz. Uzun zamandır bu kadar farklı düşünceler içeren bir kitap okumamıştım. Kesinlikle tavsiye ediyorum.
