@@ -75,3 +75,7 @@ Rönesanstan günümüze kalan bu harika eserde Machiavelli nasıl bir hükümda
 ## [Newton Neden Türk Değildi?](http://www.dr.com.tr/Kitap/Newton-Neden-Turk-Degildi/A-M-Celal-Sengor/Arastirma-Tarih/Politika-Arastirma/Politika/urunno=0000000669570) (A.M. Celâl Şengör)
 
 Şüphesiz 2016 yılı Celâl Şengör'ü tam manasıyla tanıdığım yıl olması açısından önemliydi. Bu kitabında, Şengör'ün daha önceden bildiğim fikirlerinin bazılarının yazıya dökülmüş halini buldum. Kısa yazılar halinde olan bu kitapta bir konu bütünlüğünden daha ziyade, ayrı ayrı başlıklar üzerinde vurgulanan bilimin önemini bulmaktasınız. Özellikle ***"Acaba'lı ve Acaba'sız Toplumlar"***, ***"Sağ ve Sol Söylemi Karşısında Doğa Bilimcinin Şaşkınlığı"***, ***"Bilimi Bilim Olmayandan Nasıl Ayırırız?"*** ve ***"Doğa Bilimi, Demokrasinin Sınırları ve Lâiklik İlkesi"*** başlıklı yazıları harika. Celâl Şengör'ün başka kitaplarını da okumak istiyorum.
+
+## [Orhan Veli Bütün Şiirleri](http://www.dr.com.tr/Kitap/Butun-Siirleri-Orhan-Veli/Orhan-Veli/Edebiyat/Siir/Turk-Siiri/urunno=0000000128674) (Orhan Veli)
+
+Şiir kitaplarına ayrı bir düşkünlüğüm vardır. Kendi kendime yüksek sesle şiir okumayı da bilhassa severim. Ancak Orhan Veli'nin şiirlerini tarif etmek yeteneklerimi aşıyor. Yine her zaman yaptığım gibi beğendiğim şiirleri not aldım lâkin buraya yazmayı denesem, bitirememekten korkarım. O nedenle sizlere bu şiir kitabını şiddetle tavsiye ederim. Benim kuracağım adi cümlelerden ziyade, kelimelerin dansını görebilirsiniz.
