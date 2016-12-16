@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016 Okuma Notları"
-date:   2016-01-01 0:00
+date:   2016-12-16 21:30
 categories: genel
 tags: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
@@ -86,4 +86,4 @@ Sosyal medyada dolaşan bir yalan haber vesilesiyle haberdar olduğum bu kitapta
 
 ## [Fırtat](http://www.dr.com.tr/Kitap/Fitrat/Ismail-Saymaz/Arastirma-Tarih/Politika-Arastirma/Turkiye-Politika-/urunno=0000000718523) (İsmail Saymaz)
 
-Şüphesiz 2016 yılı bana iki değerli gazeteci kazandırması açısından oldukça önemli bir yıldı: Ünsanl Ünlü ve İsmail Saymaz. Özellikle İsmail Saymaz'ın araştırmacı kişiliği, anlattığı olaylardaki hukuk araşıyışı bir çok kişiyi derinden etkilemiştir. Tam da bunlar yaşanırken okuduğum bu kitap, İsmail Saymaz'ı hem daha yakından tanımama, hem de yaşadığımız hayatın değersizliğini anlamama sebep oldu. 2016 bir sene içinde en çok kitap okuduğum yıl olarak kayıtlara geçti ve bu yılın en güzel kitabı şüphesiz Fıtrat'tı. Her evde mutlaka bulunması gereken, iş hayatına başlamadan evvel her insanın okuması elzem olan, gözlerinizi dolduracak acı hikaye ve derslerle dolu koca bir ansiklopedi. 
+Şüphesiz 2016 yılı bana iki değerli gazeteci kazandırması açısından oldukça önemli bir yıldı: Ünsanl Ünlü ve İsmail Saymaz. Özellikle İsmail Saymaz'ın araştırmacı kişiliği, anlattığı olaylardaki hukuk araşıyışı bir çok kişiyi derinden etkilemiştir. Tam da bunlar yaşanırken okuduğum bu kitap, İsmail Saymaz'ı hem daha yakından tanımama, hem de yaşadığımız hayatın değersizliğini anlamama sebep oldu. 2016 bir sene içinde en çok kitap okuduğum yıl olarak kayıtlara geçti ve bu yılın en güzel kitabı şüphesiz Fıtrat'tı. Her evde mutlaka bulunması gereken, iş hayatına başlamadan evvel her insanın okuması elzem olan, gözlerinizi dolduracak acı hikaye ve derslerle dolu koca bir ansiklopedi.
