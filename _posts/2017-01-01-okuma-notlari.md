@@ -79,3 +79,11 @@ Rönesanstan günümüze kalan bu harika eserde Machiavelli nasıl bir hükümda
 ## [Sakıncalı Piyade](http://www.dr.com.tr/Kitap/Sakincali-Piyade-Iki-Perdelik-Oyun/Ugur-Mumcu/Sanat-Tasarim/Tiyatro-/Turk-Oyunlari/urunno=0000000069591) (Uğur Mumcu)
 
 Hayatım boyunca okuduğum ilk tiyatro eseri olması nedeniyle benim için farklı bir deneyimdi. Ayrıca Uğur Mumcu'dan okuduğum ilk eserdi. Ancak tiyatro oyunu olmasından ötürü eserin aslını da okuma listeme dahil ettim. Ayrıca oyunda Rutkay Aziz'in de parmağı var. Kitapta bilgi verilmemesine rağmen tiyatro senaryosu haline getirilmesi işlevi kuvvetle muhtemel Rutkay Aziz tarafından gerçekleştirilmiş. Bugün dahi güncelliğini koruyan, günümüz siyasetini özetleyen harika bir çalışma.
+
+## [İsmet İnönü - Hatıralar](http://www.dr.com.tr/Kitap/Ismet-Inonu-Hatiralar/Ismet-Inonu/Edebiyat/Turk-Gunluk-Ani/urunno=0000000216577) (İsmet İnönü)
+
+Sosyal medyada dolaşan bir yalan haber vesilesiyle haberdar olduğum bu kitaptan oldukça yeni şey öğrendim. Elbette bu bir hatırat olduğu için tarihteki olaylara tek bir kişinin gözünden bakıyor olduğu su götürmez bir gerçek. Buna rağmen yine aynı sebepten ötürü oldukça yararlı bir savunma. Özellikle İstiklal Savaşı ve Lozan Konferansı bölümleri beni derinden etkiledi.
+
+## [Fırtat](http://www.dr.com.tr/Kitap/Fitrat/Ismail-Saymaz/Arastirma-Tarih/Politika-Arastirma/Turkiye-Politika-/urunno=0000000718523) (İsmail Saymaz)
+
+Şüphesiz 2016 yılı bana iki değerli gazeteci kazandırması açısından oldukça önemli bir yıldı: Ünsanl Ünlü ve İsmail Saymaz. Özellikle İsmail Saymaz'ın araştırmacı kişiliği, anlattığı olaylardaki hukuk araşıyışı bir çok kişiyi derinden etkilemiştir. Tam da bunlar yaşanırken okuduğum bu kitap, İsmail Saymaz'ı hem daha yakından tanımama, hem de yaşadığımız hayatın değersizliğini anlamama sebep oldu. 2016 bir sene içinde en çok kitap okuduğum yıl olarak kayıtlara geçti ve bu yılın en güzel kitabı şüphesiz Fıtrat'tı. Her evde mutlaka bulunması gereken, iş hayatına başlamadan evvel her insanın okuması elzem olan, gözlerinizi dolduracak acı hikaye ve derslerle dolu koca bir ansiklopedi. 
