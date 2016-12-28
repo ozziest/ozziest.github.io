@@ -87,3 +87,11 @@ Sosyal medyada dolaşan bir yalan haber vesilesiyle haberdar olduğum bu kitapta
 ## [Fırtat](http://www.dr.com.tr/Kitap/Fitrat/Ismail-Saymaz/Arastirma-Tarih/Politika-Arastirma/Turkiye-Politika-/urunno=0000000718523) (İsmail Saymaz)
 
 Şüphesiz 2016 yılı bana iki değerli gazeteci kazandırması açısından oldukça önemli bir yıldı: Ünsanl Ünlü ve İsmail Saymaz. Özellikle İsmail Saymaz'ın araştırmacı kişiliği, anlattığı olaylardaki hukuk araşıyışı bir çok kişiyi derinden etkilemiştir. Tam da bunlar yaşanırken okuduğum bu kitap, İsmail Saymaz'ı hem daha yakından tanımama, hem de yaşadığımız hayatın değersizliğini anlamama sebep oldu. 2016 bir sene içinde en çok kitap okuduğum yıl olarak kayıtlara geçti ve bu yılın en güzel kitabı şüphesiz Fıtrat'tı. Her evde mutlaka bulunması gereken, iş hayatına başlamadan evvel her insanın okuması elzem olan, gözlerinizi dolduracak acı hikaye ve derslerle dolu koca bir ansiklopedi.
+
+## [Dans Edemeyeceksem Bu Benim Devrimim Değildir](http://www.dr.com.tr/Kitap/Dans-Edemeyeceksem-Bu-Benim-Devrimim-Degildir/Emma-Goldman/Arastirma-Tarih/Kadin/urunno=0000000216169?gclid=Cj0KEQiA4o3DBRCJsZqh8vWqt_8BEiQA2Fw0eUvmvqo1e25pd5wihD_EocNGmwhnVl43VdkbSqsqh6oaAnsP8P8HAQ) (Emma Goldman)
+
+Emma Goldman'ın derleme yazılarından oluşan bu kitap, özellikle evlilik üzerinde harika tespitlerde bulunarak, yakşalık bir asır öncesinden günümüze ışık tutuyor. Türkiye'de ki tüm erkek ve kadınların okuması gereken, dolu dolu bir fikir kütüphanesi.
+
+## [Al Sana Bahar](http://www.dr.com.tr/Kitap/Al-Sana-Bahar/Husnu-Mahalli/Arastirma-Tarih/Politika-Arastirma/Turkiye-Politika-/urunno=0000000684971) (Hüsnü Mahalli)
+
+Hüsnü Mahalli adını ilk kez tutuklandığında duydum. Hakkında biraz araştırma yaptığımızda özellikle Arap Baharı ve Suriye konusuna oldukça bilgi sahibi bir uzman olduğuna karar verdiğim için bu kitabını okumaya başladım. Hiç bir fikre sabit kalmayı doğru bulmadığımdan, söylediği her şeyi kabul etmek adeti edinmedim. Ancak yazdıklarının çok büyük bir bölümü yabana atılmayacak bilgilerden oluşuyor.
