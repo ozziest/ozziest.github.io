@@ -143,13 +143,13 @@ Kabul testlerindeki amaç; yazılımın sunulacağı kullanıcı grubunun yazıl
 - Bir resme tıklandığında modal açılması; **fonksiyonel test**.
 - Yeni bir kullanıcı kaydedilmesinin arayüz üzerinden testi; **kabul testi**.
 
-### 7. Sonuç
+### 6. Sonuç
 
 Herkes yazılım üretebilir ve üretilen her yazılımda hatalar her ne kadar dikkat edilse de olacaktır. Hataları en aza indirmek ve sürdürülebilir yazılımlar üretmek için testlere ihtiyaç duyulmaktadır. Hangi testleri hangi durumda geliştirmek gerektiği konusuna bu makale üzerinde -elimden geldiğince- değinmeye çalıştım. Umarım test türleri hakkında fikir sahibi olmanız açısından yardımcı olabilmiştir.
 
 Eğer yazıyı beğendiyseniz ve yararlı olduğunu düşünüyorsanız ***paylaşarak*** bu yazının daha fazla kişiye ulaşmasını sağlayabilirsiniz. Eksik gördüğünüz yerler var ise değerli ***yorumlarınızla*** katkıda bulunabilirsiniz. 
 
-### 8. Kaynakça
+### 7. Kaynakça
 
 - [1] [Software Testing](https://en.wikipedia.org/wiki/Software_testing)
 - [2] [The Art of Unit Testing: with examples in C#](https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890)
