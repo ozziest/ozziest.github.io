@@ -26,7 +26,7 @@ Söz konusu Windows Servisi olduğu için, Windows işletim sistemine sahip olan
 - [ASP.NET Web API Self Host](https://www.nuget.org/packages/AspNetWebApi.SelfHost/) paketi Nuget üzerinden kurulur.
 - OnStart bölümü aşağıdaki şekilde güncellenerek Web API'nin ayağa kalkması sağlanır;
 
-<pre><code class="language-c">
+<pre><code class="language-csharp">
 
 private HttpSelfHostServer server;
 private HttpSelfHostConfiguration config;
@@ -47,7 +47,7 @@ protected override void OnStart(string[] args)
 
 - OnStop metodu aşağıdaki şekilde güncellerek durdurma anında Web API'nin de durması sağlanır;
 
-<pre><code class="language-c">
+<pre><code class="language-csharp">
 protected override void OnStart(string[] args)
 {
     server.CloseAsync().Wait();
@@ -57,7 +57,7 @@ protected override void OnStart(string[] args)
 
 - Bu adımdan sonra aşağıdaki gibi Controller dosyaları oluşturarak Web API geliştirebilirsiniz;
 
-<pre><code class="language-c">
+<pre><code class="language-csharp">
 public class ServiceController: ApiController
 {
 
