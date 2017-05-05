@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Not #9 - CSharp İle Generic Sınıf İşlemleri"
+date:   2017-05-05 23:00
+categories: not
+tags: csharp, generic, class, instance
+meta: csharp, generic, class, instance
+author: ozziest
+---
+
+> Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.
+
+### Giriş
+
+C# üzerinde sevdiğim bir başka özellik, zarif kullanımları açısından ***Generic Classes*** kavramı. Bu tarz sınıflar belirli işlemlerin gerçekleştirilmesini, belirli sabit veri türlerinden bağımsız olarak yapmaya yarıyor. Bu yazı üzerinde de unutmak istemediğim bazı kullanımları not almayı istiyorum.
+
+### Uygulama
+
+<pre><code class="language-csharp">
+public class Test 
+{
+
+    public void Process< T >(List< T > list1, List< T > list2)
+    {
+        Type type = typeof(T);
+        MyCustomType instance = (MyCustomType)Activator.CreateInstance(type);        
+    }
+
+    public void Run()
+    {
+        List< string > users = new List< string >();
+        List< int > numbers = new List< int >();
+        Process< MyCustomType >(users, numbers);
+    }
+
+}
+</code></pre>
+
+- **Process** metodu tanımında nasıl Generic Class alabileceğimizi ve metodun içerisinde de (Generic Class konusundan bağımsız olarak) nasıl bir type için yeni bir instance oluşturabileceğimizi görüyoruz.
+- **Run** metodu içerisinde de Generic Class tanımı içeren bir metodu nasıl çağırabileceğimizin örneği bulunmaktadır.
