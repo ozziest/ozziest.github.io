@@ -20,17 +20,15 @@ C# üzerinde sevdiğim bir başka özellik, zarif kullanımları açısından **
 public class Test 
 {
 
-    public void Process< T >(List< T > list1, List< T > list2)
+    public void Process< T >()
     {
         Type type = typeof(T);
-        MyCustomType instance = (MyCustomType)Activator.CreateInstance(type);        
+        MyCustomType instance = (MyCustomType)Activator.CreateInstance(type);
     }
 
     public void Run()
     {
-        List< string > users = new List< string >();
-        List< int > numbers = new List< int >();
-        Process< MyCustomType >(users, numbers);
+        Process< MyCustomType >();
     }
 
 }
