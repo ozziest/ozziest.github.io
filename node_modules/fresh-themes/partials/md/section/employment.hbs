@@ -1,0 +1,19 @@
+{{#section "employment"}}
+## {{{sectionTitle "EMPLOYMENT"}}}
+
+{{#each r.employment.history }}
+{{#if url}}
+### *{{{ position }}}*, [{{{ employer }}}]({{{ url }}}) ({{dateRange .}})
+{{else}}
+### *{{{ position }}}*, {{{ employer }}} ({{dateRange .}})
+{{/if}}
+
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}

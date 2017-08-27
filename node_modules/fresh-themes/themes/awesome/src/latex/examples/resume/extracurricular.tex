@@ -1,0 +1,28 @@
+[~ if (r.extracurricular && r.extracurricular.length) { ~]
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Extracurricular Activity}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+[~ _.each( r.extracurricular, function(cur) { ~]
+%---------------------------------------------------------
+  \cventry
+    {[[ cur.title ]]} % Affiliation/role
+    {[[ cur.activity ]]} % Organization/group
+    {[[ cur.location ]]} % Location
+    {[[ h.dateRange(cur) ]]} % Date(s)
+    {[~ if (cur.highlights && cur.highlights.length ) { ~]
+      \begin{cvitems} % Description(s) of experience/contributions/knowledge
+[[ h.pad( cur.highlights.map( function(h) { return '\\item {' + h + '}' }), -8 ) ]]
+      \end{cvitems}
+    [~ } ~]}
+
+[~ }); ~]
+%---------------------------------------------------------
+\end{cventries}
+[~ } ~]

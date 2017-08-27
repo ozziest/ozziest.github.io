@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ RAW.name }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    {{{styleSheet "compact-html.css"}}}
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>{{{ r.name }}}</h1>
+        <div id="contact">
+          {{#has 'contact.email'}}<div class="email"><a href="mailto:{{{ RAW.contact.email }}}">{{ RAW.contact.email }}</a></div>{{/has}}
+          {{#has 'contact.phone'}}<div class="phone">{{ RAW.contact.phone }}</div>{{/has}}
+          {{#has 'contact.website'}}<div class="website"><a href="{{{ RAW.contact.website }}}">{{trimURL RAW.contact.website }}</a></div>{{/has}}
+        </div>
+      </header>
+
+{{!<!--
+
+  INLINE TEMPLATE DEFINITIONS
+
+-->}}
+
+{{#*inline "icon-skills"}}<span class="fa fa-lg fa-code"></span>{{/inline}}
+{{#*inline "icon-employment"}}<span class="fa fa-building"></span>{{/inline}}
+{{#*inline "icon-projects"}}<span class="fa fa-star"></span>{{/inline}}
+{{#*inline "icon-governance"}}<span class="fa fa-balance-scale"></span>{{/inline}}
+{{#*inline "icon-education"}}<span class="fa fa-mortar-board"></span>{{/inline}}
+{{#*inline "icon-service"}}<span class="fa fa-child"></span>{{/inline}}
+{{#*inline "icon-affiliation"}}<span class="fa fa-share-alt"></span>{{/inline}}
+{{#*inline "icon-samples"}}<span class="fa fa-share"></span>{{/inline}}
+{{#*inline "icon-writing"}}<span class="fa fa-pencil"></span>{{/inline}}
+{{#*inline "icon-reading"}}<span class="fa fa-book"></span>{{/inline}}
+{{#*inline "icon-recognition"}}<span class="fa fa-trophy"></span>{{/inline}}
+{{#*inline "icon-speaking"}}<span class="fa fa-users"></span>{{/inline}}
+{{#*inline "icon-testimonials"}}<span class="fa fa-quote-right"></span>{{/inline}}
+{{#*inline "icon-references"}}<span class="fa fa-thumbs-o-up"></span>{{/inline}}
+{{#*inline "icon-interests"}}<span class="fa fa-bicycle"></span>{{/inline}}
+
+{{#*inline "body-employment" }}
+<div>
+  <h3><em>{{ position }}</em>,
+    {{#if url }}
+    <a href="{{{ url }}}">{{ employer }}</a>
+    {{else}}
+    {{ employer }}
+    {{/if}}
+    </h3>
+    <span class="tenure">{{dateRange .}}</span>
+  <p>{{{ summary }}}</p>
+  {{> highlights }}
+  {{#if keywords}}
+  <span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+  {{/if}}
+</div>
+{{/inline}}
+
+{{#*inline "body-projects" }}
+<div>
+  <h3><em>{{ role }}</em>,
+    {{#if url }}
+    <a href="{{{ url }}}">{{ title }}</a>
+    {{else}}
+    {{ title }}
+    {{/if}}
+    </h3>
+    <span class="tenure">{{dateRange .}}</span>
+  <p>{{{ summary }}}</p>
+  {{> highlights }}
+  {{#if keywords}}
+  <span class="keywords">{{#each keywords}}{{{ . }}} {{/each}}</span>
+  {{/if}}
+</div>
+{{/inline}}
+
+{{!<!--
+
+  RESUME SECTIONS
+
+-->}}
+
+{{#*inline "header-info"}}{{/inline}}
+{{> section/info }}
+{{> section/skills _icon="icon-skills"}}
+{{> section/employment _icon="icon-employment"}}
+{{> section/projects _icon="icon-projects"}}
+{{> section/governance _icon="icon-governance"}}
+{{> section/education _icon="icon-education"}}
+{{> section/service _icon="icon-service"}}
+{{> section/affiliation _icon="icon-affiliation"}}
+{{> section/samples _icon="icon-samples"}}
+{{> section/writing _icon="icon-writing"}}
+{{> section/reading _icon="icon-reading"}}
+{{> section/recognition _icon="icon-recognition"}}
+{{> section/speaking _icon="icon-speaking"}}
+{{> section/testimonials _icon="icon-testimonials"}}
+{{> section/references _icon="icon-references"}}
+{{> section/interests _icon="icon-interests"}}
+
+    </main>
+  </body>
+</html>

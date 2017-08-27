@@ -1,0 +1,38 @@
+{
+  "name": "lazy-globby",
+  "description": "Lazily require globby, since it takes so long to load (because of glob).",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/lazy-globby",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/lazy-globby.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/lazy-globby/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "globby": "^2.0.0",
+    "lazy-cache": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "glob"
+  ]
+}

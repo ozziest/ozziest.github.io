@@ -1,0 +1,21 @@
+{{#section 'projects'}}
+## {{{sectionTitle "PROJECTS"}}}
+
+{{#each r.projects }}
+{{#if url }}
+### *{{{camelCase role }}}*, [{{{ title }}}]({{{ url }}}) ({{dateRange .}})
+{{else}}
+### *{{{camelCase role }}}*, {{{ title }}} ({{dateRange .}})
+{{/if}}
+
+{{{ description }}}
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ . }}}
+
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}

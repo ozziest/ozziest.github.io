@@ -1,0 +1,42 @@
+{
+  "name": "fresh-themes",
+  "version": "0.15.1-beta",
+  "description": "Multiformat themes and templates for your résumé / CV.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fluentdesk/fresh-themes.git"
+  },
+  "main": "README.md",
+  "keywords": [
+    "résumé",
+    "resume",
+    "CV",
+    "employment",
+    "portfolio",
+    "Handlebars",
+    "Underscore",
+    "Markdown",
+    "LaTeX",
+    "HTML",
+    "Word",
+    "Microsoft Word",
+    "PDF",
+    "Acrobat",
+    "Adobe",
+    "JSON",
+    "YAML"
+  ],
+  "author": "hacksalot <hacksalot@indevious.com> (https://github.com/hacksalot)",
+  "contributors": [
+    "Brett Hardin (https://github.com/bhardin)",
+    "Evan Plaice <evanplaice@gmail.com> (https://github.com/evanplaice)",
+    "Ya Zhuang (https://github.com/zhuangya)",
+    "hacksalot <hacksalot@indevious.com> (https://github.com/hacksalot)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluentdesk/fresh-themes/issues"
+  },
+  "homepage": "https://github.com/fluentdesk/fresh-themes",
+  "dependencies": { }
+}

@@ -1,0 +1,15 @@
+{{#section 'speaking'}}
+## {{{sectionTitle "SPEAKING"}}}
+
+{{#each r.speaking}}
+### *{{{ title }}}*, {{{ event }}} ({{date date 'YYYY'}})
+
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}

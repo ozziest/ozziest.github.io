@@ -1,0 +1,563 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Özgür Adem Işıklı</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Özgür Adem Işıklı
+					</h1>
+					<h2>
+						Software Developer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">i.ozguradem@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+90 554 632 26 93</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://ozguradem.net">http://ozguradem.net</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>I am a software developer who has 5 years experience about software development, especially in web development. I have created different web applications, using PHP, C# or NodeJS. I am familiar modern web frameworks (back-end or front-end) such as Laravel, Symfony, AngularJS, VueJS or React. I am also familiar unit testing concept and libraries such as PHPUnit, CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about SOLID principles and best practices when I develop a web application in order to write readable, maintainable and testable code. In addition, I love to play with Symfony components as a hobby. You may check my GitHub account and review my codes which I&#x27;ve written if you want to learn more information about me.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Twitter
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://twitter.com/iozguradem">iozguradem</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Linkedin
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/ozguradem">ozguradem</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/ozziest">ozziest</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Polisoft</span>
+					<span class="date">
+						2015-07-09 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://polisoft.com.tr">http://polisoft.com.tr</a>
+				</div>
+				<div class="position">
+					Full Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>I have been developed a single page web application about insurance industry with using C# and AngularJS. The application have connection with a lot of SOAP web services in order to operate all system. Also I have been developing a new application which users can design a complex system. The application allows to user to create another web application in constant rules. Users can design tables, wizards or forms. They can set the rules of forms and they can write even formulas like Microsoft Excel. Additionally, users can create Rest APIs in order to system can be used by third by application.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Freelance</span>
+					<span class="date">
+						2015-01-01 — 2015-06-01
+					</span>
+				</h4>
+				<div class="position">
+					Software Consultant
+				</div>
+				<div class="summary">
+					<p>I helped to create a humonoid robot which is developed by RA Nuretting Gokhan Adar, Sakarya University. We used C++ as a language and Roboting Operating System (ROS) in that project. All equations and maths have been designed by Mr. Adar. I have just helped to implementations.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ahir Inc</span>
+					<span class="date">
+						2013-02-13 — 2016-07-09
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://ahir.com.tr">http://ahir.com.tr</a>
+				</div>
+				<div class="position">
+					Full Stack Web Developer
+				</div>
+				<div class="summary">
+					<p>I have created three single page applications which can run on cloud with using PHP and Angular. I have used CodeIgniter, Laravel and Symfony 2 as back end framework. In one application, jQuery has been used. In other applications, AngularJS has been used as front end framework.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Birey</span>
+					<span class="date">
+						2012-05-30 — 2013-02-13
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://birey.com.tr">http://birey.com.tr</a>
+				</div>
+				<div class="position">
+					Software Developer
+				</div>
+				<div class="summary">
+					<p>I have developed the web application which is already exists and is about school management system. I was using old school  ways bacause of the project. That&#x27;s why I quite. Nevertheless I have added new modules on the application.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mavidurak IO</span>
+					<span class="date">
+						2014-08-12 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://mavidurak.github.io/">http://mavidurak.github.io/</a>
+				</div>
+				<div class="position">
+					Founder
+				</div>
+				<div class="summary">
+					<p>Mavidurak-IO is a software community which is located in Sakarya, near of the Istanbul. We had set a lot of meetings and training with developers who live in Sakarya.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Sakarya University</span>
+					<span class="date">
+						2006-09-01 — 2010-06-24
+					</span>
+				</h4>
+				<div class="area">
+					Computer And Electronics
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>A.N. Bilimli Technical High School</span>
+					<span class="date">
+						2002-09-15 — 2006-05-24
+					</span>
+				</h4>
+				<div class="area">
+					Software Development
+				</div>
+				<div class="studyType">
+					Technical High School
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="publications" class="row">
+		<aside class="col-sm-3">
+			<h3>Publications</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Package Development With PHP (Turkish)</span>
+					<span class="date">
+						2015-01-26
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://leanpub.com/phpilepaketgelistirme"></a>
+				</div>
+				<div class="publisher">
+					<em>Published by</em>
+					<strong>Ozgur Adem Isikli</strong>
+				</div>
+				<div class="summary">
+					<p>The book is about how can you develop and test a package which is readable, maintainable in PHP.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>NodeJS</li>
+					<li>C#</li>
+					<li>Javascript</li>
+					<li>PHP</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Back-End Frameworks</h4>
+				</div>
+				<ul class="keywords">
+					<li>Laravel</li>
+					<li>CodeIgniter</li>
+					<li>Symfony2</li>
+					<li>ExpressJS</li>
+					<li>.Net MVC</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Front-End Frameworks &amp; Libraries</h4>
+				</div>
+				<ul class="keywords">
+					<li>AngularJS</li>
+					<li>VueJS</li>
+					<li>React</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Testing Libraries</h4>
+				</div>
+				<ul class="keywords">
+					<li>PHPUnit</li>
+					<li>Mockery</li>
+					<li>PHPSpec</li>
+					<li>CodeCeption</li>
+					<li>Jasmine</li>
+					<li>Mocha</li>
+					<li>NUnit</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Databases</h4>
+				</div>
+				<ul class="keywords">
+					<li>MySQL</li>
+					<li>MSSQL</li>
+					<li>Oracle</li>
+					<li>MongoDB</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Others</h4>
+				</div>
+				<ul class="keywords">
+					<li>Git</li>
+					<li>Linux Systems</li>
+					<li>Memcache</li>
+					<li>Redis</li>
+					<li>RabbitMQ</li>
+					<li>ROS</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Turkish</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Upper Intermediate (B2)
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	</div>
+	
+	</body>
+</html>

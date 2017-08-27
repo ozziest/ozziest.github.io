@@ -1,0 +1,19 @@
+{{#section 'education'}}
+## {{{sectionTitle "EDUCATION"}}}
+
+{{#each r.education.history}}
+{{#if url}}
+### [{{{ institution }}}]({{{ url }}}) ({{dateRange .}})
+{{else}}
+### {{{ institution }}} ({{dateRange .}})
+{{/if}}
+
+{{#if summary }}
+{{{ summary }}}
+{{/if}}
+{{#if courses}}
+{{#each courses}}
+  - {{{ this }}}{{/each}}{{/if}}
+
+{{/each}}
+{{/section}}

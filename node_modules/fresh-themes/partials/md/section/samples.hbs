@@ -1,0 +1,19 @@
+{{#section 'samples'}}
+## {{{sectionTitle "SAMPLES"}}}
+
+{{#each r.samples }}
+{{#if url}}
+### [{{{ title }}}]({{{ url }}}) ({{date date}})
+{{else}}
+### {{{ title }}} ({{date date}})
+{{/if}}
+
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}

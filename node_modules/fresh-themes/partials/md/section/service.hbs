@@ -1,0 +1,19 @@
+{{#section 'service'}}
+## {{{sectionTitle "SERVICE"}}}
+
+{{#each r.service.history }}
+{{#if url}}
+### *{{{ position }}}*, [{{{ organization }}}]({{{ url }}}) ({{dateRange.}})
+{{else}}
+### *{{{ position }}}*, {{{ organization }}} ({{dateRange .}})
+{{/if}}
+
+{{{ summary }}}
+{{#if highlights}}
+{{#each highlights}}
+  - {{{ this }}}
+{{/each}}
+{{/if}}
+
+{{/each}}
+{{/section}}

@@ -1,0 +1,28 @@
+[~ if (r.education && r.education.history && r.education.history.length) { ~]
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+\cvsection{Education}
+
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cventries}
+[~ _.each( r.education.history, function(edu) { ~]
+%---------------------------------------------------------
+  \cventry
+    {[[ edu.title ]]} % Degree
+    {[[ edu.institution ]]} % Institution
+    {[[ edu.location ]]} % Location
+    {[[ h.dateRange( edu ) ]]} % Date(s)
+    {[~ if( edu.highlights && edu.highlights.length ) { ~]
+      \begin{cvitems} % Description(s) bullet points
+[[ h.pad( edu.highlights.map( function(h) { return '\\item {' + h + '}' }), -8 ) ]]
+      \end{cvitems}
+    [~ } ~]}
+
+[~ }); ~]
+%---------------------------------------------------------
+\end{cventries}
+[~ } ~]
