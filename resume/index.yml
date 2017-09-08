@@ -5,7 +5,7 @@ basics:
   email: i.ozguradem@gmail.com
   phone: '+90 554 632 26 93'
   website: 'http://ozguradem.net'
-  summary: 'I am a software developer who has 5 years experience about software development, especially in web development. I have created different web applications, using PHP, C# or NodeJS. I am familiar modern web frameworks (back-end or front-end) such as Laravel, Symfony, AngularJS, VueJS or React. I am also familiar unit testing concept and libraries such as PHPUnit, CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about SOLID principles and best practices when I develop a web application in order to write readable, maintainable and testable code. In addition, I love to play with Symfony components as a hobby. You may check my GitHub account and review my codes which I''ve written if you want to learn more information about me.'
+  summary: 'I am a software developer who has 6 years experience about software development, especially in web development. I have created different web applications, using PHP, C# or NodeJS. I am familiar modern web frameworks (back-end or front-end) such as Laravel, Symfony, AngularJS, VueJS or React. I am also familiar unit testing concept and libraries such as PHPUnit, CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about SOLID principles and best practices when I develop a web application in order to write readable, maintainable and testable code. In addition, I love to play with Symfony components as a hobby. You may check my GitHub account and review my codes which I''ve written if you want to learn more information about me.'
   location:
     postalCode: '54100'
     city: Sakarya
@@ -27,8 +27,8 @@ basics:
 work:
   -
     company: Polisoft
-    position: 'Full Stack Web Developer'
-    website: 'http://polisoft.com.tr'
+    position: 'Software Developer'
+    website: 'http://polisoft.co.uk'
     startDate: '2015-07-09'
     summary: 'I have been developed a single page web application about insurance industry with using C# and AngularJS. The application have connection with a lot of SOAP web services in order to operate all system. Also I have been developing a new application which users can design a complex system. The application allows to user to create another web application in constant rules. Users can design tables, wizards or forms. They can set the rules of forms and they can write even formulas like Microsoft Excel. Additionally, users can create Rest APIs in order to system can be used by third by application.'
   -
@@ -39,7 +39,7 @@ work:
     summary: 'I helped to create a humonoid robot which is developed by RA Nuretting Gokhan Adar, Sakarya University. We used C++ as a language and Roboting Operating System (ROS) in that project. All equations and maths have been designed by Mr. Adar. I have just helped to implementations.'
   -
     company: 'Ahir Inc'
-    position: 'Full Stack Web Developer'
+    position: 'Software Developer'
     website: 'http://ahir.com.tr'
     startDate: '2013-02-13'
     endDate: '2016-07-09'
@@ -61,8 +61,13 @@ volunteer:
 education:
   -
     institution: 'Sakarya University'
+    area: 'Computer And Information Engineering'
+    studyType: 'Master''s degree'
+    startDate: '2017-07-17'
+  -
+    institution: 'Sakarya University'
     area: 'Computer And Electronics'
-    studyType: Bachelor
+    studyType: 'Bachelor''s degree'
     startDate: '2006-09-01'
     endDate: '2010-06-24'
     gpa: '2.34 / 4'
