@@ -53,6 +53,12 @@ work:
     summary: 'I have developed the web application which is already exists and is about school management system. I was using old school  ways bacause of the project. That''s why I quite. Nevertheless I have added new modules on the application.'
 volunteer:
   -
+    organization: 'Sakarya Coders'
+    position: 'Volunteer, Trainer'
+    website: 'https://www.meetup.com/Sakarya-Coders/'
+    startDate: '2017-04-04'
+    summary: 'Yet another software community in Sakarya.'
+  -
     organization: 'Mavidurak IO'
     position: Founder
     website: 'http://mavidurak.github.io/'
@@ -96,11 +102,11 @@ skills:
   -
     name: 'Back-End Frameworks'
     keywords:
+      - '.Net MVC'
       - Laravel
       - CodeIgniter
       - Symfony2
       - ExpressJS
-      - '.Net MVC'
   -
     name: 'Front-End Frameworks & Libraries'
     keywords:

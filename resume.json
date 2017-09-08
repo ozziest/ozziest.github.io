@@ -70,7 +70,14 @@
         "website": "http://mavidurak.github.io/",
         "startDate": "2014-08-12",
         "summary": "Mavidurak-IO is a software community which is located in Sakarya, near of the Istanbul. We had set a lot of meetings and training with developers who live in Sakarya."
-      }
+      },
+      {
+        "organization": "Sakarya Coders",
+        "position": "Volunteer, Trainer",
+        "website": "https://www.meetup.com/Sakarya-Coders/",
+        "startDate": "2017-04-04",
+        "summary": "Yet another software community in Sakarya."
+      }      
     ],
     "education": [
       {
@@ -118,11 +125,11 @@
       {
         "name": "Back-End Frameworks",
         "keywords": [
+          ".Net MVC",
           "Laravel",
           "CodeIgniter",
           "Symfony2",
-          "ExpressJS",
-          ".Net MVC"
+          "ExpressJS"
         ]
       },
       {
