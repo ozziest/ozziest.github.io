@@ -105,8 +105,8 @@
       {
         "name": "Languages",
         "skills": [
-          "NodeJS",
           "C#",
+          "NodeJS",
           "Javascript",
           "PHP"
         ]
@@ -115,10 +115,12 @@
         "name": "Back-End Frameworks",
         "skills": [
           ".Net MVC",
+          ".Net Core",
           "Laravel",
-          "CodeIgniter",
           "Symfony2",
-          "ExpressJS"
+          "CodeIgniter",
+          "ExpressJS",
+          "AdonisJS"
         ]
       },
       {
@@ -132,6 +134,7 @@
       {
         "name": "Testing Libraries",
         "skills": [
+          "xUnit",
           "PHPUnit",
           "Mockery",
           "PHPSpec",
@@ -158,7 +161,10 @@
           "Memcache",
           "Redis",
           "RabbitMQ",
-          "ROS"
+          "ROS",
+          "Jenkins",
+          "TravisCI",
+          "Docker"
         ]
       }
     ]
