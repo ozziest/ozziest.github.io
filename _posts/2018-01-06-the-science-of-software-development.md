@@ -85,7 +85,7 @@ When we select source file to view its complexity details in Metric Viewer, the 
 
 ### Conclusion
 
-I have talked about how can you measure a framework or a library and I referred some links about it. Benchmark Tests, Cyclomatic Complexity or Halstead Complexity Measure are just methods which you can use to understand of your code's reactions about contant situation. They can't say everything but they say something scientific. Choosing a technology, a framework or a library can't solve all problems which you have and you can't compare them directly. 
+I have talked about how you can measure a framework or a library and I referred some links about it. Benchmark Tests, Cyclomatic Complexity or Halstead Complexity Measure are just methods which you can use to understand of your code's reactions about contant situation. They can't say everything but they say something scientific. Choosing a technology, a framework or a library can't solve all problems which you have and you can't compare them directly. 
 
 The methods which I mentioned can be insufficient. But you are free to fine a new method to measure something. There is only one rule that you should follow, which is it must be scientific. 
 
