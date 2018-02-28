@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "The Science Of Software Development"
-date:   2018-01-04 12:00
-categories: not
-tags: software development, science
-meta: software development, science
+date:   2018-02-28 06:30
+categories: software
+tags: software development, science, benchmark tests, cyclomatic complexity, halstead complexity
+meta: software development, science, benchmark tests, cyclomatic complexity, halstead complexity
 author: ozziest
 ---
 
