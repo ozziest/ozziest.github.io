@@ -2,7 +2,7 @@ basics:
   name: 'Özgür Adem Işıklı'
   label: 'Software Developer'
   picture: 'https://avatars2.githubusercontent.com/u/2325140'
-  email: i.ozguradem@gmail.com
+  email: ozgur@ozgurmail.net
   phone: '+90 554 632 26 93'
   website: 'http://ozguradem.net'
   summary: 'I have been working as software developer since 2010, especially in web development. I have created different web applications, using PHP, C# or NodeJS. I am familiar modern web frameworks (back-end or front-end) such as .Net MVC, .Net Core, Laravel, Symfony, AngularJS, VueJS or React. I am also familiar unit testing concept and libraries such as xUnit, PHPUnit, CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about SOLID principles and best practices when I develop a web application in order to write readable, maintainable and testable code. And that''s why i love refactoring... In addition, I love to play with Symfony components as a hobby. Also I have experience about continuous integration tools such as Travis-CI and Jenkins. You may check my GitHub account and review my codes which I''ve written if you want to learn more information about me.'
