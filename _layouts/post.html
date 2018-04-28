@@ -12,7 +12,7 @@ layout: default
 
 {% if site.related_posts != empty %}
 <aside class="related">
-  <h2>Önerilen Yazılar</h2>
+  <h2>Suggestions</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
@@ -28,15 +28,22 @@ layout: default
 </aside>
 {% endif %}
 
-<div id="disqus_thread"></div>
-
-<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
-<script type="text/javascript">
-    var disqus_shortname = 'iozguradem';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div>
+  <h2>What About Comments?</h2>
+  <p>
+    I do not use any comment system such as Disqus because of user's privacy. If you want to 
+    discuss something about this post, you may open an issue on 
+    <a href="https://github.com/ozziest/ozziest.github.io/issues" target="_blank">the repo</a>.
+  </p>
+  <p>
+    You may check what is the problem with Disqus;
+  </p>
+  <ul>
+    <li>
+      <a href="https://replyable.com/2017/03/disqus-is-your-data-worth-trading-for-convenience/">Disqus: Is Your Data Worth Trading for Convenience?</a>
+    </li>
+    <li>
+        <a href="http://chrislema.com/killed-disqus-commenting/">Why I killed Disqus Commenting on my site</a>
+      </li>
+    </ul>
+</div>
