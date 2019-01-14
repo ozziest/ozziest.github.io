@@ -2,7 +2,7 @@
 layout: post
 title:  "E-Kitap Çalışması Hakkında"
 date:   2015-01-26 22:00
-categories: php
+categories: [Turkish, Coding]
 tags: ekitap, php, paket, oluşturma, tasarlama, composer, package
 meta: ekitap, php, paket, oluşturma, tasarlama, composer, package
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Test Yazmak ile  Başım Dertte!"
 date:   2014-09-15 22:39:28
-categories: php test 
+categories: [Turkish, Coding]
 tags: php, test, unit test, codeception, acceptance
 meta: php, test, unit test, codeception, acceptance
 author: ozziest

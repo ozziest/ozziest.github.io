@@ -2,7 +2,7 @@
 layout: post
 title:  "Döküman Tabanlı Geliştirme"
 date:   2014-07-18 22:39:28
-categories: diğer
+categories: [Turkish, Coding]
 tags: php, döküman, ddd, test
 meta: php, döküman, ddd, test
 author: ozziest

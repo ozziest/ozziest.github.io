@@ -2,7 +2,7 @@
 layout: post
 title:  "Apple-Samsung Patent Saçmalığı!"
 date:   2012-09-16 19:00
-categories: deneme
+categories: [Turkish, Essays]
 tags: apple, samsung, patent saçmalığı, patent savaşları
 meta: apple, samsung, patent saçmalığı, patent savaşları
 author: ozziest

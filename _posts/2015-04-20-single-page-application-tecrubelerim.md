@@ -2,7 +2,7 @@
 layout: post
 title:  "Single Page Application Tecrübelerim"
 date:   2015-04-20 21:30:28
-categories: php
+categories: [Turkish, Coding]
 tags: single page application, spa, web uygulaması, angular, javascript, tecrübe
 meta: single page application, spa, web uygulaması, angular, javascript, tecrübe
 author: ozziest

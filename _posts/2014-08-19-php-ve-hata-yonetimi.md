@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP ve Hata Yönetimi"
 date:   2014-08-19 22:39:28
-categories: php
+categories: [Turkish, Coding]
 tags: php, exception, hata, log
 meta: php, exception, hata, log
 author: ozziest

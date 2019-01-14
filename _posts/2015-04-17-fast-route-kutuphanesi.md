@@ -2,7 +2,7 @@
 layout: post
 title:  "Fast Route Kütüphanesi"
 date:   2015-04-17 08:30:28
-categories: php
+categories: [Turkish, Coding]
 tags: fast router, php, router, rota, url, packages
 meta: fast router, php, router, rota, url, packages
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Mavidurak-IO Değerlendirmesi"
 date:   2015-05-01 20:00:00
-categories: php
+categories: [Turkish, Coding]
 tags: mavidurak-io, yazılım topluluğu, seminer, tech talk, workshop, değerlendirme, atölye
 meta: mavidurak-io, yazılım topluluğu, seminer, tech talk, workshop, değerlendirme, atölye
 author: ozziest

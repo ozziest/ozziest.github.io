@@ -2,7 +2,7 @@
 layout: post
 title:  "Sonuçlanmayan Ajax İsteklerinin Çözümü"
 date:   2012-09-24 19:00
-categories: js
+categories: [Turkish, Coding]
 tags: ajax, timeout sorunu, timeout çözümü
 meta: ajax, timeout sorunu, timeout çözümü
 author: ozziest

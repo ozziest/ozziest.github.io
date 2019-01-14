@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP To C#"
 date:   2015-12-10 20:00
-categories: general
+categories: [Turkish, Coding]
 tags: php, c#, c sharp, geçiş, ön izleme, inceleme, karşılaştırma
 meta: php, c#, c sharp, geçiş, ön izleme, inceleme, karşılaştırma
 author: ozziest

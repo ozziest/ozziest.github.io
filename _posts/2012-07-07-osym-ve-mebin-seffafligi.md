@@ -2,7 +2,7 @@
 layout: post
 title:  "ÖSYM ve MEB’in Şeffaflığı!"
 date:   2012-07-07 19:00
-categories: eğitim
+categories: [Turkish, Essays]
 tags: ösym, meb, atama, şeffaflık
 meta: ösym, meb, atama, şeffaflık
 author: ozziest

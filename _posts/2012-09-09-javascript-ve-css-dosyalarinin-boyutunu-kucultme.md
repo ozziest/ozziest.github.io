@@ -2,7 +2,7 @@
 layout: post
 title:  "JavaScript ve CSS Dosyalarının Boyutunu Küçültme"
 date:   2012-09-09 19:00
-categories: js
+categories: [Turkish, Coding]
 tags: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
 meta: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
 author: ozziest

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #4 - C#'da Self Signed Sertifika Oluşturma"
+title:  "#4 C#'da Self Signed Sertifika Oluşturma"
 date:   2016-09-28 18:00
-categories: csharp
+categories: [Turkish, Notes]
 tags: csharp, self signed, sertifika
 meta: csharp, self signed, sertifika
 author: ozziest

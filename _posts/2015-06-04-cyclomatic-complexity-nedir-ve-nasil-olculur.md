@@ -2,7 +2,7 @@
 layout: post
 title:  "Cyclomatic Complexity Nedir ve Nasıl Ölçülür?"
 date:   2015-05-28 20:00
-categories: php git
+categories: [Turkish, Coding]
 tags: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
 meta: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
 author: ozziest

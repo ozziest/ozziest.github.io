@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP ve Annotation Kullanımı"
 date:   2015-06-06 18:00
-categories: php git
+categories: [Turkish, Coding]
 tags: php, annotation, php ve annotations, kullanımı, örnek
 meta: php, annotation, php ve annotations, kullanımı, örnek
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Denizler Altında Yirmi Bin Composer"
 date:   2013-06-05 19:00
-categories: php
+categories: [Turkish, Coding]
 tags: php, paket yöneticisi, composer nedir, neden kullanılır
 meta: php, paket yöneticisi, composer nedir, neden kullanılır
 author: ozziest

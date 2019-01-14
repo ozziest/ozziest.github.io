@@ -2,7 +2,7 @@
 layout: post
 title:  "Soru Sormak ve Eğitim"
 date:   2013-10-08 19:00
-categories: egitim
+categories: [Turkish, Essays]
 tags: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
 meta: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
 author: ozziest

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #6 - Windows Servisi Olarak Web API Geliştirme"
+title:  "#6 Windows Servisi Olarak Web API Geliştirme"
 date:   2017-04-12 20:00
-categories: not
+categories: [Turkish, Notes]
 tags: windows, service, rest api, web api, csharp, dotnet
 meta: windows, service, rest api, web api, csharp, dotnet
 author: ozziest

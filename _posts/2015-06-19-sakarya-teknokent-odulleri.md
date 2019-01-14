@@ -2,7 +2,7 @@
 layout: post
 title:  "Sakarya Teknokent Ödülleri"
 date:   2015-06-19 22:00
-categories: personal
+categories: [Turkish, Essays]
 tags: sakarya teknokent, ahir ar-ge danışmanlık, argedb, ödül
 meta: sakarya teknokent, ahir ar-ge danışmanlık, argedb, ödül
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Küçük İş Parçacıkları"
 date:   2013-08-12 19:00
-categories: yazılım
+categories: [Turkish, Coding]
 tags: küçük iş parçacıkları, solid, separation of concerns
 meta: küçük iş parçacıkları, solid, separation of concerns
 author: ozziest

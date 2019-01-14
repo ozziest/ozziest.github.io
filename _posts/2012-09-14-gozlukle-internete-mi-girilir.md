@@ -2,7 +2,7 @@
 layout: post
 title:  "Gözlükle İnternete mi Girilir?"
 date:   2012-09-14 19:00
-categories: deneme
+categories: [Turkish, Essays]
 tags: google glass, internete girmek
 meta: google glass, internete girmek
 author: ozziest

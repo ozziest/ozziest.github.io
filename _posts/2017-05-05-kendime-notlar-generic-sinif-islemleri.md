@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #9 - CSharp İle Generic Sınıf İşlemleri"
+title:  "#9 CSharp İle Generic Sınıf İşlemleri"
 date:   2017-05-05 23:00
-categories: not
+categories: [Turkish, Notes]
 tags: csharp, generic, class, instance
 meta: csharp, generic, class, instance
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "PHP ve Hata Yönetimi"
 date:   2013-08-19 19:00
-categories: php
+categories: [Turkish, Coding]
 tags: php ve hata yönetimi, bende çalışıyor
 meta: php ve hata yönetimi, bende çalışıyor
 author: ozziest

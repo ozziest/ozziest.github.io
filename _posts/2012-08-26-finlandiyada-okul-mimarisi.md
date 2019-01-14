@@ -2,7 +2,7 @@
 layout: post
 title:  "Finlandiya’da Okul Mimarisi"
 date:   2012-08-26 19:00
-categories: eğitim
+categories: [Turkish, Essays]
 tags: finlandiya, okul mimarisi, okul dizaynı, iyi eğitim örnekleri
 meta: finlandiya, okul mimarisi, okul dizaynı, iyi eğitim örnekleri
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Yazılımda Test Türleri ve Arasındaki Farklar"
 date:   2017-04-23 13:30
-categories: article
+categories: [Turkish, Coding]
 tags: software, tests, unit test, acceptance test, integration test
 meta: software, tests, unit test, acceptance test, integration test
 author: ozziest

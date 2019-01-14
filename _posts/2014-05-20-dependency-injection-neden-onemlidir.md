@@ -2,7 +2,7 @@
 layout: post
 title:  "Dependency Injection Neden Önemlidir?"
 date:   2014-05-20 21:00
-categories: yazılım
+categories: [Turkish, Coding]
 tags: yazılım, geliştirme, dependency, injection, bağımlılık
 meta: yazılım, geliştirme, dependency, injection, bağımlılık
 author: ozziest

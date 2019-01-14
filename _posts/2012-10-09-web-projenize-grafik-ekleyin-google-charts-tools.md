@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Projenize Grafik Ekleyin: Google Charts Tools"
 date:   2012-10-09 19:00
-categories: web
+categories: [Turkish, Coding]
 tags: web, grafik, google chart tools, grafik ekleme
 meta: web, grafik, google chart tools, grafik ekleme
 author: ozziest

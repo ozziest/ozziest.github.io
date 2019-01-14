@@ -2,7 +2,7 @@
 layout: post
 title:  "CodeIgniter Session Kütüphanesi"
 date:   2013-09-26 19:00
-categories: php
+categories: [Turkish, Coding]
 tags: codeigniter, session, library, cookie, hata
 meta: codeigniter, session, library, cookie, hata
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Sunumunuz Yeterince Güzel Mi?"
 date:   2015-11-29 13:00
-categories: javascript
+categories: [Turkish, Presentation, Essays]
 tags: kusursuz sunum, sunum teknikleri, sunum yöntemleri, sunum önerileri
 meta: kusursuz sunum, sunum teknikleri, sunum yöntemleri, sunum önerileri
 author: ozziest

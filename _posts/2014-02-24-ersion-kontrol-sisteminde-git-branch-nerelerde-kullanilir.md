@@ -2,7 +2,7 @@
 layout: post
 title:  "Versiyon Kontrol Sisteminde (Git) Branch Nerelerde Kullanılır?"
 date:   2014-02-24 19:00
-categories: php git
+categories: [Turkish, Coding]
 tags: php, git, vcs, branch
 meta: php git vcs branch
 author: ozziest

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "#11 - Entity Framework Query Logging"
+title:  "#11 Entity Framework Query Logging"
 date:   2018-01-05 20:00
-categories: not
+categories: [English, Notes]
 tags: csharp, entity framework, logging, ef, database, query
 meta: csharp, entity framework, logging, ef, database, query
 author: ozziest

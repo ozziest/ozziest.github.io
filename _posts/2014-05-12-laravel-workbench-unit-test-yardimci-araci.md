@@ -2,7 +2,7 @@
 layout: post
 title:  "Laravel Workbench Unit Test Yardımcı Aracı"
 date:   2014-05-12 21:00
-categories: laravel
+categories: [Turkish, Coding]
 tags: laravel, php, unit, test workbench, package, testcase
 meta: laravel, php, unit, test workbench, package, testcase
 author: ozziest

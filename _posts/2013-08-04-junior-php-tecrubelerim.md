@@ -2,7 +2,7 @@
 layout: post
 title:  "Junior PHP Tecrübelerim"
 date:   2013-08-04 19:00
-categories: deneme
+categories: [Turkish, Coding]
 tags: php tecrübesi, junior, php, tecrübe, kendime notlar
 meta: php tecrübesi, junior, php, tecrübe, kendime notlar
 author: ozziest

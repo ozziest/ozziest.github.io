@@ -2,7 +2,7 @@
 layout: post
 title:  "Oracle’da SQL Döngüsü"
 date:   2012-09-14 19:00
-categories: veritabanı
+categories: [Turkish, Coding]
 tags: oracle, sql döngüsü
 meta: oracle, sql döngüsü
 author: ozziest

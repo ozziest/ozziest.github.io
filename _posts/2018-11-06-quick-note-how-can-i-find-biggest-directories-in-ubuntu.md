@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "#12 - How Can I Find Biggest Directories In Ubuntu"
+title:  "#12 How Can I Find Biggest Directories In Ubuntu"
 date:   2018-11-06 21:56
-categories: not
+categories: [English, Notes]
 tags: ubuntu, directory, size, biggest, folder
 meta: ubuntu, directory, size, biggest, folder
 author: ozziest

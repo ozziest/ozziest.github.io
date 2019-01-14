@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Geliştirme Alet Çantası"
 date:   2015-09-21 21:00
-categories: php
+categories: [Turkish, Coding]
 tags: web geliştirme alet çantası, kullanışlı araçlar, geliştirici araçları, yardımcı araçlar, eklentiler
 meta: web geliştirme alet çantası, kullanışlı araçlar, geliştirici araçları, yardımcı araçlar, eklentiler
 author: ozziest

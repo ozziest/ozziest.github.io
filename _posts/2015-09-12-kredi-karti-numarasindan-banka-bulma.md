@@ -2,7 +2,7 @@
 layout: post
 title:  "Kredi Kartı Numarasından Banka Öğrenme İşlemi"
 date:   2015-09-12 19:00
-categories: personal
+categories: [Turkish, Coding]
 tags: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
 meta: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Açık Kaynak Günlerinde Gerçekleştirdiğim Sunum"
 date:   2015-10-18 21:00
-categories: genel
+categories: [Turkish, Presentation]
 tags: açık kaynak günleri, etkinlik, sunum, php ve paket yönetimi, paket geliştirme, kütüphane geliştirme, library
 meta: açık kaynak günleri, etkinlik, sunum, php ve paket yönetimi, paket geliştirme, kütüphane geliştirme, library
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "TT #05 - Bitmeyen Proje"
 date:   2015-03-22 18:00
-categories: php
+categories: [Turkish, Presentation]
 tags: php, test, hata, yazılım, unit test, birim test, kabul testi, entegrasyon testi
 meta: php, test, hata, yazılım, unit test, birim test, kabul testi, entegrasyon testi
 author: ozziest

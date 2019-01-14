@@ -2,7 +2,7 @@
 layout: post
 title:  "#10 - From Dynamic List To Dictionary List In C#"
 date:   2017-05-08 20:00
-categories: not
+categories: [English, Notes]
 tags: csharp, list, dynmaic, dictionary, convert
 meta: csharp, list, dynmaic, dictionary, convert
 author: ozziest

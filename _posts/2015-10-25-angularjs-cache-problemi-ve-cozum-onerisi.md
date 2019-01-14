@@ -2,7 +2,7 @@
 layout: post
 title:  "AngularJS Cache Problemi Ve Çözüm Önerisi"
 date:   2015-10-25 21:00
-categories: javascript
+categories: [Turkish, Coding]
 tags: angularjs, cache, çözüm önerisi, cache sorunu
 meta: angularjs, cache, çözüm önerisi, cache sorunu
 author: ozziest

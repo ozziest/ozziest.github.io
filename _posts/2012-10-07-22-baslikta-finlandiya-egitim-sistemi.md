@@ -2,7 +2,7 @@
 layout: post
 title:  "22 Başlıkta Finlandiya Eğitim Sistemi"
 date:   2012-10-07 19:00
-categories: php
+categories: [Turkish, Essays]
 tags: finlandiya eğitimi, fin eğitim sistemi, eğitim sistemi
 meta: finlandiya eğitimi, fin eğitim sistemi, eğitim sistemi
 author: ozziest

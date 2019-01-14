@@ -2,7 +2,7 @@
 layout: post
 title:  "MySQL Sorgularında Satır Sayısı"
 date:   2012-09-27 19:00
-categories: veritabanı
+categories: [Turkish, Coding]
 tags: mysql, satır sayısı
 meta: mysql, satır sayısı
 author: ozziest

@@ -3,35 +3,36 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date hiddenMobile">
-        {{ post.date | date: '%d.%m.%Y' }}
-      </time><span class="hiddenMobile"> - </span>
-      <div class="showMobile">
-        <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date-mobile">
-          {{ post.date | date: '%d.%m.%Y' }}
-        </time>
-      </div>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-  </article>
-  {% endfor %}
+{% include sections.html %}
+
+<div class="row">
+  <div class="col-6">
+    <h1 class="category">Latest</h1>
+    <div class="posts">
+      {% for post in site.posts limit:10 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+    <h1 class="category">Essays</h1>    
+    <div class="posts">
+      {% for post in site.categories.Essays limit: 10 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col-6">
+    <h1 class="category">Quick Notes</h1>    
+    <div class="posts">
+      {% for post in site.categories.Notes limit: 10 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+    <h1 class="category">Presentation</h1>    
+    <div class="posts">
+      {% for post in site.categories.Presentation limit: 10 %}
+        {% include article.html %}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>

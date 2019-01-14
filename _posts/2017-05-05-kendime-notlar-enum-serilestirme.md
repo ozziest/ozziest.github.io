@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #8 - Enum Veri Tiplerinin Serileştirilmesi"
+title:  "#8 Enum Veri Tiplerinin Serileştirilmesi"
 date:   2017-05-05 20:00
-categories: not
+categories: [Turkish, Notes]
 tags: csharp, enum, serialization
 meta: csharp, enum, serialization
 author: ozziest

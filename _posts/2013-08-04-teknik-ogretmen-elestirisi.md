@@ -2,7 +2,7 @@
 layout: post
 title:  "Teknik Öğretmen Eleştirisi"
 date:   2013-08-04 19:00
-categories: deneme
+categories: [Turkish, Essays]
 tags: teknik öğretmen, eleştiri
 meta: teknik öğretmen, eleştiri
 author: ozziest

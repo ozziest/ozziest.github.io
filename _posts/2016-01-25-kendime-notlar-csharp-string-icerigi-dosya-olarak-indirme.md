@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #2 - CSharp String İçeriği Dosya Olarak İndirme"
+title:  "#2 CSharp String İçeriği Dosya Olarak İndirme"
 date:   2016-01-25 19:00
-categories: csharp
+categories: [Turkish, Notes]
 tags: csharp, dosya indirme, string, byte array
 meta: csharp, dosya indirme, string, byte array
 author: ozziest

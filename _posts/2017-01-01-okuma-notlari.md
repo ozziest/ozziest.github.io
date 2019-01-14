@@ -2,7 +2,7 @@
 layout: post
 title:  "2016 Okuma Notları"
 date:   2016-12-16 21:30
-categories: genel
+categories: [Turkish, Books]
 tags: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 author: ozziest

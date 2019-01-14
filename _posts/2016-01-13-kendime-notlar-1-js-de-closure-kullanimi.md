@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #1 - JS'de Closure Kullanımı"
+title:  "#1 JS'de Closure Kullanımı"
 date:   2016-01-13 18:00
-categories: js
+categories: [Turkish, Notes]
 tags: js, closure, private data object, closure nedir
 meta: js, closure, private data object, closure nedir
 author: ozziest

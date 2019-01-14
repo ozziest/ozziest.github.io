@@ -2,7 +2,7 @@
 layout: post
 title:  "Hazır Kütüphane Kullanma Nedenlerim"
 date:   2014-08-20 22:39:28
-categories: diger 
+categories: [Turkish, Coding]
 tags: php, package, kütüphane
 meta: php, package, kütüphane
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "CodeIgniter’da Hızlı Form Tasarlama"
 date:   2012-05-09 19:00
-categories: php
+categories: [Turkish, Coding]
 tags: codeigniter, form tasarlama, hizli formlar,
 meta: codeigniter, form tasarlama, hizli formlar,
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "Zaman Aralıklı Ajax İsteği Hataları"
 date:   2012-09-23 19:00
-categories: js
+categories: [Turkish, Coding]
 tags: ajax, periyodik ajax istekleri
 meta: ajax, periyodik ajax istekleri
 author: ozziest

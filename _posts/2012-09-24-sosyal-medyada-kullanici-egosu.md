@@ -2,7 +2,7 @@
 layout: post
 title:  "Sosyal Medyada Kullanıcı Egosu"
 date:   2012-09-24 19:00
-categories: deneme
+categories: [Turkish, Essays]
 tags: sosyal medya, kullanıcı egosu
 meta: sosyal medya, kullanıcı egosu
 author: ozziest

@@ -2,7 +2,7 @@
 layout: post
 title:  "ROS - Robot Operating System Nedir?"
 date:   2015-03-10 22:20
-categories: robotik
+categories: [Turkish, Coding]
 tags: ros, robot, operating, system, robotik, c++, python
 meta: ros robot operating system robotik c++ python
 author: ozziest

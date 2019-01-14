@@ -2,7 +2,7 @@
 layout: post
 title:  "Yaz Sezonu Notlarım"
 date:   2015-09-06 22:00
-categories: personal
+categories: [Turkish, Essays]
 tags: yaz sezonu, kişisel, kendime notlar, son gelişmeler
 meta: yaz sezonu, kişisel, kendime notlar, son gelişmeler
 author: ozziest

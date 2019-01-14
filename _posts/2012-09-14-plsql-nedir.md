@@ -2,7 +2,7 @@
 layout: post
 title:  "PL/SQL Nedir?"
 date:   2012-09-14 19:00
-categories: veritabanı
+categories: [Turkish, Coding]
 tags: plsql, nedir
 meta: plsql, nedir
 author: ozziest

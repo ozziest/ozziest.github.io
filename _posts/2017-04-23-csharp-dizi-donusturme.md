@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #7 - C# Liste Dönüştürme"
+title:  "#7 C# Liste Dönüştürme"
 date:   2017-04-23 12:50
-categories: not
+categories: [Turkish, Notes]
 tags: csharp, list, convert
 meta: csharp, list, convert
 author: ozziest

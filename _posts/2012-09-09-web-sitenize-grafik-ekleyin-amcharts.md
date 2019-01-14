@@ -2,7 +2,7 @@
 layout: post
 title:  "Web Sitenize Grafik Ekleyin – AmCharts"
 date:   2012-09-09 19:00
-categories: web
+categories: [Turkish, Coding]
 tags: web, grafik, amcharts
 meta: web, grafik, amcharts
 author: ozziest

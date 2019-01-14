@@ -2,7 +2,7 @@
 layout: post
 title:  "Tam Bağımsız ve Tekil Sorumlu Try-Catch"
 date:   2013-06-17 19:00
-categories: yazılım
+categories: [Turkish, Coding]
 tags: try catch, solid
 meta: try catch, solid
 author: ozziest

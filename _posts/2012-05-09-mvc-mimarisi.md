@@ -2,7 +2,7 @@
 layout: post
 title:  "MVC Nedir?"
 date:   2012-05-09 19:00
-categories: yazılım
+categories: [Turkish, Coding]
 tags: mvc, mvc nedir, mvc mimarisi
 meta: mvc, mvc nedir, mvc mimarisi
 author: ozziest

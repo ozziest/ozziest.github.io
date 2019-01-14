@@ -2,7 +2,7 @@
 layout: post
 title:  "Eğitim Sisteminin Çöküşü"
 date:   2013-10-15 19:00
-categories: egitim
+categories: [Turkish, Essays]
 tags: eğitim sisteminin çöküşü
 meta: eğitim sisteminin çöküşü
 author: ozziest

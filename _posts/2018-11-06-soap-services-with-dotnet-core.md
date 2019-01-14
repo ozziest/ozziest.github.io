@@ -2,7 +2,7 @@
 layout: post
 title:  "How To Use SOAP Services With Dotnet Core"
 date:   2018-11-06 21:45
-categories: software
+categories: [English, Coding]
 tags: soap services, dotnet core, wcf, wsdl
 meta: soap services, dotnet core, wcf, wsdl
 author: ozziest

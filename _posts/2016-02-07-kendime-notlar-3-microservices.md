@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #3 - Microservice Notlarım"
+title:  "#3 Microservice Notlarım"
 date:   2016-02-07 19:00
-categories: csharp
+categories: [Turkish, Notes]
 tags: microservice, nedir, nasıl, avantajlar
 meta: microservice, nedir, nasıl, avantajlar
 author: ozziest

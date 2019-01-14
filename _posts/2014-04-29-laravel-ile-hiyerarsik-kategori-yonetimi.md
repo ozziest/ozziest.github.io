@@ -2,7 +2,7 @@
 layout: post
 title:  "Laravel İle Hiyerarşik Kategori Yönetimi"
 date:   2014-04-29 19:00
-categories: php laravel
+categories: [Turkish, Coding]
 tags: php, laravel, hiyerarşi, kategori, nested, list, baum
 meta: php laravel hiyerarşi kategori nested list baum
 author: ozziest

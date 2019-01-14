@@ -2,7 +2,7 @@
 layout: post
 title:  "Test Yolculuğu: PHP, PHPUnit, Mockery"
 date:   2016-05-25 13:30
-categories: php
+categories: [Turkish, Coding]
 tags: php, phpunit, mockert, testing, test yazımı
 meta: php, phpunit, mockert, testing, test yazımı
 author: ozziest

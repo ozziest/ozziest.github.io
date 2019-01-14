@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Not #5 - Linux'ta Klasör Eşitleme"
+title:  "#5 Linux'ta Klasör Eşitleme"
 date:   2017-01-20 22:30
-categories: not
+categories: [Turkish, Notes]
 tags: linux, klasör, eşitleme, senkronizasyon
 meta: linux, klasör, eşitleme, senkronizasyon
 author: ozziest

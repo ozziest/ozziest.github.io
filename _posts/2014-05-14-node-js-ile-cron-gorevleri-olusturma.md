@@ -2,7 +2,7 @@
 layout: post
 title:  "Node.js İle Cron Görevleri Oluşturma"
 date:   2014-05-14 21:00
-categories: nodejs
+categories: [Turkish, Coding]
 tags: nodejs, cron, task, görev
 meta: nodejs, cron, task, görev
 author: ozziest

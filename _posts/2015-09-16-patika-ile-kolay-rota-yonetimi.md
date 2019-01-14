@@ -2,7 +2,7 @@
 layout: post
 title:  "Patika ile Kolay Rota Yönetimi (PHP)"
 date:   2015-09-16 21:00
-categories: php
+categories: [Turkish, Coding]
 tags: patika, php, routing, package, routes
 meta: patika, php, routing, package, routes
 author: ozziest
