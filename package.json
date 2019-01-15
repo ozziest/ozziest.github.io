@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile": "hackmyresume BUILD resume.json TO resume/index.all -t node_modules/jsonresume-theme-flat"
+    "md": "hackmyresume BUILD resume.json TO _includes/resume.md",
+    "compile": "hackmyresume BUILD resume.json TO resume/index.all resume/index.md -t node_modules/jsonresume-theme-flat"
   },
   "repository": {
     "type": "git",

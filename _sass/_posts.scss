@@ -79,7 +79,7 @@ a.section:hover {
     }
 
     a:hover {
-      color: #268bd2;
+      color: #c0392b;
       text-decoration: none;
 
       small {
@@ -253,4 +253,18 @@ a.section:hover {
   .hidden-sm {
     display: block;
   }
+}
+
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.img-description {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+  margin-top: 15px;
 }
