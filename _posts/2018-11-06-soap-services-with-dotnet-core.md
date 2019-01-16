@@ -8,6 +8,10 @@ meta: soap services, dotnet core, wcf, wsdl
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
+    <img src="/images/posts/05.jpg" class="center" />
+</a>
+
 ## Generating Service Classes
 
 First of all, in a dotnet core project we should define SOAP services classes. If you use Visual Studio you can find some tools about it but If you don't like user interfaces like me, you can have another option to do that. 

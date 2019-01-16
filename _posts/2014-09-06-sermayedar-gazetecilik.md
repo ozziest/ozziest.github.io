@@ -8,6 +8,10 @@ meta: deneme, gazetecilik
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/crow-raven-bird-black-animal-828944/" target="_blank">
+    <img src="/images/posts/10.jpg" class="center" />
+</a>
+
 Ben gazeteciliğin ne olduğunu <strong>Uğur Mumcu</strong> ile öğrendim. Çocukluğumdan kalma hayallerde, kalabalıkların <em>"Uğurlar Olsun"</em> türküsü eşliğinde mum yaktığı karlı kış günlerini hala anımsıyorum. Üniversite yıllarıma kadar her gazeteciye ve her gazeteye saygı duydum ve imrendim. Ben de bilmiyorum neden olduğunu ama bugün bir gazeteci değilim ve olmaktan da uzağım.  
 
 Buna rağmen zaman geçtikçe ve Türkiye'nin siyasi tarihi yeniden şekillendikçe görüşlerimde ciddi değişiklikler yaşandı. Önceleri kuşku duyduğum olaylar bir süre sonra düşüncelerimi allak bullak eden bir yaraya dönüştü. Nihayetinde gazeteciliğe olan saygım tamamen tükendi.

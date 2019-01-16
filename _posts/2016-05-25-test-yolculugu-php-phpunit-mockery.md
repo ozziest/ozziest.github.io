@@ -8,6 +8,10 @@ meta: php, phpunit, mockert, testing, test yazımı
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a>
+
 Yazılım bloglarında tonla ***"Neden Test Yazmalıyız?"*** başlıklı makaleler bulabilirsiniz. Bu nedenle bu soruyu cevaplamayacağım. Eğer burayı okuyorsanız **test** kavramı hakkında en azından bir kaç şey duymuşsunuzdur diye düşünüyorum.
 
 Ben bu yazıda bir çok farklı test türü olmasına rağmen **PHP için Unit Test** geliştirme konusunu irdelemek istiyorum. Ancak bunu yaparken herhangi bir Framework'e bağlı kalmadan, işin mantığına ve neyi neden yaptığımıza da ***ince ince*** değinmeği uygun buluyorum. Dolayısıyla bu makale sizin için sıkıcı geldiği an okumayı bırakmanızı ***öneririm***. 

@@ -8,6 +8,10 @@ meta: js, closure, private data object, closure nedir
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a>
+
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum. 
 
 Her ne kadar **Closure** kelimesinin **Kaplam** olarak çevirilerine daha önce denk gelmiş olsam da, açıkçası bu kelimeyi tam olarak kendi yazılım lügatımıza aktarabileceğimizi sanmıyorum. [1] Çeviri yönünden ele alındığında oldukça zor bir kelime ve belki de bu yüzden bir çok farklı kaynaktan tam olarak anlamaya çalıştığım bir yapı oldu.

@@ -8,6 +8,10 @@ meta: angularjs, cache, çözüm önerisi, cache sorunu
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a>
+
 AngularJS kullanarak çok güçlü web uygulamaları geliştirmeniz mümkün. Ancak ***html*** ya da ***javascript*** yüklemeleri genellikle tarayıcılar tarafından ön bellekte tutularak, uygulamanızın performansının arttırılması sağlanmaktadır. 
 
 Fakat uygulamalar sabit değildir ve sürekli geliştirilir. Siz, bir dosyanın yapısını değiştirdiğinizde, ilgili dosya eğer kullanıcının tarayıcısda ön bellekte tutuluyorsa, kullanıcı bu son değişikliği alamayacaktır. Bu tür durumları çözmek için ilk yapılan, cache özelliğini ***tamamen*** ortadan kaldırmaktadır.

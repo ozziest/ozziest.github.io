@@ -8,6 +8,10 @@ meta: csharp, enum, serialization
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a>
+
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.
 
 ### Giriş

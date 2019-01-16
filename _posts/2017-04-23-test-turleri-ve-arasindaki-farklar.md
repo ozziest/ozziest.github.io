@@ -8,6 +8,10 @@ meta: software, tests, unit test, acceptance test, integration test
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188/" target="_blank">
+    <img src="/images/posts/07.jpg" class="center" />
+</a>
+
 ### 1. Giriş
 
 ***Testing*** kavramı yazılım tarihi kadar eski, zaman içerisinde gelişmiş ve bir çok alt dallara ayrılmış, kendi içerisinde oldukça teorik bilgi barındıran bir kavramdır. Her ne kadar ülkemizdeki bilgi birikimi testing konusunda oldukça yetersiz olsa da, İngilizce olarak yazılmış bir çok farklı kitap ve kaynağa ulaşmanız mümkündür. Bu kaynakları göz ucuyla taradığınızda dahi, testing kavramının pratiğinden önce ne kadar gelişmiş ve detaylı bir teorisinin bulunduğunu anlayabilirsiniz. Ben de bu makale ile naçizane bilgilerimi, dilim döndüğünce ve kelimelerim elverdiğince anlatmaya çalışacağım. 

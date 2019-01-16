@@ -8,6 +8,11 @@ meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/map-discovery-america-ship-train-3409359/" target="_blank">
+    <img src="/images/posts/11.jpg" class="center" />
+</a>
+
+
 İlk defa böyle bir yazı hazırlıyorum. Bu ihtiyacı hissettim çünkü her şeyden evvel çok az okuduğumu farkettim. Okumalarımı sıklaştırdıktan sonra da, yıllar sonra dönüp baktığımda neler okumuşum ve ne hissetmişim görmenin bana mutluluk vereceğine karar verdim. Gelecekte bir parça mutlu olabilmek ve kendime ***anı*** biriktirebilmek adına, **2016** yılında okuduğum kitapları not alıyorum.
 
 ## [Eşeğin Fikri](http://www.dr.com.tr/Kitap/Esegin-Fikri/Ferhan-Sensoy/Mizah/Mizah-Romani-Oyku/urunno=0000000171435) (Ferhan Şensoy)

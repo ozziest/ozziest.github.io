@@ -8,6 +8,10 @@ meta: deneme
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/france-french-revolution-civil-war-63022/" target="_blank">
+    <img src="/images/posts/08.jpg" class="center" />
+</a>
+
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/neden-yazmak-zorunday%C4%B1m-a5ca451cb192) üzerinde yayınlanmıştır.
 
 Yarın nasıl bir güne uyanacağımızı bilmiyoruz. Yaşadığımız coğrafyada günden güne artan bir karamsarlık hüküm sürüyor. Yanı başımızda bitmek tükenmek bilmeyen, her geçen gün daha da büyüyen ve çoluk çocuk, masum sivil demeden bir ülkeyi yok eden bir savaş herkesi endişelendiriyor. Siyasiler bu sorunlar için çözüm üretmeye çalışıyorlar belki fakat “Biz bu çözümün tam olarak neresinde duruyoruz?” diyerek irdelemek ihtiyacı meydana geliyor.

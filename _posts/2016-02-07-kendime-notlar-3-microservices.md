@@ -8,6 +8,10 @@ meta: microservice, nedir, nasıl, avantajlar
 author: ozziest
 ---
 
+<a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a>
+
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum. 
 
 Mikro servisler birbirleriyle çalışan küçük, otonom yapılardır. Peki "Ne kadar küçük?" soruna cevap olarak Jon Eaves diyor ki: ***"Bir mikroservis iki hafta içerisinde yeniden yazılabilir bir şey olmalıdır. Bir diğer basma kalıp düşünceye göre; Yeterince küçük olması gerektiğinde daha küçük değil."***
