@@ -25,6 +25,7 @@ CI/CD kavramları tek başına var olmaktan ziyade, kendisinden çok daha büyü
 <a href="https://trends.google.com/trends/explore?date=all,all&geo=US,TR&q=%2Fm%2F0c3tq11,DevOps" target="_blank">
     <img src="/images/posts/13.jpg" class="center" />
 </a>
+<p class="img-description">Resim 1 - Google arama trendleri ABD-Türkiye karşılaştırması</p>
 
 ### DevOps Kültürü
 
@@ -51,12 +52,14 @@ GitLab Runner'ı herhangi bir makineye kurabilirsiniz. Söz konusu makine [Digit
 Ayrıca önemli bir diğer avantajı da, kendi GitLab hesabınıza birden fazla GitLab Runner bağlayabilmenizdir. Böylece birden fazla GitLab Runner entegrasyonuyla CI/CD süreçlerinizi yönetebilirsiniz. 
 
 <img src="/images/posts/15.png" class="center" />
+<p class="img-description">Resim 2 - GitLab Server, Runner ve geliştirici ilişkisi</p>
 
 ### GitLab Runner Nasıl Çalışır?
 
 Yukarıda da belirttiğimiz gibi GitLab Runner, GitLab'dan tamamen ayrı bir cihaz üzerine kurulabilir. Daha sonrasında ise GitLab Runner, GitLab ile GitLab API üzerinden haberleşerek bilgi alış verişinde bulunur.
 
 <img src="/images/posts/14.png" class="center" />
+<p class="img-description">Resim 3 - GitLab Server ve Runner arasındaki iletişim</p>
 
 Bu esnek yapı sayesinde, örneğin yeni bir commit geldiğinde, hangi Runner üzerinde, hangi görevlerin çalıştırılabileceğine karar verebilir, commit geldiğinde GitLab sizin direktiflerinize göre GitLab Runner'ı çalıştırır, GitLab Runner da elde ettiği sonuçları GitLab ile paylaşarak sonucu sizin web arayüzünde ya da API cevaplarında görebilmenizi sağlar.
 
@@ -93,6 +96,7 @@ GitLab Runner kurulduktan sonra, GitLab Runner ile GitLab'ı entegre etmemiz ger
 Kaydetme işlemine başlamadan önce, kaydetme işleminde kullanacağımız ***GitLab CI Token*** değerini, GitLab sunucusun üzerinde bulunan bir proje ya da group üzerinde  `Settings -> CI/CD` bölümü altındaki `Runners` sekmesinde içerisinden alabilirsiniz. 
 
 <img src="/images/posts/16.jpg" class="center" />
+<p class="img-description">Resim 4 - GitLab CI token</p>
 
 Elimizde artık bir GitLab CI Token varken, Runner'ın kurulu olduğu makinada aşağıdaki komut çalıştırıldıktan sonra, Runner size sırayla sunucunun adresini, token bilgisini, Runner tanımını, Runner etiketini ve Runner'ın hangi yöntemle çalışacağını soracaktır.
 
@@ -126,6 +130,7 @@ alpine:latest
 Yukarıdaki tanımlamalardan sonra, token aldığımız bölümde bulunan ***Specific Runners*** bölümünde, henüz tanımladığımız Runner'ı görebiliyor olmanız gerekmektedir.
 
 <img src="/images/posts/17.jpg" class="center" />
+<p class="img-description">Resim 5 - GitLab Runner tanımı görüntüsü</p>
 
 Böylece artık GitLab sunucumuzun, ilgili proje ya da grubumuz içerisinde kullanabileceği ve iletişimde olduğu bir Runner bulunmaktadır. Bundan sonraki aşamada, GitLab'a yüklediğimiz çeşitli tanımlamalarla birlikte, bu Runner'a ne zaman, nasıl ve neler yapması gerektiğini söyleyeceğiz.
 
