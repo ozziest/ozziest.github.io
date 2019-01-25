@@ -14,7 +14,7 @@ author: ozziest
 
 > Bu makaleyi iyi bir şekilde özümseyebilmek için temel düzeyde Linux ve Docker bilgisi gerekmektedir. 
 
-***Continuous Integration*** ve ***Continuous Delivery*** karamları sırasıyla; ***Sürekli Entegrasyon*** ve ***Sürekli Teslimat*** manasına gelmektedir. Söz konusu olan eğer yazılımlarsa, sürekli entegrasyon ve teslimat, kodlanan yazılımların durmaksızın derlenmesi, test edilmesi, entegre edilmesi, sürümlenmesi ve yayınlanmasını anlatmaktadır. Bu işlemlerin tümü el yordamıyla yapıldığında kaybedilecek vaktin azaltılması ve doğabilecek hataların en aza indirgenmesi amacıyla, CI/CD kavramları kelime dağarcığımıza yerleşmiş, modern yazılım geliştirme metodolojileri arasında kendilerine sağlam bir yer edinmiştir.
+***Continuous Integration*** ve ***Continuous Delivery*** kavramları sırasıyla; ***Sürekli Entegrasyon*** ve ***Sürekli Teslimat*** manasına gelmektedir. Söz konusu olan eğer yazılımlarsa, sürekli entegrasyon ve teslimat, kodlanan yazılımların durmaksızın derlenmesi, test edilmesi, entegre edilmesi, sürümlenmesi ve yayınlanmasını anlatmaktadır. Bu işlemlerin tümü el yordamıyla yapıldığında kaybedilecek vaktin azaltılması ve doğabilecek hataların en aza indirgenmesi amacıyla, CI/CD kavramları kelime dağarcığımıza yerleşmiş, modern yazılım geliştirme metodolojileri arasında kendilerine sağlam bir yer edinmiştir.
 
 CI/CD kavramları tek başına var olmaktan ziyade, kendisinden çok daha büyük bir kavramın -DevOps- yalnızca bir alt başlığını oluşturmaktadır. Bu nedenle CI/CD uygulamalarına geçmeden evvel, DevOps kelimesini biraz açarak irdelememiz ve hakkında bilgi sahibi olmamız yerinde olacaktır.
 
@@ -41,7 +41,7 @@ Eğer GitLab kullanmazsanız, bir çok farklı uygulamayı bir araya getirerek D
 
 ### GitLab CI/CD Mimarisi
 
-GitLab CI/CD yapısını incelediğimizde, GitLab, web arayüzleri ve API kullanımı ile CI/CD süreçlerinin veri tabanı üzerinde saklamakta, buna ek olarak süreci yöneten ilave bir araç bulunmaktadır. Süreci yönetme işinde kullanılan bu araca [GitLab Runner](https://docs.gitlab.com/runner/) adı verilmektedir. Bu araç, yukarıda bahsettiğimiz bütünleşik yapının içerisinde düşünülmelidir. Bu şekilde bir tasarıma gidilmesinin amacı, harici başka alternatiflerin de GitLab'a entegre edilebilmesine olanak sağlamaktır.
+GitLab CI/CD yapısını incelediğimizde, GitLab, web arayüzleri ve API kullanımı ile CI/CD süreçlerinin veri tabanı üzerinde saklamakta, buna ek olarak süreci yöneten ilave bir araç bulunmaktadır. Süreci yönetme işinde kullanılan bu araca [GitLab Runner](https://docs.gitlab.com/runner/) adı verilmektedir. Bu araç, yukarıda bahsettiğimiz bütünleşik yapının içerisinde düşünülmelidir. GitLab'ın bütünleşik çözümlerinden kast, tüm DevOps kültürü için araçlar geliştiriyor olmalarıdır. Ancak GitLab'ın geliştirdiği her araç ayrı bir uygulama olabilmektedir. Bu şekilde bir tasarıma gidilmesinin amacı, harici başka alternatiflerin de GitLab'a entegre edilebilmesine olanak sağlamaktır.
 
 GitLab Runner, GitLab'tan tamamen izole bir şekilde, Go dili kullanılarak [MIT Lisansı](https://gitlab.com/gitlab-org/gitlab-runner/blob/master/LICENSE) ile geliştirilmiş ve GNU/Linux, macOS, FreeBSD ve Windows üzerine kurulabilmektedir. [6] 
 
@@ -119,7 +119,7 @@ Please enter the gitlab-ci description for this runner
 [hostame] my-runner
 
 Please enter the gitlab-ci tags for this runner (comma separated):
-my-tag,another-tag
+docker,another-tag
 
 Please enter the executor: ssh, docker+machine, docker-ssh+machine, kubernetes, docker, parallels, virtualbox, docker-ssh, shell:
 docker
@@ -134,19 +134,58 @@ Yukarıdaki tanımlamalardan sonra, token aldığımız bölümde bulunan ***Spe
 
 Böylece artık GitLab sunucumuzun, ilgili proje ya da grubumuz içerisinde kullanabileceği ve iletişimde olduğu bir Runner bulunmaktadır. Bundan sonraki aşamada, GitLab'a yüklediğimiz çeşitli tanımlamalarla birlikte, bu Runner'a ne zaman, nasıl ve neler yapması gerektiğini söyleyeceğiz.
 
-### CI Konfigurasyonu
+### CI/CD Direktifleri
 
-GitLab Runner entegrasyonunu yaptıktan sonra projenizin ana dizininde `.gitlab-ci.yml` isimli bir dosya oluşturarak, nasıl bir CI/CD yapılandırması istediğimizi yazıyoruz.
+Şu ana kadar yaptığımız çalışmalarla birlikte, GitLab ile Runner arasındaki ilişkinin nasıl olacağını tanımladık. Bundan sonra yapacaklarımız, herhangi bir projemiz (repository) içerisinde, herhangi bir olay gerçekleştiğinde (commit, push, tag vb.) hangi işlemlerin nasıl yapılacağını GitLab'a bildirmekten ibarettir. Bu işlemleri GitLab'a bildirmek için kullandığımız ortak lisan, [Yaml](https://yaml.org/) formatında yazacağımız `.gitlab-ci.yml` dosyasıdır. 
 
-```yml
-image: ruby:2.2
+Bunun için projenizin ana dizininde `.gitlab-ci.yml` isimli bir dosya oluşturarak, nasıl bir yapılandırma istediğimizi yazarak işe başlıyoruz.
 
-test:
+<pre><code class="language-yaml">
+stages:
+  - test
+  - deploy
+
+jstest:
+  stage: test
+  image: node:latest
+  tags:
+    - 'docker'
   script:
-  - bundle exec rake spec
-```
+    - npm install
+    - npm run test
+</code></pre>
 
-Bu tanımlama dosyasını incelediğimizde, tıpkı Docker tanımlarında olduğu gibi bir `image` anahtarı bulunmaktadır. Bu image anahtarı ile hangi Docker image'ını kullanacağımızı belirliyoruz. 
+Yukarıdaki dosyayı incelediğimizde, iki ana bölüm dikkat çekmektedir; `stages` ve `test`. 
+
+`stages` bölümünde projemiz içerisinde hangi ***stage*** adımlarının bulunduğunu GitLab'a söylüyoruz. Buraya dilediğimiz adımları yazabilmekle birlikte, genel olarak `test`, `build`, `publish` ya da `deploy` gibi kalıplaşmış stage isimlendirmeleri kullanabiliriz. Her stage içerisinde birden fazla ***görev*** tanımı yapabiliriz. Örneğin ***test*** stage'i içerisinde, JS testleri için ayrı bir ***task***, Ruby testleri için ayrı bir ***task*** yazabiliriz. Ya da ***build*** aşaması içerisinde farklı platformlar için ayrı ayrı görevler ile build işlemi gerçekleştirebiliriz. Stage tanımlarının sırasına göre, çalışma anında GitLab bize aşağıdaki gibi bir görselleştirme yapacaktır;
+
+<img src="/images/posts/18.jpg" class="center" />
+<p class="img-description">Resim 6 - GitLab CE Pipeline Detayı</p>
+
+Üstteki resmi incelediğimiz zaman ***Build***, ***Prepare***, ***Test*** gibi bir stage sıralaması yapıldığını ve örneğin Prepare stage'i altında ***compile-assets***, ***setup-test-env*** gibi görevler bulunduğu görebiliriz. Bu tanımlar tamamen projenin ihtiyaçlarına göre bizim tarafımızdan belirlenmektedir.
+
+Yukarıda kendi yazdığımız yapılandırma dosyasına döndüğümüzde, ***jstest*** isimli bir görev tanımını, bu görev tanımının ***test*** isimli stage altına yer alacağını, Docker image'ı olarak ***node*** isimli image'ın son sürümünün kullanılacağını ve bu görevin ***docker*** etiketine sahip herhangi bir Runner tarafından çalıştırılacağını tanımladığımızı görebilirsiniz.
+
+Bu dosya repository içerisinde GitLab'a ulaştığı zaman, GitLab bu dosyayı doğrudan yorumlayarak gerekli işlemleri yapacaktır. 
+
+> Bu makale için oluşturduğum örnek repository kodlarını [buradan](https://gitlab.com/iozguradem/gitlab-ci-test) inceleyebilirsiniz.
+
+GitLab üzerinde, repository içerisinde CI/CD menüsü altında çalıştırılan [Pipeline](https://gitlab.com/iozguradem/gitlab-ci-test/pipelines)'larını ve  [pipeline içeriklerini](https://gitlab.com/iozguradem/gitlab-ci-test/pipelines/43995855) görebilirsiniz. Hemen aşağıda yazdığımı ***jstask*** isimli görev çalıştığında console üzerinde neler yapılmış görebilmekteyiz. 
+
+<img src="/images/posts/19.jpg" class="center" />
+<p class="img-description">Resim 7 - GitLab CI/CD Pipeline Job</p>
+
+Logları incelediğimizde, Runner çalışmaya başladıktan sonra öncelikle bizim belirttiğimiz ***node:latest*** image'ının [Docker Hub](https://hub.docker.com/) üzerinden alındığını, daha sonra repository içeriğinin ***git clone*** ile ana dizine çıkartıldığını görebiliriz. Sonrasında `$` ile başlayan her bölüm, bizim ***script*** altına yazdığımız komutlardan ibarettir. Özetle; gerekli ortamı hazırlayıp, koşturulması gereken komutları sırasıyla ***.gitlab-ci.yml*** dosyasına yazarak, Runner'ın sırayla neler yapması gerektiğini adım adım belirtmiş oluyoruz. Repository üzerinde herhangi bir hareket olduğunda GitLab bu dosyayı okuyarak ilgili Runner ile iletişime geçer, ve çalıştılması gereken komutları Runner'a bildirdikten sonra arkasına yaslanarak Runner'dan gelen cevapları bekler. Runner yaptığı işlemlerin loglarını tekrar GitLab'a gönderir ve biz de web arayüzünden görevlerin sonuçlarını görebiliriz. 
+
+### Son Sözler
+
+GitLab CI/CD entegrasyonu için gerçekleştirdiğimiz işlemlerin, sadece bir kaç yazılım aracını kullanmaktan ibaret olmadığına yazının ilk bölümünde bir miktar değinmiştim. CI/CD, DevOps sürecinin yalnızca bir parçasını oluşturmaktadır ve CI/CD entegrasyonuna ek olarak DevOps içerisinde yapılabilecek bir çok farklı eylem bulunmaktadır. Konu hakkında daha fazla araştırma yaparak bu konudaki bilgi dağarcığınızı büyütebilirsiniz.
+
+Ek olarak, bu makalede bu kadar detay olmasının bir diğer sebebi de; kaputun altında neler olduğunun yeterince anlaşılmadığı durumlarda, ezbere yapılan hareketlerin, yazılım geliştirme süreçlerine yarardan çok zarar sağladığını düşünmemdir. Yazılım geliştirme süreçleri nasıl dilleri kullanmaktan ibaret değilse, DevOps da benzer şekilde, sadece araçları kullanmaktan ibaret değildir. DevOps kültürü, doğrudan doğruya geliştirme hızınıza katkıda bulunmasının yanı sıra, dolaylı olarak da, geliştiricilerin yaptıkları ve kısa süre sonra nasıl yaptıklarını unutacakları pek çok işin bir sistematiğe oturtulması demektir. 
+
+Tam da bu nedenle geliştirme süreçlerinize günbegün yedirmeniz gereken bir kültür olduğundan, bir çok farklı kaynakta bahsedilmektedir. Aynı zamanda, ***Yazılım Geliştirme*** süreci içerisinde bulunan bütün ekiplerin, yaptıkları işi basit kodlara ve şemalara dökerek birbirlerine anlatma sürecidir de DevOps. Oluşturulacek her yeni proje, yapılacak her iş bu kültür içerisinde düşünülmeli, kurgulanmalı ve uygulanmalıdır. 
+
+Bir bilgisayarın yapabileceği bir işi, asla bir insan kendisi yapmamalıdır. 
 
 ### Referanslar
 
