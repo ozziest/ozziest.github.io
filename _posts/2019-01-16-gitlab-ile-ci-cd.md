@@ -23,7 +23,7 @@ CI/CD kavramları tek başına var olmaktan ziyade, kendisinden çok daha büyü
 ***Google Trends*** üzerinde biraz araştırma yaptığımızda bu kavramın, yazılımın beşiği sayılabilecek ABD'de 2013 yılından sonra daha çok gündeme gelmeye başlamış olduğunu görüyoruz. Türkiye'de ise 2015 yılından itibaren gösterilen ilgi artmaya başlamış ve ardımızda bıraktığımız 2018 yılında, deyim yerindeyse ***altın çağını*** yaşamıştır. [2]
 
 <a href="https://trends.google.com/trends/explore?date=all,all&geo=US,TR&q=%2Fm%2F0c3tq11,DevOps" target="_blank">
-    <img src="/images/posts/13.jpg" class="center" />
+    <img src="/images/posts/13.JPG" class="center" />
 </a>
 <p class="img-description">Resim 1 - Google arama trendleri ABD-Türkiye karşılaştırması</p>
 
