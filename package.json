@@ -5,12 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "hackmyresume": "^1.8.0",
-    "jsonresume-theme-flat": "^0.3.7"
+    "jsonresume-theme-flat": "^0.3.7",
+    "wkhtmltopdf": "^0.3.4"
   },
   "devDependencies": {},
   "scripts": {
     "md": "hackmyresume BUILD resume.json TO _includes/resume.md",
-    "compile": "hackmyresume BUILD resume.json TO resume/index.all resume/index.md -t node_modules/jsonresume-theme-flat"
+    "compile": "hackmyresume BUILD resume.json TO resume/index.all -t node_modules/jsonresume-theme-flat"
   },
   "repository": {
     "type": "git",
