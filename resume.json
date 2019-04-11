@@ -33,10 +33,18 @@
   },
   "work": [
     {
+      "company": "Bauexperts Sachverständigengesellschaft",
+      "position": "Lead Software Developer",
+      "website": "https://www.bauexperts.de",
+      "startDate": "2019-04-02",
+      "summary": "I have started to work at Bauexperts as Lead Software Developer. I am currently responsible to create auto scaling system on AWS."
+    },
+    {
       "company": "Polisoft",
-      "position": "Software Developer",
+      "position": "Lead Software Developer",
       "website": "http://polisoft.co.uk",
       "startDate": "2015-07-09",
+      "endDate": "2019-04-01",
       "summary": "I have been developed a single page web application about insurance industry with using C# and AngularJS. The application have connection with a lot of SOAP web services in order to operate all system. \n\nAlso I am lead developer for a project which users can design a complex system. The application allows to user to create another web application in constant rules. Users can design tables, wizards or forms. They can set the rules of forms and they can write even formulas like Microsoft Excel. Additionally, users can create Rest APIs in order to system can be used by third by application."
     },
     {
@@ -82,12 +90,6 @@
   "education": [
     {
       "institution": "Sakarya University",
-      "area": "Computer And Information Engineering",
-      "studyType": "Master's degree",
-      "startDate": "2017-07-17"
-    },
-    {
-      "institution": "Sakarya University",
       "area": "Computer And Electronics",
       "studyType": "Bachelor's degree",
       "startDate": "2006-09-01",
@@ -116,8 +118,8 @@
     {
       "name": "Languages",
       "keywords": [
-        "C#",
         "NodeJS",
+        "C#",
         "Javascript",
         "PHP"
       ]
@@ -175,7 +177,8 @@
         "ROS",
         "Jenkins",
         "TravisCI",
-        "Docker"
+        "Docker",
+        "GitLab CI/CD"
       ]
     }
   ],
