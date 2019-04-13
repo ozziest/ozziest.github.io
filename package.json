@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "hackmyresume": "^1.8.0",
+    "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-flat": "^0.3.7",
     "wkhtmltopdf": "^0.3.4"
   },
   "devDependencies": {},
   "scripts": {
     "md": "hackmyresume BUILD resume.json TO _includes/resume.md",
-    "compile": "hackmyresume BUILD resume.json TO resume/index.all -t node_modules/jsonresume-theme-flat"
+    "compile": "hackmyresume BUILD resume.json TO resume/index.all -t custom-theme"
   },
   "repository": {
     "type": "git",

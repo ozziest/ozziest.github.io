@@ -1,9 +1,18 @@
 {
   "name": "Özgür Adem Işıklı",
-  "info": {},
+  "info": {
+    "label": "Software Developer",
+    "image": "https://avatars2.githubusercontent.com/u/2325140",
+    "brief": "I have been working as software developer since 2010, especially in web development. I have created different web applications with using C#, PHP and NodeJS. I am familiar modern web frameworks (back-end or front-end) such as .Net MVC, .Net Core, Laravel, Symfony, AngularJS, VueJS or React. I am also familiar unit testing concept and libraries such as xUnit, PHPUnit, CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about SOLID principles and best practices when I develop a web application in order to write readable, maintainable and testable code. And that's why i love refactoring... In addition, I love to play with Symfony components as a hobby. Also I have experience about continuous integration tools such as Gitlab-CI, Travis-CI and Jenkins. You may check my GitHub account and review my codes which I've written if you want to learn more information about me.\n\n The aim which in my career is developing maintainable high quality codes. For this purpose I am improving myself  about unit and integration testing. Also I am a big fan of CI/CD processes."
+  },
+  "contact": {
+    "email": "i.ozguradem@gmail.com ",
+    "phone": "+90 554 632 26 93",
+    "website": "http://ozguradem.net"
+  },
   "meta": {
-    "format": "FRESH@0.6.0",
-    "version": "0.1.0"
+    "format": "FRESH@^1.0.0-beta",
+    "modified": "2019-04-13T12:05:47.688Z"
   },
   "location": {
     "city": "Sakarya",
