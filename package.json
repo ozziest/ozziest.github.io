@@ -10,8 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "md": "hackmyresume BUILD resume.json TO _includes/resume.md",
-    "compile": "hackmyresume BUILD resume.json TO resume/index.all -t custom-theme"
+    "compile": "hackmyresume BUILD resume.json TO resume/index.html -t ./custom-theme"
   },
   "repository": {
     "type": "git",
