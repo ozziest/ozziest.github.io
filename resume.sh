@@ -1,0 +1,1 @@
+hackmyresume BUILD resume.json TO resume/index.html -t ./custom-theme
