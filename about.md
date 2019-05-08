@@ -5,9 +5,7 @@ title: About
 
 My name is Özgür Adem Işıklı.
 
-I work as the Lead Developer for the Web Development at <a href="https://www.polisoft.co.uk/" target="_blank">Polisoft</a>. I'm located in Sakarya, Turkey.
-
-I'm a Web Developer since 2012 and I write and talk about .Net, JavaScript, Clean Code, Refactoring and DevOps. 
+I am a Software Developer who is working as Lead Software Developer at <a href="https://www.bauexperts.de/" target="_blank">Bauexperts</a> remotely. I live in Sakarya and I like writing and talking about .Net, JavaScript, Clean Code, Refactoring and DevOps. 
 
 I am a huge fan of discovering. I have a long list full of with big dreams. I am interested as amateur with music, visual arts and literature.
 
