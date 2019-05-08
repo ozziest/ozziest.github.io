@@ -20,6 +20,8 @@ I love to play with ConvertAll method which List object has. Today, I have notic
 
 ### Example
 
+> This code has been updated because of a [suggestion](https://github.com/ozziest/ozziest.github.io/issues/1) giving by [mikependon](https://github.com/mikependon). You might find the details in the [issue](https://github.com/ozziest/ozziest.github.io/issues/1).
+
 <pre><code class="language-csharp">
 using System;
 using System.Collections.Generic;
@@ -53,7 +55,8 @@ namespace ConsoleApplication
             PropertyInfo[] props = item.GetType().GetProperties();
             foreach (PropertyInfo prop in props)
             {
-                newItem[prop.Name] = item.GetType().GetProperty(prop.Name).GetValue(item, null);
+                newItem.Add(prop.Name, prop.GetValue(item, null)); 
+
             }
             return newItem;
         }
