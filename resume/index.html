@@ -17,12 +17,12 @@
             	margin: 0 0 80px;
             }
             a {
-            	color: #2ecc71;
+            	color: #c0392b;
             }
             a:focus,
             a:hover {
-            	color: #f1c40f;
-            	text-decoration: none;
+            	color: #c0392b;
+            	text-decoration: underline;
             }
             p {
             	line-height: 1.5;
@@ -89,7 +89,7 @@
             	font-size: 24px;
             }
             #content h3 {
-            	color: #f1c40f;
+            	color: #c0392b;
             	font-size: 26px;
             	margin-top: -4px;
             }
@@ -187,15 +187,19 @@
     </head>
     
     <body>
-        <header id="header">
+        <header id="header" style="background-color: #c0392b; color: #FFF;">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-9 col-sm-push-3">
+                    <div class="col-sm-3 hidden-xs">
+                        <img class="img-responsive img-circle pull-right" style="max-height: 100px;margin-top: -15px;"
+                        src="https://avatars2.githubusercontent.com/u/2325140?v=3&s=460" />
+                    </div>
+                    <div class="col-sm-9 col-xs-12">
                         	<h1>
 						Özgür Adem Işıklı
 					</h1>
 
-                        	<h2>
+                        	<h2 style="color: #FFF;">
 						Software Developer
 					</h2>
 
@@ -235,18 +239,21 @@
                 </aside>
                 <div class="col-sm-9">
                     <p>I have been working as software developer since 2010, especially in web
-                        development. I have created different web applications, using PHP, C# or
-                        NodeJS. I am familiar modern web frameworks (back-end or front-end) such
-                        as .Net MVC, .Net Core, Laravel, Symfony, AngularJS, VueJS or React. I
-                        am also familiar unit testing concept and libraries such as xUnit, PHPUnit,
+                        development. I have created different web applications with using C#, PHP
+                        and NodeJS. I am familiar modern web frameworks (back-end or front-end)
+                        such as .Net MVC, .Net Core, Laravel, Symfony, AngularJS, VueJS or React.
+                        I am also familiar unit testing concept and libraries such as xUnit, PHPUnit,
                         CodeCeption, Mockery, Mocha or Jasmine. Further I would be careful about
                         SOLID principles and best practices when I develop a web application in
                         order to write readable, maintainable and testable code. And that&#x27;s
                         why i love refactoring... In addition, I love to play with Symfony components
                         as a hobby. Also I have experience about continuous integration tools such
-                        as Travis-CI and Jenkins. You may check my GitHub account and review my
-                        codes which I&#x27;ve written if you want to learn more information about
-                        me.</p>
+                        as Gitlab-CI, Travis-CI and Jenkins. You may check my GitHub account and
+                        review my codes which I&#x27;ve written if you want to learn more information
+                        about me.</p>
+                    <p>The aim which in my career is developing maintainable high quality codes.
+                        For this purpose I am improving myself about unit and integration testing.
+                        Also I am a big fan of CI/CD processes.</p>
                 </div>
             </section>
             <section id="profiles" class="row">
@@ -298,25 +305,43 @@
                     <div class="row">
                         <div class="col-sm-12">
                             	<h4 class="strike-through">
+					<span>Bauexperts Sachverständigengesellschaft</span>
+					<span class="date">
+						2019-04-02 — 
+					</span>
+				</h4>
+
+                            <div class="website pull-right">	<a href="https://www.bauexperts.de">https://www.bauexperts.de</a>
+
+                            </div>
+                            <div class="position">Lead Software Developer</div>
+                            <div class="summary">
+                                <p>I have started to work at Bauexperts as Lead Software Developer. I am
+                                    currently responsible to create auto scaling system on AWS.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            	<h4 class="strike-through">
 					<span>Polisoft</span>
 					<span class="date">
-						2015-07-09 — 
+						2015-07-09 — 2019-04-01
 					</span>
 				</h4>
 
                             <div class="website pull-right">	<a href="http://polisoft.co.uk">http://polisoft.co.uk</a>
 
                             </div>
-                            <div class="position">Software Developer</div>
+                            <div class="position">Lead Software Developer</div>
                             <div class="summary">
                                 <p>I have been developed a single page web application about insurance industry
                                     with using C# and AngularJS. The application have connection with a lot
-                                    of SOAP web services in order to operate all system. Also I have been developing
-                                    a new application which users can design a complex system. The application
-                                    allows to user to create another web application in constant rules. Users
-                                    can design tables, wizards or forms. They can set the rules of forms and
-                                    they can write even formulas like Microsoft Excel. Additionally, users
-                                    can create Rest APIs in order to system can be used by third by application.</p>
+                                    of SOAP web services in order to operate all system.</p>
+                                <p>Also I am lead developer for a project which users can design a complex
+                                    system. The application allows to user to create another web application
+                                    in constant rules. Users can design tables, wizards or forms. They can
+                                    set the rules of forms and they can write even formulas like Microsoft
+                                    Excel. Additionally, users can create Rest APIs in order to system can
+                                    be used by third by application.</p>
                             </div>
                         </div>
                         <div class="col-sm-12">
@@ -430,17 +455,6 @@
                             	<h4 class="strike-through">
 					<span>Sakarya University</span>
 					<span class="date">
-						2017-07-17 — 
-					</span>
-				</h4>
-
-                            <div class="area">Computer And Information Engineering</div>
-                            <div class="studyType">Master&#x27;s degree</div>
-                        </div>
-                        <div class="col-sm-12">
-                            	<h4 class="strike-through">
-					<span>Sakarya University</span>
-					<span class="date">
 						2006-09-01 — 2010-06-24
 					</span>
 				</h4>
@@ -505,8 +519,8 @@
 
                             </div>
                             <ul class="keywords">
-                                <li>C#</li>
                                 <li>NodeJS</li>
+                                <li>C#</li>
                                 <li>Javascript</li>
                                 <li>PHP</li>
                             </ul>
@@ -580,6 +594,7 @@
                                 <li>Jenkins</li>
                                 <li>TravisCI</li>
                                 <li>Docker</li>
+                                <li>GitLab CI/CD</li>
                             </ul>
                         </div>
                     </div>

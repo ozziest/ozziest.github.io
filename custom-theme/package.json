@@ -1,0 +1,12 @@
+{
+  "name": "custom-theme",
+  "version": "0.1.0",
+  "description": "Custom JSON Theme",
+  "scripts": {
+    "start": "resume serve"
+  },
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  },
+  "license": "MIT"
+}
