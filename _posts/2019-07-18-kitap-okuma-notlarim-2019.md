@@ -1,0 +1,123 @@
+---
+layout: post
+title:  "Kitap Okuma Notlarım 2019"
+date:   2019-04-13 15:00
+categories: [Turkish, Books]
+tags: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
+meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
+author: ozziest
+---
+
+<a href="https://pixabay.com/en/map-discovery-america-ship-train-3409359/" target="_blank">
+    <img src="/images/posts/11.jpg" class="center" />
+</a>
+
+İlk defa 2016 yılında, okuduğum kitaplar hakındaki notlarımı derlediğim bir yazı hazırlamıştım (Bkz [2016 Okuma Notları](/turkish/books/2016/12/16/okuma-notlari/)). O dönemden sonra okumaya devam etsem de, aldığım notları tekrar yayınlama ihtiyacı hissetmemiştim. Ancak bu sene, biraz da odaklanmama yardımcı olması amacıyla, kitaplar hakkında aldığım notlara yazı ile yer vereceğim ve bu yazıyı sürekli olarak güncelleyeceğim. 
+
+> Bu makalede yer alan incelemerin bazılarını, doğrudan [1000kitap.com](https://1000kitap.com) üzerinde yayınlamıştım.
+
+### Üç İstanbul (Mithat Cemal Kuntay)
+
+<img class="book-cover" src="/images/books/uc-istanbul.jpg" />
+
+Mithat Cemal Kuntay tarafından yazılan Üç İstanbul'u ilk defa Celal Şengör'den duyduğumda, işgal altındaki İstanbul hakkında yazılan çok fazla roman olmadığına şaşırmıştım. Abdülhamit, Savaş ve Mütareke şeklinde üç farklı dönemde işlenen bu roman, Muharrir Adnan Bey'in yaşamından kesitler sunmakla birlikte, basit gözüken kararların ne kadar acı sonuçları olabileceğini gözler önüne seriyor. 
+
+Türklerin Balkanları terk etmek zorunda kalmaları, adım adım parçalanan Osmanlı Devleti ve gerçek memleket sevdalıları ile çıkar peşinde koşanların hikayeleriyle harmanlanan roman, günümüz Türkiyesi için de bir özet niteliği taşıyor. 
+
+En son ne zaman ciğerlerimi bu denli nefessiz bırakan bir roman okuduğumu hatırlamamakla birlikte, tüm kitap boyunca tek bir ismi okumak için heyecanlandığımı anımsıyorum; Mustafa Kemal! Atatürk adına çok az bir yerde değinilmesine rağmen, Ankara'dan yürütülen Kurtuluş Mücadelesi'nin, dönemin şartları içerisinde ne kadar zor bir iş olduğu harika bir şekilde okuyucuya aktarılıyor. 
+
+Tüm bunların yanında ise yüreğindeki acıyı yakinen hissettiğiniz Şair Raif'in varlığı ve muhalifliği...
+
+### İstanbul'dan Sayfalar (İlber Ortaylı)
+
+<img class="book-cover" src="/images/books/istanbuldan-sayfalar.jpg" />
+
+Doğup büyüdüğüm ancak daha sonra radikal bir karar alarak terk ettiğim bir şehir olan İstanbul, "Üç İstanbul" romanı okumamdan sonra iştahımı kabartmış, bu iştahı doyurmak için de İlber Ortaylı'nın kaleminden çıkan bu kitabı edinmiştim.
+
+Kitap, İlber Ortaylı'nın çeşitli yerlerde yayınlanan parça parça yazılarından derlenerek meydana gelmesine karşın, gerek Osmanlı öncesi ve gerek Osmanlı sonrası dönemlerinde, İstanbul'un ekonomik, sosyal, politik ve tarihi yanlarını ele alarak okuru heyecanlı bir yolculuğa çıkarıyor. Bunun yanında kuvvetle muhtemel İlber Ortaylı'nın geniş bilgisinden kaynaklanan detayların çokluğu, sizi hiç ummadık dehlizlere sürükleyebiliyor. 
+
+Kitabı bitirdiğiniz zaman, eskiden bu yana ne kadar büyük bir gaddarlıkla ve el birliğiyle yok edilen İstanbul'un, özünde ne kadar büyük bir şehir olduğunu daha iyi bir şekilde kavramış oluyorsunuz. Bu nadide eserin her kitaplıkta bulundurulmasını -özellikle İstanbullular için- bir elzem olarak görüyorum.
+
+### Bir Toplum Nasıl İntihar Eder? (A. M. Celal Şengör)
+
+<img class="book-cover" src="/images/books/bir-toplum-nasil-intihar-eder.jpg" />
+
+Celal Şengör bu kitabında, Cumhuriyet Bilim Teknoloji dergisinde yayınlanmış bazı yazılarını toplayarak, ulusların bilimi terk ettiklerinden nelerle karşılaşabileceklerini detaylı bir şekilde ele alıyor. Türkiye'nin yakın tarihindeki bilime bakış açısını da irdeleyerek, yapılan yanlışları, üniversitelerin durumu ve geleceğimizi nasıl tehlikeye attığımızı bizlere anlatıyor. Celal Şengör'ü popüler bilim programlarından da takip eden okuyucular, Şengör'ün eğitime ve bilime bakış açısına aşina olacağından, bu kitapta Şengör'ün fikirlerinin küçük bir derlemesini göreceklerdir.
+
+### Tartışma Sanatının İncelikleri (Arthur Schopenhauer)
+
+<img class="book-cover" src="/images/books/tartisma-sanatinin-incelikleri.jpg" />
+
+Çok büyük umutlarla aldığım kitabı, ne yazık ki yarıda bırakmak zorunda kaldım. Neden yarıda bıraktığımı da açıklamanın yerinde olacağını düşünüyorum. 
+
+Orijinal dilinden okunmayan eserler için yapılacak değerlendirmelerin, yazar ve çevirmen için ayrı ayrı yazılması daha yerinde olacağından, yazacağım değerlendirmeyi önce çeviriyi odağa alarak yazacağım. 
+
+Çevirmenlik konusunda özel bir ihtisasım olmamasına rağmen, sıradan bir okuyucu olarak çeviriden beklentilerim söz konusu olabiliyor. Bunların başında anlaşılabilirlik var. Söz konusu çeviri ne yazık ki beklentilerimi karşılayamadı. Birincisi, neredeyse kitap kadar büyükçe bir sunuş kısmını içerisinde barındırıyor. Sunuşların öneminin tabiiliği, yazarın meydana getirdiği eserin önüne geçmemeli. İkincisi, eser içerisinde geçen tüm kelimelerin tam manasıyla Türkçe'ye çevrilmesi, önemli terimler söz konusu olduğunda da dipnotlar ile kullanıcıya bilgi verilmesini daha uygun buluyorum. Ancak çeviri boyunca çoğunlukla tam tersi bir çeviri şekli kullanılmış. Bu durum okuma işini oldukça zorlaştırıyor. Hatta bazı yerlerde Latince kelimeler için dipnot dahi yazılmamış. Latince bilenler için sorun olmayacaktır ancak ne yazık ki benim Latince bilgim hiç mi hiç yok. 
+
+Eserin kendisine geldiğimizde; kendisine olan büyük merakıma rağmen, çeviri nedeniyle yarıda bırakmak zorunda kaldım. Daha iyi bir çevirisine rastladığımda, tekrardan okumak için sabırsızlanıyorum.
+
+### İttihat ve Terakki Cemiyeti (Kazım Karabekir)
+
+<img class="book-cover" src="/images/books/ittihat-ve-terakki-cemiyeti.jpg" />
+
+Kazım Karabekir'in kendi hatıralarından oluşan ve bizzat Karabekir'in kendisi tarafından kaleme alınan bu kitap, evvela Kazım Karabekir'i daha iyi bir şekilde tanımama yardımcı olmasının yanında, hakkındaki bilgilerimi yetersiz bulduğum İttihat ve Terakki hakkında da oldukça detaylı bir malumat veriyor. 
+
+Kitabı okuma sürecimde, hem tarih bilgilerimin ne kadar yetersiz hem de örgün eğitimde belirlenen tarih müfredatının epeyce basma kalıp olduğunu bir kez daha kavramakla beraber, özellikle Kazım Karabekir ve Balkan Mağlubiyeti hakkında daha fazla okuma yapmam gerektiği zaruretini idrak etmiş bulunuyorum. 
+
+Karabekir'in kitapta kullandığı anlatım dili oldukça akıcı olmasına rağmen, zaman zaman yer verilen çeşitli yazışmalarda, gazetelerde yayınlanan köşe yazılarında ya da hükumet evraklarında kullanılan Türkçe, ağırlığı ile okumayı bir nebze zorlaştırabiliyor. Ancak bu zorluğun nedeni Karabekir'in kaleminden ziyade, bizim neslimizin kelime dağarcığının günlerdir azalmakta oluşu, daha önemli bir sebep olarak karşımızda duruyor.
+
+Kitaptaki hatıralar Karabekir'in ilk gençlik yıllarından başlayarak, 31 Mart Vakası'yla birlikte noktalanıyor. Özellikle Balkanların o dönemdeki durumu hakkında belirtilen hususlar, birinci ağızdan bir kaynak özelliğini taşıyor. 
+
+İttihat ve Terakki'nin kurulum, teşkilat ve faaliyetlerinin detaylı olarak incelenmesinde görünen vaziyette; Karabekir'in özellikle son dönemlerde etkisinin azaldığı ve İttihat ve Terakki güçlendikçe, tıpkı bugünlerdeki gibi güç sevdalılarının, vatan sevdalılarının önüne geçmesi gibi olaylar çarpıcı bir şekilde anlatılıyor.
+
+### Bir Ömür Nasıl Yaşanır? (İlber Ortaylı)
+
+<img class="book-cover" src="/images/books/bir-omur-nasil-yasanir.jpg" />
+
+İlber Ortaylı ve Celal Şengör'ün bende ayrı bir yeri vardır. Her iki üstad da kendimi ve dünyayı daha iyi anlamam ve ufkumu genişletmeme oldukça yardımcı olmakla birlikte, çalışmaya odaklanmamı kolaylaştırmalarıyla hayatımda önemli bir yer işgal ediyorlar. Öncelikle bunu belirtmekte yarar görüyorum.
+
+İlber Ortaylı ile yapılan söyleşilerden oluşan bu kitapta, özellikle gençler için harika tavsiyeler bulunuyor. Benim gibi artık genç orta yaş olarak değerlendirilen bireyler için geç kalmış bir kitap diyebiliriz ki Ortaylı sık sık gençliğin önemini vurguluyor. 
+
+Kitapta özellikle entellektüellik ile ilgili şu harika tanımı yapmış Ortaylı: "Entelektüel, üstüne vazifeli olmayan işlerle ilgilenen kişidir." Bu tanımdan haraketle, daha fazla okumak, daha iyi okumak ve anlamak için her bireyin nasıl bir gayret içerisinde olması gerektiğini detaylı bir şekilde izah ediyor. 
+
+Kitabı bitirdikten sonra kardeşime vermeyi de ihmal etmedim tabii ki.
+
+### Değişim Sürecinde Türkiye  (Mahfi Eğilmez)
+
+<img class="book-cover" src="/images/books/degisim-surecine-turkiye.jpg" />
+
+Mahfi Eğilmez'i çok uzun yıllardır kişisel blogundan [Kendime Yazılar](http://www.mahfiegilmez.com/) takip eden bir okuyucu olduğum için ilk fırsatta bu kitabını okunmayı kendime ödev edindim. 
+
+Kitap, hem dünya ekonomik tarihini, hem Osmanlı ile birlikte Türkiye'nin ekonomik tarihini genel hatlarıyla ele alarak, geçmişimizde neleri başarılı bir şekilde yapabildiğimizi, neleri ise yapmakta geç kaldığımızı sade bir üslupla anlatıyor. 
+
+Yer yer ekonomik terimler kullanılsa da, kitabın hedef kitlesi ekonomistler olmadığından, herkesin anlayabileceği basit bir dili bulunuyor.
+
+### Anne Kafamda Bit Var (Tarık Akan)
+
+<img class="book-cover" src="/images/books/anne-kafamda-bit-var.jpg" />
+
+Tarık Akan'ın hayatının kısa bir dönemini anlattığı bu kitapta, askeri darbe dönemlerinde söylemediği bir söz nedeniyle ve yalan ifadelerle nasıl bir gözaltı/işkence süreci yaşadığını dile getiriyor. 
+
+Konuşma diline sahip olan bu kitap, dönemin zorluklarını anlatabilmek açısından önemli bir yere sahip. Yıllar geçmesine rağmen ülkemizde bazı konularda çok fazla ilerleme sağlayamamış olmamız, bir vatandaş olarak beni derinden üzdü.
+
+Bunun yanında, Yılmaz Güney'in *Yol* isimli filminin çekiliş hikayeleri ve Cannes Film Festival'inde ödül alma hikayesi de oldukça etkileyici. Söz konusu filmi henüz izlememekle birlikte, dönemin darbe şartları baz alındığında filmin ne kadar zor bir ortamda çekildiğini tahmin etmek zor olmuyor. Cannes'de ödül alan böylesi önemli bir filmin yapılış öyküsünün basılı literatürmüzde yer almasını da önemli buluyorum.
+
+### Fareler ve İnsanlar (John Steinbeck)
+
+<img class="book-cover" src="/images/books/fareler-ve-insanlar.jpg" />
+
+Dünya klasikleri arasında sayılabilecek ve kendisine Türkiye'de de geniş bir okuyucu kitlesi bulan bu kitap, acıklı bir hikayeyi güzel bir şekilde anlatmakla birlikte, beni sürükleyebilen bir yapıda değildi. Bende çok fazla bir etki bırakamaması, öykünün kendisinden ziyade çevirisiyle de alakalı olabileceğini göz önünde bulunduruyorum. 
+
+Bir de özellikle Haldun Taner'in öykülerini okuduktan sonra Türkçe'nin o zarif yapısının güzelliğini, hiç bir dünya klasiklerinde bulamadığımı da belirtmem gerekiyor. Çevirmen ne kadar iyi olursa olsun, ister eserin aslına sadık kalsın, ister kültüre uygun dönüşümleri bir sanatçı edasıyla yerine getirsin, aslı Türkçe olmayan romanlarda, Türkçe'deki tadı bir türlü bulamıyorum.
+
+### İntibah (Namık Kemal)
+
+<img class="book-cover" src="/images/books/intibah.jpg" />
+
+Namık Kemal adını duymayanımız kalmamıştır. Ancak ne yazık ki bir çoğumuz hakkında çok az bir bilgiye sahibiz. Benim de aralarında bulunduğum bu zır cahiller güruhu, sanki hayat normal seyrindeymiş gibi kaygısız yaşamaya devam ediyor. Lakin işin aslı öyle değil.
+
+Namık Kemal'i gerçek manada *Üç İstanbul* romanında duydum ve daha sonra kendisini okuma/tanıma ihtiyacı hissetim. Daha sonra ilk edebi romanımız olarak ezberlediğimiz ancak içeriğini hiç merak etmediğimiz bu romanı görmekle okumaya karar verdim.
+
+Namık Kemal'i bir kenara bırakarak sadece romana baktığımızda, konu olarak alışageldiğimiz bir konusu olduğunu söylemek yerinde olacaktır. Ancak bizim alışıkanlığımızın nedeni bu roman da olabilir. 
+
+Dil olarak; oldukça eski bir roman olması nedeniyle, eğer asıl dilinde okursanız, günlük hayatta pek sık kullanmadığımız bir çok kelimeye denk gelmeniz olası. Ancak sadeleştirilmiş Türkçe ile yayınlanan sürümlerini de bulabilirsiniz. Lakin bunun ne kadar makul olduğu ya da asıl dilini okurken yaşadığımız anlam kayıpları her zaman ayrı bir tartışma konusu olacaktır.
