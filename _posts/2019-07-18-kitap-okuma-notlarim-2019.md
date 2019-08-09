@@ -121,3 +121,13 @@ Namık Kemal'i gerçek manada *Üç İstanbul* romanında duydum ve daha sonra k
 Namık Kemal'i bir kenara bırakarak sadece romana baktığımızda, konu olarak alışageldiğimiz bir konusu olduğunu söylemek yerinde olacaktır. Ancak bizim alışıkanlığımızın nedeni bu roman da olabilir. 
 
 Dil olarak; oldukça eski bir roman olması nedeniyle, eğer asıl dilinde okursanız, günlük hayatta pek sık kullanmadığımız bir çok kelimeye denk gelmeniz olası. Ancak sadeleştirilmiş Türkçe ile yayınlanan sürümlerini de bulabilirsiniz. Lakin bunun ne kadar makul olduğu ya da asıl dilini okurken yaşadığımız anlam kayıpları her zaman ayrı bir tartışma konusu olacaktır.
+
+### Bilgiyle Sohbet (Popüler Bilim Yazıları) (Celal Şengör)
+
+<img class="book-cover" src="/images/books/bilgiyle-sohbet.jpg" />
+
+Bilgiyle Sohbet, Celal Şengör tarafından daha önce çeşitli yerlerde yayınlanan popüler bilim yazılarından ve bazı açılış konuşmalarından derlenmiş bir eser. Ancak söz konusu bu eserin toplama bir eser olması, onun niteliğini hiç mi hiç azaltmıyor.
+
+Tıpkı İlber Ortaylı gibi bir *elitist* olan ve bu özelliğini her fırsatta vurgulayan Şengör, hemen hemen tüm kitap boyunca bilim felsefesini ve tarihini irdeliyor. Çok farklı konular üzerinden yaptığı incelemelerle, bilimin nasıl olması gerektiğini, nelerin *zırvalıktan* ibaret olduğunu etraflıca okuyucuya aktarıyor. Bazı okuyucuların aksine ben, Celal Şengör'ün sık sık yaptığı tekrarlardan keyif aldım. Çünkü, özellikle Türkiye gibi bilimden nasibini alamamış ve bilim nedir anlayamamış bir toplumda, bilim felsefesinin üstünkörü bir şekilde anlatılmasının bize yarardan çok zarar sağlayacağı kanısındayım. Ne yazık ki biz, okumuş insanlara karşı büyüyen bir düşmanlık çağında hayatta kalmaya çabalıyoruz. Böyle bir toplumda, ben de sayın Şengör gibi, defaatle bilimin felsefesini konuşmak, anlamak ve anlatmak gerektiğini savunuyorum.
+
+Tüm bunların yanında, Şengör'ün örnekleriyle gösterdiği cehalet seviyemiz içimi bir hayli acıttı ve bir o kadar da utandım. Umarım biz, bizden önceki nesillerin pek de başarılı olamadığı bilim konusunda daha iyi bir kuşak olabiliriz.
