@@ -132,7 +132,9 @@ Tıpkı İlber Ortaylı gibi bir *elitist* olan ve bu özelliğini her fırsatta
 
 Tüm bunların yanında, Şengör'ün örnekleriyle gösterdiği cehalet seviyemiz içimi bir hayli acıttı ve bir o kadar da utandım. Umarım biz, bizden önceki nesillerin pek de başarılı olamadığı bilim konusunda daha iyi bir kuşak olabiliriz.
 
-### Hukuka Giriş (Kemal Gözler)
+<h3 id="hukuka-giris">
+    Hukuka Giriş (Kemal Gözler)
+</h3>
 
 <img class="book-cover" src="/images/books/hukuka-giris.jpg" />
 
