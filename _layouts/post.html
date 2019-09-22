@@ -11,7 +11,7 @@ layout: default
 {% include share.html %}
 
 {% if site.related_posts != empty %}
-<aside class="related">
+<aside class="related no-print">
   <h2>Suggestions</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -28,7 +28,7 @@ layout: default
 </aside>
 {% endif %}
 
-<div>
+<div class="no-print">
   <h2>What About Comments?</h2>
   <p>
     I do not use any comment system such as Disqus because of user's privacy. If you want to 

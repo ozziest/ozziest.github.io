@@ -82,4 +82,12 @@ img.book-cover {
   margin-left: 20px;
 }
 
+@media print
+{    
+  .no-print, .no-print *
+  {
+    display: none !important;
+  }
+}
+
 @import "_social"
