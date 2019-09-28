@@ -102,7 +102,7 @@ The human mind is the most exciting result of evolution. Because it can compose 
 
 Maybe the evolutionary artificial intelligence will be the best teacher for us to love each other more despite the fears we have. If you think the same, please contribute to the idea as much as you can. If this is a bad idea, please explain why, and we will forget this theory.
 
-(This post was [originally](https://ozguradem.net/english/coding/essays/2019/09/28/evolutionary-artificial-intelligence/) published on [ozguradem.net](https://ozguradem.net). I also appreciate to my friends (Furkan Başaran, Alperen Yılmaz, Melih Çaylak and Fatih Boyacı) who reviewed this article before I publish.)
+(This post was [originally](https://ozguradem.net/english/coding/essays/2019/09/28/evolutionary-artificial-intelligence/) published on [ozguradem.net](https://ozguradem.net). I also appreciate to my friends (Furkan Başaran, Alperen Yılmaz, Melih Çaylak, Fatih Boyacı and Murat Palankalılar) who reviewed this article before I publish.)
 
 ### References
 
