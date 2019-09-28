@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Evolutionary Artificial Intelligence"
-date:   2019-08-09 15:00
+date:   2019-09-28 09:00
 categories: [English, Coding, Essays]
 tags: artificial intelligence, ai, evolutionary, evolution, dna
 meta: artificial intelligence, ai, evolutionary, evolution, dna
@@ -18,7 +18,7 @@ Nowadays, everybody is talking about *Artificial Intelligence (AI)*. It is like 
 
 First of all, many people think that we had good progress in artificial intelligence. We have self-driving cars, face recognition systems and even deep fake porn videos. Besides, there are many new areas which haven't been worked on yet. 
 
-I do not doubt that everybody agrees we have some kind of * intelligence*. Certainly, they are *artificial* because we have built them by machines. But I think that we forget our main target while trying to solve tiny problems. Can you remember what our main target was?
+I do not doubt that everybody agrees we have some kind of *intelligence*. Certainly, they are *artificial* because we have built them by machines. But I think that we forget our main target while trying to solve tiny problems. Can you remember what our main target was?
 
 A. M. Turing published a paper which is called "Computing Machinery And Intelligence" in 1950 [2]. He asked a very simple question in his paper; *"Can machines think?"*. After this question, humanity has started its most inspiring journey. But after 70 years, today, I want to criticize the point where we have arrived. I don’t think we have machines which can think. Moreover, with current methods, I don’t think that we will be able to create a machine which can think in the future.
 
@@ -58,9 +58,9 @@ To create an environment for artificial intelligence, we should understand basic
 
 In real world, there are **organisms** which are single living plant, animal or virus [6]. Those organisms live on a **planet** like earth. Also there are many **stimulants** which can affect the organism. When an interaction takes place, the organism **responds**. This process is called **cell signaling** [7]. Besides, those organisms reproduce themselves. While they are creating a new offspring, **DNA** chains of ancestors are used. Every new offspring should be the same as its ancestor. But in real world, there is a **mutation** factor which disrupts the DNA structure. This new organism with a new DNA chain is tested by the *environment* about how suitable it is to live in the environment. This is called **natural selection**. After this life cycle has continued for a long time, different kind of animals have appeared. One of them is us which has got a super brain which can learn, understand, and make judgments. And I claim that if we can create same structure on computers, we can produce an artificial  intelligence on machines.
 
-In our virtual enviroment, the artificial  intelligence doesn't have to be a physical creature such as a bug, a lion or a human. We aim to create an intelligence. To make it, we don't have to have a real body. Insted of creating a body -like a robot-, we can simple create a computer program. 
+In our virtual environment, the artificial  intelligence doesn't have to be a physical creature such as a bug, a lion or a human. We aim to create an intelligence. To make it, we don't have to have a real body. Instead of creating a body -like a robot-, we can simple create a computer program. 
 
-So we can name a simple *program* as an organism. When a program has been executed, executer of the program (physical presence of computer) would be the *planet*. In this case, stimulants would be every signal in the system such as camera signals, microphone signals, every data transmission in ports, the data which is located in RAM or HDD. When a stimulant has been processed, *the program* will produce a new response for the computer. As a principle of evolution, organism doesn't have any purpose in its actions. All actions are generated randomly. Also, the program should have an abilty to create a copy of itself so that it creates new offsprings. While it is creating a new copy, it should change its structure too. Because organisms have DNA chains which define the behaviour of the organism. In our virtual world, the program should have its DNA structure. Maybe, the code of the program can be use as DNA. With this method, every program should have its code. Also every program should be able to create a new copy with its code. Of course, as a key point, if we are talking about evolution, while the program is creating a new copy, it should mutate the code randomly, a little bit. As a result, a new copy of the program should be *almost* the same as the ancestor.
+So we can name a simple *program* as an organism. When a program has been executed, executor of the program (physical presence of computer) would be the *planet*. In this case, stimulants would be every signal in the system such as camera signals, microphone signals, every data transmission in ports, the data which is located in RAM or HDD. When a stimulant has been processed, *the program* will produce a new response for the computer. As a principle of evolution, organism doesn't have any purpose in its actions. All actions are generated randomly. Also, the program should have an ability to create a copy of itself so that it creates new offsprings. While it is creating a new copy, it should change its structure too. Because organisms have DNA chains which define the behavior of the organism. In our virtual world, the program should have its DNA structure. Maybe, the code of the program can be use as DNA. With this method, every program should have its code. Also every program should be able to create a new copy with its code. Of course, as a key point, if we are talking about evolution, while the program is creating a new copy, it should mutate the code randomly, a little bit. As a result, a new copy of the program should be *almost* the same as the ancestor.
 
 You might think that a system like this can turn to a garbage. You are right because, probably most of programs will be turn to garbage which is something can't be executed. But in this randomness, some programs which have some ability to survive may occur. This little *chance* is the hearth of the evolution which has created human brain.
 
@@ -86,7 +86,7 @@ Hearth of the human brain's evolution was *randomness*. But it can be bad as it 
 
 First, we can't create the same environment as the evolution of the human brain has. The environment could be similar but not the same. We can even create almost the same environment (which is not possible), randomness will still follow a different path because of infinity. We can't know what kind of creatures we will have. We can't know what kind of intelligence we will have. It is a completely blind shot.
 
-#### The Problem Of Security of Humanity
+#### The Problem Of Security Of Humanity
 
 Because of the problem for random infinity, we can't be sure what we will have. There can be some great creatures which can live on a computer. But also, there can be some destructive creatures too which want to destroy everything. We can create an environment which is closed outside to block undesirable results. But it will reduce the speed of evolution. The speed of evolution would increase as long as creatures can have the data. 
 
@@ -101,6 +101,8 @@ I suggest a solution to solve this thinking problem. I claim that we can create 
 The human mind is the most exciting result of evolution. Because it can compose operas. It can write sonnets. Moreover, nobody organized the human brain in order to do those activities. A human mind does this because it can think. What a wonderful thing it is to think, isn't it? If nature has built it once, it can do it one more time for us.
 
 Maybe the evolutionary artificial intelligence will be the best teacher for us to love each other more despite the fears we have. If you think the same, please contribute to the idea as much as you can. If this is a bad idea, please explain why, and we will forget this theory.
+
+(This post was [originally](https://ozguradem.net/english/coding/essays/2019/09/28/evolutionary-artificial-intelligence/) published on [ozguradem.net](https://ozguradem.net). I also appreciate to my friends (Furkan Başaran, Alperen Yılmaz, Melih Çaylak and Fatih Boyacı) who reviewed this article before I publish.)
 
 ### References
 
