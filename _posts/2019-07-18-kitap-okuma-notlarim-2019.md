@@ -147,3 +147,21 @@ Kitap içerik olarak; hukuk üzerindeki teorileri çeşitli yönleriyle anlatmak
 Bu kitap ile birlikte temel hukuk kavramlarının yanı sıra, Türkiye'deki hukuk sisteminin nasıl olduğu ve Kara Avrupası ile ne gibi benzerlikle göstererek, nasıl bir tarihsel süreç izlediği de öğrenilebilir. Özellikle konu anlatımlarının yanı sıra verilen güncel örnekler, konunun pekiştirilmesi açısından oldukça yararlı. 
 
 Hukuk günlük hayatımızın büyük bir parçasını oluştururken ve biz ülkemizde bir çok haksızlık olduğunu düşünürken, olaylara duygusal bir şekilde yaklaşmak yerine, bir bilim dalı olan hukuku daha iyi anlamalı ve hislerimiz yerine aklımızı kullanmalıyız. Bunu yapabilmek için de öncelikle bilim nedir öğrenmeli, daha sonra da hukuk konusunda bir hukuk fakültesi mezunu kadar olmasa da, temel düzeyde bilgilere sahip olmalıyız. Bu nedenlerle Gözler'in kitabının her vatandaş tarafından okunmasını elzem buluyorum.
+
+<h3 id="ronesans-dusuncesi-ve-resim-sanati">
+    Rönesans Düşüncesi ve Resim Sanatı (Nilüfer Öndin)
+</h3>
+
+<img class="book-cover" src="/images/books/ronesans-dusuncesi-ve-resim-sanati.jpg" />
+
+Rönesans'a eskiden bu yana ilgim olmasına rağmen, sanatta ne gibi farklılıkların ortaya çıktığını ve bunların nedenlerini hiç mi hiç bilmiyordum. Ayrıca resim sanatındaki bilgisizliğim de hesap edilince, Rönesans'taki resim konusunda tam bir bilgisizdim. Bu kitabı gördüğüm gibi hemen sarılarak büyük bir iştahla okumaya başladım ve çeşitli notlar çıkararak ilerledim.
+
+Öncelikle kitabın baskı kalitesine değinmek istiyorum. Rönesans döneminde yapılan resimlerle ilgili bir kitap olduğundan içinde pek çok resim mevcut. Kitap kalitesiyse bu resimlerin olağanüstü gücünü göstermek için bilinçli olarak yüksek tutulmuş. Beyaz ve kaliteli bir kağıt üzerine basılan resimler, gerçekleri gibi olamasa da sizi içine çekmeyi başarıyor. Resimlerin gücünü kaliteli sayfalarda iliklerinizde hissedebiliyorsunuz. Bu açıdan oldukça başarılı.
+
+Kitapta kimi zaman temel terimler açıklanıyor, kimi zaman ise doğrudan belirli bir resmin kompozisyonu hakkında bilgi veriliyor. Hem genel olarak Rönesans'ın nedenlerine, hem de özel olarak eserlere değinmesi ve hatta zaman zaman sanatçıların ruhsal durumlarını anlatması açısından oldukça kıymetli bir eser.
+
+Yazım dili genel olarak herkesin anlayabileceği düzeyde olsa da, bazı bölümler benim gibi resim konusunda pek bilgiye sahip olmayanlar tarafından zorlayıcı olabilir. Yine de tüm bu zorlayıcı bölümler biraz daha dikkat ve özen gerektiriyor, hepsi bu kadar.
+
+Kitapta eleştirebileceğim tek nokta, resimlerin bir numaralandırma sistemine sahip olmaması. Yazı içerisinde bir resim anlatılmaya başlandığında, ilgili resim bir numara ile iliştirilmemiş. Bu nedenle, bazı resimler anlatılardan birkaç sayfa sonraya, bazı resimler ise anlatılardan birkaç sayfa önceye denk gelebiliyor. Bu da okuyucuyu yoran küçük bir detay durumunda.
+
+Kitabı bitirdikten sonra, siz de tıpkı benim gibi yeni bir İtalya gezisinin planlarını yapmaya başlayabilirsiniz. Kütüphanemde bulunmasından oldukça memnun olduğum, bir sonraki İtalya gezisinde çantamdan ayırmayacağım bir kitap.
