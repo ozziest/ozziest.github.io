@@ -5,11 +5,11 @@ title: About
 
 My name is Özgür Adem Işıklı.
 
-I am a Software Developer who is working as Lead Software Developer at <a href="https://www.bauexperts.de/" target="_blank">Bauexperts</a> remotely. I live in Sakarya (Turkey) and I like writing and talking about .Net, JavaScript, Clean Code, Refactoring and DevOps. 
+I am a Software Developer who lives in Sakarya (Turkey) and works remotely as a Lead Software Developer at <a href="https://www.bauexperts.de/" target="_blank">Bauexperts</a>. I like writing and talking about .Net, JavaScript, Clean Code, Refactoring and DevOps. 
 
-I am a big fan of discovering. I have a long list full of with big dreams. I am interested as amateur with music, visual arts and literature.
+As a big fan of discovering, I have a very long list full of with dreams. I am interested with music, visual arts and literature. I am a person who likes to collect beautiful stuffs.
 
-Please feel free to contact with me about any topic. I'll answer your questions as soon as possible. My Twitter id is <a href="http://twitter.com/iozguradem" target="_blank">@iozguradem</a>.
+In this blog, you may find different type articles. Please feel free to contact with me if you have any question. I'll try to answer to you as soon as possible. My Twitter id is <a href="http://twitter.com/iozguradem" target="_blank">@iozguradem</a>.
 
 <div>
     <a class="github" target="_blank" href="http://github.com/ozziest"></a>
