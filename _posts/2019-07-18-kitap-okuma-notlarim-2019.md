@@ -165,3 +165,17 @@ Yazım dili genel olarak herkesin anlayabileceği düzeyde olsa da, bazı bölü
 Kitapta eleştirebileceğim tek nokta, resimlerin bir numaralandırma sistemine sahip olmaması. Yazı içerisinde bir resim anlatılmaya başlandığında, ilgili resim bir numara ile iliştirilmemiş. Bu nedenle, bazı resimler anlatılardan birkaç sayfa sonraya, bazı resimler ise anlatılardan birkaç sayfa önceye denk gelebiliyor. Bu da okuyucuyu yoran küçük bir detay durumunda.
 
 Kitabı bitirdikten sonra, siz de tıpkı benim gibi yeni bir İtalya gezisinin planlarını yapmaya başlayabilirsiniz. Kütüphanemde bulunmasından oldukça memnun olduğum, bir sonraki İtalya gezisinde çantamdan ayırmayacağım bir kitap.
+
+<h3 id="devlet-i-aliyye-1">
+    Devlet-i Aliyye - Klasik Dönem (1302-1606) (Osmanlı İmparatorluğu Üzerine Araştırmalar 1)
+</h3>
+
+<img class="book-cover" src="/images/books/devlet-i-aliyye-1.jpg" />
+
+Günümüz dünyasının politik ve pragmatist tartışmaları içerisinde hemen herkesin fikir sahibi olduğu, kimimizin yermekten kimimizin övmekten geri durmadığı, kimine göre Cihan İmparatorluğu, kimine göre cehalet yuvası Osmanlı hakkında pek çok şey söylenebilir. Ancak bizim söyleyeceğimiz hiçbir şey, bir Cumhutiyet münevveri olan Halil İnalcık'ın kaleminden ve yıllarını verdiği bilimsel araştırmalarından süzülenlerden pek azı kadar kıymet ifade etmeyecektir.
+
+İnalcık bu kitabında bütün çalışma hayatı boyunca elde ettiği bilgi, birikim ve becerilerini sayfalara aktarmış. Kitap içerisinde verilen detaylara baktığımızda, doğrudan tarihsel kaynaklardan ve birinci elden sağlanan verilere dayandığını görüyoruz. Ancak İnalcık, tüm bu detaylar arasında, salt tarihsel olayları anlatmanın yanısıra, tarihsel olayların nedenlerini de sorgulamaya götürüyor okuyucuyu. Böylece modern Türk toplumu için her geçen gün bir tabu haline dönüşen Osmanlı hakkında, bulunmaz bir eser meydana gelmiş oluyor.
+
+Ancak bu kitap tüm Osmanlı tarihini değil, sadece **Klasik Dönem** adı verilen 1302 ve 1606 yılları arasındaki dönemi konu alıyor. Tarihsel olayları ve bu olaylara sebep olan gelişmeleri oldukça detaylı anlatan İnalcık, Osmanlı'nın siyasi ve askeri politikalarının yanısıra, ekonomik ve sosyal yapısını da irdeleyici bir analize tabi tutuyor. Osmanlı'nın diğer dönemleri farklı ciltlerde toplanmış durumda.
+
+Bireyde entelektüel ilgiyi cezbetmesi bir yana, Türklerin kendi geçmişlerini öğrenebilmesi ve geçmişinden güç alarak, nasıl bir devletin mirasçısı olduğunu bilmesi açısından da bu kitabı oldukça farklı bir yere koymak gerekiyor. Bu mirası ve kültürü anlayabildiğimiz anda -unuttuğumuz değerlerin nasıl içimizi yaktığını bir kenara bırakırsak- İstanbul dahi göze bir başka güzel gelmeye başlıyor.
