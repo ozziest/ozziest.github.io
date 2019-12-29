@@ -179,3 +179,17 @@ Günümüz dünyasının politik ve pragmatist tartışmaları içerisinde hemen
 Ancak bu kitap tüm Osmanlı tarihini değil, sadece **Klasik Dönem** adı verilen 1302 ve 1606 yılları arasındaki dönemi konu alıyor. Tarihsel olayları ve bu olaylara sebep olan gelişmeleri oldukça detaylı anlatan İnalcık, Osmanlı'nın siyasi ve askeri politikalarının yanısıra, ekonomik ve sosyal yapısını da irdeleyici bir analize tabi tutuyor. Osmanlı'nın diğer dönemleri farklı ciltlerde toplanmış durumda.
 
 Bireyde entelektüel ilgiyi cezbetmesi bir yana, Türklerin kendi geçmişlerini öğrenebilmesi ve geçmişinden güç alarak, nasıl bir devletin mirasçısı olduğunu bilmesi açısından da bu kitabı oldukça farklı bir yere koymak gerekiyor. Bu mirası ve kültürü anlayabildiğimiz anda -unuttuğumuz değerlerin nasıl içimizi yaktığını bir kenara bırakırsak- İstanbul dahi göze bir başka güzel gelmeye başlıyor.
+
+<h3 id="devlet-i-aliyye-2">
+    Devlet-i Aliyye - Tagayyür ve Fesad, Bozuluş ve Kargaşa Dönemi (1603 - 1656) (Osmanlı İmparatorluğu Üzerine Araştırmalar 2)
+</h3>
+
+<img class="book-cover" src="/images/books/devlet-i-aliyye-2.jpg" />
+
+Halil İnalcık'ın yıllar süren araştırmaları ve çalışmalarının bir neticesi olan Devlet-i Aliyye serisinin ikinci kitabı, Devlet-i Aliyye, Tagayyür ve Fesad, yani Bozuluş ve Kargaşa Dönemi, tıpkı ilk kitap gibi doğrudan doğrudan resmi arşiv kayıtlarına arkasını yaslamış bulunuyor. 
+
+Ancak ilk kitaptan olanın aksine, adında da anlaşılabileceği gibi, bozuluş ve kargaşa dönemlerini anlatması nedeniyle, bir gurur okşamanın haricinde, bir yüz kızartma vazifesi görüyor. Dahası, Devlet-i Aliyye'de peyda olan pek çok musibetin bugün de ne yazık ki ülkemizin özüne kadar işlemiş olması, "Acaba bizim sonumuz ne olacak?" diye kederli bir soruyu ortaya koyuyor. Rüşvet, vurdumduymazlık, çıkar kavgaları, yaşam mücadelesinin yerini şımarıklığın ve servetin alması, uçan kelleler, otoritenin zaman zaman ortadan kaybolması ve Osmanlı Devleti'nin asıl gücünü oluşturan Adalet Dairesi Teorisi'nin unutulması... Tüm bunların nasıl bir bozulmaya sebep olduğu yine oldukça detaylı bir şekilde okuyucuya aktarılıyor.
+
+Kitabın tamamında, tıpkı birinci kitapta olduğu gibi zaman zaman akıcı, zaman zamansa zorlayıcı bir dil hakim. İnalcık bazı bölümlerde yaptığı alıntılarda, doğrudan alıntıya konu olan metinlerin asıllarına yer vererek, dönemin şartlarının betimlemesini, kullandığı kaynakların dillerine emanet ediyor. Bu üslup okuyucuyu avucunun içinde tutması nedeniyle oldukça önemli.
+
+Ayrıca, kitabın sonunda, yaklaşık 150 sayfaya ulaşan, oldukça uzun bir ekler bölümü mevcut. Bu bölümde, veziriazamlar ve padişahlar arasındaki yazışmalar, çeşitli ilamlar ve fermanlar asıl metinleriyle birlikte verilmiş durumda. Bu bakımdan, amatör tarih meraklılarının yanı sıra, daha detaylı tarih araştırmacıları için de bir kaynak olabilir nitelikte.
