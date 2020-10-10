@@ -1,0 +1,109 @@
+I"�<div class="row center">
+  <a href="/years" class="section">Years</a>
+  <a href="/categories" class="section">Categories</a>
+  <a href="/english" class="section">English</a>
+  <a href="/turkish" class="section">Turkish</a>
+  <hr />
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <h1 class="category">Presentations</h1>
+    <div class="posts">
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2019-10-20T15:00:00+03:00" class="post-date-mobile">
+        20.10.2019
+      </time>
+    </div>
+    <a href="/turkish/coding/presentation/2019/10/20/isine-asik-programcilar/">
+      GitLab CI/CD İle AWS Üzerinde Ölçeklenebilir Uygulama Yayınlama
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2019-10-20T15:00:00+03:00" class="post-date-mobile">
+        20.10.2019
+      </time>
+    </div>
+    <a href="/turkish/coding/presentation/2019/10/20/gitlab-ci-cd-ile-aws-uzerinde-olceklenebilir-uygulama-yayinlama/">
+      GitLab CI/CD İle AWS Üzerinde Ölçeklenebilir Uygulama Yayınlama
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2015-11-29T13:00:00+02:00" class="post-date-mobile">
+        29.11.2015
+      </time>
+    </div>
+    <a href="/turkish/presentation/essays/2015/11/29/sunumunuz-yeterince-guzel-mi/">
+      Sunumunuz Yeterince Güzel Mi?
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2015-10-18T21:00:00+03:00" class="post-date-mobile">
+        18.10.2015
+      </time>
+    </div>
+    <a href="/turkish/presentation/2015/10/18/acik-kaynak-gunlerinde-gerceklestirdigim-sunum/">
+      Açık Kaynak Günlerinde Gerçekleştirdiğim Sunum
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2015-03-22T18:00:00+02:00" class="post-date-mobile">
+        22.03.2015
+      </time>
+    </div>
+    <a href="/turkish/presentation/2015/03/22/tt05-bitmeyen-proje/">
+      TT #05 - Bitmeyen Proje
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2015-03-22T18:00:00+02:00" class="post-date-mobile">
+        22.03.2015
+      </time>
+    </div>
+    <a href="/turkish/presentation/2015/03/22/tt03-ne-demek-artik-calismiyor/">
+      TT #03 - Ne Demek Artık Çalışmıyor?
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2015-03-10T22:00:00+02:00" class="post-date-mobile">
+        10.03.2015
+      </time>
+    </div>
+    <a href="/turkish/presentation/2015/03/10/tt01-laravel/">
+      TT #01 - Laravel Sunumu
+    </a>
+  </h2>
+</article>
+      
+    </div>
+  </div>
+</div>
+
+:ET
