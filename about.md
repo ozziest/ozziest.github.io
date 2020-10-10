@@ -1,11 +1,11 @@
 ---
 layout: page
-title: About
+title: Özgür Adem Işıklı
 ---
 
-My name is Özgür Adem Işıklı.
+Hi,
 
-I am a Software Developer who lives in Sakarya (Turkey) and works remotely as a Lead Software Developer at <a href="https://www.bauexperts.de/" target="_blank">Bauexperts</a>. I like writing and talking about .Net, JavaScript, Clean Code, Refactoring and DevOps. 
+I am a Software Developer who lives in Sakarya (Turkey) and works remotely as a Lead Software Developer at <a href="https://www.bauexperts.de/" target="_blank">Bauexperts</a>. I like writing and talking about *Coding*, *Testing*, *Clean Code*, *Refactoring* and *DevOps*. 
 
 As a big fan of discovering, I have a very long list full of with dreams. I am interested with music, visual arts and literature. I am a person who likes to collect beautiful stuffs.
 
