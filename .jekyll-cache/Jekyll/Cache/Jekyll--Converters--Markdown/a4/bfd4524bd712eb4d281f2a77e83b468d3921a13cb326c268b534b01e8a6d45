@@ -1,0 +1,17 @@
+I"«<p><a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a></p>
+
+<blockquote>
+  <p>In case I forget later, this is a simple note for me.</p>
+</blockquote>
+
+<h3 id="introduction">Introduction</h3>
+
+<p>When the problem is how can you find the folder which is the biggest on ubuntu file system, you can use simple command.</p>
+
+<h3 id="example">Example</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">du</span> <span class="nt">-sch</span> /<span class="k">*</span>
+</code></pre></div></div>
+:ET

@@ -1,0 +1,30 @@
+I"/<p><a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a></p>
+
+<blockquote>
+  <p>Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.</p>
+</blockquote>
+
+<p>C#’da kendinden imzalı bir serifika oluşturmak zorunda kaldığımda aşağıdaki kod bloğundan yararlandım.</p>
+
+<pre><code class="language-php">
+public static byte[] CreateGeneralCert(SecureString password)
+{
+    using (CryptContext ctx = new CryptContext())
+    {
+        ctx.Open();
+        X509Certificate2 cert = ctx.CreateSelfSignedCertificate(
+            new SelfSignedCertProperties
+            {
+                IsPrivateKeyExportable = true,
+                KeyBitLength = 512,
+                Name = new X500DistinguishedName("cn=localhost"),
+                ValidFrom = DateTime.Today.AddDays(-1),
+                ValidTo = DateTime.Today.AddYears(1),
+            });
+        return cert.Export(X509ContentType.Pfx, password);
+    }
+}
+</code></pre>
+:ET

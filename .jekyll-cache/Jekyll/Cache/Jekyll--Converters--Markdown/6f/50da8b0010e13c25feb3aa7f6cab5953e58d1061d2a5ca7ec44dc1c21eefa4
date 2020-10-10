@@ -1,0 +1,72 @@
+I"�<p><a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a></p>
+
+<blockquote>
+  <p>Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.</p>
+</blockquote>
+
+<h3 id="giriş">Giriş</h3>
+
+<p>Çok basit olan bu işlemi bir çok farklı yöntemle gerçekleştirebilirsiniz. Ben bu yazıda gördüğümde çok beğendiğim yöntemi; <code class="language-plaintext highlighter-rouge">ConvertAll</code> metodunu örneklendireceğim.</p>
+
+<h3 id="uygulama">Uygulama</h3>
+
+<p>Aşağıdaki yapıda bir listemiz olduğunu varsayalım;</p>
+
+<pre><code class="language-csharp">
+public static void Main()
+{
+    List&lt;Dictionary&lt;string, dynamic&gt;&gt; items = new List&lt;Dictionary&lt;string, dynamic&gt;&gt;() 
+    {
+        new Dictionary&lt;string, dynamic&gt;() 
+        {
+            { "id", 1},
+            { "name", "Foo Bar" }
+        }
+    };
+}
+</code></pre>
+
+<p>Bu listeyi; aşağıdaki sınıfa göre dönüştürmek istiyoruz.</p>
+
+<pre><code class="language-csharp">
+public class User
+{
+    public int id { get; set; }
+    public string name { get; set; }
+}
+</code></pre>
+
+<p>Bunun için aşağıdaki formu kullanabiliriniz;</p>
+
+<pre><code class="language-csharp">
+public static void Main()
+{
+    List&lt;Dictionary&lt;string, dynamic&gt;&gt; items = new List&lt;Dictionary&lt;string, dynamic&gt;&gt;() 
+    {
+        new Dictionary&lt;string, dynamic&gt;() 
+        {
+            { "id", 1},
+            { "name", "Foo Bar" }
+        }
+    };
+
+    List&lt; User &gt; users = items.ConvertAll(
+        new Converter&lt;Dictionary&lt;string, dynamic&gt;, User&gt;(MyConverter)
+    );
+}
+
+public static User MyConverter (Dictionary&lt;string, dynamic&gt; input)
+{
+    return new User()
+    {
+        id = input["id"],
+        name = input["name"]
+    };
+}
+</code></pre>
+
+<p>Burada; List tipinde olan <code class="language-plaintext highlighter-rouge">items</code> değişkeninin <code class="language-plaintext highlighter-rouge">ConvertAll</code> metodunu, yeni bir <code class="language-plaintext highlighter-rouge">Converter</code> göndererek çağırıyoruz. Bu <code class="language-plaintext highlighter-rouge">Converter</code>‘ın giriş değerininin <code class="language-plaintext highlighter-rouge">Dictionary&lt;string, dynamic&gt;</code>, dönüş değerinin ise <code class="language-plaintext highlighter-rouge">User</code> sınıfının bir örneği olmasını belirtiyoruz. Son olarak da bu şartları sağlayan dönüştürücü metodumuzun hangisi olduğunu belirtiyoruz. Bizim örneğimizde bu metot <code class="language-plaintext highlighter-rouge">MyConverter</code> isimli metot. <code class="language-plaintext highlighter-rouge">ConvertAll</code> metodu sırayla tüm elemanlar için gönderdiğimiz metodu çağırarak oluşan yeni liste değişkenini bize geriye gönderiyor.</p>
+
+:ET

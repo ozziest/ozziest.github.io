@@ -1,0 +1,24 @@
+I"�<p><a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a></p>
+
+<blockquote>
+  <p>Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.</p>
+</blockquote>
+
+<p>Elimizde olan <code class="language-plaintext highlighter-rouge">string</code> bir veriyi, web üzerinden dosya olarak indirilecek şekilde göndermek için aşağıdaki kodu kullanabiliriz;</p>
+
+<pre><code class="language-js">
+public FileStreamResult Download()
+{
+	string content = "My Data Content";
+    return File(
+    	new MemoryStream(
+    		Encoding.UTF8.GetBytes(content)
+    	), 
+    	"application/text", 
+    	"file.txt"
+    );
+}	
+</code></pre>
+:ET

@@ -1,0 +1,146 @@
+I"X<p><a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a></p>
+
+<p><a href="http://adonisjs.com">Adonis</a>, <strong>NodeJS</strong> ile daha az kod yazarak uygulama geliştirmeyi amaçlayan ve MVC mimarisine göre oluşturulmuş bir framework’dür. Diğer NodeJS web frameworklerine göre öne çıkan başlıca özellikleri <strong>ES6</strong> ile geliştirme yapmayı amaçlaması ve <strong>PHP</strong> dili için geliştirimiş <a href="https://laravel.com">Laravel</a>‘in mimarisine benzer olmasıdır.</p>
+
+<h3 id="laravel-benzerliği">Laravel Benzerliği</h3>
+
+<p>Adonis dokümanlarında da yer aldığı gibi; Laravel’in özellikleri kasıtlı olarak framework bünyesinde uygulanmaya çalışılmaktadır. Benzerlikleri anlamak için temel bazı tanımlamaları hem Laravel’de hem de Adonis bünyesinde incelememiz yeterli olacaktır.</p>
+
+<h4 id="routing">Routing</h4>
+
+<pre><code class="language-php">
+Route::get('user/{id}', 'UserController@showProfile');  // Laravel
+</code></pre>
+
+<pre><code class="language-js">
+Route.get('user/{id}', 'UserController.showProfile')  // Adonis
+</code></pre>
+
+<h4 id="controllers">Controllers</h4>
+
+<pre><code class="language-php">
+// Laravel
+namespace App\Http\Controllers;
+
+class UserController extends \App\Http\Controllers\Controller {
+
+    public function showProfile($id)
+    {
+        return 'showProfile';
+    }
+}
+</code></pre>
+
+<pre><code class="language-js">
+// Adonis
+class UserController {
+
+  *showProfile (request, response) {
+    response.send('showProfile')
+  }
+
+}
+
+module.exports = HomeController
+</code></pre>
+
+<h4 id="request">Request</h4>
+
+<pre><code class="language-php">
+$request-&gt;input('email');   // Laravel
+</code></pre>
+
+<pre><code class="language-js">
+request.input('email')  // Adonis
+</code></pre>
+
+<h4 id="response">Response</h4>
+
+<pre><code class="language-php">
+response()-&gt;json(['name' =&gt; 'foo']);   // Laravel
+</code></pre>
+
+<pre><code class="language-js">
+response.json({ name: "foo" })  // Adonis
+</code></pre>
+
+<h4 id="orm">ORM</h4>
+
+<p>Adonis’de de tıplı Laravel’in Eloquent ORM’si gibi bir <a href="http://adonisjs.com/docs/2.0/lucid">Lucid</a> adında bir ORM kütüphanesi bulunur.</p>
+
+<pre><code class="language-php">
+// Laravel
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class User extends Model
+{
+    
+}
+</code></pre>
+
+<pre><code class="language-js">
+// Adonis
+const Lucid = use('Lucid')
+
+class User extends Lucid {
+
+}
+</code></pre>
+
+<p>Adonis’de de tıplı Eloquent ORM’de yaptığınız gibi ilişkiler tanımlayabilir ya da şartlara bağlı sorgulamalar yapabilirsiniz. Ancak yazının çok uzamaması için, ilgili bölümleri dahil etmiyorum. Link aracılığı ile daha detaylı bilgi alabilirsiniz: <a href="http://adonisjs.com/docs/2.0/lucid-relations">İlişkiler</a>, <a href="http://adonisjs.com/docs/2.0/queries">Sorgular</a></p>
+
+<h4 id="konsol-komutları">Konsol Komutları</h4>
+
+<p>Adonis tıpkı Laravel gibi bazı görevleri gerçekleştirmek için bir komut satırı desteğiyle birlikte gelmektedir.</p>
+
+<pre><code class="language-bash">
+$ ./ace make:controller Home
+$ ./ace make:model User
+</code></pre>
+
+<h3 id="avantajlar">Avantajlar</h3>
+
+<ul>
+  <li>
+    <p>NodeJS tabanlı olması nedeniyle, NodeJS’in PHP’ye göre olan avantajlarının hepsinden yararlanabilirsiniz. (Hızlı, daha hızlı büyüyen üçüncü parti kütüphane havuzu vb.)</p>
+  </li>
+  <li>
+    <p>Laravel’e benzedeği için daha önce Laravel kullanan geliştiriciler oldukça hızlı adapte olabilirler.</p>
+  </li>
+  <li>
+    <p>ES6 destekli olduğu için, yazdığınız kodların ExpressJS ya da diğer NodeJS frameworklerine göre göreceli olarak daha düzgün olması muhtemeldir. (Ancak sonuçta bir insan geliştirme yapacak, mükemmellik garantisi söz konusu olamaz.)</p>
+  </li>
+</ul>
+
+<h3 id="dezavantajlar">Dezavantajlar</h3>
+
+<ul>
+  <li>
+    <p>Geliştirdiğiniz uygulamanın test edilmesi için kullanılabilecek yardımcı araçlar Laravel’de olduğu gibi yoktur.</p>
+  </li>
+  <li>
+    <p>Henüz belirli bir community oluşmamıştır. Resmi dokümantasyonun yanında ek kaynaklar sınırlıdır.</p>
+  </li>
+  <li>
+    <p>Aktif olarak geliştirme yapan developer sayısı oldukça azdır. GitHub’da bulunan <a href="https://github.com/adonisjs/adonis-framework/network/members">çekirdek repoda</a> sadece 20 adet <strong>fork</strong> alınmıştır. Görebildiğim kadarıyla sadece <a href="https://github.com/thetutlage">Harminder Virk</a> tarafından geliştirilmektedir.</p>
+  </li>
+</ul>
+
+<h3 id="sonuç">Sonuç</h3>
+
+<p>Benim görüşlerime göre <strong><em>gelecek vaadeden</em></strong>, ancak <strong><em>zamana</em></strong> ve <strong><em>desteğe</em></strong> ihtiyacı olan bir framework denemesidir. Eğer zaman içerisinde ihtiyacı olan desteği diğer developerlardan bulabilir ve geliştirmeler ivme kazanırsa, NodeJS topluluğu tarafından sahiplenilecektir.</p>
+
+<h3 id="kaynaklar">Kaynaklar</h3>
+
+<ul>
+  <li><a href="http://adonisjs.com">Adonis Resmi Site ve Dokümantasyon</a></li>
+  <li><a href="https://github.com/adonisjs/adonis-framework">Adonis Core Repo</a></li>
+  <li><a href="https://github.com/adonisjs/adonis-app">Adonis Application Repo</a></li>
+  <li><a href="https://www.youtube.com/playlist?list=PLWmIA5YpCsizOMoM3tH5NSp1sHmdzVLvW">Screen Casts</a></li>
+</ul>
+
+:ET

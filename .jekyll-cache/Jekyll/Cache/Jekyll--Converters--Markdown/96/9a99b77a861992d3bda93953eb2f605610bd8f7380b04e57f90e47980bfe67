@@ -1,0 +1,38 @@
+I"�
+<p>Geçtiğimiz aylarda <a href="/php/2015/02/04/symfony-routing-ile-rotalarinizi-yonetin.html">Symfony/Routing İle Rotalarınızı Yönetin</a> başlıklı bir yazı yayınlamıştım. O yazıda Symfony/Routing kütüphanesi ile PHP projelerinizde nasıl rotalama işlemi gerçekleştirebileceğinizden bahsetmiştim. Ancak bu yazıda, bir başka rotalama kütüphanesine değineceğim; <a href="https://github.com/nikic/FastRoute">Fast Route</a></p>
+
+<p><strong>Symfony/Routing</strong> kesinlikle harika bir kütüphane. Ancak gerçekleştirilen bir <a href="https://github.com/tyler-sommer/php-router-benchmark">benchmark testi</a>‘ne denk gelmem <a href="https://github.com/nikic/FastRoute">Fast Route</a> kütüphanesi ile tanışmamı sağladı. Benchmark testine göre en hızlı rotalama kütüphanesi <a href="https://github.com/nikic/FastRoute">Fast Route</a>. Bunun arkasında yatan neden için <a href="https://github.com/nikic/FastRoute">Fast Route</a> kütüphanesi yaratıcısı <a href="http://nikic.github.io">Nikita Popov</a>, kütüphaneyi <strong>“Regex Temelinde Çalışan Bir Kütüphane”</strong> olarak tanımlıyor. Bu konuyla ilgili oldukça detaylı olarak bir blog yazısı hazırlanmış. İlgili blog yazısına buradan ulaşabilirsiniz; <a href="http://nikic.github.io/2014/02/18/Fast-request-routing-using-regular-expressions.html">Fast request routing using regular expressions</a></p>
+
+<h2 id="kullanım">Kullanım</h2>
+
+<p>Kütüphane <strong>Composer</strong> ile hızlı bir şekilde kurulabiliyor (<a href="https://packagist.org/packages/nikic/fast-route">Packagist</a>) ve kullanımı da oldukça basit;</p>
+
+<pre><code class="language-php">
+require '/path/to/FastRoute/src/bootstrap.php';
+
+$dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
+    $r-&gt;addRoute('GET', '/user/{name}/{id:[0-9]+}', 'handler0');
+    $r-&gt;addRoute('GET', '/user/{id:[0-9]+}', 'handler1');
+    $r-&gt;addRoute('GET', '/user/{name}', 'handler2');
+});
+
+$routeInfo = $dispatcher-&gt;dispatch($httpMethod, $uri);
+switch ($routeInfo[0]) {
+    case FastRoute\Dispatcher::NOT_FOUND:
+        // ... 404 Not Found
+        break;
+    case FastRoute\Dispatcher::METHOD_NOT_ALLOWED:
+        $allowedMethods = $routeInfo[1];
+        // ... 405 Method Not Allowed
+        break;
+    case FastRoute\Dispatcher::FOUND:
+        $handler = $routeInfo[1];
+        $vars = $routeInfo[2];
+        // ... call $handler with $vars
+        break;
+}
+</code></pre>
+
+<p>Eğer basit ama hızlı bir rota yapısı oluşturmak isterseniz bu kütüphane tam size göre. Repository üzerine gönderilen <a href="https://github.com/nikic/FastRoute/commits/master">commitleri</a> incelediğimizde ise yazıyı yazdığım anda hala aktif bir kütüphane olduğunu söyleyebiliriz.</p>
+
+:ET

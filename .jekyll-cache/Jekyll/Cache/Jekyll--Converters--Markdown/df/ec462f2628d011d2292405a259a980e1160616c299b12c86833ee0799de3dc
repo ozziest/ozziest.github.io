@@ -1,0 +1,389 @@
+I"�g<p><a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a></p>
+
+<p>Yazılım bloglarında tonla <strong><em>“Neden Test Yazmalıyız?”</em></strong> başlıklı makaleler bulabilirsiniz. Bu nedenle bu soruyu cevaplamayacağım. Eğer burayı okuyorsanız <strong>test</strong> kavramı hakkında en azından bir kaç şey duymuşsunuzdur diye düşünüyorum.</p>
+
+<p>Ben bu yazıda bir çok farklı test türü olmasına rağmen <strong>PHP için Unit Test</strong> geliştirme konusunu irdelemek istiyorum. Ancak bunu yaparken herhangi bir Framework’e bağlı kalmadan, işin mantığına ve neyi neden yaptığımıza da <strong><em>ince ince</em></strong> değinmeği uygun buluyorum. Dolayısıyla bu makale sizin için sıkıcı geldiği an okumayı bırakmanızı <strong><em>öneririm</em></strong>.</p>
+
+<h3 id="nasıl">Nasıl?</h3>
+
+<p>Unit Test yazmak için <a href="https://phpunit.de/manual/current/en/installation.html">PHPUnit</a> ve <a href="https://github.com/padraic/mockery">Mockery</a> kütüphanelerinden faydalanıyoruz.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">PHPUnit</code>: Unit test yazmak için özel olarak geliştirilmiş bir kütüphane. Profesyonel PHP projelerinin vazgeçilmezi.</li>
+  <li><code class="language-plaintext highlighter-rouge">Mockery</code>: Sınıfları taklit etmemize yarayan kütüphane, kalpazan (benim tabirim).</li>
+</ul>
+
+<h3 id="motivasyon">Motivasyon</h3>
+
+<p>Test yazacak motivasyonu kendinizde bulamıyorsanız <strong><em>Adolf Hitler</em></strong>‘in şu meşhur sözünü hatırlayın;</p>
+
+<blockquote>
+  <p>Bir gün yazmadığım her Unit Test için bana küfür edeceksiniz.</p>
+</blockquote>
+
+<h3 id="test-driven-development">Test Driven Development</h3>
+
+<p><strong><em>“Kodu yazmadan önce testini yaz”</em></strong> dediğimiz bu yöntemde, asıl zor olan <strong><em>ne yazacağımızı</em></strong> bilmemektir. Bu nedenle önce ne yapacağımızı anlamaya çalışmak zorundayız. Bu yüzden ben test yazımından önce, doküman yazımını salık veririm.</p>
+
+<blockquote>
+  <p>Bu konu hakkında daha önce yazılmış olan makaleleri inceleyebilirsiniz: <a href="https://medium.com/@fkadev/readme-driven-development-6b2082b493b7#.i5rsbp1xg">README Driven Development - Fatih Kadir Akın</a>, <a href="http://ozguradem.net/di%C4%9Fer/2014/07/18/dokuman-tabanli-gelistirme/">Doküman Tabanlı Geliştirme - Özgür Adem Işıklı</a></p>
+</blockquote>
+
+<h3 id="readme-first">Readme First!</h3>
+
+<p>Örnek olarak bir <strong>UserRepository</strong> sınıfı -biraz basit tutmak istiyorum- yazacağız. Bu sınıfın dokümantasyonunu yazarken tek yampanız gereken: <strong><em>en kolay kullanım formunu yazmak</em></strong> olmalıdır. Son derece basit değil mi?</p>
+
+<pre><code class="language-php">
+# Doküman Örneği
+
+$userRepo = new UserRepository();
+$user = $userRepo-&gt;create('foo@bar.com', 'Foo Bar');
+echo $user-&gt;email;  // foo@bar.com
+echo $user-&gt;name;   // Foo Bar
+</code></pre>
+
+<h3 id="adım-adım-test-yapısı-oluşturma">Adım Adım Test Yapısı Oluşturma</h3>
+
+<ul>
+  <li>Yukarıdaki dokümanımızı ana dizine “Readme.md” olarak kaydedin. (<a href="https://en.wikipedia.org/wiki/Markdown">Md Uzantısı Nedir?</a>)</li>
+  <li>Yeni bir composer yapılandırma dosyası oluşturun: <code class="language-plaintext highlighter-rouge">$ composer init</code> (<a href="http://www.cangelis.com/php-composer-nedir-nasil-kullanilir/">Bu nedir?</a>)</li>
+  <li><strong>PHPUnit</strong>‘i <strong>global</strong> olarak kurun: <code class="language-plaintext highlighter-rouge">composer global require phpunit/phpunit</code></li>
+  <li><strong>PHPUnit</strong>‘i projeye ekleyin: <code class="language-plaintext highlighter-rouge">composer require --dev phpunit/phpunit</code></li>
+  <li><strong>Mockery</strong> kütüphanesini projeye ekleyin: <code class="language-plaintext highlighter-rouge">composer require --dev mockery/mockery</code></li>
+  <li>Ana dizinde <code class="language-plaintext highlighter-rouge">src</code> ve <code class="language-plaintext highlighter-rouge">tests</code>  klasörlerinizi oluşturun.</li>
+  <li>PHPUnit için ana dizinde <code class="language-plaintext highlighter-rouge">phpunit.xml</code> isimli bir yapılandırma dosyası oluşturun ve aşağıdaki içeriği kaydedin;</li>
+</ul>
+
+<pre><code class="language-xml">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="true"
+         syntaxCheck="false"&gt;
+    &lt;testsuites&gt;
+        &lt;testsuite name="Application Test Suite"&gt;
+            &lt;directory&gt;./tests/&lt;/directory&gt;
+        &lt;/testsuite&gt;
+    &lt;/testsuites&gt;
+    &lt;php&gt;
+        &lt;env name="APP_ENV" value="testing"/&gt;
+    &lt;/php&gt;
+&lt;/phpunit&gt;
+</code></pre>
+
+<h3 id="neyi-neden-yaptık">Neyi Neden Yaptık?</h3>
+
+<p>Asıl proje dosyalarımızı <code class="language-plaintext highlighter-rouge">src</code>, testlerimizi de <code class="language-plaintext highlighter-rouge">tests</code> klasöründe barındıracağımızı tahmin etmişsinizdir.</p>
+
+<p>Oluşturduğumuz <code class="language-plaintext highlighter-rouge">phpunit.xml</code> dosyası, PHPUnit’e test yapılandırmamızın nasıl olduğu hakkında genel bilgiler vermek için kullanılmaktadır ve şart değildir. Ancak yapılandırma dosyamızın ana dizinde durması bizim için bir rahatlık olacaktır. Dikkat ederseniz son bölümde (&lt;php&gt; etiketinin içinde) <code class="language-plaintext highlighter-rouge">APP_ENV</code> isimli bir ortam değişkeni tanımladık. Bu tarz parametreler kullanarak uygulamınızı test ortamına özel olarak çalışacak şekilde geliştirebilirsiniz.</p>
+
+<h3 id="çalıştırma">Çalıştırma</h3>
+
+<p>Şuanda herhangi bir adım atlanmadıysa konsol üzerinde aşağıdaki komutu çalıştırdığınızda phpunit sorunsuz bir şekilde -inşallah- bize yanıt verecektir.</p>
+
+<pre><code class="language-bash">
+$ phpunit
+
+PHPUnit 5.2.12 by Sebastian Bergmann and contributors.
+Time: 147 ms, Memory: 10.50Mb
+No tests executed!
+</code></pre>
+
+<blockquote>
+  <p>Evet, henüz hiç bir testimiz olmadığından PHPUnit bize hiç bir test çalıştırılmadığını söyledi.</p>
+</blockquote>
+
+<h3 id="örnek-test">Örnek Test</h3>
+
+<p>Şimdi test dizinimizin altına <code class="language-plaintext highlighter-rouge">UserRepositoryTest.php</code> isimli bir dosya oluşturuyor ve aşağıdaki içeriği kopyalıyoruz.</p>
+
+<pre><code class="language-php">
+class UserRepositoryTest extends PHPUnit_Framework_TestCase {
+
+    public function testSimple()
+    {
+        $this-&gt;assertTrue(true);
+    }
+
+}
+</code></pre>
+
+<p>Tekrardan konsol üzerinden <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığımızda bu sefer sonuç aşağıdaki gibi olacaktır:</p>
+
+<pre><code class="language-bash">
+PHPUnit 5.2.12 by Sebastian Bergmann and contributors.
+.                                                                   1 / 1 (100%)
+Time: 134 ms, Memory: 10.75Mb
+OK (1 test, 1 assertion)
+</code></pre>
+
+<blockquote>
+  <p>PHPUnit bize toplamda 1 test çalıştırdığını ve 1 <strong>doğrulamanın</strong> başarılı bir şekilde sonuçlandığını gösteriyor. Yeşil rengi gördünüz mü? Bu bize herşeyin yolunda olduğunu gösterir.
+Testimizi biraz incelediğimizde şunları görürüz;</p>
+</blockquote>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">UserRepositoryTest</code> isimli sınıf bizim test sınıfımızı temsil ediyor.</li>
+  <li>Tüm test sınıflarımızı <code class="language-plaintext highlighter-rouge">PHPUnit_Framework_TestCase</code> sınıfından genişletiyoruz. (Bu sınıfı bize PHPUnit sağlıyor)</li>
+  <li>Sınıfın içerindeki metotlara ayrı ayrı testler yazabiliyoruz.</li>
+  <li>Test metodu olan metotların isimlerini <code class="language-plaintext highlighter-rouge">test</code> ile başlatıyoruz. Aksi halde PHPUnit o metotları görmezden gelecektir.</li>
+  <li>PHPUnit’in bize sağladığı <strong>doğrulama</strong> metotlarını kullanarak (<code class="language-plaintext highlighter-rouge">assertTrue()</code>) kontrollerimizi gerçekleştirebiliyoruz. Bu doğrulama metotlarının tamamı <a href="https://phpunit.de/manual/current/en/appendixes.assertions.html">PHPUnit Dokümanı</a> üzerinde yer almaktadır.</li>
+</ul>
+
+<h3 id="gerçek-testimizi-yazalım">Gerçek Testimizi Yazalım</h3>
+
+<p>Test sınıfımızın sorunsuz olarak çalıştığını gördüğümüzde gerçek test kodlarını yazıyoruz. Bunu yaparken aslında daha önceden yazdığımız dokümana sadık kalıyoruz;</p>
+
+<pre><code class="language-php">
+public function testSimple()
+{
+    $userRepo = new UserRepository();
+    $user = $userRepo-&gt;create('foo@bar.com', 'Foo Bar');
+    $this-&gt;assertEquals($user-&gt;email, 'foo@bar.com');
+    $this-&gt;assertEquals($user-&gt;name, 'Foo Bar');
+}
+</code></pre>
+
+<p>Dikkat ederseniz açıklama satırı olarak <strong><em>“Burada bu değeri görebilmem gerekiyor.”</em></strong> dediğim bölümler benim asıl test edeceğim unsurları içeriyor. Bu testi yaparken PHPUnit’in bize sağladığı <code class="language-plaintext highlighter-rouge">assertEquals</code> metodunu kullanıyoruz ve beklediğimiz ve dönen değeri karşılaştırıyoruz.</p>
+
+<p>Yine konsol üzerinden <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığımızda <code class="language-plaintext highlighter-rouge">FatalError</code> ile karşılaştığımızı göreceksiniz.</p>
+
+<pre><code class="language-bash">
+PHPUnit 5.2.12 by Sebastian Bergmann and contributors.
+
+PHP Fatal error:  Class 'UserRepository' not found in /home/makale/tests/UserRepositoryTest.php on line 7
+Fatal error: Class 'UserRepository' not found in /home/makale/tests/UserRepositoryTest.php on line 7
+</code></pre>
+
+<p>Hemen bu sorunu aşmak için <code class="language-plaintext highlighter-rouge">src</code> klasörü altına <code class="language-plaintext highlighter-rouge">UserRepository.php</code> isimli dosyayı aşağıdaki gibi oluşturuyoruz.</p>
+
+<pre><code class="language-php">
+class UserRepository {
+}
+</code></pre>
+
+<p>Ancak <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığınız zaman yine aynı hatanın oluştuğunu göreceksiniz. Buradaki sorun ilgili sınıfın test bölümünden ulaşılabilecek şekilde <code class="language-plaintext highlighter-rouge">include</code> işlemine tabi tutulmamasıdır. Ancak biz <code class="language-plaintext highlighter-rouge">include</code> işlemini profesyoneller gibi composer tarafından bize sağlanan <strong>autoload</strong> bölümüne yaptıracağız. (<a href="https://getcomposer.org/doc/04-schema.md#autoload">Autoload Nedir?</a>)</p>
+
+<h3 id="autoload-i̇şlemi-tanımlaması">Autoload İşlemi Tanımlaması</h3>
+
+<p>Bu işlem için ana dizinde bulunan <code class="language-plaintext highlighter-rouge">composer.json</code> dosyasına aşağıdaki eklemeyi yapıyoruz;</p>
+
+<pre><code class="language-js">
+"autoload": {
+    "classmap": ["src"]
+}
+</code></pre>
+
+<p>Bu eklemeden sonra konsol üzerinde <code class="language-plaintext highlighter-rouge">composer dump-autoload</code> komutunu uygulayarak otomatik olarak yüklenecek sınıfların yeniden belirlenmesini istiyoruz.</p>
+
+<blockquote>
+  <p>Autoload işleminde ben kolay olması açısından tüm <code class="language-plaintext highlighter-rouge">src</code> klasörünün taranmasını istedim. Ancak bu pek doğru bir yaklaşım değil. Bu tarz otomatik yüklemeler için <strong>Namespace</strong> kullanmanızı öneririm.</p>
+</blockquote>
+
+<h3 id="test-yazmaya-devam">Test Yazmaya Devam</h3>
+
+<p>Bu işlemden sonra <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığınızda ilgili fonksiyonun <code class="language-plaintext highlighter-rouge">UserRepository</code> içerisinde olmadığıyla ilgili hatayı göreceksiniz. Bu nedenle aşağıdaki eklemeyi yapıyoruz.</p>
+
+<pre><code class="language-php">
+public function create($email, $name)
+{
+}
+</code></pre>
+
+<p><code class="language-plaintext highlighter-rouge">phpunit</code> komutumuzu çalıştırmamız sonrasında aşağıdaki gibi <strong>kırmızı</strong> bir ekranla karşılaşırız ve beklenen ve alınan değerlerin uyuşmadığını PHPUnit bize söyler.</p>
+
+<pre><code class="language-bash">
+PHPUnit 5.2.12 by Sebastian Bergmann and contributors.
+
+F                                                                   1 / 1 (100%)
+Time: 165 ms, Memory: 10.75Mb
+
+There was 1 failure:
+1) UserRepositoryTest::testSimple
+Failed asserting that 1 matches expected null.
+/home/ubuntu/workspace/makale/tests/UserRepositoryTest.php:9
+
+FAILURES!
+
+Tests: 1, Assertions: 1, Failures: 1.
+ozziest:~/workspace/ma
+</code></pre>
+
+<h3 id="gerçek-dünyaya-dönmek">Gerçek Dünyaya Dönmek</h3>
+
+<p>Testimizi yeniden yeşile çevirmeden önce gerçek dünyaya dönelim. Test yazmak bu kadar basit değil. Örneğimizde veritabanı işlemi için <code class="language-plaintext highlighter-rouge">Eloquent</code> isimli bir başka kütüphane (Laravel kullananlar bilir) kullandığımızı düşünelim. <code class="language-plaintext highlighter-rouge">Eloquent</code>‘ın bize sağladığı modeli kullanarak ilgili kaydı yaptımızı varsayalım.</p>
+
+<blockquote>
+  <p>Neden böyle bir varsayım yapıyorum? Çünkü her (fucking) test yazma örneğinde size başka bir yerle bağlantısı olmayan bir sınıf anlatılır. Siz de bağımsız sınıfla olayı anladığınızı düşünürsünüz. Ancak kendi projenizin başına geçtiğinizde kod size, siz koda bakarsınız. Oysaki test yazabilmek için <strong><em>bağımsızlığını ilan etmiş sınıflara</em></strong> sahip olmanız bir <strong>zorunluluktur.</strong></p>
+</blockquote>
+
+<p>Bu nedenle <code class="language-plaintext highlighter-rouge">UserRepository.php</code> içerisindeki kodumuzu <code class="language-plaintext highlighter-rouge">Eloquent</code>‘ın bize gösterdiği şekliyle <code class="language-plaintext highlighter-rouge">User</code> modeli üzerinden kaydedecekmişiz gibi tasarlayalım.</p>
+
+<pre><code class="language-php">
+use App\Models\User;
+
+class UserRepository {
+    
+    public function create($email, $name)
+    {
+        $user = new User();
+        $user-&gt;email = $email;
+        $user-&gt;name  = $name;
+        $user-&gt;save();
+        
+        return $user;
+    }
+    
+}
+</code></pre>
+
+<p><code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfımız burada adı geçen <code class="language-plaintext highlighter-rouge">App\Models\User</code> isimli sınıfa <strong>sıkı sıkıya</strong> bağlı oldu. Olayı bu noktaya getirdikten sonra hep birlikte bir kez daha tekrarlayalım:</p>
+
+<blockquote>
+  <p><strong>Sıkı sıkıya başka sınıflara bağlı olan sınıflar için unit test yazamazsınız!</strong></p>
+</blockquote>
+
+<p>Yazsanız bile kırk takla atmak zorunda kalırsınız. Bizim buradaki amacımız <code class="language-plaintext highlighter-rouge">User</code> sınıfını değil, <code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfını test etmek. Aksi halde sadece bir <strong><em>unit</em></strong>‘i, <strong><em>yazılımın basit bir parçasını</em></strong> test etmiş olmayız. Yazdığımız şey de <strong>Unit Test</strong> olmaz. Dolayısıyla bu bağımlılıktan kurulmamız gerekiyor.</p>
+
+<blockquote>
+  <p>Bu konu ayrıca <a href="http://tarikkaygusuz.com/post/solid-prensipleri">SOLID Prensipleri</a>‘yle de doğrudan doğruya alakalı olan bir konudur. SOLID prensipleri hakkında öğreneceğiniz her şey test yazımında size yardımcı olacaktır.</p>
+</blockquote>
+
+<h3 id="dependency-injection">Dependency Injection</h3>
+
+<p>Bu gibi durumlar için ortaya atılan bir terimdir <strong>dependency injection</strong>. Yani ilgili bağımlılıkların dışarıdan gönderilmesi işidir. Böylece asıl sınıf, çalışacağı sınıfı dışarıdan alır. Peki ama nasıl?</p>
+
+<pre><code class="language-php">
+use Illuminate\Database\Eloquent\Model;
+
+class UserRepository {
+    
+    private $model;
+    
+    public function __construct(Model $model)
+    {
+        $this-&gt;model = $model;
+    }
+    
+    public function create($email, $name)
+    {
+        $this-&gt;model-&gt;email = $email;
+        $this-&gt;model-&gt;name  = $name;
+        $this-&gt;model-&gt;save();
+        return $this-&gt;model;
+    }
+    
+}
+</code></pre>
+
+<p>Bağımlılıkları dışarıdan almanın en iyi yolu yapıcı metodu (<code class="language-plaintext highlighter-rouge">construct()</code>) kullanmaktır. Böylece <code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfının ilgili model sınıfı ile ilgili bağlantısını kesmiş oluruz. Eğer dikkat ederseniz dışarıdan aldığımız sınıf için <code class="language-plaintext highlighter-rouge">Illuminate\Database\Eloquent\Model</code> sıfını dayatırız (bkz: <a href="https://www.sitepoint.com/type-hinting-in-php/">Type Hinting</a>).</p>
+
+<blockquote>
+  <p>Bu noktada kafa karışıklığı olabilir. Sınıf bağımlı olmasın dedik ve bağımlılığı dışarıdan aldık ama yine de bir tip dayatma işlemi gerçekleştirdik. Böyle yapmamızın nedeni ufak bir kalpazanlıkla harika şeyler yapacak oluşumuz. Biraz daha sabırla okumaya devam edin.</p>
+</blockquote>
+
+<h3 id="mockery-i̇le-kalpazanlık">Mockery İle Kalpazanlık</h3>
+
+<p>Konsol üzerinden <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığınızda aşağıdaki hatayı göreceksiniz;</p>
+
+<pre><code class="language-bash">
+There was 1 error:
+
+1) UserRepositoryTest::testSimple
+Argument 1 passed to UserRepository::__construct() must be an instance of Illuminate\Database\Eloquent\Model, none given, called in /home/ubuntu/workspace/makale/tests/UserRepositoryTest.php on line 7 and defined
+</code></pre>
+
+<p>Burada yapmak zorunda olduğumuz; testimizde <code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfından yeni bir <code class="language-plaintext highlighter-rouge">instance</code> alırken bizden talep edilen bağımlılığı dışarıdan göndermemiz. Ama amacımız sadece ve sadece <code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfını test etmek olduğundan, gerçekte var olan <code class="language-plaintext highlighter-rouge">App\Models\User</code> sınıfını <strong>gönderemeyiz</strong>. Bu sınıfı <strong>taklit</strong> eden bir başka sınıf kullanmamız gerekir. Bu iş için <code class="language-plaintext highlighter-rouge">Mockery</code> kütüphanesinden yararlanırız;</p>
+
+<pre><code class="language-php">
+$userMock = Mockery::mock('Illuminate\Database\Eloquent\Model');
+$userRepo = new UserRepository($userMock);
+</code></pre>
+
+<p>Yukarıdaki kodun ilk satırında verdiğimiz namespace türünde bir taklit sınıfı oluşturulur. Bu işlemi bu kadar kolay yapmamızı sağlayan <code class="language-plaintext highlighter-rouge">Mockery</code> kütüphanesidir. Biz de oluşturduğumuz bu yalancı sınıfı <code class="language-plaintext highlighter-rouge">UserReposiytory</code> sınıfına göndeririz. Tekrar konsol üzerinde <code class="language-plaintext highlighter-rouge">phpunit</code> komutunu çalıştırdığınızda bu sefer çıkacak olan hata şudur;</p>
+
+<pre><code class="language-bash">
+There was 1 error:
+1) UserRepositoryTest::testSimple
+BadMethodCallException: Method Mockery_0__Illuminate_Database_Eloquent_Model::save() does not exist on this mock object
+</code></pre>
+
+<p>Hatayı incelediğimizde taklit sınıfımızın <code class="language-plaintext highlighter-rouge">save</code> isimli bir metoda sahip olmadığını görürüz. Özetle: <code class="language-plaintext highlighter-rouge">UserRepository</code> sınıfımız gönderdiğimiz yalancı sınıfı bir güzel yedi. Hatta şuan ortada gerçekten (elle tutulur, somut) bir <code class="language-plaintext highlighter-rouge">User</code> sınıfı dahi yok. :)</p>
+
+<p>Bundan sonrası <code class="language-plaintext highlighter-rouge">Mockery</code>‘nin bize sağladığı güzellikleri kullanma;</p>
+
+<pre><code class="language-php">
+public function testSimple()
+{
+    $userMock = Mockery::mock('Illuminate\Database\Eloquent\Model')
+                       -&gt;shouldReceive('save')-&gt;times(1)
+                       -&gt;mock();
+    
+    $userRepo = new UserRepository($userMock);
+    $user = $userRepo-&gt;create('foo@bar.com', 'Foo Bar');
+    $this-&gt;assertEquals($user-&gt;email, 'foo@bar.com');
+    $this-&gt;assertEquals($user-&gt;name, 'Foo Bar');
+}
+</code></pre>
+
+<p>Taklit sınıfını oluşturduğumuz bölüme bakarsanız, <code class="language-plaintext highlighter-rouge">shouldReceive</code> metodu ile taklit sınıfımızda <code class="language-plaintext highlighter-rouge">save</code> isimli bir metodun olması gerektiğini ve bu metodun da <strong>1 defa</strong> çağırılması gerektiğini belirtiyoruz. Taklit sınıfınıza dilediğiniz kadar metot ekleyebilirsiniz. <code class="language-plaintext highlighter-rouge">Mockery</code> bu konuda oldukça yardımcı oluyor ve ihtiyacınız her şey <a href="http://docs.mockery.io/en/latest/">Mockery Dokümanı</a> üzerinde detaylıca anlatılmış durumda.</p>
+
+<p>Son bir kez <code class="language-plaintext highlighter-rouge">phpunit</code>  komutunu çalıştırdığınızda aşağıdaki güzeller güzeli ekranla karşılaşırsınız;</p>
+
+<pre><code class="language-bash">
+PHPUnit 5.2.12 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+
+Time: 133 ms, Memory: 11.50Mb
+OK (1 test, 2 assertions)
+</code></pre>
+
+<p>Bu noktada eğer dilerseniz <code class="language-plaintext highlighter-rouge">UserRepository</code> sıfındaki <code class="language-plaintext highlighter-rouge">create</code> metodunun içeriğini temizleyerek ya da bozarak, testlerin düzgün çalışıp çalışmadığını dahi test edebilirsiniz.</p>
+
+<h3 id="lafı-çok-mu-uzatıyoruz">Lafı Çok Mu Uzatıyoruz?</h3>
+
+<p>İlk başta olay böyle gelebilir, kabul. Bunun en önemli sebebi örnek olarak <strong><em>basit</em></strong> bir şey seçme zaruretimizin oluşunu söyleyebiliriz. Ancak gerçek hayatta sınıflar daha komplikedir. Tam da bu noktada <strong>Laravel</strong>‘in kendi testlerinden bir bölüm incelemek size biraz ipucu verebilir. (<a href="https://github.com/laravel/framework/blob/5.2/tests/Auth/AuthGuardTest.php">bkz</a>)</p>
+
+<h3 id="i̇şleri-otomatize-etmek">İşleri Otomatize Etmek</h3>
+
+<p>Ben işin en çok bu kısmından zevk alıyorum. <code class="language-plaintext highlighter-rouge">Laravel</code> gibi projelerin GitHub sayfalarında yer alan yeşil renkli kutucuklar hiç dikkatinizi çekti mi? <a href="https://github.com/laravel/laravel">[build-passing]</a>
+Projede yapılan her değişiklikten sonra tüm testleri elle çalıştırmak zahmetli olabileceğinden, yapılan her değişiklik (commit) sonrası testlerinizi bir çok farklı ortamda (PHP 5.5, PHP 5.6, PHP7, PHP:hhvm) sizin için çalıştıran araçlar vardır. Bunların en meşhurlarından biri <a href="https://travis-ci.org">Travis-CI</a>. Bu işleri otomatize etmenin terminolojideki genel adı da <strong>Continuous Integration</strong>‘dır.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Travis</code> sadece private repolar için ücretlidir. Public olan repolarda sınırsızca kullanabilirsiniz. Tek yapmanız gereken projenize bir <code class="language-plaintext highlighter-rouge">travis.yml</code> dosyası dahil ederek Travis-GitHub entegrasyonunu yapmak.</p>
+
+<blockquote>
+  <p>Bu bölüm ayrı bir blog yazısı olduğu ve ben zaten hali hazırda bu yazıyı yeterince uzattığım için bu bölüme değinmiyorum. Ancak dileyenler Laravel’in testleri ne durumda inceleyebilirler. (<a href="https://travis-ci.org/laravel/framework">bkz</a>)</p>
+</blockquote>
+
+<h3 id="sonuç">Sonuç</h3>
+
+<ul>
+  <li>Proje büyüdükçe ve bir çok farklı yapıdan oluştukça test yazmak zaruri bir hal alır.</li>
+  <li>Bir çok farklı test türü vardır: Unit, Acceptance, Integration vb.</li>
+  <li>Test türleri için farklı farklı araçlar vardır: <a href="http://phpunit.de">PHPUnit</a>, <a href="http:/docs.mockery.io">Mockery</a>, <a href="http://codeception.com/">CodeCeption</a>, <a href="http://www.seleniumhq.org/">Selenium</a>, <a href="http://www.phpspec.net/en/latest/">PHPSpec</a></li>
+  <li>Unit Test yazabilmek için sınıflarımızın <strong>Unit</strong> olması gerekmektedir. Gereksiz bağımlılıklar temizlenmeli/dışarıdan dahil edilmelidir.</li>
+  <li>SOLID prensipleri test yazma sürecinin olmazsa olmazıdır ve öğrenilmesi elzemdir.</li>
+  <li>Taklit sınıflar işin önemli bir kısmını oluştururlar.</li>
+  <li>Continuous Integration önemlidir ve her fırsat bulunduğu an uygulanmalıdır.</li>
+</ul>
+
+<h3 id="i̇leri-okumalar">İleri Okumalar</h3>
+
+<ul>
+  <li><a href="http://www.softwaretesting.com.au/Why_is_Software_Testing_important.php">Why is Software Testing Important to a business?</a></li>
+  <li><a href="http://www.softwaretestinghelp.com/types-of-software-testing/">Types of software Testing</a></li>
+  <li><a href="https://jtreminio.com/2013/03/unit-testing-tutorial-introduction-to-phpunit/">Unit Testing Tutorial Part I: Introduction to PHPUnit</a></li>
+  <li><a href="https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design">S.O.L.I.D: The First 5 Principles of Object Oriented Design</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Inversion_of_control">Wiki: Inversion Of Control</a></li>
+  <li><a href="http://shop.oreilly.com/product/9781783283439.do">Book: PHPUnit Essentials</a></li>
+</ul>
+:ET

@@ -1,0 +1,33 @@
+I"�
+<p>Yaklaşık bir buçuk yıl kadar CodeIgniter (CI) ile bir proje geliştirmekteydim. Şartlar CI ile projeye başlamak için gayet uygundu. Tahmin edersiniz ki yapacağımız işi maddi kaygılar belirlediğinden, başladığınız projenin nereye gideceğini ve nerede son bulacağını bilemiyoruz.</p>
+
+<h2 id="ci-ile-basit-bir-proje">CI ile Basit Bir Proje</h2>
+
+<p>Son derece basit bir projeye başlamıştık ve bir kaç haftada bitmesi gerekiyordu. Ancak müşteri talepleri ve maddi gelirimizi her zaman müşterinin sağlıyor oluşu projeyi sürekli başka boyutlara taşıyordu. Bu nedenle 2 hafta olarak düşündüğümüz proje 1 buçuk yıl sürdü. Tabii olarak CI ile bu kadar uzun bir süre aynı projeyi geliştiriyorsanız proje klasörleriniz birbirine girmeye başlıyor. Bir yerden sonra ipin ucunu kaçırabiliyorsunuz çünkü müşterinin her zaman acelesi var ve her zaman bir şeyler “ACİL!” olarak talep ediliyor. Zaten CI da öyle çok derli toplu kod geliştirebileceğiniz bir framework değil.</p>
+
+<h2 id="ci-ile-boğulmak">CI ile Boğulmak</h2>
+
+<p>CI ile proje geliştirken yaşadığım en büyük sıkıntılar şunlar olmuştu;</p>
+
+<ul>
+  <li>Harici olarak hazır kütüphane kullanmanın zorluğu. (2.1.4 sürümünde composer bulunmuyor)</li>
+  <li>Standart olarak ORM yapısının olmayışı. Bu nedenle ekip olarak çalıştığımızda yaşadığımız veritabanı karmaşası.</li>
+  <li>Standart olarak Template Engine olmayışı.</li>
+  <li>Bir süre sonra çöplüğe dönüşen kod yığınları.</li>
+  <li>Neyse ki söz konusu projemize ağırlık vermeyi bıraktık ve başka projelere yönelebildik. Bu nedenle yeni projemizde CI’dan kaçış işlemlerimizi başlatmış olduk ve Laravel ile çalışmaya başladık.</li>
+</ul>
+
+<h2 id="laravele-i̇lk-bakış">Laravel’e İlk Bakış</h2>
+
+<p>1 haftalık çalışma sonundaki edindiğimiz izlenimlere göre kendisini çok sevme sebeplerimiz şöyle;</p>
+
+<ul>
+  <li>Composer</li>
+  <li>Composer (Önemini anlatabilmek için tekrar ediyorum. :) )</li>
+  <li>ORM yapısı</li>
+  <li>Kullanışlı route yönetimi</li>
+  <li>Migration ve Şema oluşturma işlemleri. (Ekip halindey çalışırken muazzam bir rahatlık.)</li>
+</ul>
+
+<p>Öncelikli olarak bu sebepler yazdığımız koddan daha fazla keyif almamızı sağladı. Özellikle Composer ile hazır paketleri kullanabilmekteki kolaylık, çok hızlı bir şekilde kod geliştirmeye olanak veriyor. Eğer siz de sadece CI ile geliştirme yapıyorsanız ve biraz üzerinizde bir çekimserlik var ise framework değiştirme konusunda, kesinlikle tereddüt etmeyin. CI’dan kurtulmanız gerekiyor. Çünkü bir noktadan sonra size destek değil, köstek oluyor.</p>
+:ET

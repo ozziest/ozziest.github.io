@@ -1,0 +1,28 @@
+I"�	<p>Son birkaç aydır <strong>PHP İle Paket Geliştrme</strong> konusu üzerinde bir e-kitap çalışması içerisindeydim. Epey bir uğraştan sonra geçtiğimiz günlerde bu çalışmamı sonlandırdım ve <strong>LeanPub</strong> üzerinden yayınlamaya başladım. Siz de aşağıdaki link aracılığı ile e-kitaba ücretsiz olarak ulaşabilirsiniz;</p>
+
+<p><a href="https://leanpub.com/phpilepaketgelistirme">PHP İle Paket Geliştirme</a></p>
+
+<h3 id="önsöz">Önsöz</h3>
+
+<p>Bundan yaklaşık olarak 10 yıl önce ilk programımı yazdığımda yaşadığım mutluluğu tarif etmem imkansız. Hala yeni bir şeyler geliştirirken aynı heyecanı yaşıyor ve yaptığım işten keyif alıyorum.</p>
+
+<p>Ancak yazılım hayatım boyunca bir noktadan sonra tekrar tekrar aynı işi yaptığımın farkına vardım. Bu sorunu aşmak için “Nasıl yazdığım kodları pratik bir şekilde yeniden kullanabilirim?” sorusunu kendime yönelttim. Her zaman olduğu gibi yalnız değildim ve benden daha önce de bu sorunun sorulduğunu öğrendim.</p>
+
+<p>Bu e-kitapta birlikte bu sorunun çözümlerinden sadece biri olan paket tabanlı mimariyi inceleyeceğiz. Neden gerekli olduğu, ne gibi kolaylıklar sağladığı ve nereden başlanması gerektiği gibi konular tek tek irdelenecektir.</p>
+
+<p>Bu e-kitabı iyi bir şekilde kavrayabilmek için daha önce PHP ile uygulama geliştirmiş olmanızı tavsiye ederim. E-kitap, PHP’yi bilmeyen geliştiriciler için uygun değildir. Ayrıca e-kitap içerisinde <strong>Git</strong> kullanımı da anlatılmamaktadır. Bu nedenle e-kitap okuyucularının temel <strong><em>Git</em></strong> kullanımını biliyor olmaları da gerekmektedir.</p>
+
+<p>Umarım benim yazarken aldığım keyfi siz de okurken alabilirsiniz ve sizin için faydalı bir döküman olur. Bu çalışma hakkındaki tüm fikir, öneri ve görüşlerinizi <strong>i.ozguradem@gmail.com</strong> e-posta adresine ya da <strong>@iozguradem</strong> Twitter hesabına bildirebilirsiniz.</p>
+
+<p>Ocak 2015</p>
+
+<h3 id="hata-bildirimi">Hata Bildirimi</h3>
+
+<p>E-kitap içerisinde yanlış bildiklerim, yanlış anlattıklarım ya da yanlış anlaşılan şeyler olabilir. Veyahut hiç değinmediğim ama bu e-kitap konusu için değinilmesi zaruri bir husus olabilir. Eğer fikirlerinizi bana iletebilirseniz, güzel bir kaynak ortaya çıkarmış oluruz.</p>
+
+<ul>
+  <li><a href="https://github.com/ozziest/phppaketigelistirme">GitHub Deposu</a></li>
+  <li><a href="https://twitter.com/iozguradem">@iozguradem</a></li>
+</ul>
+
+:ET

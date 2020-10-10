@@ -1,0 +1,44 @@
+I"�	<p>Bu sefer teknik bir yazı yerine, kullanışlı bir bilgi vermek amacıyla yazıyorum. :)</p>
+
+<p>Geçtiğimiz günlerde kredi kartından (banka kartı da olabilir) kart tipini ve ilgili kartın ait olduğu bankayı öğrenip öğrenemeyeceğimi merak etmiştim. Biraz araştırmadan sonra bingo; <strong>binlist</strong> adı verilen bir yapı ile karşılaştım.</p>
+
+<h3 id="biniin-list-nedir">BIN/IIN List Nedir?</h3>
+
+<p>Kredi kart numaralarının ilk altı karakteri <strong>Issuer Identification Number (IIN)</strong> olarak adlandırılmaktadır. Daha önceden bu adlandırma işlemi <strong>Bank Identification Number (BIN)</strong> olarak yapılıyormuş. Bu ilk 6 numara aracılığı ile kartın tipi ve ait olduğu banka bilgilerini bilme imkanımız oluyor.</p>
+
+<h3 id="binlistnet">Binlist.net</h3>
+
+<p>Bu işlemi yapabileceğimiz ilk kaynağımız <a href="http://www.binlist.net">binlist.net</a>. Doğrudan site üzerinden size tanınan arayüzle ya da ücretsiz olarak sunulan <strong><em>(günlük 10.000 istek limitli)</em></strong> API aracılığı ile sorgulama yapabiliyorsunuz. Kart tipinde genelde sorun yaşanmasa da, bazen banka bilgileri eksik gelebiliyor. Ancak eğer siz bu bilgileri biliyorsanız <a href="https://github.com/binlist/binlist-data">binlist-data</a> reposu üzerine katkıda bulunarak banka bilgilerine yenilerini ekleyebilirsiniz.</p>
+
+<p>Hatta eğer projelerinizde AngularJS kullanıyorsanız, aşağıdaki servis aracılığı ile hızlıca sorgulama yapabilirsiniz.</p>
+
+<pre><code class="language-js">
+app.factory('$bin', function ($http) {
+
+  var service = {};
+
+  service.get = function (code, callback) {
+    code = code.replace('-', '').substr(0, 6);
+    $http.get('http://www.binlist.net/json/' + code)
+      .then(function (response) {
+        callback(response.data);
+      }, function () {
+        callback(false);
+      });
+  };
+
+  return service;
+
+});
+</code></pre>
+
+<h3 id="gist-üzerindeki-dosyalar">Gist Üzerindeki Dosyalar</h3>
+
+<p>Bir diğer kaynağımız <strong><em>Türkiye</em></strong> için hazırlanmış olan BIN listeleri. Bulabildiklerimi aşağıda paylaşıyorum.</p>
+
+<ul>
+  <li><a href="https://gist.github.com/berkayunal/1595676">CSV - berkayunal</a></li>
+  <li><a href="https://gist.github.com/ismailbaskin/2489587">SQL - ismailbaskin</a></li>
+  <li><a href="https://gist.github.com/kemalaydin/b3de747b5436ec7a40c9">SQL - kemalaydin</a></li>
+</ul>
+:ET

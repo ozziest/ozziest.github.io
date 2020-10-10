@@ -1,0 +1,169 @@
+I"�K<p><a href="https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188/" target="_blank">
+    <img src="/images/posts/07.jpg" class="center" />
+</a></p>
+
+<h3 id="1-giriş">1. Giriş</h3>
+
+<p><strong><em>Testing</em></strong> kavramı yazılım tarihi kadar eski, zaman içerisinde gelişmiş ve bir çok alt dallara ayrılmış, kendi içerisinde oldukça teorik bilgi barındıran bir kavramdır. Her ne kadar ülkemizdeki bilgi birikimi testing konusunda oldukça yetersiz olsa da, İngilizce olarak yazılmış bir çok farklı kitap ve kaynağa ulaşmanız mümkündür. Bu kaynakları göz ucuyla taradığınızda dahi, testing kavramının pratiğinden önce ne kadar gelişmiş ve detaylı bir teorisinin bulunduğunu anlayabilirsiniz. Ben de bu makale ile naçizane bilgilerimi, dilim döndüğünce ve kelimelerim elverdiğince anlatmaya çalışacağım.</p>
+
+<p>Bu makale ile testing kavramının özünü açığa çıkarmak ve testing terminolojisine dokunarak test türleri üzerinde karşılaştırmalı bir yazı yazmak niyetindeyim. Makale okuyucularının makale sonunda, test türleri hakkında yeterli teorik bilgiye sahip olmasını amaçlamaktayım.</p>
+
+<p>Bu makale ile öğrenilebilecek teorik bilgileri, pratik test yazımı konusunda bir rota oluşturabilmesi açından önemli buluyorum. Rotası olmayan bir yolculuğun size zaman kaybettirmesinin yanı sıra, doğru hedefe ulaşamaması da her zaman için ihtimaller dahilindedir.</p>
+
+<h3 id="2-test-nedir">2. Test Nedir?</h3>
+
+<p>Yazılım sektöründe kullanılan <strong><em>test</em></strong> kelimesi henüz TDK literatüründe kendine yer bulamamış olsa da, yalın bir tabir olması açısından aşağıdaki ifadeyi kullanabiliriz;</p>
+
+<blockquote>
+  <p><strong><em>Test</em></strong>; bir amacı gerçekleştirmek için kodlanan bir yazılımın ya da yazılımının bir bölümünün, amaçlanan hedefi gerçekleştirip gerçekleştirmediğinin kontrol edilmesidir.</p>
+</blockquote>
+
+<p>Bu tanımı baz alırsak, geliştirdiğimiz her kodun bir şekilde test edildiği sonucuna ulaşırız. En bağlangıç seviyesinde yazılım geliştirenlerimiz bile, yazdıkları ufacık bir kod parçasının doğru çalışıp çalışmadığını el yordamıyla kontrol etmektedir. Bu bağlamda <strong><em>test etme</em></strong> eylemi sürekli uyguladığımız bir eylemdir.</p>
+
+<p>Ancak söz konusu eylem, üretilen yazılımdaki kod sayısı arttıkça uygulanması zor bir hale gelecektir. 10 satır kodun el yordamıyla test edilmesi oldukça kolay olabilir. Ancak binlerce satır, birbiri ile bağlantılı bir kod örüntüsünün, eklenen ya da yeniden düzenlenen her satırdan sonra el yordamıyla kontrol edilmesi imkansıza yakındır. Bu nedenle yazılım dünyasında <strong><em>test</em></strong> kelimesini kullandığımızda, el yordamıyla yapılan kontroller konumuzun <strong>dışındadır</strong>.</p>
+
+<p>Yazılımda “<strong><em>test</em></strong>” dediğimizde anlamamız gereken tanım şudur;</p>
+
+<blockquote>
+  <p><strong><em>Test</em></strong>; bir amacı gerçekleştirmek için kodlanan bir yazılımın ya da yazılımının bir bölümünün, amaçlanan hedefi gerçekleştirip gerçekleştirmediğinin <strong><em>kod aracılığıyla</em></strong> kontrol edilmesidir.</p>
+</blockquote>
+
+<p>Özetle; geliştirdiğiniz kodun kontrolünü yapmak amacıyla yazdığınız diğer kodlar için biz <strong><em>test</em></strong> kavramını kullanıyoruz. <strong><em>Test</em></strong> kelimesini kullandığımızda anlamamız gereken tanım budur.</p>
+
+<h3 id="4-test-türleri">4. Test Türleri</h3>
+
+<p><strong><em>Testing</em></strong> terminolojisine giriş yaptığınızda, farklı test türlerinin olduğunu görürüz. Bunun sebebi bu kavramı geliştiren usta yazılımcıların sizin için işi zorlaştırmak istemesi değildir. Kategorize etme işlemi zaman içerisinde, kendiliğinden oluşan doğal bir olaydır. Test türleri amaç değil, sonuçtur. Bu bölüm altında, makalemizin ana konusunu da oluşturan bu test türlerine değineceğiz.</p>
+
+<p>Test türleri seviyeler, tipler ve süreçler bakımından bir ön kategoriye sahiptirler. Test türlerinden bahsetmenin tek yolu, öncelikle bu türleri dahi bir ön kategorize işlemin tabi tutmakta geçmektedir. [1] Her bir test türü başlı başına bir makale hatta bir kitap konusu olabilir. Ancak bizim burada ne hepsini açıklayabilecek gücümüz, ne de zamanımız var. Bu nedenle yazılım geliştiriciler için en çok söz konusu olan dört test türü üzerinde duracağız;</p>
+
+<ul>
+  <li>Unit Tests (Birim Test)</li>
+  <li>Integration Tests (Entegrasyon Testi)</li>
+  <li>Functional Tests (Fonksiyonel Test)</li>
+  <li>Acceptance Tests (Kabul Testi)</li>
+</ul>
+
+<p>Buradaki dört farklı tür kendi içerisinde bir tanıma sahiptir ve her birinin farklı amaçları ve yazım yöntemleri vardır. Doğal olarak her biri için farklı araçlar söz konusu olabilmektedir. Test yazma ihtiyacı hissettiğiniz zaman, test yazma amacınızı doğru olarak belirleyemezseniz ne tür bir test yazacağınıza karar veremezsiniz. Doğru test türünde kullanmadığınızda ise test yazım amacınızı gerçekleştiremezsiniz. Dolayısıyla doğru test türünü karar vermek amaçlarınıza ulaşmak açısından önemlidir.</p>
+
+<h5 id="41-unit-tests">4.1. Unit Tests</h5>
+
+<p><strong><em>Unit Test</em></strong> ya da Türkçe’ye çevrilmiş haliyle <strong><em>Birim Test</em></strong>; her ne kadar çok sık duymasak da tarihi epey eskiye, 70’lerde <strong><em>Alan Kay</em></strong> önderliğinde geliştirilen Smalltalk programalama dilinen kadar uzanan bir terimdir. Bilgisayar bilimlerinde birim test; başka bir bloğu çağıran ya da kullanan bir kod bloğunun (genellikle metot) kendi görevini doğru olarak yapıp yapmadığının, ilişkide olduğu diğer bloktan ayrılarak test edilmesi işlemidir. Eğer görev doğru olarak yapılmazsa birim testler başarısız olur. Birim olarak adlandırdıklarımız genellikle bir metot ya da bir fonksiyondur. [2]</p>
+
+<p>Buradaki anahtar faktör; test etmek istediğimiz ufacık kod parçasının, diğer kod parçalarından tamamen yalıtıralarak test edilmesidir. Amacımız; ufacık kod parçasının kendi işini doğru olarak yapıp yapmadığının kontrol edilmesidir. Bu kod parçasının diğer kodlarla olan ilişkisi birim testin konusu değildir. Bu nedenle birim test yazabilmenin ön koşulu; test edilecek kod parçasının diğer kodlardan yalıtılmış olmasıdır. Eğer test etmek istediğiniz bölüm, diğer bölümlere sıkı sıkıya bağlı ise bu bölüm için unit test yazmanız pratikte pek mümkün değildir.</p>
+
+<p>Bu nokada, bahsi geçen düşünceleri kavramlaştırmamız gerekmektedir. <strong><em>Kod parçası</em></strong> olarak adlandırdığımız bölüm genellikle bir <strong><em>metot</em></strong> ya da bir <strong><em>fonksiyondur</em></strong>. Bu metotun diğer kodlarla olan ilişkisine <strong><em>bağımlılık (coupling)</em></strong> adı verilmektedir. Eğer iki farklı kod parçası birbirine sıkı sıkıya bağlı ise <strong><em>Highly Coupled</em></strong>, zayıf bir şekilde bağlı ise <strong><em>Loosely Coupled</em></strong> söz konusudur. [3]</p>
+
+<p>Bağımlılık kavramı anlaşılmaksınız birim testi yazmak söz konusu olmadığından, örneklerle bu kavramı pekiştirmemiz gerekmektedir. Aşağıdaki güzel Highly Coupled örneği verilmiştir;</p>
+
+<pre><code class="language-csharp">
+public void Create(string name, string surname)
+{
+    UserModel model = new UserModel();
+    model.name = name;
+    model.surname = surname;
+    model.Save();
+}
+</code></pre>
+
+<p>Bu örnekte oluşturduğumuz <code class="language-plaintext highlighter-rouge">Create</code> metodu, <code class="language-plaintext highlighter-rouge">UserModel</code> sınıfı ile sıkı sıkıya bağımlıdır ve kendi işini yapabilmek için <code class="language-plaintext highlighter-rouge">UserModel</code> sınıfını tanımak zorundadır. Bu şekilde yazılmış bir metodun birim testinin yazılması zordur. Çünkü yazacağınız test sadece <code class="language-plaintext highlighter-rouge">Create</code> metodunu değil, <code class="language-plaintext highlighter-rouge">UserModel</code> içerisindeki <code class="language-plaintext highlighter-rouge">Save</code> metodunu da test edecektir.</p>
+
+<p>Bu metodu eğer aşağıdaki şekilde yeniden düzenlersek sıkı sıkıya oluşmuş olan bu bağlantıyı, zayıf bir bağlantıya dönüştürmüş oluruz;</p>
+
+<pre><code class="language-csharp">
+public void Create(UserModel model, string name, string surname)
+{
+    model.name = name;
+    model.surname = surname;
+    model.Save();
+}
+</code></pre>
+
+<p>Buradaki <code class="language-plaintext highlighter-rouge">Create</code> metoduna <code class="language-plaintext highlighter-rouge">UserModel</code> sınıfı dışarıdan gönderiliyor. Böylece siz bu <code class="language-plaintext highlighter-rouge">Create</code> metodunun birim testini yazarken, sahte (<strong><em>mock object</em></strong>[4]) bir <code class="language-plaintext highlighter-rouge">UserModel</code> sınıfı gönderebilirsiniz. Birim test yazarken kontrol edeceğimiz noktalar, ilgili modele <code class="language-plaintext highlighter-rouge">name</code> ve <code class="language-plaintext highlighter-rouge">surname</code> bilgilerinin aktarılması ve <code class="language-plaintext highlighter-rouge">Save</code> metodunun çağrılmasıdır. Eğer <code class="language-plaintext highlighter-rouge">Create</code> metodu bu işleri yapıyorsa, birim testimizden geçebilmektedir. Böylelikle <code class="language-plaintext highlighter-rouge">Create</code> metodunu, diğer kodlardan bağımsız olarak test edebilmiş oluruz ki bu; birim testin özünü oluşturmaktadır.</p>
+
+<p>Birim testler basit olmalı ve oldukça küçük bir bölümün üstlendiği işi doğru olarak yapıp yapmadığını kontrol etmelidir. Bunun yanında iyi bir birim test aşağıdaki özellikleri de üzerinde taşımalıdır;</p>
+
+<ul>
+  <li>Otomatikleştirilebilmeli ve kolaylıkla tekrar tekrar çalıştırılabilmelidir.</li>
+  <li>Kolaylıkla yazılabilmelidir.</li>
+  <li>Bir kez yazıldığında özellik kullanıldıkça kalmalıdır.</li>
+  <li>Herhangi biri çalıştırabilmelidir.</li>
+  <li>Çalıştırması bir düğmeye basmak kadar kolay olmalıdır.</li>
+  <li>Kontrolleri çabucak (mümkünse saniyeler içinde) gerçekleştirmelidir.</li>
+</ul>
+
+<p>Eğer aşağıdaki soruların hepsine <strong>Evet</strong> cevabını veremiyorsanız, muhtemelen yazdığınız şey birim test değildir;</p>
+
+<ul>
+  <li>2 ay önce yazdığım unit testleri çalıştırıp sonuçları alabilir miyim?</li>
+  <li>Takımımın herhangi bir üyesi 2 ay önce yazdığım testleri çalıştırıp sonuçları alabilir mi?</li>
+  <li>Yazdığım tüm unit testler bir kaç dakika içinde sonuçlanabilir mi?</li>
+  <li>Tüm unit testleri dilediğim zaman bir butona basarak çalıştırabilir miyim?</li>
+  <li>Temel bir birim testi bir kaç dakika içinde yazabilir miyim?</li>
+</ul>
+
+<p>Eğer yukarıdaki sorulardan herhangi birine verdiğiniz cevap <strong>Hayır</strong> ise; yazdığınız şeyin bir test olduğu gerçeğine karşın, kesinlikle birim test değildir.</p>
+
+<h5 id="42-integration-tests">4.2. Integration Tests</h5>
+
+<p>Aracınız bozulduğunda hangi parçanın bozulduğunu nasıl anlayabilirsiniz? Motor bir çok farklı parçanın birleşiminden oluşmaktadır ve tüm parçalar bir arada, uyum içinde çalışırlar. Hata bunlardan herhangi birinde ya da birden fazlasından meydana gelmiş olabilir. Tüm parçalar bir araya gelerek asıl sonucu meydana getirir: arabanın yürümesi. Arabanın yürümesini entegrasyon testi olarak düşünebilirsiniz. Eğer test hatalıysa, parçaların birlikteliği hatalı demektir. Testler sorunsuz bir şekilde çalıştıysa, tüm parçalar sorunsuz çalışıyor demektir.</p>
+
+<p>Yazılımlarda da buna benzer süreç işlemektedir. Kullanıcı arayüzünü kullanarak yaptığınız testler entegrasyon testleridir. Bir butona tıkladığınızda beklediğiniz sonucu alamıyorsanız, yazılımı oluşturan tüm parçalar (bir takım olarak) hatalıdırlar. Buradaki sorun tam olarak hangi parçanın hatalı olduğunun bulunmasının zor olmasıdır. Çünkü bir butona bastığınızda hataya yol açacak onlarca, hatta yüzlerde parça olabilir.</p>
+
+<p>Bu nedenle entegrasyon testi demek: iki ya da daha fazla bağımlı modülün bir grup olarak çalışmasının test edilmesi demekdir.Kısaca entegrasyon testi; birim testlerle test edilebilen kodların bir arada çalışmasını kontrol eder. Birim testler ise sadece ilgili biriminin diğer birimlerden bağımsız olarak çalışmasını kontrol eder.</p>
+
+<blockquote>
+  <p>Yukarıdaki üç paragraf <strong><em>The Art of Unit Testing: with examples in C#</em></strong> ismli kitaptan, bazı bölümler çıkartılarak ve bazı bölümler yeniden düzenlenerek alınmıştır.</p>
+</blockquote>
+
+<p>Örnek olarak birim testlerini yazdığınız bir kod parçasının, ürettiği veriyi bir noktada diske yazdığını düşünelim. Birim test yazdığınızda, dosya sisteminden bağımsız olarak bu metodun veriyi doğru bir şekilde ürettiğini ve verileri dosyaya yazmaya çalıştığını test edersiniz. Ancak dosya izinleriniz doğru bir şekilde yapılandırılmamış olabilir. Bu noktada birim testleriniz doğru bir şekilde çalışsa da, gerçek ortamda istenilen işi yapamayabilir. Entegrasyon testleri aracılığı ile gerçek ortama en yakın ortamı oluşturarak, bir bütün olarak metodu test edebilirsiniz. Bu nedenle birden fazla bölümün ortaklaşa çalışmasını test etme olanağını birim testte değil, entegrasyon testinde bulabilirsiniz.</p>
+
+<p>Birim testlerde hatayı daha rahat bulabilirsiniz. Ancak entegrasyon testler daha fazla kodu test ettiği için daha geneldir. Bu nedenle sürdürülebilirliği ve çalıştırılması birim testlere göre daha zordur. Çünkü test ortamının gerçek ortama yakın bir şekilde tasarlanması zaman almaktadır.</p>
+
+<h5 id="43-functional-tests">4.3. Functional Tests</h5>
+
+<p>Fonksiyonel testler, belirli bir veri grubunun sonuçlarını, bir sonuç kümesiyle karşılaştırarak kontrol eder. Fonksiyonel testler ara sonuçlar ya da yan etkiler ile ilgilenmezler. Sadece sonuç odaklı çalışırlar. X işlemi yapıldıktan sonra, sonucun ne olduğu ile ilgilenmezler. [5]</p>
+
+<p>Yukarıdaki paragraf biraz karışık gelebilir. Bu nedenle biraz örneklemek yerinde olacaktır. Örneğin bir oturum açma işleminin testini yazdığımızı düşünelim. Oturum aç butonuna tıkladığımızda, sadece bizi anasayfaya yönlendirmesini test ediyorsak ve girdiğimiz kullanıcı bilgilerinin doğru olup olmadığının önemli olmasını istemiyorsak bu bir fonksiyonel testtir. Eğer bu bilgilerin de doğru olup olmadığının kontrolünü istiyorsak, o halde bu bir entegrasyon testidir.</p>
+
+<p>Birbirine çok yakın olarak gözüken bu iki test türünün temel farkı; birinde (fonskyionel test) yan etkiler (veritabanında kayıt oluşup oluşmaması gibi) önemsizdir. Diğerinde (entegrasyon testi) ise bu yan etkiler önemlidir. Çünkü sistemin bir bütün olarak çalışıp çalışmadığı kontrol edilmektedir. Genellikle bir resme tıkladığınız zaman, resmin bir modal üzerinde açılması, profil linkine tıkladığınızda sayfanın değişmesi gibi testler fonsksiyonel testler olarak isimlendirilirler.</p>
+
+<h5 id="44-acceptance-tests">4.4. Acceptance Tests</h5>
+
+<p>Acceptance Tests ya da Türkçe karşılığıyla <strong>Kabul Testleri</strong>, son kullanıcı senaryolarının testlerini ifade etmektedir. Özünde yine entegrasyon testleri olarak kabul edilebilse de, bir kullanıcı hikayesinin test edilmesini ifade etmektedir. Örneğin kod yardımıyla yine tarayıcı açılarak bir kullanıcı hikayesi, örneğin yeni bir kullanıcı oluşturularak, kullanıcıya yetkiler atanması işlemi test edilir. Test senaryoları İngilizce’ya yakın bir dilde kodlanır ve kabul testi yazmak için geliştirilmiş kendine özgü araçları vardır.</p>
+
+<p>Kabul testlerindeki amaç; yazılımın sunulacağı kullanıcı grubunun yazılımı çalışıyor olarak kabul edebilmesi için gerekli olan işlemlerin gerçekleştirilebilip gerçekleştirilemeyeceğinin kontrolüdür. Sistemin neresinde hatalar olduğunun tespitinden ziyade, <strong><em>“Sistem kendisinden beklenilen işlemleri yapamıyor.”</em></strong> demek için kullanılmaktadır.</p>
+
+<h3 id="5-hangi-test-türünü-seçmeliyim">5. Hangi Test Türünü Seçmeliyim?</h3>
+
+<ul>
+  <li>Eğer amacınız geliştirme anında hızlı bir şekilde hata bulmak ise; <strong>unit test</strong>.</li>
+  <li>Eğer amacınız sistemi bir bütün (veritabanı ya da dosya sistemi, yani yazılımın çalıştığı ortam ile birlikte) olarak test etmek ise; <strong>integration test</strong>.</li>
+  <li>Eğer amacınız ortamdan ve yan etkilerden bağımsız olararak sadece bir fonksiyonun test edilmesi ise; <strong>functional test</strong>.</li>
+  <li>Eğer amacınız yazılımdan beklenen işlemlerin yapılıp yapılamadığını kontrol etmek ise; <strong>acceptance test</strong>.</li>
+</ul>
+
+<p>Örneklerle açıklamak gerekirse;</p>
+
+<ul>
+  <li>Kullanıcının kaç gündür kayıtlı olduğunu hesaplayan fonksiyonun testi; <strong>birim test</strong>.</li>
+  <li>Kullanıcının veri tabanına kaydedilebilmesinin testi; <strong>entegrasyon testi</strong>.</li>
+  <li>Bir resme tıklandığında modal açılması; <strong>fonksiyonel test</strong>.</li>
+  <li>Yeni bir kullanıcı kaydedilmesinin arayüz üzerinden testi; <strong>kabul testi</strong>.</li>
+</ul>
+
+<h3 id="6-sonuç">6. Sonuç</h3>
+
+<p>Herkes yazılım üretebilir ve üretilen her yazılımda hatalar her ne kadar dikkat edilse de olacaktır. Hataları en aza indirmek ve sürdürülebilir yazılımlar üretmek için testlere ihtiyaç duyulmaktadır. Hangi testleri hangi durumda geliştirmek gerektiği konusuna bu makale üzerinde -elimden geldiğince- değinmeye çalıştım. Umarım test türleri hakkında fikir sahibi olmanız açısından yardımcı olabilmiştir.</p>
+
+<p>Eğer yazıyı beğendiyseniz ve yararlı olduğunu düşünüyorsanız <strong><em>paylaşarak</em></strong> bu yazının daha fazla kişiye ulaşmasını sağlayabilirsiniz. Eksik gördüğünüz yerler var ise değerli <strong><em>yorumlarınızla</em></strong> katkıda bulunabilirsiniz.</p>
+
+<h3 id="7-kaynakça">7. Kaynakça</h3>
+
+<ul>
+  <li>[1] <a href="https://en.wikipedia.org/wiki/Software_testing">Software Testing</a></li>
+  <li>[2] <a href="https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890">The Art of Unit Testing: with examples in C#</a></li>
+  <li>[3] <a href="https://en.wikipedia.org/wiki/Coupling_(computer_programming)">Coupling</a></li>
+  <li>[4] <a href="https://en.wikipedia.org/wiki/Mock_object">Mock Object</a></li>
+  <li>[5] <a href="http://stackoverflow.com/a/17276889">Stackoverflow - What is the difference between integration testing and functional testing?</a></li>
+</ul>
+:ET

@@ -1,0 +1,37 @@
+I"�<p><a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+    <img src="/images/posts/notes.jpg" class="center" />
+</a></p>
+
+<blockquote>
+  <p>Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.</p>
+</blockquote>
+
+<h3 id="giriş">Giriş</h3>
+
+<p>C# üzerinde sevdiğim bir başka özellik, zarif kullanımları açısından <strong><em>Generic Classes</em></strong> kavramı. Bu tarz sınıflar belirli işlemlerin gerçekleştirilmesini, belirli sabit veri türlerinden bağımsız olarak yapmaya yarıyor. Bu yazı üzerinde de unutmak istemediğim bazı kullanımları not almayı istiyorum.</p>
+
+<h3 id="uygulama">Uygulama</h3>
+
+<pre><code class="language-csharp">
+public class Test 
+{
+
+    public void Process&lt; T &gt;()
+    {
+        Type type = typeof(T);
+        MyCustomType instance = (MyCustomType)Activator.CreateInstance(type);
+    }
+
+    public void Run()
+    {
+        Process&lt; MyCustomType &gt;();
+    }
+
+}
+</code></pre>
+
+<ul>
+  <li><strong>Process</strong> metodu tanımında nasıl Generic Class alabileceğimizi ve metodun içerisinde de (Generic Class konusundan bağımsız olarak) nasıl bir type için yeni bir instance oluşturabileceğimizi görüyoruz.</li>
+  <li><strong>Run</strong> metodu içerisinde de Generic Class tanımı içeren bir metodu nasıl çağırabileceğimizin örneği bulunmaktadır.</li>
+</ul>
+:ET

@@ -1,0 +1,56 @@
+I"<blockquote>
+  <p>Bu blog yazısı, geçtiğimiz Cumartesi (21 Mart 2015) günü <a href="http://mavidurak.github.io">Mavidurak-IO</a> ve <a href="http://ahir.com.tr">Ahir Ar-Ge Danışmanlık AŞ</a>‘nin gerçekleştirdiği <strong>Tech Talk #03</strong> etkinliğinde gerçekleştirdiğim sunumun özetini içermektedir.</p>
+</blockquote>
+
+<p>Hatalar, programlamanın kaçınılmazıdır. Yazdığınız ya da yazmadığınız her satır kod bir hataya neden olabilir. Biz ne kadar mükemmel olduğunu düşünsek de, şuan dünyada var olma nedenimiz dahi geçmişte yapılmış bir hatadır.</p>
+
+<p>Hatalardan tamamen kurtulamayız, ancak doğru zamanda ve doğru yerde tespit edebiliriz.</p>
+
+<p>Peki doğru zaman nedir? Doğru zaman kesinlikle milyonlarca insanın izlediği bir TV programında Windows 95’i tanıttığınız an değildir. Evet bu yaşandı. Bizzat Bill Gates’in de yer aldığı programda, tüm dünya o meşhur mavi ekranla tanıştı. Ne büyük felaket değil mi? Elbette bu Microsoft’un sonu olmadı ancak ucu Internet Explorer’a kadar uzanan kötü bir şöhreti de beraberinde getirdi.</p>
+
+<p>Bu nedenle doğru zaman; tek başınıza, kendi kendinizle yüzleştiğiniz anlardır. <strong><em>Asla bir başkasının size hatanızı söylemesine fırsat vermeyin.</em></strong></p>
+
+<h2 id="kendinizle-yüzleşmek">Kendinizle Yüzleşmek</h2>
+
+<p>Eğer geliştirdiğiniz bir yazılım için kendi kendinizle yüzleşmezseniz, son kullanıcıya yayına çıktığınızda, muhtemelen durumunuz kaza anında yola savrulan kişilerden farklı olmayacaktır. İşler bu noktaya gelmeden alınan her türlü önleme, yani kendinizle yüzleşmeye <strong>“Test Geliştirme”</strong> adını veriyoruz. Sadece ben değil, tüm dünya bu gerekliliği yıllardır uygulamaya gayret ediyor.</p>
+
+<h2 id="biz-robot-değiliz">Biz Robot Değiliz</h2>
+
+<p>Evet, geliştirdiğimiz kodları kontrol etmeliyiz. Ama nasıl? Ufak bir proje için belki oturum açma ve kapatma işlemini kontrol etmek zaman kaybına neden olmayacaktır. Ancak onlarca, belki yüzlerce tablodan oluşan bir sistemi her değişiklikten sonra nasıl kontrol edebilirsiniz? Asla bu kadar boş vaktiniz olmayacak ve asla bir robot gibi bıkmadan, usanmadan çalışamayacaksınız.</p>
+
+<p>Ancak biz geliştiriciler robot olmasak da, robot yapabiliriz.</p>
+
+<p>Peki robot derken neyi kast ediyorum? Kesinlikle, içerisinde motorlar barındıran ve sizin yerinize tuşlara basan bir robot değil. Kullanıcının, geliştirdiğiniz sistem üzerinde yapabileceği her eylemi <strong><em>“taklit”</em></strong> edebilecek bir robot. Burada taklit(mock) kelimesi, test dünyasında oldukça sihirli bir kelimedir. Geliştireceğimiz robotun birebir kullanıcı gibi davranmasını beklemeyiz. Sadece kullanıcıyı taklit etmesini ve yapabileceği her işi bizim yerimize tekrar tekrar yapmasını bekleriz. Siz hiç yaptığı işten sıkılan, başı ağrıyan, dikkati dağılan bir robot gördünüz mü?</p>
+
+<p>Test geliştirme işte bu noktadan hareketle yola çıkmaktadır; geliştirdiğimiz yazılıma kullanıcılar gibi değerler gönderen ve yazılım bu değerlere karşılık doğru tepkiler veriyor mu kontrol eden testler geliştiririz. Yani yazdığımız kod için doğru çalışıp çalışmadığını kontrol eden başka kodlar yazarız.</p>
+
+<p>Test geliştirme dünya üzerinde o kadar yaygındır ki her dilin kendisine özgü test kütüphaneleri vardır. Yazının sonunda görebildiklerinizin (bazı dillere göre test kütüphaneleri) yanına yüzlercesini daha ekleyebilirsiniz. Bu size, yola çıkmak için kolaylık sağlamaktadır. Her biri kendi içinde oldukça güzel dökümanlara ve örneklere sahiptir. Üzerinde çalıştığınız projede kullanacağınız dil için en uygun test kütüphanesini kullanabilirsiniz.</p>
+
+<h2 id="kırmızı-ve-yeşil">Kırmızı ve Yeşil</h2>
+
+<p>Her test sürecinde aşina olmamız gereken bazı ortak başlıklar vardır. Bunların başında renkler gelir; bu renkler kırmızı ve yeşildir. Geliştireceğimiz her yazılım bizim için kırmızıdır. Testi önce yazarız, sonra o testi geçecek yazılımı geliştiririz. (Bu metoda “Test Güdümlü Geliştirme - TDD” adı verilir.) Yani tüm kırmızıları yeşile çevirmeye çalışırız. Büyük şirketlerde test ekibi tamamen yazılım ekibinden ayrıdır ve test geliştirilenlerin üst düzey yazılım bilgisine ihtiyaçları yoktur. Test kütüphaneleri bu nedenle çok basit tasarlanır ve temel programlama bilenlerin kullanabilecekleri şekilde hazırlanır.</p>
+
+<blockquote>
+  <p>Ne yazık ki ülkemizde bazı büyük şirketlerde test yazılmadığını öğreniyoruz, gerçekten üzücü.</p>
+</blockquote>
+
+<h2 id="yöntemler">Yöntemler</h2>
+
+<p>Ayrıca testler de kullandıkları yöntemlere göre bazı farklılıklar gösterir. Unit Test, Integration Test, Acceptable Test vb. Bunlar hakkında çok daha detaylı bilgilere internet üzerinden ulaşabilirsiniz ancak benim yazımın konusu tüm türleri ayrı ayrı incelemek olmadığından, bu türlere detaylı olarak girmeyeceğim.</p>
+
+<h2 id="yazdık-ve-bitti-mi">Yazdık ve Bitti mi?</h2>
+
+<p>Bu testleri yazdığımızda işimiz bitmez. Eğer sürekli geliştirilecek bir sistem üzerinde çalışıyorsak, test yazma, çalıştırma, refactoring işlemlerini tekrar tekrar yapmamız gerecektir. Örneğin yarım saatte bir tüm testleri yeniden çalıştırabilirsiniz. İşlemlerin tekrarlanmasına <strong>“Continious Integration”</strong> adını veriyoruz. Deyim yerindeyse; <strong><em>ömür biter, test bitmez.</em></strong></p>
+
+<p>Ancak tüm bunlara rağmen bir çok geliştirici test yazmayı fuzuli bulmaktadır. Kimilerine göre bu bir zaman kaybıdır. İlk başta öyledir, yaklaşık 15-20% arasında bir zamanınızı buna ayırmanız gerekecektir. Bu; geliştireceğiniz ürünün piyasaya çıkış süresini uzatacaktır. Ancak daha sonradan çıkabilecek hataları çok kısa bir sürede bulup, daha etkili müdahalelerde bulunacağız için bu zamanı telafi etmeniz mümkündür. Şahsi görüşüm; <strong><em>kullanıcıya hata göstermeyen yazılım, çoğu durumda zamandan daha önemlidir.</em></strong></p>
+
+<h2 id="kaynaklar">Kaynaklar</h2>
+
+<ul>
+  <li><a href="http://phpunit.de">PHPUnit</a></li>
+  <li><a href="http://codeception.com/">CodeCeption</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Unit_testing">Unit Testing</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Integration_testing">Integration Testing</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Acceptance_testing">Acceptance Testing</a></li>
+</ul>
+:ET

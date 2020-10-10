@@ -1,0 +1,86 @@
+I"z<p><a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a></p>
+
+<p>Annotation kavramı veriler hakkında ön bilgiler veren başka veri blokları, <strong>notlar</strong> olarak adlandırılır. Normalde bir özellikleri yoktur. PHP ile yazılım geliştirme aşamasında da annotation’lar doküman blokları içerisinde sıkça kullanılır ama yazılıma etki etmezler. Ancak bazen bu durum farklılaşabilir.</p>
+
+<blockquote>
+  <p>JAVA gibi bazı dillerde annotation dilin bir parçasıdır ve programın çalışmasına doğrudan etki eder. Ancak konumuz PHP. :)</p>
+</blockquote>
+
+<h2 id="phpdeki-kullanım">PHP’deki Kullanım</h2>
+
+<p>Normal şartlar altında aşağıdaki gibi doküman bloklarına yazılan kodlar PHP tarafından yorumlanmaz ve programın akışına herhangi bir katkı sağlamaz.</p>
+
+<pre><code class="language-php">
+/**
+ * This method gets the record by id
+ *
+ * @param  integer 		$id 
+ * @return object
+ */
+public function find($id)
+{
+	// code samples
+}
+</code></pre>
+
+<p>Ancak PHP’de <a href="">ReflectionClass</a> olarak adlandırılan bir takım sınıflarla bir sınıf için instance oluşturmadan, o sınıf hakkında bilgiler alabilirsiniz ve buna doküman blokları da dahildir;</p>
+
+<pre><code class="language-php">
+/** 
+* A test class
+*
+* @param  foo bar
+* @return baz
+*/
+class TestClass { }
+
+$rc = new ReflectionClass('TestClass');
+var_dump($rc-&gt;getDocComment())
+</code></pre>
+
+<p>Böylece herhangi bir sınıfın, herhangi bir metodunu çağırmadan önce döküman bloguna yazılan annotation’la program akışlarını değiştirebilirsiniz.</p>
+
+<h2 id="neden">Neden?</h2>
+
+<p>“Neden böyle bir şeye ihtiyaç duyulur?” sorusunu duyuyor gibiyim. Buna <a href="http://symfony.com/">Symfony Framework</a> içerisinde kullanılan <a href="http://www.doctrine-project.org/">Doctirine</a> ORM modelleriyle cevap vermek güzel olabilir;</p>
+
+<pre><code class="language-php">
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="product")
+ */
+class Product
+{
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $name;
+}
+</code></pre>
+
+<p>Bir kez bu <strong><em>ön yorumlama</em></strong> işlemiyle çok kullanışlı sınıflar oluşturmanız mümkün. Ancak buna rağmen annotation kullanmanın zararlı olduğunu düşünenler de var. Tek bir doğru olamayacağı için her iki tarafa da kulak vermek ve uygulamaları görmek en akılcı yol olabilir.</p>
+
+<h2 id="kolay-taraf">Kolay Taraf</h2>
+
+<p>Ancak siz böyle bir yapıyı uygulamalarınızda oluşturmak isterseniz, <strong>Reflection</strong> sınıfları ile uzun uzadıya uğraşmanıze gerek yok. Bu işi oldukça basit bir şekilde halleden bir paketimiz bile var; <a href="https://github.com/marcioAlmada/annotations">Annotations</a>. Üstelik şuanda <strong>PHP-7</strong> desteğiyle ilgili bir <strong><em>branch</em></strong> oluşturularak çalışmalara başlanmış bile.</p>
+
+<p>İlgili paketi kullanarak aşağıdaki gibi hızlıca annotation yorumlayabilirsiniz;</p>
+
+<pre><code class="language-php">
+$annotations = $reader-&gt;getClassAnnotations('FooController');
+$annotations-&gt;get('name')     // &gt; string(3) "Foo"
+$annotations-&gt;get('accept')   // &gt; array(3){ [0] =&gt; "json" [1] =&gt; "xml" [2] =&gt; "csv" }
+</code></pre>
+
+<p>Paket ile ilgili çok daha detaylı bilgileri dokümanı üzerinden öğrenebilirsiniz; <a href="https://github.com/marcioAlmada/annotations">https://github.com/marcioAlmada/annotations</a></p>
+
+:ET

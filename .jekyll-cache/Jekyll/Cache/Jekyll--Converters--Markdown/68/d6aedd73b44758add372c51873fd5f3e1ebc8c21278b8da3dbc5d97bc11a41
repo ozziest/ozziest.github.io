@@ -1,0 +1,97 @@
+I"&
+<div class="row center">
+  <a href="/years" class="section">Years</a>
+  <a href="/categories" class="section">Categories</a>
+  <a href="/english" class="section">English</a>
+  <a href="/turkish" class="section">Turkish</a>
+  <hr />
+</div>
+
+<div class="row">
+  <div class="col-12">
+    <h1 class="category">English</h1>
+    <div class="posts">
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2019-09-28T09:00:00+03:00" class="post-date-mobile">
+        28.09.2019
+      </time>
+    </div>
+    <a href="/english/coding/essays/2019/09/28/evolutionary-artificial-intelligence/">
+      Evolutionary Artificial Intelligence
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2018-11-06T21:56:00+03:00" class="post-date-mobile">
+        06.11.2018
+      </time>
+    </div>
+    <a href="/english/notes/2018/11/06/quick-note-how-can-i-find-biggest-directories-in-ubuntu/">
+      #12 How Can I Find Biggest Directories In Ubuntu
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2018-11-06T21:45:00+03:00" class="post-date-mobile">
+        06.11.2018
+      </time>
+    </div>
+    <a href="/english/coding/2018/11/06/soap-services-with-dotnet-core/">
+      How To Use SOAP Services With Dotnet Core
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2018-02-28T06:30:00+03:00" class="post-date-mobile">
+        28.02.2018
+      </time>
+    </div>
+    <a href="/english/coding/2018/02/28/the-science-of-software-development/">
+      The Science Of Software Development
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2018-01-05T20:00:00+03:00" class="post-date-mobile">
+        05.01.2018
+      </time>
+    </div>
+    <a href="/english/notes/2018/01/05/quick-note-entity-framework-query-logging/">
+      #11 Entity Framework Query Logging
+    </a>
+  </h2>
+</article>
+      
+        <article class="post">
+  <h2 class="post-title">
+    <div class="showMobile">
+      <time datetime="2017-05-08T20:00:00+03:00" class="post-date-mobile">
+        08.05.2017
+      </time>
+    </div>
+    <a href="/english/notes/2017/05/08/list-dynamic-to-list-dictionary/">
+      #10 - From Dynamic List To Dictionary List In C#
+    </a>
+  </h2>
+</article>
+      
+    </div>
+  </div>
+</div>
+
+:ET

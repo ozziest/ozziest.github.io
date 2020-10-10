@@ -1,0 +1,92 @@
+I"w<p><a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+    <img src="/images/posts/coding.jpg" class="center" />
+</a></p>
+
+<p>AngularJS kullanarak çok güçlü web uygulamaları geliştirmeniz mümkün. Ancak <strong><em>html</em></strong> ya da <strong><em>javascript</em></strong> yüklemeleri genellikle tarayıcılar tarafından ön bellekte tutularak, uygulamanızın performansının arttırılması sağlanmaktadır.</p>
+
+<p>Fakat uygulamalar sabit değildir ve sürekli geliştirilir. Siz, bir dosyanın yapısını değiştirdiğinizde, ilgili dosya eğer kullanıcının tarayıcısda ön bellekte tutuluyorsa, kullanıcı bu son değişikliği alamayacaktır. Bu tür durumları çözmek için ilk yapılan, cache özelliğini <strong><em>tamamen</em></strong> ortadan kaldırmaktadır.</p>
+
+<pre><code class="language-markup">
+&lt;html ng-app="MyApp"&gt;
+    &lt;head&gt;
+        &lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body ng-controller="MyController"&gt;
+        &lt;ng-include src="'/template.html?v=' + version"&gt;&lt;/ng-include&gt;
+        &lt;script type="text/javascript"&gt;
+            angular.module('MyApp', []).controller('MyController', function ($scope) {
+                $scope.version = new Date().getTime();
+            });
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Ancak bu yöntemle, her içerik yeniden yüklenir. Bu da performansı düşüreceğinden, soruna başka bir yolla çözüm bulmamız gerekecektir.</p>
+
+<h4 id="gulp-i̇le-sürümleme">Gulp İle Sürümleme</h4>
+
+<p>Eğer Gulp (ya da Grunt) ile script dosyalarınızı birleştirme işi gerçekleştiriyorsanız, scriptlerinizi kolay bir şekilde versiyonlayabilmeniz mümkündür.</p>
+
+<p>Öncelikle, basit bir <strong><em>gulp task</em></strong>‘ı örnekleyelim;</p>
+
+<pre><code class="language-js">
+gulp.task('example-task', function () {
+
+  return gulp.src([
+    'scripts/script_1.js',
+    'scripts/script_2.js',
+    'scripts/script_3.js'
+  ])
+    .pipe(concat('scripts.min.js'))
+    .pipe(gulp.dest('public_html/dist/js'));
+
+});
+</code></pre>
+
+<p>Bu <strong><em>gulp task</em></strong>‘ı, javascript dosyalarımızı birleştiriyor ve <code class="language-plaintext highlighter-rouge">scripts.min.js</code> adıyla <code class="language-plaintext highlighter-rouge">public_html/dist/js</code> klasörü içerisine kaydediyor. Bu görevi otomatikleştirerek, her script kaydedildikten sonra tetiklemeniz mümkün. Bizim ilgilendiğimiz konus ise; birleştirilen bu scriptlerin sonuna ufak bir versiyon numarası dahil etmek.</p>
+
+<p>Bu işlem için <a href="https://github.com/rschmukler/gulp-insert">gulp-insert</a> eklentisinden faydalanacağız.</p>
+
+<pre><code class="language-bash">
+$ npm install gulp-insert --save
+</code></pre>
+
+<pre><code class="language-js">
+var gulp = require('gulp'),
+  concat = require('gulp-concat'),
+  insert = require('gulp-insert');
+
+gulp.task('default', function () {
+
+  return gulp.src([
+    'scripts/script_1.js',
+    'scripts/script_2.js'
+  ])
+    .pipe(concat('scripts.min.js'))
+    .pipe(insert.append('function version () {return "' + new Date().getTime() + '";};'))
+    .pipe(gulp.dest('public_html/dist/js'));
+
+});
+</code></pre>
+
+<p><strong><em>Gulp task</em></strong>ımızı bu şekilde güncellediğimizde, her script derleme işlemi sonrası yenilenen bir versiyon numaramız olacaktır. Bu adımdan sonra tek yapmamız gereken; script yükleme işlemlerinde bu fonksiyonu kullanarak scriptleri versiyon numarasına göre çağırmaktır.</p>
+
+<pre><code class="language-markup">
+&lt;html ng-app="MyApp"&gt;
+    &lt;head&gt;
+        &lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body ng-controller="MyController"&gt;
+        &lt;ng-include src="'/template.html?v=' + version"&gt;&lt;/ng-include&gt;
+        &lt;script type="text/javascript"&gt;
+            angular.module('MyApp', []).controller('MyController', function ($scope) {
+                $scope.version = version();
+            });
+        &lt;/script&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>Böylelikle; scriptler üzerinde yapılan her güncelleme sonrası yeni bir versiyon numarası oluşur. Uygulama içerisinde yüklenen <strong><em>html</em></strong> ya da <strong><em>javascript</em></strong> dosyaları ilgili versiyon numarasına göre alındığından daha önceden yüklenmemiş versiyonlar tarayıcı tarafından bir daha yüklenmez. Böylelikle yapılan güncellemeler sonrası bir defa yeniden yükleme işlemi gerçekleştirilir.</p>
+:ET

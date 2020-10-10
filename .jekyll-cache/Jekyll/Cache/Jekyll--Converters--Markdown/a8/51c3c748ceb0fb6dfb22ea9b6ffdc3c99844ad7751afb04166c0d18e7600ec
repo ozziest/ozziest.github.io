@@ -1,0 +1,131 @@
+I"(<p>Öncelikle ROS’u kısaca tanımlamaya çalışacağım;</p>
+
+<ul>
+  <li>Robotlar için bir işletim sistemidir.</li>
+  <li>Paketler için bir koleksiyondur ve yazılım derleme aracı olarak kullanılmaktadır.</li>
+  <li>Dağıtılmış işlemler/makineler arası iletişim ve yapılandırma için bir mimaridir.</li>
+  <li>Sistemin çalışma ve analiz aşamaları için geliştirme aracı olarak kullanılabilir.</li>
+  <li>Dil bağımsız bir mimariye sahiptir. Aynı robot üzerinden birçok farklı dil kullanılabilir. (c++, python, lisp, java)</li>
+</ul>
+
+<h2 id="ros-ne-değildir">ROS Ne Değildir?</h2>
+
+<ul>
+  <li>Gerçek bir işletim sistemi değildir.</li>
+  <li>Bir programlama dili değildir.</li>
+  <li>Geliştirme ortamı/IDE değildir.</li>
+</ul>
+
+<h2 id="ros-dağıtımları">ROS Dağıtımları</h2>
+
+<ul>
+  <li>ROS Fuerte Turtle</li>
+  <li>ROS Electric Emys</li>
+  <li>ROS Diamondback</li>
+  <li>ROS C Turtle</li>
+  <li>ROS Box Turtle</li>
+</ul>
+
+<h2 id="ros-ve-komponentleri">ROS ve Komponentleri</h2>
+
+<h3 id="ros-core">ROS Core</h3>
+
+<p>ROS Master,</p>
+
+<ul>
+  <li>Merkezi XML-RPC sunucusudur.</li>
+  <li>Bağlantıların iletişimi sağlamaktadır.</li>
+  <li>Sabit konfigürasyon parametreleri ya da diğer keyfi verileri kaydeder.</li>
+  <li>Aslında, insanların anlayabileceği dilde mesajları barındırran ağ tabanlı bir yapıdır.</li>
+</ul>
+
+<h3 id="ros-stacks--packages">ROS Stacks &amp; Packages</h3>
+
+<p>ROS kodu iki farklı seviye içerisinde gruplanmıştır;</p>
+
+<ul>
+  <li>Packages</li>
+  <li>Stacks</li>
+</ul>
+
+<p>Packages, ROS’a çok küçük bir bağımlılıklar bağlanmış yazılım koleksiyonlarıdır. Stacks ise bu ufak parçaların bir araya gelerek oluşturduğu dağıtıma verilen isimdir.</p>
+
+<h4 id="packages">Packages</h4>
+
+<ul>
+  <li>Kodlarınızı, build yapılandırmasınızı ve launch dosyalarınızı barındıran bir dizindir.</li>
+  <li>Birden fazla <code class="language-plaintext highlighter-rouge">node</code> içerebilir.</li>
+  <li>İçerisinde <code class="language-plaintext highlighter-rouge">manifest.xml</code> adında bağımlılıkların tanımlandığı bir konfigürasyon dosyası barındırır.</li>
+  <li>Sadece paketin amacı ile ilgili kodları içerir.</li>
+</ul>
+
+<h4 id="nodes">Nodes</h4>
+
+<ul>
+  <li>Bazı fonksyionları yerine getiren yapılardır.</li>
+  <li>Diğer <code class="language-plaintext highlighter-rouge">Topic</code> ve <code class="language-plaintext highlighter-rouge">Services</code>ler ile haberleşebilir.</li>
+  <li>Node isimleri benzersizdir.</li>
+  <li>Node yapısı, iyi ayrılmış, skale edilebilir bir yapının oluşturulması için vardır.</li>
+</ul>
+
+<h4 id="build-system">Build System</h4>
+
+<ul>
+  <li>Kodların nasıl derleneceğinin belirtildiği <code class="language-plaintext highlighter-rouge">CMakelist.txt</code> dosyasına ihtiyaç duymaktadır.</li>
+  <li><code class="language-plaintext highlighter-rouge">rosmake</code> komutu paket ve bağımlılıkları derler.</li>
+  <li>Eğer bağımlılıklar indirilmemişse, indirilir ve kurulur.</li>
+  <li>Aynı anda birden fazla paket derlenebilir. ROS önce bağımlılıkları çözer.</li>
+</ul>
+
+<h2 id="komut-satırı">Komut Satırı</h2>
+
+<p>ROS aşağıdaki bazı komutları içerisinde barındırır;</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">roscd</code>: ROS paketi dizinine geçer.</li>
+  <li><code class="language-plaintext highlighter-rouge">rosls</code>: Paket içeriğini listeler.</li>
+  <li><code class="language-plaintext highlighter-rouge">rosmake</code>: Paketi derler.</li>
+  <li><code class="language-plaintext highlighter-rouge">roscreate-pkg</code>: Yeni bir paket oluşturur.</li>
+  <li><code class="language-plaintext highlighter-rouge">rosdep</code>: Paket bağımlılıklarını listeler.</li>
+  <li><code class="language-plaintext highlighter-rouge">roscp</code>: Paketler arası kopyalama işlemi gerçekleştirir.</li>
+  <li><code class="language-plaintext highlighter-rouge">rostest</code>: Test dosyalarını çalıştırır.</li>
+</ul>
+
+<h2 id="i̇letişim-yolları">İletişim Yolları</h2>
+
+<h3 id="topic-pubsub">Topic (Pub/Sub)</h3>
+
+<ul>
+  <li>Asenkron iletişimler için kullanılır.</li>
+  <li>İçerisinde güçlü mesaj tipleri barındırır.</li>
+  <li>Callback fonksyionlara sahiptir, bu sayede mutli-thread çalışabilir.</li>
+  <li>İstek/cevap etkileşimleri için uygun değildir.</li>
+  <li>Çoktan-Çoka bağlantılar için uygundur.</li>
+</ul>
+
+<h3 id="service-higher-priority">Service (Higher Priority)</h3>
+
+<ul>
+  <li>Standart fonksiyonlar gibi, senkron olarak kullanılır.</li>
+  <li>Güçlü mesaj tiplerini içerisinde barındırır.</li>
+  <li>Bire-bir iletişim için uygundur.</li>
+  <li>Birden fazla istemciler olabilir.</li>
+  <li>Servis çağrıları boyunca Topic Callback fonksyionları herhangi bir sorun teşkil etmez.</li>
+</ul>
+
+<h3 id="actions">Actions</h3>
+
+<ul>
+  <li>Topic yapısının üzerine inşaa edilmiştir.</li>
+  <li>Uzun işlemler gerçekleştirilmesi için kullanılır.</li>
+  <li>İptal edilebilir.</li>
+</ul>
+
+<h2 id="messages">Messages</h2>
+
+<ul>
+  <li>Node iletişimi mesaj gönderimi üzerine kuruludur.</li>
+  <li>Mesajlar, özel tipli alanlardan oluşan bir veri yapısından ibarettir.</li>
+  <li>ROS içerisinde birçok hazır mesaj standartı vardır ve özel olarak buna yenileri eklenebilir.</li>
+</ul>
+:ET

@@ -1,0 +1,35 @@
+I"�<p><strong>Laravel</strong> üzerinde geliştirme yaptığınız sırada yeni bir paket oluşturarak çalışmanız çoğu zaman yararınıza olacaktır. Bir işi yapan bir paket geliştirdiğinizde, paketi <strong>composer</strong> ve <strong>packagist</strong> yardımıyla yayınlayabilir ve dilediğiniz projenizde sadece composer üzerine ekleme yaparak yeniden kullanabilirsiniz. Bu nedenle paketlerle çalışmak oldukça önemlidir.</p>
+
+<p>Eğer yeni bir paket oluşturmak isterseniz <a href="http://laravel.gen.tr/docs/packages">Laravel Türkçe Dökümantasyonu</a>‘ndan yararlanabilirsiniz. Yeni bir paket oluşturduğunuzda eminim ki benim gibi <strong>Unit Test</strong> yazmak için can atacaksınız. :) Çünkü herkes bilir ki hepimiz Unit Test yazmaya can atarız. :) Workbench üzerinde paket geliştirirken Unit Test yazmamıza yardımcı olacak oldukça kullanışlı bir araç bulunmakta: Orchestral/Testbench (<a href="https://github.com/orchestral/testbench">GitHub</a>)</p>
+
+<h2 id="kullanım">Kullanım</h2>
+
+<p>Bu aracı geliştirme yaptığınız geliştirdiğiniz paketin composer dosyasına dahil ettikten sonra aşağıdaki şekilde kullanabilirsiniz.</p>
+
+<pre><code class="language-php">
+class TestCase extends Orchestra\Testbench\TestCase {
+	
+}
+</code></pre>
+
+<p>Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda, testiniz içinde doğrudan sınıflarınızı metotlarına ulaşmanız  mümkün olacaktır.</p>
+
+<pre><code class="language-php">
+    protected function getPackageProviders()
+    {
+        return array('Acme\AcmeServiceProvider');
+    }
+ 
+    protected function getPackageAliases()
+    {
+        return array(
+            'Acme' =&gt; 'Acme\Facade'
+        );
+    }
+</code></pre>
+
+<h2 id="cannot-redeclare-crypt_random_string-hatası">Cannot redeclare crypt_random_string() Hatası</h2>
+
+<p>Eğer kurulumdan sonra bu hatayı aldıysanız kütüphanenin <a href="https://github.com/orchestral/testbench#cannot-redeclare-crypt_random_string">buradan</a> kendi çözüm yöntemini deneyebilirsiniz. Ayrıca Laravel Türkiye Forumu‘ndan bu konuyla ilgili yürütülen <a href="http://forum.laravel.gen.tr/viewtopic.php?id=547">tartışmalardan</a> yararlanabilirsiniz.</p>
+
+:ET

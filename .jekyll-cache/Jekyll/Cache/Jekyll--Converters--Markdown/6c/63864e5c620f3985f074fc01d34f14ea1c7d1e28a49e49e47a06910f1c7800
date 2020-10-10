@@ -1,0 +1,71 @@
+I"B<div class="row center">
+  <a href="/years" class="section">Years</a>
+  <a href="/categories" class="section">Categories</a>
+  <a href="/english" class="section">English</a>
+  <a href="/turkish" class="section">Turkish</a>
+  <hr />
+</div>
+
+<div class="row">
+  <div class="col-12">
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/turkish">
+            Turkish (92)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/coding">
+            Coding (53)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/essays">
+            Essays (28)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/presentation">
+            Presentation (6)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/notes">
+            Notes (12)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/books">
+            Books (2)
+          </a>
+        </h2>
+      </article>      
+      
+      <article class="post">
+        <h2 class="post-title">
+          <a href="/categories/english">
+            English (6)
+          </a>
+        </h2>
+      </article>      
+      
+  </div>
+</div>
+
+:ET

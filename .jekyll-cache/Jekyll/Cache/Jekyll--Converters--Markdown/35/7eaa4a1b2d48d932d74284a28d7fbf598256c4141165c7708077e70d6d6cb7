@@ -1,0 +1,13 @@
+I"K<p>Merhaba,</p>
+
+<p>Bugün biraz CI Session kütüphanesinden bahsetmek istiyorum. Nasıl kullanılacağını bir çok yerden bulabilirsiniz. (<a href="http://ellislab.com/codeigniter/user-guide/libraries/sessions.html">http://ellislab.com/codeigniter/user-guide/libraries/sessions.html</a>) Benim bahsetmek istediğim bu kütüphanenin çalışma yöntemidir.</p>
+
+<p>İsmi her ne kadar session olsada, veriler Session’da değil Cookie’lerde tutulmaktadır.</p>
+
+<blockquote>
+  <p>The Session class stores session information for each user as serialized (and optionally encrypted) data in a cookie.</p>
+</blockquote>
+
+<p>Bu nedenle oturum yönetimini bu kütüphane ile gerçekleştirdiğinizde oturum verileriniz deyim yerindeyse kabak gibi ortadadır. CI bunun için size iki güvenlik alternatifi sunar; verileri aynı anda database’de kaydetme ve verileri şifreleme. Ancak dikkat edilmesi gereken nokta; CI’da varsayılan olarak bu iki yöntem de kapalıdır kütüphanede. Eğer bu işlemleri config dosyasından aktif hale getirmezseniz büyük sıkıntılar yaşayabilirsiniz.</p>
+
+:ET

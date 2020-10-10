@@ -1,0 +1,34 @@
+I"�<p>Yazılım dünyasında sık karşılaşılan problemlerden biri de hiyerarşik yapıya sahip kategorilerdir. Bu yapıyı kurabilmek için iki türlü model kullanılmaktadır;</p>
+
+<ul>
+  <li>Tümleşik Yapı Kalıbı (The Adjacency List Model)</li>
+  <li>Yerleşim Yapı Kalıbı ( Nested Set Model)</li>
+</ul>
+
+<h2 id="tümleşik-yapı-kalıbı-the-adjacency-list-mode">Tümleşik Yapı Kalıbı (The Adjacency List Mode)</h2>
+
+<p>Bu model üzerindeki yapıda bilgiler aynı tablo üzerinde, kategorilerin birbirlerinin ID’lerini referans göstermeleriyle muhafaza edilmektedir. Ancak bu şekilde verileri kaydettiğinizde, hiyerarşik yapıyı listelerken kendi kendini çağıran fonksiyonlar kullanmak zorunda kalırsınız. Çünkü hangi kategorinin altında kaç tane daha kategori var, bu alt kategorilerin altında başka kaç kategori var tek tek kontrol etmeniz gerekmektedir. Üstelik derinliğin nereye kadar gideceğini hiç bilmediğinizden bu yapı sizi ya çıkmaza götürür ya da ciddi bir performans kaybı yaşarsınız. Hele hele bu yapıda oluşturulan bir tablo başka bir tablo ile bağlantılı ise ve JOIN ile birlikte veri almanız gerekiyorsa sorununuz daha çok büyüyecektir. Bu nedenle bu yapıyı çok fazla önerilmemektedir.</p>
+
+<h2 id="yerleşim-yapı-kalıbı--nested-set-model">Yerleşim Yapı Kalıbı ( Nested Set Model)</h2>
+
+<p>Bu yapıda ise küme yerleşimi şeklinde verileri kaydettiğinizi düşünebilirsiniz. Sağ taraftaki görselde kategorilerileriniz nasıl yerleştirileceği şematik olarak anlatılmaktadır. Burada önemli olan husus, her bir kategorinin nereden nereye kadar bir kampsamı olduğunun da kaydedilmesidir. Bunun için “sol” ve “sağ” doğrultuda iki alan daha veritabanına kaydedilmektedir.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/41/NestedSetModel.svg/400px-NestedSetModel.svg.png" alt="Nested Set Modek" /></p>
+
+<p>Örneğin “Clothing” in kapsamına baktığımızda 1-22 arasındadır. Ancak “Slack” 4-5 arasındadır. Bu türde kaydettiğiniz verileri tek SQL cümleciği üzerinde BEETWEEN anahtarıyla sorgulatabilirsiniz. Çünkü tüm alanların kapsamının nereden başlayıp nereden biteceği bellidir.</p>
+
+<p>Konumuzun özü Nested Set Model olmadığı için daha fazla bilgi vermeyeceğim. Daha ayrıntılı bilgi için WikiPedia‘dan yararlanabilirsiniz.</p>
+
+<h2 id="laravel-4-üzerinde-nested-set-model-kullanım">Laravel 4 Üzerinde Nested Set Model Kullanım</h2>
+
+<p>Laravel üzerinde Yerleşim Yapı Kalıbı (Nested Set Model) kullanmak oldukça basittir. Baum isimli kütüphaneyi projenize dahil ederek hızlıca kullanıma başlayabilrisiniz. (GitHub) Nested Set Model’in algoritması özellikle kayıt ekleme ve silme işlemlerinde göreceli olarak karışık olduğundan, bu kütüphane ile eklenilen kayıtların kapsamlarını siz düşünmezsiniz. Tek yapmanız gereken hangi kategorinin neyin altında olduğunu belirlemek. Sol kapsamın ve sağ kapsamın neler olacağını Baum bizim yerimize kendisi belirlemektedir.</p>
+
+<p>Örnek Kullanım</p>
+
+<pre><code class="language-php">
+$root = Category::create(['name' =&gt; 'Yazılım']); 
+$php = Category::create(['name' =&gt; 'PHP']); 
+$php-&gt;makeChildOf($root);
+</code></pre>
+
+:ET

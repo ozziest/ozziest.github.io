@@ -1,0 +1,35 @@
+I"5<p>Bundan dört ay önce <a href="/web/2014/12/13/spa-angular-bower-gulp.html">SPA, Angular, Gulp ve Bower</a> başlıklı bir blog yazısı kaleme almıştım. O dönemde web sitesinden web uygulamalarına daha yeni yeni geçiş yapıyordum. Şuanda da üst düzey bir uzman olmasam da, bu konuda epey yol katettiğimi ve tecrübe kazandığımı söyleyebilirim. Bu blog yazısında da elimden geldiğince ve aklıma geldiğince düşüncelerimi anlatmaya çalışacağım.</p>
+
+<blockquote>
+  <p>Yazıyı yazdıktan sonra düzenleme; daha çok kendime notlar gibi bir yazı ortaya çıktı. 
+Belki vakit kaydetmek istemeyebilirsiniz. İçerisinde muazzam önemli, yeni bilgiler yok. :)</p>
+</blockquote>
+
+<h3 id="hızlı-siteler">Hızlı Siteler</h3>
+
+<p>Bir <strong>SPA</strong> geliştirdiğiniz zaman kesinlikle en büyük avantajınız sunucunuzun hızının artması olacaktır. En basit haliyle sunucu ve istemci arasındaki veri trafiği azalmaktadır. Bunun yanında <strong>render</strong> işlemi (verilerin HTML kodlarına arasına yerleştirilmesi) istemci tarafında yapıldığı için sunucuya ekstra bir rahatlama daha sağlanmaktadır. Yani <strong>SPA</strong> kullandığınızda <strong>Twig</strong> ya da <strong>Blade</strong> gibi sunucu tarafından çalışan <strong>Template Engine</strong>yapılarına ihtiyacınız kalmamaktadır.</p>
+
+<h3 id="hızlı-geliştirme">Hızlı Geliştirme</h3>
+
+<p><strong>SPA</strong> geliştirmeye başladığım zaman, klasik (eski) usüllere göre yaptığım geliştirmeye nazaran daha hızlı ilerleyebileceğimi hiç tahmin etmezdim. Ancak çok daha hızlı bir geliştirme söz konusu oldu benim için. Bunda <strong>AngularJS</strong>‘in marifeti çok büyük. Verilerin tarayıcı üzerinde <strong>render</strong> edilerek listelenmesi pek fark yaratmıyordu ancak veri güncelleme ve ekleme bölümlerinde mükemmel bir hız avantajı sağlıyor. Bir noktadan sonra projeniz akıp gidiyor.</p>
+
+<h3 id="angularjs">AngularJS</h3>
+
+<p><strong><em>“AngularJS SPA’lar için biçilmiş kaftan!”</em></strong> diyebilmem için muadilleriyle de proje geliştirmiş olmam lazım. Ancak henüz o kadar tecrübem olmadı. Ancak çok eleştirilen bir yönüne değinmek istiyorum; <strong>Separation Of Concerns.</strong></p>
+
+<p>Bu kavrama en yalın haliyle; <strong><em>“işlerin birbirinden ayrılması”</em></strong> diyebiliriz. <strong>AngularJS</strong>‘in eleştiri aldığı bölüm de tam olarak bu noktada yatıyor. Çünkü <strong>HTML</strong>‘lerin içine verilerin nasıl yerleştirileceğini belirtiyorsunuz ve bunu da HTML etiketlerine benzer etiketler kullanarak yapıyorsunuz. Dolayısıyla bir yerden sonra <strong>HTML</strong> kodları arasında <strong>if</strong> bloklarınız oluyor. Bu birçok geliştirici için sorunlu bir kavram ve işlerin ayrılması gerektiği ilkesine ters düşüyor.</p>
+
+<p>Ancak ben işleri neye göre ayırdığımıza odaklanmak istiyorum. <strong>Back-End</strong> tarafı veritabanı ile aramızdaki ilişkiyi ve güvenliği sağlayan bir katman. İstemeyi bildikten sonra (oturum, güvenlik, yetki vb.) bize her türlü bilgiyi verir. <strong>JavaScript-AngularJS</strong>‘in bulunduğu katman ise bizim kullanıcıya sunulacak verileri sunucudan usülünce istediğimiz katman. Benim için bu katmanın aldığı tek görevi bu.</p>
+
+<p>Asıl sorun yaratan nokta ise verilerin kullanıcıya nasıl gösterileceği. Buna klasik yöntemde sunucu tarafında, genellikle <strong>view</strong> dosyalarında karar verilirdi ve siz ne kadar mantığı ve gösterim şeklini ayırmaya çalışırsanız çalışın, yine de <strong>if</strong> bloklarını <strong>view</strong> dosyalarında kullanırdınız.</p>
+
+<p>Her iki yöntemi kullanmış biri olarak şunu söyleyebilirim ki; <strong>AngularJS</strong>‘in kullandığı yöntem daha mantıklı geliyor. Geliştirme aşamasında bunun rahatlığını da yaşıyorum. Eğer veri sunucudan düzgün geliyor ama düzgün görüntülenmiyorsa, hata nereden kaynaklanıyor biliyorum. <strong>JavaScript</strong> tarafından bu kontrolleri yapmak ise çok daha kötü sonuçlar doğuruyor. Bunu <strong>jQuery</strong> zamanında çok acı şekilde tecrübe ettim. Bence en önemlisi; tüm uygulamanızda aynı kararlılığı kullanmanız. Verilerin kullanıcıya nasıl sunulacağını sadece <strong>HTML</strong> dosyalarına bıraktıysanız, hep orada kalsın ve asla bir başka yerden müdahale etmeyin. Çünkü bu daha büyük sorunlar çıkaracaktır.</p>
+
+<h3 id="seo-optimizasyonu">SEO Optimizasyonu</h3>
+
+<p>Eskiden bu bir sorundu ancak bu bölümü çok uzun tutmayacağım. Çünkü <a href="http://phantomjs.org/">PhantomJS</a> ile böyle bir sorun kalmıyor.</p>
+
+<h3 id="sonuç">Sonuç</h3>
+
+<p>Artık klasik yöntemden uzaklaşmak gerekiyor. Doğrudan web uygulamaları tasarlamak ve hızla yol almak şuan için en iyi çözüm. Eğer <strong>AngularJS</strong>‘i beğenmiyorsanız, başka bir <strong>Front-End Framework</strong>‘ünü tercih edebilirsiniz, hiç sorun değil. Ama bırakın istemciler kendi bellek ve işlemcilerini sizinle paylaşsın.</p>
+:ET
