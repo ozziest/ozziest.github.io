@@ -7,6 +7,24 @@ title: Posts By Years
 
 <div class="row">
   <div class="col-12">
+    <h1 class="category">2021</h1>
+    <div class="posts">
+      {% for post in site.posts %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if year == "2021" %}
+          {% include article.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <h1 class="category">2020</h1>
+    <div class="posts">
+      {% for post in site.posts %}
+        {% capture year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% if year == "2020" %}
+          {% include article.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
     <h1 class="category">2019</h1>
     <div class="posts">
       {% for post in site.posts %}
