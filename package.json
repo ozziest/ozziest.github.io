@@ -1,0 +1,25 @@
+{
+  "name": "ozziest.github.io",
+  "version": "1.0.0",
+  "description": "*The Strange Case of Dr. Jekyll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "nodemon -x yarn run css:dev --watch tailwind.config.js --watch ./_includes/ --watch ./_layouts/ --watch ./*.html -e css,html",
+    "css:dev": "tailwindcss-cli build ./css/styles.css -o ./dist/styles.css",
+    "css:build": "export NODE_ENV=production && tailwindcss-cli build ./css/styles.css -o ./dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozziest/ozziest.github.io.git"
+  },
+  "devDependencies": {
+    "tailwindcss": "^2.0.3",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozziest/ozziest.github.io/issues"
+  },
+  "homepage": "https://github.com/ozziest/ozziest.github.io#readme"
+}
