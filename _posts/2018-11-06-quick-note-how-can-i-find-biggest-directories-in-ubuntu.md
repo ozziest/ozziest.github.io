@@ -8,9 +8,11 @@ meta: ubuntu, directory, size, biggest, folder
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
-    <img src="/images/posts/notes.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
+        <img src="/images/posts/notes.jpg" />
+    </a>
+</div>
 
 > In case I forget later, this is a simple note for me.
 

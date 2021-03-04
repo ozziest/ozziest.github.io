@@ -8,9 +8,11 @@ meta: gitlab, ci, ci, aws, scaling, runner
 author: ozziest
 ---
 
-<a href="https://pixabay.com/photos/container-port-loading-stacked-3118783/" target="_blank" title="">
-    <img class="center" src="/images/posts/31.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+  <a href="https://pixabay.com/photos/container-port-loading-stacked-3118783/" target="_blank" title="">
+    <img class="rounded shadow-md" src="/images/posts/31.jpg" />
+  </a>
+</div>
 
 > Bu makaleye konu olan sunumu [MaviDurak-IO](https://kommunity.com/mavidurakio) ve [Sakarya Coders](https://www.meetup.com/Sakarya-Coders/) işbirliği ile [15 Ekim](https://kommunity.com/mavidurakio/events/gitlab-cicd-ile-aws-uzerinde-olceklenebilir-uygulama-yayinlama)'de yapılan bir etkinlikte gerçekleştirdim. Hazır bu kadar belgeyi bir araya getirmişken, üzerinde biraz daha emek vererek bir blog yazısı yazmak mantıklı geldi. Bu makaledeki ilk iki bölüm, daha önceden yazdığım [Amazon CloudFront Nedir ve Nasıl Kullanılır?](https://ozguradem.net/turkish/coding/2019/04/13/aws-cloud-front-content-delivery-network-nedir-nasil-kullanilir/) başlıklı makalemden aynen kopyalanmıştır.
 
@@ -95,13 +97,17 @@ Son yaptığımız tanımdan da anlaşılabileceği üzere, bu makalede, **mavi-
 
 Uygulamamızı bir sunucu üzerinde yayınladığımızda, genelde şu şekilde bir mimari tasarım kullanırız.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/01.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/01.png">
+</div>
 
 Burada kullanıcı, doğrudan tek bir makine üzerinde yayınladığımı bir uygulamaya erişir. Kullanıcı sayısı arttığında, doğru orantılı olarak sunucu üzerindeki CPU ve RAM kullanım miktarlarımızda artacaktır. Biz de buna paralel olarak daha fazla CPU ve RAM ekleyerek, artan yükü karşılamaya çalışırız. Bu yaptığımız işleme *Dikey Ölçekleme* adı verilir. [10]
 
 Ancak bu tarz bir ölçeklemede çeşitli sınırlar vardır. Belirli bir noktadan sonra daha fazla CPU ve RAM eklememiz olanaksız hale gelir. Bu nedenle, *Yatay Ölçekleme* mimarisi kullanılır.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/02.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/02.png">
+</div>
 
 Bu yaklaşımda, kullanıcı ilk olarak bir *Load Balancer (Yük Dengeleyici)* tarafından karşılandır. Daha sonra bu kullanıcı istekleri, arka tarafta bulunan **N** sayıdaki herhangi bir makineye iletilebilir. Bu şekilde, oldukça fazla bir yükü karşılayabilirsiniz. 
 
@@ -115,7 +121,9 @@ En başta yaptığımız problem tanımını hatırlayın; biz küçük bir ekib
 
 Biz de, problemi aşağıda kurduladığımız şekilde çözeceğiz;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/03.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/03.png">
+</div>
 
 Kurduladığımız mimariyi şu şekilde açıklayabiliriz;
 
@@ -131,11 +139,12 @@ Buraya kadar yeterince, hatta gereğinden fazla konuştuk. Şimdi tüm adımlar�
 
 Öncelikle, [mavi-api](https://gitlab.com/iozguradem/mavi-api) dosyalarınızı lokal geliştirme ortamına indirebilirsiniz. 
 
-<pre><code class="language-bash">$ git clone git@gitlab.com:iozguradem/mavi-api.git
+{% highlight php %}
+$ git clone git@gitlab.com:iozguradem/mavi-api.git
 $ cd ./mavi-api
 $ yarn
 $ yarn run start
-</code></pre>
+{% endhighlight %}
 
 > Burada kolaylık olsun diye, benim daha önceden yazdığım uygulamadan yararlanabilirsiniz. Ya da kendiniz de basit bir uygulama yazabilirsiniz. Ancak kendi bilgisayarınza kopyaladığınız bu uygulamayı, benim repo'ma göndermeyeceğiniz için, .git/config içerisinden repository adres değişikliği yapmanız gerekecektir.
 
@@ -206,7 +215,9 @@ Successfully tagged mavi-api:latest
 
 Tarayıcı üzerinden `localhost:8181` adresine gittiğinizde, uygulamanın çalışan halini görebilirsiniz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/04.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/04.png">
+</div>
 
 #### 6.2. AWS Login
 
@@ -216,31 +227,43 @@ Eğer henüz bir AWS hesabınız yoksa hemen oluşturabilirsiniz. Eğer hali haz
 
 AWS üzerinde oturum açtıktan sonra sizi bu şekilde bir ekran karşılayacaktır;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/05.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/05.png">
+</div>
 
 #### 6.3. AWS ECR Repository Oluşturma
 
 Oturum açtıktan sonra, ECR servisinin sayfasına gidiniz. Daha önce hiç ECR içinde repository oluşturmamışsanız, *Create a Repository* bölümü altından *Get Started* diyebilirsiniz. Amacımız yeni bir repository oluşturmak. Açılan ekranda size repository adını girmeniz beklenmektedir. Bilgileri aşağıdaki gibi doldurarak **Create Repository** butonuna tıklayabilirsiniz;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/06.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/06.png">
+</div>
 
 Daha sonra, AWS size sahip olduğunuz repository listesini gösterecektir. Bu liste üzerinde, az önce oluşturduğumuz **mavi-api-repository** ismindeki repository'i görebiliyor olmanız gerekiyor. Dikkat ederseniz **URI** sütunu altında, bu repository'nin bir yolu olduğunu belirtilmiş. Bu yolu, dockerize edilmiş uygulamamızı AWS'e gönderirken kullanacağız. Ancak şimdilik bu bölümde işimiz tamam.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/07.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/07.png">
+</div>
 
 #### 6.4. AWS Permissions (IAM)
 
 Şu an bir repomuz var ve biz buna dışarıdan bir Docker image'ı göndereceğiz. Ancak her önüne gelenin buraya bir şey göndermesi saçma olacağından, bir yetkilendirme yapacağız. Bunun için AWS arayüzleri üzerinden, **IAM** servisini bularak işe başlıyoruz. **Users** sekmesi altından, **gitlab-user** adında yeni bir kullanıcı oluşturacağız.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/08.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/08.png">
+</div>
 
 Ancak *Set Permissions* adımında, *"Attach existing policies directly"* sekmesi altından, resimde görünen iki tane yetkiyi bu kullanıcıya vermeniz gerekiyor. Bu makeledeki işlemleri GitLab'a gerçekleştirebilmek için her iki yetkiye de ihtiyacımız var.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/09.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/09.png">
+</div>
 
 Kullanıcı oluşturulduğunda, bu kullanıcının erişim bilgilerini AWS size **yalnızca bir defaya mahsus olmak üzere** gösterecektir. Bizim bu bilgilerimize GitLab'ın sahip olması gerekiyor. Kesinlikle koda yazabileceğimiz bir bilgi olmadıklarından, sadece ve sadece GitLab üzerinde tanımlayacağımız **Ortak Değişkenlerine (Environment Variables)** yazacağız. Bunun için, GitLab üzerinde oluşturduğunuz repository'deki CI/CD ayarlarına gideceğiz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/10.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/10.png">
+</div>
 
 Bu ekranda iki tane ortam değişkeni tanımlayacağız;
 
@@ -249,7 +272,9 @@ Bu ekranda iki tane ortam değişkeni tanımlayacağız;
 
 Bu değerleri, yeni bir kullanıcı oluşturduktan sonra AWS size verecektir. AWS'den aldığımız bu değerleri, GitLab'a vereceğiz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/11.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/11.png">
+</div>
 
 Bu aşamadan sonra GitLab, AWS'e erişebilecektir. Bunu nasıl yapacağımızı bir sonraki adımda görüyoruz.
 
@@ -290,7 +315,9 @@ Bizim burada odaklanacağımız ana bölüm `script` keyword'ü altında yazan k
 
 Eğer bu kodu GitLab'a push'larsak, GitLab üzerinden bulunan CI/CD burada yazdığımız görevleri Shared Runner'a gönderecek ve çalıştırılmasını isteyecektir. Çalıştığında neler oluyor diye merak ediyorsanız, [buradaki](https://gitlab.com/iozguradem/mavi-api/-/jobs/320547684) loglardan çıktıları görebilirsiniz. Ancak sonuç olarak, bizim GitLab'a derlemesini söylediğimiz image'ımızı, ECR üzerinde görebiliyor olmamız gerekiyor. Eğer siz de AWS'in ECR servisinde oluşturduğumuz repository altında bir image görüyorsanız, her şey yolunda demektir.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/12.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/12.png">
+</div>
 
 #### 6.6. Task Definition
 
@@ -298,39 +325,55 @@ Artık ECR üzerinde muhafaza ettiğimiz bir Docker image'ı mevcut. Şimdi ise 
 
 Oluşturma ekranının ikinci aşamasında, genel bilgileri ve rolleri seçiyoruz. Bu aşamada her şeyi varsayılanlarda bırakabiliriz. Ancak dikkat etmeniz gereken, Memory ve CPU özelliklerini seçtiğimiz bölüm. Burada, her bir makine için ne kadarlık bir CPU ve Ram kullanacağımızı seçiyoruz. Bu değerleri dilediğiniz gibi seçebilirsiniz. Ancak ne kadar yüksek değerler seçerseniz, her bir makinenizin maliyeti o kadar fazla olacaktır.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/13.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/13.png">
+</div>
 
 Aynı sayfanın hemen alt bölümünde, **Add Container** bölümü bizim için önemli. Az önce ECR üzerinde muhafaza etmeye başladığımız Docker image'ını, burada kullanacağımızı belirtmemiz gerekiyor. Bunun için *Add Container* butonuna tıklıyoruz ve sağ tarafta minik bir modal içerisinde aşağıdaki gibi bir tanım gerçekleştiriyoruz;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/14.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/14.png">
+</div>
 
 Buradaki tanımlar bizim için yeterlidir. Diğer tüm özellikleri varsayılan değerleriyle bırakabiliriz. **Add** butonuna tıklayarak, bu container tanımımızı *Task Definition* içerisine dahil edebiliriz. Daha sonra tek yapmamız gereken **Create** butonuna tıklamak ve artık her bir makinemizin özelliklerinin nasıl olması gerektiğini tanımlamış olduk.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/15.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/15.png">
+</div>
 
 #### 6.7. Load Balancer
 
 Bu adımda, kullanıcıdan gelen istekleri karşılamak için bir **Load Balancer** oluşturacağız. Ama önce, sabit bir IP'mizin olmasını istiyoruz. Bu aşama şart değil ama görmüşken bunu da görebiliriz. Bunun için **EC2** servisine gidiyoruz ve **Elastic IPs** bölümünde, **Allocate New IP Address** diyerek yeni bir IP adresi alıyoruz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/16.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/16.png">
+</div>
 
 Bu IP adresimizi Load Balancer'a tahsis edeceğiz. Load Balancer oluşturmak için, **Load Balancers** sekmesini kullanıyoruz. **Create New Load Balancer** menüsü üzerinden, yeni bir **Network Load Balancer** oluşturacağız. İlk adımda bir isim veriyoruz ve hangi portları dinleyeceğimizi seçiyoruz. SSL için 443 numaralı portu da dinleyebiliriz ancak biz şimdilik sadece 80 numaralı portu seçeceğiz. Daha sonra hangi *Availability Zones* üzerinde konuşlanacağımıza karar veriyoruz. Bu aşamada az önce ayırdığımız statik IP adresini de kullanabiliriz. Aşağıdaki gibi yapılandırmamızı yaptıktan sonra, bir sonraki aşamaya geçebiliriz. 
 
-<img class="center" src="/images/posts/gitlab-ci-aws/17.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/17.png">
+</div>
 
 Eğer 443 numaralı SSL portunu da dinliyor olsaydık, 2. adımda çeşitli ayarlar yapmamız gerekirdi. Ancak biz şimdilik bu aşamayı geçiyoruz. 3. adımda bir **Target Group** ayarı yapmamız bekleniyor. Biz şimdilik sadece bir isimlendirme yapıyoruz. ECS tarafında bir Cluster oluştururken target group ECS tarafından oluşturulup yönetilecek. Bu nedenle sadece bir isimlendirme yaparak, bu haliyle Load Balancer'ı oluşturabiliriz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/18.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/18.png">
+</div>
 
 Daha sonra hem bir tane Load Balancer hem de Target Group oluşturulmuş olacak. Her iki listeden de bunları görebilirsiniz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/19.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/19.png">
+</div>
 
 #### 6.8. Cluster Oluşturma
 
 Şimdi ise her şeyi birleştirmenin zamanı geldi. ECS üzerinde öncelikle bir Cluster oluşturacağız. Daha sonra da bu Cluster içerisinde bir servis oluşturacağız. Cluster oluşturmak için ECS bölümüne gidebiliriz. **Create Cluster** butonuna tıkladığımızda, bize Cluster şeması soracaktır. Yine burada **Fargate** seçimi yapmamız önemli. İkinci aşamada sadece bir isimlendirme yapmamız yeterli olacaktır. Geriye kalan her şey varsayılan ayarlarında kalabilir.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/20.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/20.png">
+</div>
 
 #### 6.9. Servis Oluşturma
 
@@ -338,19 +381,27 @@ Daha sonra, Cluster detayına gittiğimizde, henüz herhangi bir servisin olmad�
 
 Cluster detay sayfasında, **Services** sekmesindeki **Create** butonuna tıklayarak, servis oluşturma sihirbazımıa ulaşabiliriz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/21.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/21.png">
+</div>
 
 Birinci adımda, **Configure Service** bölümü altında, çok temel servis ayarlarını yapıyoruz. Yine her zaman yaptığımız gibi **Fargate**'i seçiyoruz. Önceki adımlarda oluşturduğumuz **Task Definition**'ı bu bölümde seçiyoruz. Task definition'ın farklı sürümleri olabilir. Üzerinde yapılan her bir değişiklik bir sürümü temsil eder. Biz son sürümünü seçiyoruz. **Service Name** bölümüne *mavi-api-service* yazıyoruz. **Number of tasks** bölümünde, bu serviste kaç tane task çalıştırılacağını soruyor. Biz buraya şimdilik **1** yazabiliriz. Ancak 3. aşamada yapacağımız auto scaling ayarları sonrası buraya yazdığımız değer önemsiz hale gelecek. Geriye kalan her şeyi varsayılan haliyle bırakabiliriz ve sonraki adıma geçebiliriz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/22.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/22.png">
+</div>
 
 **VPC and security groups** bölümünde, Load Balancer'ımız ile aynı VPC ve subnet üzerinde yer almaya dikkat ediyoruz. **Security groups** bölümünü olduğu gibi bırakabiliriz. Bu bölümdeki ayarları bizim için AWS'in yapılandırmasında şu an için yarar var.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/23.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/23.png">
+</div>
 
 **Load balancing** bölümünde, daha önceden hazırladığımız Load Balancer'ımızı servisimize bağlayacağız. Bunun için **Network Load Balancer**'ı seçiyoruz. Hemen aşağısında, daha önceden oluşturduğumuz **mavi-api-load-balancer**'ı görebiliyor olmamız gerekiyor. **Add Load Balancer**'ı tıkladığımızda, Load Balancer ile servis entegrasyonu için son ayarlara geçebiliriz. **Production listener port** bölümündeki alanda **8080** portunu yazabiliriz. Bu veriyi daha sonra kaldıracağız. **Target group name** bölümüne ise **mavi-api-target-group** yazabiliriz. **Health check protocol** olarak da **HTTP** seçmemiz gerekiyor. Bu şekilde, her bir task ayapa kalktığında, AWS HTTP üzerinden bir istek göndererek 200 yanıtının dönmesini bekleyecek, eğer beklenen yanıt belirli bir periyod boyunca gelirse, ilgili task **"Sağlıklı"** olarak adlandırılacak ve Load Balancer bu task'a trafik yönlendirmeye başlayacaktır. Bu işlemlerden sonra Load Balancer ayarlarımız şu şekilde gözükmelidir.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/24.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/24.png">
+</div>
 
 Bu adımda son olarak **Enable service discovery integration** bölümündeki checkbox'ı kaldırıyoruz. Bu özelliğe ihtiyacımız olmayacak.
 
@@ -358,33 +409,47 @@ Bu adımda son olarak **Enable service discovery integration** bölümündeki ch
 
 *"Configure Service Auto Scaling to adjust your service’s desired count"*, seçeneğini seçtiğimizde hemen aşağıda bir takım bilgiler girilmesi isteniyor. Bilgileri aşağıdaki gibi doldurabiliriz. Burada, en az kaç task'ımızın olması gerektiğine, kaç tane task çalıştırılmasını arzuladığımızı ve en fazla kaç task çalıştırabileceğimizi seçebiliyoruz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/25.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/25.png">
+</div>
 
 **Automatic task scaling policies** bölümünde, çalışan task sayısını neye göre arttırıp azaltacağımızı belirliyoruz. Ben bu örneğimizde ortalama bellek kullanımını takip edeceğimizi belirttim. Eğer bellek kullanımı %20'ü geçerse yeni bir task oluşturulması gerektiğini, daha aşağısına inerse servis içerisindeki bir task'ın kaldırılması gerektiğini belirttim.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/26.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/26.png">
+</div>
 
 Son adıma geldiğimizde AWS bize bir özet gösterecektir. **Create Service** butonuna tıklayarak servisi oluşturabiliriz. Tüm tanımlar bittikten sonra çalışan taskları görebiliriz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/27.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/27.png">
+</div>
 
 #### 6.10. Load Balancer Ayarı
 
 Son olarak, Load Balancer üzerinde ufak bir ayar yapmamız gerekecek. Load Balancer listesine gittiğimizde, Listener sekmesinde aşağıdaki gibi bir yapı görüyor olacağız;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/28.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/28.png">
+</div>
 
 Burada, iki farklı target group görüyoruz. Bizim amacımız dinlediğimiz 80 portunu **mavi-api-target-group** target group'una yönlendirmek. Edit menüsü üzerinden bunu yapıyoruz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/29.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/29.png">
+</div>
 
 Daha sonra 8080 portundaki dinlemeyi silebiliriz. Aynı şekilde **Target Groups** altında yer alan ve artık kullanılmayan **target-group**'u da silebiliriz. Target Groups'un altında yer alan **mavi-api-target-groups**'u seçtiğimizde, hemen altında beliren **Targets** sekmesi içerisinde, ECS tarafından oluşturulan task'ları görebiliriz. Oluşturulan her task, Health Check'den geçirilecek ve sağlıklı olanlara Load Balancer trafiği yönlendirilecek.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/30.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/30.png">
+</div>
 
 Eğer her şey yolundaysa, Load Balancer'a bağladığınız IP adresinizi kullanarak uygulamanıza artık erişebilirsiniz;
 
-<img class="center" src="/images/posts/gitlab-ci-aws/31.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/31.png">
+</div>
 
 #### 6.11 Auto Scaling Tetikleme
 
@@ -392,11 +457,15 @@ Benim geliştirdiğimiz uygulamada, memory mikrarını arttırmak için özel ol
 
 > Bizim hazırladığımız protokole göre, 5 dakika boyunca bu *yoğun bellek kullanımı* senaryosu devam etmek zorunda.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/32.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/32.png">
+</div>
 
 Yukarıdaki resimde de gördüğünüz gibi, bellek beklediğimizden üst seviyeye çıktığında, sisteme yeni task'lar ECS tarafından otomatik olarak ilave ediliyor. Ayrıca bu olay hakkında **Events** sekmesi altında da log oluşturulduğunu görebilirsiniz.
 
-<img class="center" src="/images/posts/gitlab-ci-aws/33.png">
+<div class="flex justify-center pt-4 pb-4">
+  <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/33.png">
+</div>
 
 #### 6.12. Yeni Versiyon Yayınlama
 

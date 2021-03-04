@@ -8,9 +8,11 @@ meta: aws, amazon, cloudfront, s3, cdn, spa
 author: ozziest
 ---
 
-<a href="https://pixabay.com/photos/dock-ship-container-port-boat-1277744/" target="_blank">
-    <img src="/images/posts/20.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/photos/dock-ship-container-port-boat-1277744/" target="_blank">
+        <img class="rounded shadow-md" src="/images/posts/20.jpg" />
+    </a>
+</div>
 
 ### 1. Motivasyon
 
@@ -73,17 +75,17 @@ Kısa adıyla **S3**, uzun adıyla **Simple Storage Service**; her türlü dosya
 
 ***Create bucket*** butonu ile yeni bir S3 oluşturma penceresine ulaşabilirsiniz. Oluşturacağımız Bucket'a tekil bir isim vermeniz gerekmektedir. Örnek uygulamamız için lokasyon seçeneğimiz önemli değil.
 
-<img src="/images/posts/22.JPG" class="center" />
+<img src="/images/posts/22.jpg" />
 <p class="img-description">Resim 2 - Create Bucket</p>
 
 ***Configure Options*** bölümündeki ayarları olduğu gibi bırakabiliriz. Ancak oluşturacağımız bucket içerisindeki dosyalara tüm kullanıcıların ulaşabilmesi için ***Set Permissions*** ekranındaki ayarların aşağıdaki gibi olması gerekmektedir.
 
-<img src="/images/posts/23.JPG" class="center" />
+<img src="/images/posts/23.jpg" />
 <p class="img-description">Resim 3 - Create Bucket, set permissions</p>
 
 ***Review*** adımında seçtiğimiz yapılandırmanın bir önizlemesi gösterilecektir. ***Create Bucket*** butonuna basarak bucket'ımızı oluşturabiliriz. Artık CloudFront'un kullanabileceği bir S3 Bucket'ına sahibiz.
 
-<img src="/images/posts/24.JPG" class="center" />
+<img src="/images/posts/24.jpg" />
 <p class="img-description">Resim 4 - S3 Bucket List</p>
 
 Yukarıda da bahsettiğimiz gibi dosyaları doğrudan bu ekran üzerinden yükleyebiliriz. 
@@ -92,7 +94,7 @@ Yukarıda da bahsettiğimiz gibi dosyaları doğrudan bu ekran üzerinden yükle
 
 ***ozziest-test-s3*** ismini verdiğimiz bucket'a tıkladığımızda, ***Upload*** butonun göreceksiniz. Bir önceki adımda oluşturduğumuz `index.html` isimli dosyayı seçip ilerleyebiliriz. ***Set Permissions*** adımında aşağıda gösterildiği gibi dosya için public erişim vermemiz gerekmektedir. Aksi takdirde dosyayı son kullanıcılar görüntüleyemez.
 
-<img src="/images/posts/25.JPG" class="center" />
+<img src="/images/posts/25.jpg" />
 <p class="img-description">Resim 5 - Upload to Bucket, Set Permissions</p>
 
 ***Set Properties*** ve ***Review*** ekranlarında herhangi bir değişiklik yapmamız gerekmiyor. ***Upload*** butonuna tıklayarak dosya yükleme işlemini tamamlayabiliriz. 
@@ -101,7 +103,7 @@ Yukarıda da bahsettiğimiz gibi dosyaları doğrudan bu ekran üzerinden yükle
 
 Ancak tüm dosyalarımızın bir web uygulaması gibi sunulabilmesi için son bir ayar daha yapmamız gerekiyor. Bucket içerisindeyken ***Properties*** sekmesine ulaşarak ***Static Website Hosting*** seçeneğini aktif hale getirmemiz gerekiyor.
 
-<img src="/images/posts/29.JPG" class="center" />
+<img src="/images/posts/29.jpg" />
 <p class="img-description">Resim 6 - S3 Bucket, Static Website Hosting</p>
 
 #### 5.3. CloudFront Yapılandırması
@@ -110,17 +112,17 @@ CloudFront yapılandırması için ***Services*** menüsü altında bulunan ***N
 
 ***Origin Settings*** altında bulunan ***Origin Domain Name*** altında oluşturduğumuz S3 Bucket'ını görebilirsiniz. Ek olarak ***Default Root Object*** alanına, doğrudan index.html dosyamızın gösterilmesi gerektiğiniz söylemeliyiz. ***Create Distribution*** butotuna tıklayarak dağıtım oluşturma işlemini tamamlayabiliriz. 
 
-<img src="/images/posts/26.JPG" class="center" />
+<img src="/images/posts/26.jpg" />
 <p class="img-description">Resim 7 - CloudFront, Origin Settings</p>
 
 Artık CloudFront sayfasında dağıtımımızı görebiliyoruz. ***In Progress*** olarak gözüken dağıtımımız tüm lokasyonlarda yayına hazırlanıyor demektir. 
 
-<img src="/images/posts/27.JPG" class="center" />
+<img src="/images/posts/27.jpg" />
 <p class="img-description">Resim 8 - CloudFront, In Progress</p>
 
 Bu aşamadan sonra ***Domain Name*** altında belirtilen adres üzerinden dosyalarımıza ulaşabiliriz.
 
-<img src="/images/posts/28.JPG" class="center" />
+<img src="/images/posts/28.jpg" />
 <p class="img-description">Resim 9 - CloudFront in action</p>
 
 ### 6. Sonuç

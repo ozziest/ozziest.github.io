@@ -8,9 +8,11 @@ meta: artificial intelligence, ai, evolutionary, evolution, dna
 author: ozziest
 ---
 
-<a href="https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696/" target="_blank" title="">
-    <img src="/images/posts/30.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696/" target="_blank" title="">
+        <img class="rounded shadow-md" src="/images/posts/30.jpg" />
+    </a>
+</div>
 
 #### Abstract
 

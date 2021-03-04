@@ -8,10 +8,11 @@ meta: istanbul, sakarya
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/galata-istanbul-turkey-tower-1204927/" target="_blank">
-    <img src="/images/posts/04.jpg" class="center" />
-</a>
-
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/galata-istanbul-turkey-tower-1204927/" target="_blank">
+        <img src="/images/posts/04.jpg" />
+    </a>
+</div>
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/neden-i%CC%87stanbulu-terk-ettim-a486f513c73a) üzerinde yayınlanmıştır.
 

@@ -8,9 +8,11 @@ meta: kusursuz sunum, sunum teknikleri, sunum yöntemleri, sunum önerileri
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/concept-man-papers-person-plan-1868728/" target="_blank">
-    <img src="/images/posts/09.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/concept-man-papers-person-plan-1868728/" target="_blank">
+        <img src="/images/posts/09.jpg" />
+    </a>
+</div>
 
 Yazılım camiasında son dönemde harika etkinlikler gerçekleştiriliyor. Her haftasonu mutlaka bir yerlerde size uygun bir etkinlik bulabilirsiniz. Peki bu etkinliklerde gerçekleştiren sunumların yeterlilikleri ne durumda? 
 

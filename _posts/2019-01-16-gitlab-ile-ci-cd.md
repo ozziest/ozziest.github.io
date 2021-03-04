@@ -8,9 +8,11 @@ meta: gitlab, ci, cd, devops, continuous integration, continuous delivery
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
-    <img src="/images/posts/12.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+  <a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
+    <img class="rounded shadow-md" src="/images/posts/12.jpg" />
+  </a>
+</div>
 
 > Bu makaleyi iyi bir şekilde özümseyebilmek için temel düzeyde Linux ve Docker bilgisi gerekmektedir. 
 
@@ -23,7 +25,7 @@ CI/CD kavramları tek başına var olmaktan ziyade, kendisinden çok daha büyü
 ***Google Trends*** üzerinde biraz araştırma yaptığımızda bu kavramın, yazılımın beşiği sayılabilecek ABD'de 2013 yılından sonra daha çok gündeme gelmeye başlamış olduğunu görüyoruz. Türkiye'de ise 2015 yılından itibaren gösterilen ilgi artmaya başlamış ve ardımızda bıraktığımız 2018 yılında, deyim yerindeyse ***altın çağını*** yaşamıştır. [2]
 
 <a href="https://trends.google.com/trends/explore?date=all,all&geo=US,TR&q=%2Fm%2F0c3tq11,DevOps" target="_blank">
-    <img src="/images/posts/13.JPG" class="center" />
+    <img src="/images/posts/13.jpg" />
 </a>
 <p class="img-description">Resim 1 - Google arama trendleri ABD-Türkiye karşılaştırması</p>
 
@@ -95,7 +97,7 @@ GitLab Runner kurulduktan sonra, GitLab Runner ile GitLab'ı entegre etmemiz ger
 
 Kaydetme işlemine başlamadan önce, kaydetme işleminde kullanacağımız ***GitLab CI Token*** değerini, GitLab sunucusun üzerinde bulunan bir proje ya da group üzerinde  `Settings -> CI/CD` bölümü altındaki `Runners` sekmesinde içerisinden alabilirsiniz. 
 
-<img src="/images/posts/16.JPG" class="center" />
+<img src="/images/posts/16.jpg" />
 <p class="img-description">Resim 4 - GitLab CI token</p>
 
 Elimizde artık bir GitLab CI Token varken, Runner'ın kurulu olduğu makinada aşağıdaki komut çalıştırıldıktan sonra, Runner size sırayla sunucunun adresini, token bilgisini, Runner tanımını, Runner etiketini ve Runner'ın hangi yöntemle çalışacağını soracaktır.
@@ -129,7 +131,7 @@ alpine:latest
 ```
 Yukarıdaki tanımlamalardan sonra, token aldığımız bölümde bulunan ***Specific Runners*** bölümünde, henüz tanımladığımız Runner'ı görebiliyor olmanız gerekmektedir.
 
-<img src="/images/posts/17.JPG" class="center" />
+<img src="/images/posts/17.jpg" />
 <p class="img-description">Resim 5 - GitLab Runner tanımı görüntüsü</p>
 
 Böylece artık GitLab sunucumuzun, ilgili proje ya da grubumuz içerisinde kullanabileceği ve iletişimde olduğu bir Runner bulunmaktadır. Bundan sonraki aşamada, GitLab'a yüklediğimiz çeşitli tanımlamalarla birlikte, bu Runner'a ne zaman, nasıl ve neler yapması gerektiğini söyleyeceğiz.
@@ -159,7 +161,7 @@ Yukarıdaki dosyayı incelediğimizde, iki ana bölüm dikkat çekmektedir; `sta
 
 `stages` bölümünde projemiz içerisinde hangi ***stage*** adımlarının bulunduğunu GitLab'a söylüyoruz. Buraya dilediğimiz adımları yazabilmekle birlikte, genel olarak `test`, `build`, `publish` ya da `deploy` gibi kalıplaşmış stage isimlendirmeleri kullanabiliriz. Her stage içerisinde birden fazla ***görev*** tanımı yapabiliriz. Örneğin ***test*** stage'i içerisinde, JS testleri için ayrı bir ***task***, Ruby testleri için ayrı bir ***task*** yazabiliriz. Ya da ***build*** aşaması içerisinde farklı platformlar için ayrı ayrı görevler ile build işlemi gerçekleştirebiliriz. Stage tanımlarının sırasına göre, çalışma anında GitLab bize aşağıdaki gibi bir görselleştirme yapacaktır;
 
-<img src="/images/posts/18.JPG" class="center" />
+<img src="/images/posts/18.jpg" />
 <p class="img-description">Resim 6 - GitLab CE Pipeline Detayı</p>
 
 Üstteki resmi incelediğimiz zaman ***Build***, ***Prepare***, ***Test*** gibi bir stage sıralaması yapıldığını ve örneğin Prepare stage'i altında ***compile-assets***, ***setup-test-env*** gibi görevler bulunduğu görebiliriz. Bu tanımlar tamamen projenin ihtiyaçlarına göre bizim tarafımızdan belirlenmektedir.
@@ -172,7 +174,7 @@ Bu dosya repository içerisinde GitLab'a ulaştığı zaman, GitLab bu dosyayı 
 
 GitLab üzerinde, repository içerisinde CI/CD menüsü altında çalıştırılan [Pipeline](https://gitlab.com/iozguradem/gitlab-ci-test/pipelines)'larını ve  [pipeline içeriklerini](https://gitlab.com/iozguradem/gitlab-ci-test/pipelines/43995855) görebilirsiniz. Hemen aşağıda yazdığımı ***jstask*** isimli görev çalıştığında console üzerinde neler yapılmış görebilmekteyiz. 
 
-<img src="/images/posts/19.JPG" class="center" />
+<img src="/images/posts/19.jpg" />
 <p class="img-description">Resim 7 - GitLab CI/CD Pipeline Job</p>
 
 Logları incelediğimizde, Runner çalışmaya başladıktan sonra öncelikle bizim belirttiğimiz ***node:latest*** image'ının [Docker Hub](https://hub.docker.com/) üzerinden alındığını, daha sonra repository içeriğinin ***git clone*** ile ana dizine çıkartıldığını görebiliriz. Sonrasında `$` ile başlayan her bölüm, bizim ***script*** altına yazdığımız komutlardan ibarettir. Özetle; gerekli ortamı hazırlayıp, koşturulması gereken komutları sırasıyla ***.gitlab-ci.yml*** dosyasına yazarak, Runner'ın sırayla neler yapması gerektiğini adım adım belirtmiş oluyoruz. Repository üzerinde herhangi bir hareket olduğunda GitLab bu dosyayı okuyarak ilgili Runner ile iletişime geçer, ve çalıştılması gereken komutları Runner'a bildirdikten sonra arkasına yaslanarak Runner'dan gelen cevapları bekler. Runner yaptığı işlemlerin loglarını tekrar GitLab'a gönderir ve biz de web arayüzünden görevlerin sonuçlarını görebiliriz. 

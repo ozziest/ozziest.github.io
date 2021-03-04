@@ -8,8 +8,10 @@ meta: apaçi dansı
 author: ozziest
 ---
 
-<img src="/images/posts/03.jpeg" alt="Giovanni Domenico Tiepolo — A Dance in the Country" class="center" />
-<p class="img-description">Giovanni Domenico Tiepolo — A Dance in the Country</p>
+<div class="flex justify-center pt-4 pb-4">
+  <img src="/images/posts/03.jpeg" alt="Giovanni Domenico Tiepolo — A Dance in the Country" class="center" />
+  <p class="img-description">Giovanni Domenico Tiepolo — A Dance in the Country</p>
+</div>
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/apa%C3%A7i-dans%C4%B1-d7b4b232d7c1) üzerinde yayınlanmıştır.
 

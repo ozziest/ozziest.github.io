@@ -8,9 +8,11 @@ meta: soap services, dotnet core, wcf, wsdl
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
-    <img src="/images/posts/05.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
+        <img src="/images/posts/05.jpg" />
+    </a>
+</div>
 
 ## Generating Service Classes
 

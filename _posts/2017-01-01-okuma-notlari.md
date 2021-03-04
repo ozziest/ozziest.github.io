@@ -8,10 +8,11 @@ meta: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/map-discovery-america-ship-train-3409359/" target="_blank">
-    <img src="/images/posts/11.jpg" class="center" />
-</a>
-
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/map-discovery-america-ship-train-3409359/" target="_blank">
+        <img src="/images/posts/11.jpg" />
+    </a>
+</div>
 
 İlk defa böyle bir yazı hazırlıyorum. Bu ihtiyacı hissettim çünkü her şeyden evvel çok az okuduğumu farkettim. Okumalarımı sıklaştırdıktan sonra da, yıllar sonra dönüp baktığımda neler okumuşum ve ne hissetmişim görmenin bana mutluluk vereceğine karar verdim. Gelecekte bir parça mutlu olabilmek ve kendime ***anı*** biriktirebilmek adına, **2016** yılında okuduğum kitapları not alıyorum.
 

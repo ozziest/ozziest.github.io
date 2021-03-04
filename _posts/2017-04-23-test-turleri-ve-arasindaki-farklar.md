@@ -8,9 +8,11 @@ meta: software, tests, unit test, acceptance test, integration test
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188/" target="_blank">
-    <img src="/images/posts/07.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188/" target="_blank">
+        <img src="/images/posts/07.jpg" />
+    </a>
+</div>
 
 ### 1. Giriş
 

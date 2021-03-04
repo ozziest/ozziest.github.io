@@ -8,9 +8,11 @@ meta: web geliştirme alet çantası, kullanışlı araçlar, geliştirici araç
 author: ozziest
 ---
 
-<a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
-    <img src="/images/posts/coding.jpg" class="center" />
-</a>
+<div class="flex justify-center pt-4 pb-4">
+    <a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
+        <img src="/images/posts/coding.jpg" />
+    </a>
+</div>
 
 Bu başlık altında bir web geliştiricinin ***(Full Stack)*** sık kullandığı ya da kullanabileceği araçlara değineceğim. Bu araçlar benim geliştirme ortamlarımda kurulu olan ve çoğu zaman başvurduğum araçlardan oluşmaktadır. 
 

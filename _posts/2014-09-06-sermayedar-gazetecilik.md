@@ -9,7 +9,7 @@ author: ozziest
 ---
 
 <a href="https://pixabay.com/en/crow-raven-bird-black-animal-828944/" target="_blank">
-    <img src="/images/posts/10.jpg" class="center" />
+    <img src="/images/posts/10.jpg" />
 </a>
 
 Ben gazeteciliğin ne olduğunu <strong>Uğur Mumcu</strong> ile öğrendim. Çocukluğumdan kalma hayallerde, kalabalıkların <em>"Uğurlar Olsun"</em> türküsü eşliğinde mum yaktığı karlı kış günlerini hala anımsıyorum. Üniversite yıllarıma kadar her gazeteciye ve her gazeteye saygı duydum ve imrendim. Ben de bilmiyorum neden olduğunu ama bugün bir gazeteci değilim ve olmaktan da uzağım.  

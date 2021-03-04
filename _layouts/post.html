@@ -2,15 +2,27 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
-</article>
+<div class="container mx-auto pt-16 mb-20">
+  {% include profile.html %}
 
-{% include share.html %}
+  <div class="flex justify-center p-4 mb-4">
+    <div class="w-1/2">
+      <h1 class="font-bold text-2xl font-mono text-indigo-900 mb-2">
+        {{ page.title }}
+        <small class="text-gray-400 font-normal text-md">
+          <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
+        </small>
+      </h1>
+      <div class="post-content">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
 
-{% if site.related_posts != empty %}
+<!-- {% include share.html %} -->
+
+<!-- {% if site.related_posts != empty %}
 <aside class="related no-print">
   <h2>Suggestions</h2>
   <ul class="related-posts">
@@ -46,4 +58,4 @@ layout: default
         <a href="http://chrislema.com/killed-disqus-commenting/">Why I killed Disqus Commenting on my site</a>
       </li>
     </ul>
-</div>
+</div> -->
