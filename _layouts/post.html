@@ -6,7 +6,7 @@ layout: default
   {% include profile.html %}
 
   <div class="flex justify-center p-4 mb-4">
-    <div class="w-3/5">
+    <div class="w-full lg:w-5/6 xl:w-3/5">
 
       {% if page.post_img %}
         <div class="flex justify-center shadow">
@@ -29,43 +29,3 @@ layout: default
     </div>
   </div>
 </div>
-
-<!-- {% include share.html %} -->
-
-<!-- {% if site.related_posts != empty %}
-<aside class="related no-print">
-  <h2>Suggestions</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h6>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-        </h6>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
-
-<div class="no-print">
-  <h2>What About Comments?</h2>
-  <p>
-    I do not use any comment system such as Disqus because of user's privacy. If you want to 
-    discuss something about this post, you may open an issue on 
-    <a href="https://github.com/ozziest/ozziest.github.io/issues" target="_blank">the repo</a>.
-  </p>
-  <p>
-    You may check what is the problem with Disqus;
-  </p>
-  <ul>
-    <li>
-      <a href="https://replyable.com/2017/03/disqus-is-your-data-worth-trading-for-convenience/">Disqus: Is Your Data Worth Trading for Convenience?</a>
-    </li>
-    <li>
-        <a href="http://chrislema.com/killed-disqus-commenting/">Why I killed Disqus Commenting on my site</a>
-      </li>
-    </ul>
-</div> -->
