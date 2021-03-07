@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: adonis, nodejs, web framework, adonis nedir, laravel for nodejs
 meta: adonis, nodejs, web framework, adonis nedir, laravel for nodejs
 author: ozziest
+post_img: coding.jpg
+post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-  <a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
-      <img src="/images/posts/coding.jpg" />
-  </a>
-</div>
 
 [Adonis](http://adonisjs.com), **NodeJS** ile daha az kod yazarak uygulama geliştirmeyi amaçlayan ve MVC mimarisine göre oluşturulmuş bir framework'dür. Diğer NodeJS web frameworklerine göre öne çıkan başlıca özellikleri **ES6** ile geliştirme yapmayı amaçlaması ve **PHP** dili için geliştirimiş [Laravel](https://laravel.com)'in mimarisine benzer olmasıdır. 
 

@@ -6,13 +6,9 @@ categories: [English, Coding, Essays]
 tags: artificial intelligence, ai, evolutionary, evolution, dna
 meta: artificial intelligence, ai, evolutionary, evolution, dna
 author: ozziest
+post_img: 30.jpg
+post_img_link: https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696/" target="_blank" title="">
-        <img class="rounded shadow-md" src="/images/posts/30.jpg" />
-    </a>
-</div>
 
 #### Abstract
 

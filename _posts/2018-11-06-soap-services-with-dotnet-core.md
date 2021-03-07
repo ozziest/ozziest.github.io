@@ -6,13 +6,9 @@ categories: [English, Coding]
 tags: soap services, dotnet core, wcf, wsdl
 meta: soap services, dotnet core, wcf, wsdl
 author: ozziest
+post_img: 05.jpg
+post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
-        <img src="/images/posts/05.jpg" />
-    </a>
-</div>
 
 ## Generating Service Classes
 

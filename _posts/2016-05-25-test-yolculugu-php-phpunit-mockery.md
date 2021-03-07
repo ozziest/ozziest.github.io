@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: php, phpunit, mockert, testing, test yazımı
 meta: php, phpunit, mockert, testing, test yazımı
 author: ozziest
+post_img: coding.jpg
+post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
-        <img src="/images/posts/coding.jpg" />
-    </a>
-</div>
 
 Yazılım bloglarında tonla ***"Neden Test Yazmalıyız?"*** başlıklı makaleler bulabilirsiniz. Bu nedenle bu soruyu cevaplamayacağım. Eğer burayı okuyorsanız **test** kavramı hakkında en azından bir kaç şey duymuşsunuzdur diye düşünüyorum.
 

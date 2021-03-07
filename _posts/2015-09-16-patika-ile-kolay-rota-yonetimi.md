@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: patika, php, routing, package, routes
 meta: patika, php, routing, package, routes
 author: ozziest
+post_img: coding.jpg
+post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
-        <img src="/images/posts/coding.jpg" />
-    </a>
-</div>
 
 Bugün [Patika](http://ozguradem.net/patika) isimli PHP tabanlı rota yönetim kütüphanesini yayınladım. Bu blog yazısında elimden geldiğince paketi tanıtmaya çalışacağım.
 

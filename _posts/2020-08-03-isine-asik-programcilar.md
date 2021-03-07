@@ -6,13 +6,9 @@ categories: [Turkish, Coding, Essays]
 tags: programcılık, yazılım, programcı, deneme
 meta: programcılık, yazılım, programcı, deneme
 author: ozziest
+post_img: 32.jpg
+post_img_link: https://pixabay.com/photos/grey-crowned-crane-bird-crane-540657
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-  <a href="https://pixabay.com/photos/grey-crowned-crane-bird-crane-540657/" target="_blank" title="">
-    <img class="rounded shadow-md" src="/images/posts/32.jpg" />
-  </a>
-</div>
 
 Henüz 16 yaşımda, insanlarla iletişim kurmakta zorlanan bir çocuk olarak tanıştım programlama ile. Kendisine doğru ya da yanlış olarak söylediğim her şeyi olduğu gibi kabul edip, uygulamaya çalıştığı için çok sevdim programlamayı belki de. Bu nedenle bilgisayarım yokken bile bir kağıt bulup kod yazmaya çalıştım. Tam 16 yıldır, o ya da bu sebeple kod yazıyorum. Bugün geldiğim noktada kendime şu soruyu sorma ihtiyacı hissettim;
 

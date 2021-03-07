@@ -6,13 +6,9 @@ categories: [English, Coding]
 tags: software development, science, benchmark tests, cyclomatic complexity, halstead complexity
 meta: software development, science, benchmark tests, cyclomatic complexity, halstead complexity
 author: ozziest
+post_img: 06.jpg
+post_img_link: https://pixabay.com/en/space-center-spacex-control-center-693251
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/space-center-spacex-control-center-693251/" target="_blank">
-        <img src="/images/posts/06.jpg" />
-    </a>
-</div>
 
 I am not ***Uncle Bob*** or ***Martin Fowler***. I am just a developer who develop web applications in all day by using another frameworks and libraries. I am not creating a new approach about how to use your classes or your patterns in cases you have. Nevertheless I am sick of reading somethings which is not scientific about software development. In this article, I want to talk about that.
 

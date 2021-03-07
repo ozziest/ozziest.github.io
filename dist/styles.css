@@ -31201,6 +31201,9 @@ div.post-content > p {
   margin-bottom: 0.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+div.post-content > p:not(.img-description) {
   text-align: justify;
 }
 
@@ -31240,13 +31243,24 @@ div.post-content > blockquote {
   font-style: italic;
 }
 
+div.post-content > h2 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(67, 56, 202, var(--tw-text-opacity));
+}
+
 div.post-content > h3 {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  padding-bottom: 0.5rem;
-  padding-top: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgba(67, 56, 202, var(--tw-text-opacity));
 }
@@ -31256,10 +31270,35 @@ div.post-content > h4 {
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  padding-bottom: 0.5rem;
-  padding-top: 1.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
   color: rgba(67, 56, 202, var(--tw-text-opacity));
+}
+
+div.post-content > h5 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  --tw-text-opacity: 1;
+  color: rgba(67, 56, 202, var(--tw-text-opacity));
+}
+
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.img-description {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

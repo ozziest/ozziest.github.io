@@ -6,13 +6,9 @@ categories: [Turkish, Coding, Presentation]
 tags: gitlab, ci, ci, aws, scaling, runner
 meta: gitlab, ci, ci, aws, scaling, runner
 author: ozziest
+post_img: 31.jpg
+post_img_link: https://pixabay.com/photos/container-port-loading-stacked-3118783
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-  <a href="https://pixabay.com/photos/container-port-loading-stacked-3118783/" target="_blank" title="">
-    <img class="rounded shadow-md" src="/images/posts/31.jpg" />
-  </a>
-</div>
 
 > Bu makaleye konu olan sunumu [MaviDurak-IO](https://kommunity.com/mavidurakio) ve [Sakarya Coders](https://www.meetup.com/Sakarya-Coders/) işbirliği ile [15 Ekim](https://kommunity.com/mavidurakio/events/gitlab-cicd-ile-aws-uzerinde-olceklenebilir-uygulama-yayinlama)'de yapılan bir etkinlikte gerçekleştirdim. Hazır bu kadar belgeyi bir araya getirmişken, üzerinde biraz daha emek vererek bir blog yazısı yazmak mantıklı geldi. Bu makaledeki ilk iki bölüm, daha önceden yazdığım [Amazon CloudFront Nedir ve Nasıl Kullanılır?](https://ozguradem.net/turkish/coding/2019/04/13/aws-cloud-front-content-delivery-network-nedir-nasil-kullanilir/) başlıklı makalemden aynen kopyalanmıştır.
 

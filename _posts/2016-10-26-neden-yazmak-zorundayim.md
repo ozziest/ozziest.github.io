@@ -6,13 +6,9 @@ categories: [Turkish, Essays]
 tags: deneme
 meta: deneme
 author: ozziest
+post_img: 08.jpg
+post_img_link: https://pixabay.com/en/france-french-revolution-civil-war-63022
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/france-french-revolution-civil-war-63022/" target="_blank">
-        <img src="/images/posts/08.jpg" />
-    </a>
-</div>
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/neden-yazmak-zorunday%C4%B1m-a5ca451cb192) üzerinde yayınlanmıştır.
 

@@ -6,14 +6,24 @@ layout: default
   {% include profile.html %}
 
   <div class="flex justify-center p-4 mb-4">
-    <div class="w-1/2">
-      <h1 class="font-bold text-2xl font-mono text-indigo-900 mb-2">
-        {{ page.title }}
-        <small class="text-gray-400 font-normal text-md">
+    <div class="w-3/5">
+
+      {% if page.post_img %}
+        <div class="flex justify-center shadow">
+          <a href="{{ page.post_img_link }}" target="_blank" title="{{ page.title }}">
+            <img class="rounded-tl-lg rounded-tr-lg shadow" src="/images/posts/{{ page.post_img }}" />
+          </a>
+        </div>
+      {% endif %}
+      
+      <div class="post-content pt-10">
+        <h1 class="font-bold text-2xl font-mono text-indigo-900">
+          {{ page.title }}
+        </h1>
+        <div class="text-gray-400 font-normal text-md mb-4">
           <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-        </small>
-      </h1>
-      <div class="post-content">
+        </div>
+
         {{ content }}
       </div>
     </div>

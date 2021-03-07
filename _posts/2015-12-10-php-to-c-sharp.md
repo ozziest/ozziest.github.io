@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: php, c#, c sharp, geçiş, ön izleme, inceleme, karşılaştırma
 meta: php, c#, c sharp, geçiş, ön izleme, inceleme, karşılaştırma
 author: ozziest
+post_img: coding.jpg
+post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643/" target="_blank">
-        <img src="/images/posts/coding.jpg" />
-    </a>
-</div>
 
 Uzunca bir süredir **PHP** ile birlikte uygulamalar geliştiriyor olsam da, şartlar beni geçtiğimiz günlerde **.NET** ile bir uygulama geliştirmeye götürdü. **PHP** ile belirli bir seviyeye gelmiş uygulama, sonrasında **C#** ve **.NET** platformu bileşenleri kullanılarak geliştirildi. Ben de bu yazıda bir yandan **PHP** ile **C#**'ı, bir yandan da **.NET** platformunu irdelemek istedim. Eğer bir gün olur da **PHP**'den sıkılırsanız, nelerle karşılaşabileceğinizi dilim döndüğünce anlatmak istiyorum.
 

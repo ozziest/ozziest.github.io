@@ -6,13 +6,9 @@ categories: [Turkish, Notes]
 tags: csharp, self signed, sertifika
 meta: csharp, self signed, sertifika
 author: ozziest
+post_img: notes.jpg
+post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/books-pages-story-stories-notes-1245690/" target="_blank">
-        <img src="/images/posts/notes.jpg" />
-    </a>
-</div>
 
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.
 

@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: gitlab, ci, cd, devops, continuous integration, continuous delivery
 meta: gitlab, ci, cd, devops, continuous integration, continuous delivery
 author: ozziest
+post_img: 12.jpg
+post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-  <a href="https://pixabay.com/en/michelangelo-abstract-boy-child-71282/" target="_blank">
-    <img class="rounded shadow-md" src="/images/posts/12.jpg" />
-  </a>
-</div>
 
 > Bu makaleyi iyi bir şekilde özümseyebilmek için temel düzeyde Linux ve Docker bilgisi gerekmektedir. 
 

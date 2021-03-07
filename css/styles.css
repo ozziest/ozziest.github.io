@@ -11,7 +11,11 @@ div.post-content {
 }
 
 div.post-content > p {
-  @apply pt-2 pb-2 leading-9 text-justify mb-2;
+  @apply pt-2 pb-2 leading-9 mb-2;
+}
+
+div.post-content > p:not(.img-description) {
+  @apply text-justify;
 }
 
 div.post-content > p > a {
@@ -30,10 +34,28 @@ div.post-content > blockquote {
   @apply mt-4 mb-4 pl-4 italic border-l-4 text-gray-500 border-gray-500 leading-9 text-justify;
 }
 
+div.post-content > h2 {
+  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
+}
+
 div.post-content > h3 {
-  @apply text-xl text-indigo-700 font-bold font-mono pt-6 pb-2;
+  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
 }
 
 div.post-content > h4 {
-  @apply text-xl text-indigo-700 font-bold font-mono pt-6 pb-2;
+  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
+}
+
+div.post-content > h5 {
+  @apply text-lg text-indigo-700 font-bold font-mono pt-3 pb-3;
+}
+
+p > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p.img-description {
+  @apply text-sm text-gray-500 text-center;
 }

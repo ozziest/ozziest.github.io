@@ -6,12 +6,9 @@ categories: [Turkish, Essays]
 tags: apaçi dansı
 meta: apaçi dansı
 author: ozziest
+post_img: 03.jpeg
+post_img_link: https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Tiepolo_-_Ball_in_the_Country_-_WGA22372.jpg
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-  <img src="/images/posts/03.jpeg" alt="Giovanni Domenico Tiepolo — A Dance in the Country" class="center" />
-  <p class="img-description">Giovanni Domenico Tiepolo — A Dance in the Country</p>
-</div>
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/apa%C3%A7i-dans%C4%B1-d7b4b232d7c1) üzerinde yayınlanmıştır.
 

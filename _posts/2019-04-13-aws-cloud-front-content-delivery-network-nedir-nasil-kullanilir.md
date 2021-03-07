@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: aws, amazon, cloudfront, s3, cdn, spa
 meta: aws, amazon, cloudfront, s3, cdn, spa
 author: ozziest
+post_img: 20.jpg
+post_img_link: https://pixabay.com/photos/dock-ship-container-port-boat-1277744
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/photos/dock-ship-container-port-boat-1277744/" target="_blank">
-        <img class="rounded shadow-md" src="/images/posts/20.jpg" />
-    </a>
-</div>
 
 ### 1. Motivasyon
 

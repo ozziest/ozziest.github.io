@@ -6,13 +6,9 @@ categories: [Turkish, Coding]
 tags: software, tests, unit test, acceptance test, integration test
 meta: software, tests, unit test, acceptance test, integration test
 author: ozziest
+post_img: 07.jpg
+post_img_link: https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188
 ---
-
-<div class="flex justify-center pt-4 pb-4">
-    <a href="https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188/" target="_blank">
-        <img src="/images/posts/07.jpg" />
-    </a>
-</div>
 
 ### 1. Giriş
 
