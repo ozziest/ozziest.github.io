@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ozziest/ozziest.github.io/issues"
   },
-  "homepage": "https://github.com/ozziest/ozziest.github.io#readme"
+  "homepage": "https://github.com/ozziest/ozziest.github.io#readme",
+  "dependencies": {
+    "win-node-env": "^0.4.0"
+  }
 }
