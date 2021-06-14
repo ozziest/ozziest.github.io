@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ozziest/ozziest.github.io.git"
   },
   "devDependencies": {
-    "tailwindcss": "^2.0.3",
+    "tailwindcss": "^2.1.4",
     "tailwindcss-cli": "^0.1.2"
   },
   "author": "",
