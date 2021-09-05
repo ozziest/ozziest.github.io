@@ -14,10 +14,6 @@ div.post-content > p {
   @apply pt-2 pb-2 leading-9 mb-2;
 }
 
-div.post-content > p:not(.img-description) {
-  @apply text-justify;
-}
-
 div.post-content > p > a {
   @apply text-indigo-700 hover:text-indigo-900 hover:underline;
 }
@@ -31,7 +27,7 @@ div.post-content > ul > li {
 }
 
 div.post-content > blockquote {
-  @apply mt-4 mb-4 pl-4 italic border-l-4 text-gray-500 border-gray-500 leading-9 text-justify;
+  @apply mt-4 mb-4 pl-4 italic border-l-4 text-gray-500 border-gray-500 leading-9;
 }
 
 div.post-content > h2 {

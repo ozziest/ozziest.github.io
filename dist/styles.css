@@ -881,10 +881,6 @@ div.post-content > p {
   padding-bottom: 0.5rem;
 }
 
-div.post-content > p:not(.img-description) {
-  text-align: justify;
-}
-
 div.post-content > p > a {
   --tw-text-opacity: 1;
   color: rgba(67, 56, 202, var(--tw-text-opacity));
@@ -915,7 +911,6 @@ div.post-content > blockquote {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding-left: 1rem;
-  text-align: justify;
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
   font-style: italic;
