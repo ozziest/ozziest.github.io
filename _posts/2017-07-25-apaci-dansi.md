@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Apaçi Dansı"
-date:   2017-07-25 18:00
+title: "Apaçi Dansı"
+date: 2017-07-25 18:00
 categories: [Turkish, Essays]
 tags: apaçi dansı
 meta: apaçi dansı
 author: ozziest
-post_img: 03.jpeg
+post_img: 03.jpg
 post_img_link: https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Tiepolo_-_Ball_in_the_Country_-_WGA22372.jpg
 ---
 

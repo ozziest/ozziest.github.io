@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Neden İstanbul’u Terk Ettim?"
-date:   2016-10-02 18:00
+title: "Neden İstanbul’u Terk Ettim?"
+date: 2016-10-02 18:00
 categories: [Turkish, Essays]
 tags: istanbul, sakarya
 meta: istanbul, sakarya
@@ -18,7 +18,7 @@ Her ne kadar Bağcılar pek istanbul sayılmasa da, İstanbul’da yaşadığım
 
 Tüm insanların kendisini mutlu hissetmesi için bazı temel ihtiyaçlarının karşılanması gerekir. Maslow’un İhtiyaç Hiyerarşisi Teorisi’ne göre bu istekleri bazı başlıklar altında sıralayabiliriz.
 
-<img src="/images/posts/02.jpeg" alt="Maslow's Hierarchy of Needs" class="center" />
+<img src="/images/posts/02.jpg" alt="Maslow's Hierarchy of Needs" class="center" />
 <p class="img-description">Maslow's Hierarchy of Needs</p>
 
 Bu hiyerarşinin ilk basamadığında yemek, içmek gibi fizyolojik ihtiyaçlar bulunuyor. Bu konuda ülkedeki tüm şehirler size yetecektir. Ancak ikinci basamakta bulunan güvenlik ihtiyacı söz konusu olduğunda, İstanbul yaşanılacak en kötü şehir. Evvela İstanbul’un önünde duran ve somut çözüm önerileri bulunmayan bir deprem tehlikesi var. Ne kadar unutsak ya da görmezden gelsek de, bu deprem bizi bekliyor. Bu konuyla alakalı yazılmış bir dünya uyarı yazısı bulabilirsiniz. Şu an Türkiye’deki hiç bir şehir, İstanbul kadar deprem riski taşımıyor.
@@ -41,7 +41,7 @@ Ben Sakarya’da öğrenim hayatımı tamamladıktan sonra İstanbul’da çalı
 
 İlk değinmek istediğim şey yine güvenlik. Sakarya’da yolda yürürken kimse size tekme atmaz ya da sataşmaz. En azından 10 yıldan beri ben hiç bu tarz bir şeyle karşılaşmadım. Hatta meşhur Çark Caddesi’nde haçlı bir tişört ile defalarca yürüdüğüm bile olmuştu. :)
 
-<img src="/images/posts/01.jpeg" alt="Opeth Albüm Kapağı" class="center" />
+<img src="/images/posts/01.jpg" alt="Opeth Albüm Kapağı" class="center" />
 <p class="img-description">Still Life Album Cover - Opeth</p>
 
 Biraz şu tutuculuk üzerine bir kaç şey söylemek istiyorum. Sakarya’nın ilçelerinde Anadolu’nun her köşesinde göreceğiniz tutuculuğu görürsünüz. Özellikle bazı ilçeleri türbeler dolayısıyla daha bir fazladır. Ancak artık öğrenci ilçesi olmuş yerleri (Serdivan) de bir o kadar farklıdır. Bu ilçede İstanbul’un bir çok semtinde olmayacağınız kadar rahat edersiniz. Gece saat 3–4 sularında üç dört tane kadın Köfteci Hüseyin’e gidebilir mesela. Şimdi bir de İstanbul’un kaç ilçesinde bunun rahatlıkla yapılabileceğini düşünün. Gerçi bir kadın olmadığımdan dışarıdan gözlemlediklerimi belirtmek zorunda kalıyorum. Umarım bu şekilde dolaşan hanımefendiler de benim gözlemlediğim kadar rahat dolaşabiliyorlardır.
