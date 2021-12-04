@@ -6,8 +6,8 @@ categories: [English, Coding]
 tags: aws, s3, signing, pre-signed, files, permission
 meta: aws, s3, signing, pre-signed, files, permission
 author: ozziest
-post_img: 35.jpg
-post_img_link: https://pixabay.com/photos/coding-programming-working-macbook-924920/
+post_img: 36.jpg
+post_img_link: https://pixabay.com/photos/binding-contract-contract-secure-948442/
 ---
 
 I noticed that every time I need to sign an S3 file, I already forgot how I could do that. Because I can be bored so easily, I am creating this documentation to remember it easily.
