@@ -31,19 +31,19 @@ div.post-content > blockquote {
 }
 
 div.post-content > h2 {
-  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
+  @apply text-xl text-indigo-700 font-bold font-mono pt-5;
 }
 
 div.post-content > h3 {
-  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
+  @apply text-xl text-indigo-700 font-bold font-mono pt-5;
 }
 
 div.post-content > h4 {
-  @apply text-xl text-indigo-700 font-bold font-mono pt-3 pb-3;
+  @apply text-xl text-indigo-700 font-bold font-mono pt-5;
 }
 
 div.post-content > h5 {
-  @apply text-lg text-indigo-700 font-bold font-mono pt-3 pb-3;
+  @apply text-lg text-indigo-700 font-bold font-mono pt-5;
 }
 
 p > img {
