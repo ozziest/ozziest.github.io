@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to dynamically render Twitter/LinkedIn social cards in a Single Page Application (React/Vue)?"
-date: 2022-02-16 22:00
+date: 2022-02-16 19:00
 categories: [English, Coding]
 tags: twitter, linkedin, cards, open graph, protocol, react, vue, spa, nginx, facebook, social media, proxy
 meta: twitter, linkedin, cards, open graph, protocol, react, vue, spa, nginx, facebook, social media, proxy
