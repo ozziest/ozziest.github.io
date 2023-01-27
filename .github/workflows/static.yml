@@ -26,7 +26,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Acnestis Build
-        run: npx run acnestis
+        run: |
+          npm i -g acnestis
+          acnestis
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
