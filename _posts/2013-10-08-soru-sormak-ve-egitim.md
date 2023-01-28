@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Soru Sormak ve Eğitim"
-date:   2013-10-08 19:00
+title: "Soru Sormak ve Eğitim"
+date: 2013-10-08 19:00
 categories: [Turkish, Essays]
-tags: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
-meta: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
-author: ozziest
+keywords: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
+author: Özgür Adem Işıklı
 ---
 
 Merhaba,
@@ -16,4 +15,4 @@ Uzun bir zamandan beri eğitim üzerine alternatif düşüncelere yönelmiş bul
 
 Bu bir yanılgıdır, hem de çok ağır bir yanılgı. Bize eğitim kurumlarında gelecekte başımıza gelecek olası problemlerin çözümleri öğretilmektedir. Fakat bilişim çağında artık bu durumun bir geçerliliği kalmamıştır. Çünkü başımıza bir durum geldiğinde anında sıcak bilgi alabileceğimiz sayısız kaynağa sahibiz. Artık günümüzün sorunu, soruların cevaplarını bulmak değil, kendi sorularımızı doğru sorabilmektir. Bir düşünün, tüm eğitim hayatınız boyunca kaç kez sizden gerçek manada soru sormanız istendi? En fazla “benzer türde” sorular hazırlamışızdır. Ancak sorun tespit etmek, hata bulmak, eksiği yakalamak gelişimin ilk adımıdır.
 
-Bugün dünya üzerinde başarılı sayılan insanları gözlemleyiniz. Her biri çok mükemmel sorular sorarak işe başlamışlardır. İnovatif projelerin her biri kendi sorularıyla kendilerini var etmişlerdir. Farklı olabilmek, bir adım daha öne çıkabilmek için ihtiyacımız olan şey kendi sorularımızı üretmektir. ***Kendi sorularını soramayan insanlar, başkalarının cevaplarını bulmaya mecbur kalırlar.***
+Bugün dünya üzerinde başarılı sayılan insanları gözlemleyiniz. Her biri çok mükemmel sorular sorarak işe başlamışlardır. İnovatif projelerin her biri kendi sorularıyla kendilerini var etmişlerdir. Farklı olabilmek, bir adım daha öne çıkabilmek için ihtiyacımız olan şey kendi sorularımızı üretmektir. **_Kendi sorularını soramayan insanlar, başkalarının cevaplarını bulmaya mecbur kalırlar._**

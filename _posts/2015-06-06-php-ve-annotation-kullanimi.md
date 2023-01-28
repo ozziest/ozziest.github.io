@@ -1,22 +1,21 @@
 ---
 layout: post
-title:  "PHP ve Annotation Kullanımı"
-date:   2015-06-06 18:00
+title: "PHP ve Annotation Kullanımı"
+date: 2015-06-06 18:00
 categories: [Turkish, Coding]
-tags: php, annotation, php ve annotations, kullanımı, örnek
-meta: php, annotation, php ve annotations, kullanımı, örnek
-author: ozziest
+keywords: php, annotation, php ve annotations, kullanımı, örnek
+author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
 
-Annotation kavramı veriler hakkında ön bilgiler veren başka veri blokları, **notlar** olarak adlandırılır. Normalde bir özellikleri yoktur. PHP ile yazılım geliştirme aşamasında da annotation'lar doküman blokları içerisinde sıkça kullanılır ama yazılıma etki etmezler. Ancak bazen bu durum farklılaşabilir. 
+Annotation kavramı veriler hakkında ön bilgiler veren başka veri blokları, **notlar** olarak adlandırılır. Normalde bir özellikleri yoktur. PHP ile yazılım geliştirme aşamasında da annotation'lar doküman blokları içerisinde sıkça kullanılır ama yazılıma etki etmezler. Ancak bazen bu durum farklılaşabilir.
 
 > JAVA gibi bazı dillerde annotation dilin bir parçasıdır ve programın çalışmasına doğrudan etki eder. Ancak konumuz PHP. :)
 
 ## PHP'deki Kullanım
 
-Normal şartlar altında aşağıdaki gibi doküman bloklarına yazılan kodlar PHP tarafından yorumlanmaz ve programın akışına herhangi bir katkı sağlamaz. 
+Normal şartlar altında aşağıdaki gibi doküman bloklarına yazılan kodlar PHP tarafından yorumlanmaz ve programın akışına herhangi bir katkı sağlamaz.
 
 <pre><code class="language-php">
 /**
@@ -46,7 +45,7 @@ $rc = new ReflectionClass('TestClass');
 var_dump($rc->getDocComment())
 </code></pre>
 
-Böylece herhangi bir sınıfın, herhangi bir metodunu çağırmadan önce döküman bloguna yazılan annotation'la program akışlarını değiştirebilirsiniz. 
+Böylece herhangi bir sınıfın, herhangi bir metodunu çağırmadan önce döküman bloguna yazılan annotation'la program akışlarını değiştirebilirsiniz.
 
 ## Neden?
 
@@ -73,11 +72,11 @@ class Product
 }
 </code></pre>
 
-Bir kez bu ***ön yorumlama*** işlemiyle çok kullanışlı sınıflar oluşturmanız mümkün. Ancak buna rağmen annotation kullanmanın zararlı olduğunu düşünenler de var. Tek bir doğru olamayacağı için her iki tarafa da kulak vermek ve uygulamaları görmek en akılcı yol olabilir.
+Bir kez bu **_ön yorumlama_** işlemiyle çok kullanışlı sınıflar oluşturmanız mümkün. Ancak buna rağmen annotation kullanmanın zararlı olduğunu düşünenler de var. Tek bir doğru olamayacağı için her iki tarafa da kulak vermek ve uygulamaları görmek en akılcı yol olabilir.
 
 ## Kolay Taraf
 
-Ancak siz böyle bir yapıyı uygulamalarınızda oluşturmak isterseniz, **Reflection** sınıfları ile uzun uzadıya uğraşmanıze gerek yok. Bu işi oldukça basit bir şekilde halleden bir paketimiz bile var; [Annotations](https://github.com/marcioAlmada/annotations). Üstelik şuanda **PHP-7** desteğiyle ilgili bir ***branch*** oluşturularak çalışmalara başlanmış bile. 
+Ancak siz böyle bir yapıyı uygulamalarınızda oluşturmak isterseniz, **Reflection** sınıfları ile uzun uzadıya uğraşmanıze gerek yok. Bu işi oldukça basit bir şekilde halleden bir paketimiz bile var; [Annotations](https://github.com/marcioAlmada/annotations). Üstelik şuanda **PHP-7** desteğiyle ilgili bir **_branch_** oluşturularak çalışmalara başlanmış bile.
 
 İlgili paketi kullanarak aşağıdaki gibi hızlıca annotation yorumlayabilirsiniz;
 
@@ -88,5 +87,3 @@ $annotations->get('accept')   // > array(3){ [0] => "json" [1] => "xml" [2] => "
 </code></pre>
 
 Paket ile ilgili çok daha detaylı bilgileri dokümanı üzerinden öğrenebilirsiniz; [https://github.com/marcioAlmada/annotations](https://github.com/marcioAlmada/annotations)
-
-

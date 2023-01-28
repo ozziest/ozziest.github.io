@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Açık Kaynak Günlerinde Gerçekleştirdiğim Sunum"
-date:   2015-10-18 21:00
+title: "Açık Kaynak Günlerinde Gerçekleştirdiğim Sunum"
+date: 2015-10-18 21:00
 categories: [Turkish, Presentation]
-tags: açık kaynak günleri, etkinlik, sunum, php ve paket yönetimi, paket geliştirme, kütüphane geliştirme, library
-meta: açık kaynak günleri, etkinlik, sunum, php ve paket yönetimi, paket geliştirme, kütüphane geliştirme, library
-author: ozziest
+keywords: açık kaynak günleri, etkinlik, sunum, php ve paket yönetimi, paket geliştirme, kütüphane geliştirme, library
+author: Özgür Adem Işıklı
 ---
 
 Geçtiğimiz günlerde (11 Ekim 2015) [Tütev](http://tutev.org.tr) tarafından gerçekleştirilen [Açık Kaynak Günleri 2015](http://acikkaynakgunleri.org/) isimli etkinlikte gerçekleştirdiğim **Neden Paketlere İhtiyacımız Var? Dillere Göre Paket/Bağımlılık Yöneticileri** başlıklı sunumuma aşağıdaki link aracılığı ile ulaşabilirsiniz.

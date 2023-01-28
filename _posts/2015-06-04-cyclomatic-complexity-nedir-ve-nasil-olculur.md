@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Cyclomatic Complexity Nedir ve Nasıl Ölçülür?"
-date:   2015-05-28 20:00
+title: "Cyclomatic Complexity Nedir ve Nasıl Ölçülür?"
+date: 2015-05-28 20:00
 categories: [Turkish, Coding]
-tags: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
-meta: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
-author: ozziest
+keywords: cyclomatic complexity, kod karmaşası, php, ölçüm, phploc
+author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
@@ -14,7 +13,7 @@ post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 
 ## Nasıl Ölçülür?
 
-Bu ölçümü yapan ve teorinin formüllerine bağlı olarak çalışan hazır araçlar vardır. Ben ağırlıklı olarak PHP tarafında kod geliştiren bir geliştirici olduğum için bu işi yapan ve yanında başka raporlamar da gerçekleştiren [PHPLOC](https://github.com/sebastianbergmann/phploc) isimli bir araç kullanıyorum. Kendisi [PHPUnit](https://github.com/sebastianbergmann/phpunit)'i de geliştiren [Sebastian Bergmann](https://github.com/sebastianbergmann) tarafından geliştirilmiş bir araç. 
+Bu ölçümü yapan ve teorinin formüllerine bağlı olarak çalışan hazır araçlar vardır. Ben ağırlıklı olarak PHP tarafında kod geliştiren bir geliştirici olduğum için bu işi yapan ve yanında başka raporlamar da gerçekleştiren [PHPLOC](https://github.com/sebastianbergmann/phploc) isimli bir araç kullanıyorum. Kendisi [PHPUnit](https://github.com/sebastianbergmann/phpunit)'i de geliştiren [Sebastian Bergmann](https://github.com/sebastianbergmann) tarafından geliştirilmiş bir araç.
 
 ## PHPLOC Kurulumu
 
@@ -26,7 +25,7 @@ $ chmod +x phploc.phar
 $ mv phploc.phar /usr/local/bin/phploc
 </code></pre>
 
-## Kullanım 
+## Kullanım
 
 Proje dosyalarınızın bulunduğu klasörü parametre olarak göndererek sonuçları incleyebilirsiniz;
 
@@ -92,18 +91,17 @@ Structure
 
 Gösterilen sonuçlar arasında yer alan **Complexity** bölümünde sayısal değerler göreceksiniz. Bunlar koda ve metotlara göre kod karmaşasını gösteren değerlerdir. Aşağıdaki listeye göre kodunuzun karmaşasını saptayabilirsiniz;
 
-* `0-10`: Basit kod yapısı, yüksek sürdürülebilirlik.
-* `11-20`: Kabul edilebilir karmaşıklık, orta sürdürülebilirlik.
-* `21-50`: Yüksek karmaşıklık, düşük sürdürülebilirlik. 
-* `50-100`: Test adilemez, çok düşük sürdürülebilirlik.
-* `>100`: Felaket
+- `0-10`: Basit kod yapısı, yüksek sürdürülebilirlik.
+- `11-20`: Kabul edilebilir karmaşıklık, orta sürdürülebilirlik.
+- `21-50`: Yüksek karmaşıklık, düşük sürdürülebilirlik.
+- `50-100`: Test adilemez, çok düşük sürdürülebilirlik.
+- `>100`: Felaket
 
 ## Karmaşıklığı Azaltma
 
 Karmaşıklık bir çok farklı faktöre bağlı olsa da, genel olarak aşağıdaki adımlar uygulanarak azaltılabilir;
 
-* [SOLID Prensipleri](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)'ne uygun kod geliştirmek.
-* [Tasarım Desenleri](http://en.wikipedia.org/wiki/Software_design_pattern)'ni aktif kullanmak.
-* [Basit Tasarım](http://en.wikipedia.org/wiki/KISS_principle)'dan yana olmak. 
-* Bol bol [Refactoring](http://en.wikipedia.org/wiki/Code_refactoring) yapmak.
-
+- [SOLID Prensipleri](http://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)'ne uygun kod geliştirmek.
+- [Tasarım Desenleri](http://en.wikipedia.org/wiki/Software_design_pattern)'ni aktif kullanmak.
+- [Basit Tasarım](http://en.wikipedia.org/wiki/KISS_principle)'dan yana olmak.
+- Bol bol [Refactoring](http://en.wikipedia.org/wiki/Code_refactoring) yapmak.

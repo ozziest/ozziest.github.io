@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Türk ve Fin Eğitim Sistemleri – 1"
-date:   2012-07-08 19:00
+title: "Türk ve Fin Eğitim Sistemleri – 1"
+date: 2012-07-08 19:00
 categories: [Turkish, Essays]
-tags: finlandiya eğitim sistemi, türk eğitim sistemi
-meta: finlandiya eğitim sistemi, türk eğitim sistemi
-author: ozziest
+keywords: finlandiya eğitim sistemi, türk eğitim sistemi
+author: Özgür Adem Işıklı
 ---
 
 Dün ülkemiz adına önemli bir sınav gerçekleşti; KPSS. Bir yanda sorular yine mi çalındı tartışmaları, bir yanda yıllardır iyi bir gelecek için ter döken bireyler. Herkes bir hayli gergin ve şuanda tam bir kargaşa hakim eğitim camiamızda. Ama her zaman yaptığımız gibi en büyük sorunumuz, olaylara yüzeysel bakmak ve asıl sorunlarını bir türlü irdeleyememek. Varsayalım sınav soruları yine bazı kişi ve kişilerce ele geçirildi ya da doğrudan temin edildi. Bu durumda ciddi bir adalet sorunumuz vardır eğitim sistemimiz üzerinde. Eğer böyle bir şey olmasaydı, yani sınav soruları çalınmamış ya da bazı kişilere servis edilmemişse eğitim sistemimi için adil bir sistem diyebilir miyiz? Bu yazıda bunu irdeleyeceğim.

@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "İş Kazalarının Siyaseti"
-date:   2014-06-16 18:00
+title: "İş Kazalarının Siyaseti"
+date: 2014-06-16 18:00
 categories: [Turkish, Essays]
-tags: iş kazası, siyaset
-meta: iş kazası, siyaset
-author: ozziest
+keywords: iş kazası, siyaset
+author: Özgür Adem Işıklı
 ---
 
 Hayatınızda bazen öyle bir an gelir ki, bembeyaz duvarlar tüm ışığını kaybeder ve her lokma ekmek kursağınızda kalır. Gözleriniz dolar ama ağlamaya bile utanırsınız. Yine de bu cümleler geçtiğimiz haftalarda Soma'da yaşadığımız faciayı özetleyemez.
 
 Yaşamak için çalışırken hayatını kaybeden her insanın haberini duyduğumda yaşadığım o burukluğu kat be kat daha fazla yaşadım bu sefer. Hiçbiri tanıdığım biri değildi. Hiçbirinin tanıdığım biri olması da gerekmezdi. Sayılara daraltılamayacak, ideolojilere sığdırılamayacak kadar biçare bir durumdaydık toplum olarak. Kaza yaşanılan madenin girişlerine duvar örülecek kadar geride bıraktıysak olayı ve bir an önce, apar topar kaldırdıysak cenazelerimizi; Başbakan'ımızın yüksek müsaadeleriyle birkaç kelam etmek isterim.
- 
+
 Kurtarma çalışmaları esnasında gerek siyasi partilerin sözcülerinden, gerekse sosyal medyada görüşlerini belirten internet kullanıcılarından sıkça duyduğumuz bir cümle vardı: <strong>"Siyaset yapmayın."</strong> Hayır efendim! Bilakis iş kazaları siyasidir. (Siyaset: Devlet işlerini düzenleme ve yürütme sanatıyla ilgili özel görüş veya anlayış.) Zaten bu nedenle birçok kişi tarafından <strong>iş cinayeti</strong> olarak telaffuz edilmektedir. Kaza ise; önceden alınacak tedbirlerle tamamen ortadan kaldırılabilir ya da hem zararları hem de sıklığı azaltılabilir bir olgudur. Eğer ortada bu kadar büyük acılara sahip bir kaza varsa, elbette bu kaza siyasetle ilintili midir, değil midir, tartışılacaktır.
 
 Bu tartışmadan önce, şu "siyaset yapma"ya değinmek gerekir. Yukarıdaki siyaset tanımı uyduruk bir tanım değildir. Bizzat Türk Dil Kurumu'ndan alınmış bir tanımdır. Tanımda sözü geçen "devlet işleri", doğası gereği tüm toplumu alakadar eden bir olgudur. Çünkü devlet işlerindeki bir düzenleme, tüm toplumu etkileyecektir. Dikkat edilmesi gereken nokta, siyasi parti ve siyasi düşünce ayrımıdır. Siyasi partiler belirli siyasi görüşler çevresinde toplanmış, görüşlerini icraata dökmeye aday yapılardır. Siyasi düşünce ise sadece görüşlerden ve yöntemlerden ibarettir. Bir eylemi gerçekleştirme amacı gütmez, sadece fikir verir. Erdoğan tarafından sıklıkla dillendirilen "Siyaset yapacaksanız bırakın görevinizi, siyasete girin." düşüncesi bu yüzden tezattır. Demokrasilerde, hele hele <em>ileri demokrasilerde</em> siyasi bir görüş belirtmek için siyasi parti üyesi olmak ya da siyasi bir düşünceye bağlı olmak zorunlu değildir. Toplumu ilgilendiren her konu üzerinde, her bireyin söz söylemeye hakkı vardır. Bu hakkı kullanmak için de kimse kimseden izin almaz. O an bir siyasi partide olmaması da susmasını gerektirmez. İleri demokrasimizin kurucusu Erdoğan bunları pek bilmiyor kanısındayım. Eğer bilmesine rağmen bu tavırlarına devam ediyorsa o zaman vay halimize.
@@ -21,7 +20,7 @@ Bu tartışmadan önce, şu "siyaset yapma"ya değinmek gerekir. Yukarıdaki siy
 Süreç boyunca gördüğüm kadarıyla en serin kanlı olabilen Taner Yıldız'dı. İlk günlerde duyamasak bile sorumluların mutlaka titizlikle aranacağını ve yasalara göre cezalandırılacağını duymak yanan yüreklerimize bir nebze olsun su serpti. Doğal olan da; maden patronundan tutun da, mühendislerinden çalışanlarına kadar kazaya doğrudan ya da dolaylı olarak sebep olan herkesi yargılanmasıdır. Nitekim soruşturmalar bu bağlamda başladı. Şu andan sonra biz sıradan vatandaşların yapması gereken kurumlarımıza güvenmekten başka bir şey değil. Ama asıl merak ettiğim, 12 yıldır iktidarda olan bir partinin bu kazadan sorumlu olup olmadığını nasıl anlayacağımızdır. Çünkü iktidarı yargılayabilecek bir mercii ülkemizde yok.
 
 Erdoğan meydanlarda her fırsata kendilerini halkın yargılayacağını söylüyor. Ancak yargıç olmanız için delillere ulaşabilme şansınızın olması gerekir. Dava dosyasını, savcının iddianamesini, avukatların savunmalarını biliyor olmanız gerekir. Gerekli adli verilerin elinizde hazır bulunması gerekir. Fakat bunların hiçbiri vatandaşlarda yokken biz nasıl siyasi partileri sandıkta yargılayabiliriz? Demokrasi tarihi bundan daha yanlış bir söylem ne duymuş ne de görmüştür. <strong>Sandık seçim yeridir, yargılama değil. Biz de seçmenleriz, yargıç değil.</strong> Burada kesinlikle "AKP hükümeti suçludur." demiyorum. Çünkü böyle bir şeyi deme yetkisine sahip değilim. Bir suçlunun suçlu ilan edilebilmesi için bir mahkeme olması, adil yargılama olması, savunma hakkı olması gibi birçok hukuksal zorunluluklar vardır.
- 
+
 Bir diğer tartışma da hatırlarsınız yaşam odalarıydı. Maden yetkilileri kanun ve yönetmeliklerde böyle bir zorunluluk olmadığını söylediler ve bu konuda haklılar. Bu nedenle maden sahipleri yaşam odaları oluşturmadıkları nedeniyle suçlanamazlar. Sadece yaşam odasını baz aldığımızda sonuç bu. Yaşam odalarıyla ilgili sorumluluk öncelikle mevcut hükümetin ve ondan sonra da geçmişteki tüm siyasi iktidarlarındır. Çünkü Türkiye'de yasaları ve mevzuatları Uganda Cumhurbaşkanı belirlemez. Guatemala Başkanı da bu durumdan bihaberdir. Türkiye'de yasalar TBMM tarafından yapılır. Çalışanların sağlıklarını da birincil olarak Çalışma ve Sosyal Güvenlik Bakanlığı düşünmekle yükümlüdür. Çıkartılması büyük bir faciayı önleyecek, hem Avrupa'da hem de dünyada birçok örneği olan kanunu çıkarmamak sadece basiretsizliktir.
 
 Sonuca odaklanırsak ve kazaları nasıl önleyeceğimizi kendimize sorarsak bu nedenlerle çıkmaza düştüğümüz görülür. Çünkü maden sahibi yasalara uymuştur. Maden bizzat devletin yaptığı denetlemelerden geçmiştir. Hükümet de yasaları çağa uygun olarak hazırlama zorunluluğu içerisinde değildir. Bundan kastettiğim; yasalar ve yönetmelikler güzelce hazırlanmadığında kimsenin suçlanamayacağıdır. Peki bu kadar can neden bugün aramızda yok? Bu kadar çocuk neden öksüz, bu kadar ana neden evlatsız ve bu kadar kadın neden hayat arkadaşsız bir halde kaldı? Buradaki sorunu gelecekte çözebilmemiz için; toplumun her kesiminin fikirlerini her zaman belirtmesi gerekir. Bu HSYK Başkanı da olabilir, STK temsilcisi de olabilir, manav Ahmet Ağabey de olabilir, taksici Ekrem de olabilir.

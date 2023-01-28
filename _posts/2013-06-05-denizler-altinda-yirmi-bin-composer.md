@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Denizler Altında Yirmi Bin Composer"
-date:   2013-06-05 19:00
+title: "Denizler Altında Yirmi Bin Composer"
+date: 2013-06-05 19:00
 categories: [Turkish, Coding]
-tags: php, paket yöneticisi, composer nedir, neden kullanılır
-meta: php, paket yöneticisi, composer nedir, neden kullanılır
-author: ozziest
+keywords: php, paket yöneticisi, composer nedir, neden kullanılır
+author: Özgür Adem Işıklı
 ---
 
 > Önemli Not: Bu yazı temel Composer bilgisi olanlar içindir. Eğer Composer’ı hiç duymadıysanız [buraya](https://web.archive.org/web/20140816200545/https://getcomposer.org/) ve [buraya](https://web.archive.org/web/20140906052958/http://www.cangelis.com/php-composer-nedir-nasil-kullanilir/) tıklayarak hakkında detaylı bilgi edinebilirsiniz.
@@ -45,4 +44,3 @@ Eğer aynı sistemi paket tabanlı olarak tasarlarsanız, hatayı tespit ettiği
 Elbette her projede ortak olarak çalışabilecek bir paket tasarlamak düz kod yazmaktan daha zor. Bunun için SOLID prensiplerini çok iyi bilmek ve kod yazarken uygulayabilmek gerekiyor. Eğer bu konuda benim gibi üst düzey bir geliştirici değilseniz, yine de korkmayın. Zaman içerisinde öyle paketler geliştireceksiniz ki, bir başka yerde neden kullanılamadığını anladığınızda SOLID prensiplerini daha iyi anlayacaksınız.
 
 Yine de bu yöntemi kullandığınızda, ilk başta kaybettiğiniz zamanı telafi edebiliyorsunuz. Kendi deneyimlerinden yola çıkararak söylemem gerekirse, bir paketi 2-3 projede kullandığınızda %50-60 zaman tasarrufu sağlamanız mümkün.
-

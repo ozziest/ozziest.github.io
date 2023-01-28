@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Neden Yazmak Zorundayım?"
-date:   2016-10-26 18:00
+title: "Neden Yazmak Zorundayım?"
+date: 2016-10-26 18:00
 categories: [Turkish, Essays]
-tags: deneme
-meta: deneme
-author: ozziest
+keywords: deneme
+author: Özgür Adem Işıklı
 post_img: 08.jpg
 post_img_link: https://pixabay.com/en/france-french-revolution-civil-war-63022
 ---

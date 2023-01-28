@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "PL/SQL Nedir?"
-date:   2012-09-14 19:00
+title: "PL/SQL Nedir?"
+date: 2012-09-14 19:00
 categories: [Turkish, Coding]
-tags: plsql, nedir
-meta: plsql, nedir
-author: ozziest
+keywords: plsql, nedir
+author: Özgür Adem Işıklı
 ---
 
 Bilmeyenler için önce SQL‘in tanımından başlamakta yarar var. SQL (Structured Query Language, Yapılandırılmış Sorgluama Dili) veri tabanı işlemlerinde verileri yönetmek için kullanılan veritabanı yönetim sistemidir. Bir çok kişi tarafından bir programlama dili olarak da bilinir. Amacı veritabanı üzerinde işlem yapmaktır ve yardımcı bir dildir. Bir program yazamazsınız, yazdığınız program ve veritabanı arasındaki veri alışverişini yönetirsiniz.

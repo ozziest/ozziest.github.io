@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  "Eğitim Sisteminin Çöküşü"
-date:   2013-10-15 19:00
+title: "Eğitim Sisteminin Çöküşü"
+date: 2013-10-15 19:00
 categories: [Turkish, Essays]
-tags: eğitim sisteminin çöküşü
-meta: eğitim sisteminin çöküşü
-author: ozziest
+keywords: eğitim sisteminin çöküşü
+author: Özgür Adem Işıklı
 ---
 
-
-Bunun çok iddialı bir cümle olduğunun farkındayım. Bir nefeste ağızdan çıkar bir söz değil, aksine yıllarca süren öğrencilik deneyimlerimin ve aldığım sözüm ona formasyonun sonucu. Ben muhtelif devlet okullarında eğitim görmüş, meslek lisesi geçmişi  olan, lisans düzeyinde pedagojik formasyon eğitimi almış ancak hiç bir zaman bir devlet kurumunda öğretmenlik yapmamış bir öğretmen olarak bu yazıyı kalem alıyorum.
+Bunun çok iddialı bir cümle olduğunun farkındayım. Bir nefeste ağızdan çıkar bir söz değil, aksine yıllarca süren öğrencilik deneyimlerimin ve aldığım sözüm ona formasyonun sonucu. Ben muhtelif devlet okullarında eğitim görmüş, meslek lisesi geçmişi olan, lisans düzeyinde pedagojik formasyon eğitimi almış ancak hiç bir zaman bir devlet kurumunda öğretmenlik yapmamış bir öğretmen olarak bu yazıyı kalem alıyorum.
 
 Tüm öğrenim hayatım boyunca ve özellikle öğretmenlik hayatımda eğitimi hep sorguladım. Üniversite yıllarımda bir akademisyen sınıfı nasıl canlı tutacağımızı bize anlatırken, sınıfın yarısının uyuduğunu kendi gözlerimle gördüm. Öğrendiğim tüm bilgileri küçük kardeşim üzerinde bire bir deneme şansım oldu. Üniversitenin duvarları ve de kitapları yetmediğinde daha başka eğitim method ve tekniklerini araştırdım. İş hayatına girdiğimde de insanoğlunun öğrenmesi üzerine farklı gözlemlerim oldu ve bu süreç hala devam ediyor. Ancak tüm bu süreç genel bir kanı oluşturmaya yeterli geldi.
 

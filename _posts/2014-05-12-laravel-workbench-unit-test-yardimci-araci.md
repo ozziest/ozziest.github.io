@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Laravel Workbench Unit Test Yardımcı Aracı"
-date:   2014-05-12 21:00
+title: "Laravel Workbench Unit Test Yardımcı Aracı"
+date: 2014-05-12 21:00
 categories: [Turkish, Coding]
-tags: laravel, php, unit, test workbench, package, testcase
-meta: laravel, php, unit, test workbench, package, testcase
-author: ozziest
+keywords: laravel, php, unit, test workbench, package, testcase
+author: Özgür Adem Işıklı
 ---
 
 **Laravel** üzerinde geliştirme yaptığınız sırada yeni bir paket oluşturarak çalışmanız çoğu zaman yararınıza olacaktır. Bir işi yapan bir paket geliştirdiğinizde, paketi **composer** ve **packagist** yardımıyla yayınlayabilir ve dilediğiniz projenizde sadece composer üzerine ekleme yaparak yeniden kullanabilirsiniz. Bu nedenle paketlerle çalışmak oldukça önemlidir.
@@ -22,8 +21,7 @@ class TestCase extends Orchestra\Testbench\TestCase {
 }
 </code></pre>
 
-Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda, testiniz içinde doğrudan sınıflarınızı metotlarına ulaşmanız  mümkün olacaktır.
-
+Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda, testiniz içinde doğrudan sınıflarınızı metotlarına ulaşmanız mümkün olacaktır.
 
 <pre><code class="language-php">
     protected function getPackageProviders()
@@ -42,4 +40,3 @@ Provider ve Aliases tanımlamalarını da aşağıdaki şekilde yaptığınızda
 ## Cannot redeclare crypt_random_string() Hatası
 
 Eğer kurulumdan sonra bu hatayı aldıysanız kütüphanenin [buradan](https://github.com/orchestral/testbench#cannot-redeclare-crypt_random_string) kendi çözüm yöntemini deneyebilirsiniz. Ayrıca Laravel Türkiye Forumu‘ndan bu konuyla ilgili yürütülen [tartışmalardan](http://forum.laravel.gen.tr/viewtopic.php?id=547) yararlanabilirsiniz.
-

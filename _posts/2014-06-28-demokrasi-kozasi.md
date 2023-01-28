@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Demokrasi Kozası"
-date:   2014-06-28 18:00
+title: "Demokrasi Kozası"
+date: 2014-06-28 18:00
 categories: [Turkish, Essays]
-tags: demokrasi
-meta: demokrasi
-author: ozziest
+keywords: demokrasi
+author: Özgür Adem Işıklı
 ---
 
 Ülkemize baktığımızda, demokrasimizin henüz emekleme aşamasının ilerisinde olduğunu söylemek güç. Siyasetçilerimiz ezelden beri basit yöntem ve söylevler kullanmışlardır. Şüphesiz, bunda toplumumuzun entelektüel bilgi birikiminin kıtlığı da önemli bir etkendir. Bu yolculuk uzun ve zahmetli bir yolculuktur ve ne yazık ki yaşadığımız sorunların kısa vadede çözümü mümkün değildir. Uzun vadede yol alırken, günden güne uydurduğumuz ve yamadan öteye gidemeyen su üstü çözümler de bizi daha büyük bir bataklığa sürüklemektedir. Bataklıktan kurtulmak için öncelikle tutkumuzun sükunetine ihtiyacımız vardır.
@@ -22,4 +21,4 @@ Tabandan gelen bu görüşlerden sonra aday hakkındaki tartışma tamamen din o
 
 Eğer bir hedefe varmak için kullandığınız her yolun mübah olduğunu düşünüyorsanız, etik bir hayat anlayışınız yok demektir. Yolculuk sonunda sadece bulunduğunuz nokta değil, o noktaya nasıl ulaştığınız da, en az sonuç kadar önemlidir. Kendinize tuttuğunuz yolu göz ardı ederseniz, bugün bulduğunuz hiçbir çözümü yarına aktaramazsınız. Kurumsal bir kültürün oturmadığı, yöntemlerin duruma göre uydurularak uygulandığı her yapı günün birinde yıkılmaya mahkumdur. Yöneticiler gelip geçici, sistem kalıcıdır. Bu nedenle demokrasiler için yüzyıllarca süren düşünsel süreçler zorunludur.
 
-Demokrasi, bir kozadan kelebeğin çıkması gibidir; sabır gerektirir ve aceleye gelmez. Demokrasi yolunda ilerlemek istiyorsak bir an evvel tartışmayı bu Orta Çağ bakış açısından kurtarmalıyız. Daha sonra diğer alternatifleri ve yeterlilikleri tartışırız. 
+Demokrasi, bir kozadan kelebeğin çıkması gibidir; sabır gerektirir ve aceleye gelmez. Demokrasi yolunda ilerlemek istiyorsak bir an evvel tartışmayı bu Orta Çağ bakış açısından kurtarmalıyız. Daha sonra diğer alternatifleri ve yeterlilikleri tartışırız.

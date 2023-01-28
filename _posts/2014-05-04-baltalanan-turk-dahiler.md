@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Baltalanan Türk Dahiler"
-date:   2014-05-04 18:00
+title: "Baltalanan Türk Dahiler"
+date: 2014-05-04 18:00
 categories: [Turkish, Essays]
-tags: türkler, dahiler, eğitim
-meta: türkler, dahiler, eğitim
-author: ozziest
+keywords: türkler, dahiler, eğitim
+author: Özgür Adem Işıklı
 ---
 
 Einstein'ın, Steve Jobs'un ya da Beethoven'ın bir Türk olduğunu düşünün. Anadolu'nun herhangi bir şehrinde doğduklarını ve göçle birlikte İstanbul'a yerleştiklerini hayal edin. Bugün biz hâlâ bu insanların adını biliyor olur muyduk Cevap: "Hayır." Bu konuda oldukça eminim. Gelin yakından inceleyelim.

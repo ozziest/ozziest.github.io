@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Ücretsiz Monitoring Hizmeti: Uptime Robot"
-date:   2015-06-06 13:00
+title: "Ücretsiz Monitoring Hizmeti: Uptime Robot"
+date: 2015-06-06 13:00
 categories: [Turkish, Coding]
-tags: monitoring, uptime, robot, ücretsiz
-meta: monitoring, uptime, robot, ücretsiz
-author: ozziest
+keywords: monitoring, uptime, robot, ücretsiz
+author: Özgür Adem Işıklı
 ---
 
 Sizlere son dönemde karşılaştığım ve doğrudan kullanmaya başladığım bir online uygulmadan bahsetmek istiyorum; [Uptime Robot](https://uptimerobot.com)
@@ -17,10 +16,10 @@ Bu hizmet aracılığı ile ücretsiz olarak (50 adete kadar) monitoring hizmeti
 Eğer 50 adet tanımlamadan daha fazlasına ihtiyacınız varsa oldukça makul fiyatlara daha yüksek kapasiteli hizmetler alabiliyorsunuz. **Uptime Robot** aracılığı ile yapabileceğiniz monitoring işlemleri şu şekilde;
 
 - HTTP(s) Monitoring
-- HTTP(s) Keyword Checking 
+- HTTP(s) Keyword Checking
 - Ping Monitoring
 - Port Monitoring
 
-Ücretsiz sürümde herhangi bir **DOWN** anında size e-posta aracılığı ile bilgilendirme yapıyor. Eğer SMS ile bilgilendirme almak istiyorsanız ücretli sürümlere geçmeniz gerekiyor. Ancak ücretsiz hali bile bir çok işletmenin işini görebilecek şekilde tasarlanmış. 
+Ücretsiz sürümde herhangi bir **DOWN** anında size e-posta aracılığı ile bilgilendirme yapıyor. Eğer SMS ile bilgilendirme almak istiyorsanız ücretli sürümlere geçmeniz gerekiyor. Ancak ücretsiz hali bile bir çok işletmenin işini görebilecek şekilde tasarlanmış.
 
 Kullanın, kullandırın.

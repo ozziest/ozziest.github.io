@@ -1,18 +1,17 @@
 ---
 layout: post
-title:  "AngularJS Cache Problemi Ve Çözüm Önerisi"
-date:   2015-10-25 21:00
+title: "AngularJS Cache Problemi Ve Çözüm Önerisi"
+date: 2015-10-25 21:00
 categories: [Turkish, Coding]
-tags: angularjs, cache, çözüm önerisi, cache sorunu
-meta: angularjs, cache, çözüm önerisi, cache sorunu
-author: ozziest
+keywords: angularjs, cache, çözüm önerisi, cache sorunu
+author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
 
-AngularJS kullanarak çok güçlü web uygulamaları geliştirmeniz mümkün. Ancak ***html*** ya da ***javascript*** yüklemeleri genellikle tarayıcılar tarafından ön bellekte tutularak, uygulamanızın performansının arttırılması sağlanmaktadır. 
+AngularJS kullanarak çok güçlü web uygulamaları geliştirmeniz mümkün. Ancak **_html_** ya da **_javascript_** yüklemeleri genellikle tarayıcılar tarafından ön bellekte tutularak, uygulamanızın performansının arttırılması sağlanmaktadır.
 
-Fakat uygulamalar sabit değildir ve sürekli geliştirilir. Siz, bir dosyanın yapısını değiştirdiğinizde, ilgili dosya eğer kullanıcının tarayıcısda ön bellekte tutuluyorsa, kullanıcı bu son değişikliği alamayacaktır. Bu tür durumları çözmek için ilk yapılan, cache özelliğini ***tamamen*** ortadan kaldırmaktadır.
+Fakat uygulamalar sabit değildir ve sürekli geliştirilir. Siz, bir dosyanın yapısını değiştirdiğinizde, ilgili dosya eğer kullanıcının tarayıcısda ön bellekte tutuluyorsa, kullanıcı bu son değişikliği alamayacaktır. Bu tür durumları çözmek için ilk yapılan, cache özelliğini **_tamamen_** ortadan kaldırmaktadır.
 
 <pre><code class="language-markup">
 &lt;html ng-app="MyApp"&gt;
@@ -30,13 +29,13 @@ Fakat uygulamalar sabit değildir ve sürekli geliştirilir. Siz, bir dosyanın 
 &lt;/html&gt;
 </code></pre>
 
-Ancak bu yöntemle, her içerik yeniden yüklenir. Bu da performansı düşüreceğinden, soruna başka bir yolla çözüm bulmamız gerekecektir. 
+Ancak bu yöntemle, her içerik yeniden yüklenir. Bu da performansı düşüreceğinden, soruna başka bir yolla çözüm bulmamız gerekecektir.
 
 #### Gulp İle Sürümleme
 
 Eğer Gulp (ya da Grunt) ile script dosyalarınızı birleştirme işi gerçekleştiriyorsanız, scriptlerinizi kolay bir şekilde versiyonlayabilmeniz mümkündür.
 
-Öncelikle, basit bir ***gulp task***'ı örnekleyelim;
+Öncelikle, basit bir **_gulp task_**'ı örnekleyelim;
 
 <pre><code class="language-js">
 gulp.task('example-task', function () {
@@ -52,9 +51,9 @@ gulp.task('example-task', function () {
 });
 </code></pre>
 
-Bu ***gulp task***'ı, javascript dosyalarımızı birleştiriyor ve `scripts.min.js` adıyla `public_html/dist/js` klasörü içerisine kaydediyor. Bu görevi otomatikleştirerek, her script kaydedildikten sonra tetiklemeniz mümkün. Bizim ilgilendiğimiz konus ise; birleştirilen bu scriptlerin sonuna ufak bir versiyon numarası dahil etmek.
+Bu **_gulp task_**'ı, javascript dosyalarımızı birleştiriyor ve `scripts.min.js` adıyla `public_html/dist/js` klasörü içerisine kaydediyor. Bu görevi otomatikleştirerek, her script kaydedildikten sonra tetiklemeniz mümkün. Bizim ilgilendiğimiz konus ise; birleştirilen bu scriptlerin sonuna ufak bir versiyon numarası dahil etmek.
 
-Bu işlem için [gulp-insert](https://github.com/rschmukler/gulp-insert) eklentisinden faydalanacağız. 
+Bu işlem için [gulp-insert](https://github.com/rschmukler/gulp-insert) eklentisinden faydalanacağız.
 
 <pre><code class="language-bash">
 $ npm install gulp-insert --save
@@ -78,7 +77,7 @@ gulp.task('default', function () {
 });
 </code></pre>
 
-***Gulp task***ımızı bu şekilde güncellediğimizde, her script derleme işlemi sonrası yenilenen bir versiyon numaramız olacaktır. Bu adımdan sonra tek yapmamız gereken; script yükleme işlemlerinde bu fonksiyonu kullanarak scriptleri versiyon numarasına göre çağırmaktır. 
+**_Gulp task_**ımızı bu şekilde güncellediğimizde, her script derleme işlemi sonrası yenilenen bir versiyon numaramız olacaktır. Bu adımdan sonra tek yapmamız gereken; script yükleme işlemlerinde bu fonksiyonu kullanarak scriptleri versiyon numarasına göre çağırmaktır.
 
 <pre><code class="language-markup">
 &lt;html ng-app="MyApp"&gt;
@@ -96,4 +95,4 @@ gulp.task('default', function () {
 &lt;/html&gt;
 </code></pre>
 
-Böylelikle; scriptler üzerinde yapılan her güncelleme sonrası yeni bir versiyon numarası oluşur. Uygulama içerisinde yüklenen ***html*** ya da ***javascript*** dosyaları ilgili versiyon numarasına göre alındığından daha önceden yüklenmemiş versiyonlar tarayıcı tarafından bir daha yüklenmez. Böylelikle yapılan güncellemeler sonrası bir defa yeniden yükleme işlemi gerçekleştirilir.
+Böylelikle; scriptler üzerinde yapılan her güncelleme sonrası yeni bir versiyon numarası oluşur. Uygulama içerisinde yüklenen **_html_** ya da **_javascript_** dosyaları ilgili versiyon numarasına göre alındığından daha önceden yüklenmemiş versiyonlar tarayıcı tarafından bir daha yüklenmez. Böylelikle yapılan güncellemeler sonrası bir defa yeniden yükleme işlemi gerçekleştirilir.

@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Laravel'de Migrasyona Ne Gerek Var?"
-date:   2014-05-01 19:00
+title: "Laravel'de Migrasyona Ne Gerek Var?"
+date: 2014-05-01 19:00
 categories: [Turkish, Coding]
-tags: php, laravel, migrasyon, veritabanı, versiyon, taşıma, migration
-meta: php laravel migrasyon veritabanı versiyon taşıma migration
-author: ozziest
+keywords: php, laravel, migrasyon, veritabanı, versiyon, taşıma, migration
+author: Özgür Adem Işıklı
 ---
 
-*“Biz yıllardır phpmyadmin ile veritabanı dizayn etmiş adamız. Eski köye yeni adet getiriyorlar. MVC falan, bunlar bir takım dış mihrakların uydurduğu şeyler. Kendi framework’ümde gül gibi kod yazıyorum. Bir kere daha güvenli. Bir de alışkanlık var tabi. Öğrenmek için ayıracak vakit yok.”*
+_“Biz yıllardır phpmyadmin ile veritabanı dizayn etmiş adamız. Eski köye yeni adet getiriyorlar. MVC falan, bunlar bir takım dış mihrakların uydurduğu şeyler. Kendi framework’ümde gül gibi kod yazıyorum. Bir kere daha güvenli. Bir de alışkanlık var tabi. Öğrenmek için ayıracak vakit yok.”_
 
 Bu duyduklarınız size bir yerlerden tanıdık gelebilir. Şuan bir web uygulaması geliştirirken hiç bir yardımcı araçtan yararlanmıyor olabilirsiniz. Ama buna bir son vermek zorundasınız. Bilmemek ayıplanamaz ama sürekli bilmiyor olmak ve yeni şeylere karşı çıkmak ağır bir saplantıdır.
 
@@ -48,4 +47,3 @@ Temsili Migrasyon Çalıştırılması
 Siz migrasyonları ne kadar çalıştırırsanız çalıştırın, Laravel her seferine aynı kodları tekrardan çalıştırmaz. Migrasyonların daha önce çalıştırılıp çalıştırılmadığını kendi kontrol eder ve böylelikle veri tabanınız güncel kalır. 5 kişilik bir ekipte isteyen geliştirici istediği değişikliği bu yolla yapabilir. Tek yapılması gereken pull yapıldıktan sonra (versiyon kontrol sistemi kullandığınızı varsayıyorum) migrasyonların çalıştırılmasıdır. Gerisini Laravel’e bırakın.
 
 Ayrıca hazır olarak alıp kullandığınız bazı kütüphaneler de veritabanı yapılarını migrasyonlar içerisinde tanımlamışlardır. (Bknz: Sentry Kütüphanesinin 4. Kurulum Adımı)
-

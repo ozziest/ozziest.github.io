@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Fast Route Kütüphanesi"
-date:   2015-04-17 08:30:28
+title: "Fast Route Kütüphanesi"
+date: 2015-04-17 08:30:28
 categories: [Turkish, Coding]
-tags: fast router, php, router, rota, url, packages
-meta: fast router, php, router, rota, url, packages
-author: ozziest
+keywords: fast router, php, router, rota, url, packages
+author: Özgür Adem Işıklı
 ---
 
 Geçtiğimiz aylarda [Symfony/Routing İle Rotalarınızı Yönetin](/php/2015/02/04/symfony-routing-ile-rotalarinizi-yonetin.html) başlıklı bir yazı yayınlamıştım. O yazıda Symfony/Routing kütüphanesi ile PHP projelerinizde nasıl rotalama işlemi gerçekleştirebileceğinizden bahsetmiştim. Ancak bu yazıda, bir başka rotalama kütüphanesine değineceğim; [Fast Route](https://github.com/nikic/FastRoute)
@@ -43,4 +42,3 @@ switch ($routeInfo[0]) {
 </code></pre>
 
 Eğer basit ama hızlı bir rota yapısı oluşturmak isterseniz bu kütüphane tam size göre. Repository üzerine gönderilen [commitleri](https://github.com/nikic/FastRoute/commits/master) incelediğimizde ise yazıyı yazdığım anda hala aktif bir kütüphane olduğunu söyleyebiliriz.
-

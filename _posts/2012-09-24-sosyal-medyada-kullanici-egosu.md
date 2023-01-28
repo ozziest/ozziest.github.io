@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Sosyal Medyada Kullanıcı Egosu"
-date:   2012-09-24 19:00
+title: "Sosyal Medyada Kullanıcı Egosu"
+date: 2012-09-24 19:00
 categories: [Turkish, Essays]
-tags: sosyal medya, kullanıcı egosu
-meta: sosyal medya, kullanıcı egosu
-author: ozziest
+keywords: sosyal medya, kullanıcı egosu
+author: Özgür Adem Işıklı
 ---
 
 Sosyal medya etkisini her geçen gün ciddi bir oranda arttırmakta ve her alanda hayatımıza müdahil olmaktadır. Sosyal medyanın olmazsa olmazı kullanıcılar gün içerisinde terabaytlar mertebesinde veriyi sosyal ağlar aracılığı ile arkadaş ve takipçileriyle paylaşmakta, dünya üzerinde var olan sosyal ağ firmaları çok ciddi oranlarda kazanç sağlamaktadırlar. Sosyal medyanın bu denli yüksek orandaki gelişim hızı ve Kuzey Afrika’daki eylemlerde olduğu gibi insan hayatına yaptığı etkiler artık günümüzde başka soruları sormamızı zorunlu kılmıştır.
@@ -16,7 +15,7 @@ Bir çok yerde denk gelmişsinizdir ki; “Sosyal Medya Özgürlüktür.” slog
 
 #### Programcılar Neden Sosyal Medyayı Ortaya Çıkardı?
 
-İnternetin eski dönemleri TV sistemleri gibi tek taraflı yayın demekti. Web 2.0 adını verdiğimiz hale geldikten sonra kullanıcılar forumlar ve bloglar aracılığı ile veriler girmeye başladılar. Bunu sözlükler takip etti. Daha sonra kullanıcıların birbirleri ile etkileşimini üst düzeye taşıyan sosyal medya ağları ortaya çıktı. Bu sadece işin tarihsel süreci.  Ancak kırılma anı kesinlikle forumlardan sosyal etkileşimli ağlara geçiştir. İnsanlar forumlarda da yazı yazıyorlardı. MSN Messenger aracılığı ile durum güncellemesi yapıyorlardı. Ancak geri dönüt/etkileşim çok çok azdı. Sosyal ağlar Beğenilme özelliğini ortaya soktu ve internet dünyası bambaşka bir çağa geçti.
+İnternetin eski dönemleri TV sistemleri gibi tek taraflı yayın demekti. Web 2.0 adını verdiğimiz hale geldikten sonra kullanıcılar forumlar ve bloglar aracılığı ile veriler girmeye başladılar. Bunu sözlükler takip etti. Daha sonra kullanıcıların birbirleri ile etkileşimini üst düzeye taşıyan sosyal medya ağları ortaya çıktı. Bu sadece işin tarihsel süreci. Ancak kırılma anı kesinlikle forumlardan sosyal etkileşimli ağlara geçiştir. İnsanlar forumlarda da yazı yazıyorlardı. MSN Messenger aracılığı ile durum güncellemesi yapıyorlardı. Ancak geri dönüt/etkileşim çok çok azdı. Sosyal ağlar Beğenilme özelliğini ortaya soktu ve internet dünyası bambaşka bir çağa geçti.
 
 #### İnsan Beğenilmek İster!
 
@@ -37,4 +36,3 @@ Hayır! Sosyal medyada ben, sen ve öteki yani hepimiz kendimizi ambalajladık! 
 Kısacası tükettik ve her gün internette kirlilik oluşturduk. Olduğumuz değil, olmak istediğimiz profilleri paylaştık. Aslında günden güne daha da hiçleşirken kendimizi dev gibi gördük. Dinlediğimiz müziğin reklamını yapmadıktan sonra bir manası kalmadı artık. Check-in yapılmayan, tweet atılmayan organizasyonlar bizi mutlu etmemekte bugün. Biz koca bir yanılgının içinde “mutlu” ama “boş” bireyler olmaktan öteye gitmiyoruz.
 
 Cidden biz, eskiye nazaran artık daha da hiçleşiyoruz. Sosyal medya kişiliğimizi bizim elimizden aldı ve kendimize yabancılaştık.
-

@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#5 Linux'ta Klasör Eşitleme"
-date:   2017-01-20 22:30
+title: "#5 Linux'ta Klasör Eşitleme"
+date: 2017-01-20 22:30
 categories: [Turkish, Notes]
-tags: linux, klasör, eşitleme, senkronizasyon
-meta: linux, klasör, eşitleme, senkronizasyon
-author: ozziest
+keywords: linux, klasör, eşitleme, senkronizasyon
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---

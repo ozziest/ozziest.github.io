@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Teknik Öğretmen Eleştirisi"
-date:   2013-08-04 19:00
+title: "Teknik Öğretmen Eleştirisi"
+date: 2013-08-04 19:00
 categories: [Turkish, Essays]
-tags: teknik öğretmen, eleştiri
-meta: teknik öğretmen, eleştiri
-author: ozziest
+keywords: teknik öğretmen, eleştiri
+author: Özgür Adem Işıklı
 ---
 
 Merhaba,
@@ -25,4 +24,3 @@ Ben yazılımı sevdiğim için, kendimi üniversitenin verdiği eğitimin üzer
 Ancak bu süreçte, arkadaşlarımın olması gereken bilgi birikimine sahip olmadıklarını da çok iyi biliyorum. Evet arkadaşlarım atanacaklar, ellerinden gelen en iyi şekilde öğrencilere verimli olmaya çalışacaklar bundan şüphem yok. Ancak memur mantığıyla bu işin yürümediğini bizzat kendi lisans öğrenimimde deneyimledim. Bir kaç sayılı hoca dışında, çoğu hocamızın gerçekte ne kadar nitelikli olduğumuzla ilgisi yoktu benim gözlemlerime göre. İşin daha da kötüsü, bir çok arkadaşım da bunu umursamadı. Daha öğrencilik yıllarında memur zihniyetine bürünmüş, bir şekilde işi yüzdürürüz psikolojisiyle hareket ediyorlardı.
 
 Dilerim arkadaşım bu atanamama süresince bu mantıktan kurtulmuşlardır ve atandıklarında bu ülkeye faydalı birer öğretmen olurlar. Gördüğüm o ki; aylardır tweet atmadık millet vekili ya da bakan bırakmadılar. Keşke bu eforlarını lisans yıllarında da görebilseydik. Çoğu atama dahi beklemeden özel sektörde iş imkanı bulabilirlerdi.
-

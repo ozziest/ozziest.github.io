@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#8 Enum Veri Tiplerinin Serileştirilmesi"
-date:   2017-05-05 20:00
+title: "#8 Enum Veri Tiplerinin Serileştirilmesi"
+date: 2017-05-05 20:00
 categories: [Turkish, Notes]
-tags: csharp, enum, serialization
-meta: csharp, enum, serialization
-author: ozziest
+keywords: csharp, enum, serialization
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---

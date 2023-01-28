@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#11 Entity Framework Query Logging"
-date:   2018-01-05 20:00
+title: "#11 Entity Framework Query Logging"
+date: 2018-01-05 20:00
 categories: [English, Notes]
-tags: csharp, entity framework, logging, ef, database, query
-meta: csharp, entity framework, logging, ef, database, query
-author: ozziest
+keywords: csharp, entity framework, logging, ef, database, query
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---
@@ -14,7 +13,7 @@ post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 
 ### Introduction
 
-Although Entity Framework is not my favorite ORM library, I have to use it when I develop a .Net application. This is a ***quick note*** about how can you create a logging with the queries created by EF.
+Although Entity Framework is not my favorite ORM library, I have to use it when I develop a .Net application. This is a **_quick note_** about how can you create a logging with the queries created by EF.
 
 ### Example
 

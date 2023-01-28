@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "GitLab CI/CD İle AWS Üzerinde Ölçeklenebilir Uygulama Yayınlama"
-date:   2019-10-20 15:00
+title: "GitLab CI/CD İle AWS Üzerinde Ölçeklenebilir Uygulama Yayınlama"
+date: 2019-10-20 15:00
 categories: [Turkish, Coding, Presentation]
-tags: gitlab, ci, ci, aws, scaling, runner
-meta: gitlab, ci, ci, aws, scaling, runner
-author: ozziest
+keywords: gitlab, ci, ci, aws, scaling, runner
+author: Özgür Adem Işıklı
 post_img: 31.jpg
 post_img_link: https://pixabay.com/photos/container-port-loading-stacked-3118783
 ---
@@ -16,9 +15,9 @@ post_img_link: https://pixabay.com/photos/container-port-loading-stacked-3118783
 
 Şu an dünya üzerindeki internet kullanıcısı sayısı 4.39 milyardan daha fazla [[1](https://wearesocial.com/blog/2019/01/digital-2019-global-internet-use-accelerates)]. Üstelik bu bir nefeste rahatlıka telaffuz ettiğimiz rakam, her geçen gün hızla artıyor. 2023 yılından sonra internete bağlı olan cihaz sayısının 50 milyarı geçeceği tahmin ediliyor [[2](https://www.statista.com/statistics/471264/iot-number-of-connected-devices-worldwide/)]. İnternet demek, temelde birbirine bağlı cihazların haberleşmesi, bilgi alış verişinde bulunması demektir. Bu nedenle geliştireceğimiz ya da geliştirmekte olduğumuz uygulamarın, kapsamları da önemli olmakla birlikte, bu denli yüksek potansiyel kullanıcıya hizmet verebilmesi oldukça ciddi bir sorun olmaya başlıyor.
 
-Yazılım geliştirme ekosisteminde ölçeklendirme, yukarıdaki paragrafta bahsettiğimiz bu sorunun çözümü için gerekli olan yöntem ve tekniklerin bütünü olarak nitelendirilebilmektedir. WikiPedia'da kullanılan tanıma göre ***ölçeklendirme; artan iş yüküne cevap verebilmek için mevcut sisteme daha fazla kaynak eklenmesi özelliğidir*** [[3](https://en.wikipedia.org/wiki/Scalability)]. Web sunucuları özelinde mesele ele alındığında, web sunucusunun daha fazla isteğe cevap verebilmesi beklenmektedir. Ölçeklendirmeyi yatay ve dikey (horizontal,vertical) olarak iki farklı türde yapabiliriz. Ya mevcut bir sunucuya direkt olarak daha fazla donanımsal kaynak ekleriz ya da daha aynı sunucunun daha fazla yan yana koyarak isteklere sırayla cevap vermelerini bekleriz. 
+Yazılım geliştirme ekosisteminde ölçeklendirme, yukarıdaki paragrafta bahsettiğimiz bu sorunun çözümü için gerekli olan yöntem ve tekniklerin bütünü olarak nitelendirilebilmektedir. WikiPedia'da kullanılan tanıma göre **_ölçeklendirme; artan iş yüküne cevap verebilmek için mevcut sisteme daha fazla kaynak eklenmesi özelliğidir_** [[3](https://en.wikipedia.org/wiki/Scalability)]. Web sunucuları özelinde mesele ele alındığında, web sunucusunun daha fazla isteğe cevap verebilmesi beklenmektedir. Ölçeklendirmeyi yatay ve dikey (horizontal,vertical) olarak iki farklı türde yapabiliriz. Ya mevcut bir sunucuya direkt olarak daha fazla donanımsal kaynak ekleriz ya da daha aynı sunucunun daha fazla yan yana koyarak isteklere sırayla cevap vermelerini bekleriz.
 
-Ölçeklendirmedeki asıl sorun maliyettir. Bir startup şirketi olarak yeni uygulama geliştirdiğinizi düşünün. Uygulamanızın potansiyel kullanıcısı 1 milyar. Bu potansiyel kullanıcıların hiç bir zaman uygulamanızı kullanmama ihtimali de olmasına karşın, gerçekleştiğinde onlara cevap verebilmeniz gerekmektedir. Eğer tüm ölçeklendirme sorunlarını kendi başımıza çözmeye kalkarsak, çok ciddi yatırımlar yapmak zorundayız. Tam da bu noktada yardımımıza bulut servis sağlayıcılar (Cloud Services Providers) koşmaktadır. 
+Ölçeklendirmedeki asıl sorun maliyettir. Bir startup şirketi olarak yeni uygulama geliştirdiğinizi düşünün. Uygulamanızın potansiyel kullanıcısı 1 milyar. Bu potansiyel kullanıcıların hiç bir zaman uygulamanızı kullanmama ihtimali de olmasına karşın, gerçekleştiğinde onlara cevap verebilmeniz gerekmektedir. Eğer tüm ölçeklendirme sorunlarını kendi başımıza çözmeye kalkarsak, çok ciddi yatırımlar yapmak zorundayız. Tam da bu noktada yardımımıza bulut servis sağlayıcılar (Cloud Services Providers) koşmaktadır.
 
 ### 2. Cloud Services Providers [1]
 
@@ -49,7 +48,7 @@ Dünyanın en kapsamlı ve yaygın kullanılan bulut platformudur. Hızlı büy�
 
 [mobilhanem](https://www.mobilhanem.com) üzerinde Salih Kardan tarafından AWS üzerinde yazılan bir yazıda şöyle bir pasaj geçmektedir;
 
-> *"AWS Servislerini kullanarak birçok yükten kendinizi kurtarmış oluyorsunuz. Sunucuların güvenliği, internet ulaşımı, elektriği vs gibi etkenleri hiç düşünmeden, uygulamanızı geliştirmeye odaklanabilirsiniz. AWS kullanarak uygulamalarınızı kısa süre içerisinde ayağa kaldırabilirsiniz ve kullandığınız kadar ödeme (pay as you go) ile harcamalarınızı azaltabilirsiniz."* [3]
+> _"AWS Servislerini kullanarak birçok yükten kendinizi kurtarmış oluyorsunuz. Sunucuların güvenliği, internet ulaşımı, elektriği vs gibi etkenleri hiç düşünmeden, uygulamanızı geliştirmeye odaklanabilirsiniz. AWS kullanarak uygulamalarınızı kısa süre içerisinde ayağa kaldırabilirsiniz ve kullandığınız kadar ödeme (pay as you go) ile harcamalarınızı azaltabilirsiniz."_ [3]
 
 Buradaki tanımlamaya dikkat ederseniz, bizim problem tanımımızda yer alan bir çok sorunun AWS tarafından çözülebildiği özellikle vurgulanmaktadır.
 
@@ -57,7 +56,7 @@ Buradaki tanımlamaya dikkat ederseniz, bizim problem tanımımızda yer alan bi
 
 GitLab'ın sitesinde yer alan tanım şu şekilde;
 
-> *GitLab yazılım geliştirme ekiplerinin bir yazılımı ortaklaşa geliştirebilmeleri için açık kaynak kodlu bir proje olarak başlatıldı. Endüstriyel bir standart haline gelen GitLab, tüm yazılım geliştirme süreçleri için ortak bir uygulama sunma amacını güdüyor. GitLab uygulamanızı yönetmek, planlamak, oluşturmak, doğrulamak, paketlemek, yayınlamak, konfigüre etmek, izlemek ve güvenli hale getirmek için ihtiyacınız olan her şeyi size tek bir çatı altında sunuyor.* [4]
+> _GitLab yazılım geliştirme ekiplerinin bir yazılımı ortaklaşa geliştirebilmeleri için açık kaynak kodlu bir proje olarak başlatıldı. Endüstriyel bir standart haline gelen GitLab, tüm yazılım geliştirme süreçleri için ortak bir uygulama sunma amacını güdüyor. GitLab uygulamanızı yönetmek, planlamak, oluşturmak, doğrulamak, paketlemek, yayınlamak, konfigüre etmek, izlemek ve güvenli hale getirmek için ihtiyacınız olan her şeyi size tek bir çatı altında sunuyor._ [4]
 
 Burada özellikle dikkat etmemiz gereken nokta **yayınlama** fonksiyonudur. GitLab, ürettiği çeşitli araçlarla birlikte, uygulamamızı yayınlama aşamasında yardımcı olabileceğini söylüyor. Biz de yazının ilerleyen bölümlerde GitLab'ın sağlamış olduğu bu araçlardan yararlanacağız.
 
@@ -77,7 +76,7 @@ GitLab Runner’ı herhangi bir makineye kurabilirsiniz. Söz konusu makine Digi
 
 #### 4.4. Docker Nedir?
 
-Docker'ın kendi sitesinde yer alan tanıma göre Docker; organizasyonların uygulmalarını derleyebileceği, paylaşabileceği ve  çalıştırabileceği tek bağımsız konteynır platformudur. [7] Ancak bu tanım ne yazık ki daha önce virtualization ya da conterization kelimelerini hiç duymamış pek çok insan için bir anlam ifade etmeyecektir. Bu nedenle biz de bu tanımı biraz daha genişletmek amacını güdüyoruz.
+Docker'ın kendi sitesinde yer alan tanıma göre Docker; organizasyonların uygulmalarını derleyebileceği, paylaşabileceği ve çalıştırabileceği tek bağımsız konteynır platformudur. [7] Ancak bu tanım ne yazık ki daha önce virtualization ya da conterization kelimelerini hiç duymamış pek çok insan için bir anlam ifade etmeyecektir. Bu nedenle biz de bu tanımı biraz daha genişletmek amacını güdüyoruz.
 
 [Ahmet Emre Aladağ](https://www.emrealadag.com/)'ın kendi blogunda yayınladığı [Docker Nedir?](https://www.emrealadag.com/docker-nedir.html) başlıklı makalesine baktığımızda ise Docker tanımı şu şekilde yapılıyor;
 
@@ -85,7 +84,7 @@ Docker'ın kendi sitesinde yer alan tanıma göre Docker; organizasyonların uyg
 
 Biz ise tüm bu tanımları birleştirmek için Docker'ın şöyle bir tanımını yapacağız;
 
-*Docker; 2008 yılında Linux çekirdeğine eklenen Linux Containers (LXC) teknolojisi üzerinde çalışan, yazılım ve sistem geliştiriciler tarafından kullanılabilen, klasik sanallaştırma yöntemlerine göre daha hızlı bir şekilde sanallaştırma imkanı sağlayan, uygulamalarımızı işletim sistemiyle ve ihtiyacı olan diğer bileşenlerle birlikte pakatleyebileceğimiz, dağıtabileceğimiz ve çalıştırabileceğimiz açık kaynaklı bir sanallaştırma platformudur.* [9]
+_Docker; 2008 yılında Linux çekirdeğine eklenen Linux Containers (LXC) teknolojisi üzerinde çalışan, yazılım ve sistem geliştiriciler tarafından kullanılabilen, klasik sanallaştırma yöntemlerine göre daha hızlı bir şekilde sanallaştırma imkanı sağlayan, uygulamalarımızı işletim sistemiyle ve ihtiyacı olan diğer bileşenlerle birlikte pakatleyebileceğimiz, dağıtabileceğimiz ve çalıştırabileceğimiz açık kaynaklı bir sanallaştırma platformudur._ [9]
 
 Son yaptığımız tanımdan da anlaşılabileceği üzere, bu makalede, **mavi-api** uygulamamızı Docker yardımıyla işletim sistemiyle birlikte paketleyecek, dağıtacak ve çalıştıracağız.
 
@@ -97,21 +96,21 @@ Uygulamamızı bir sunucu üzerinde yayınladığımızda, genelde şu şekilde 
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/01.png">
 </div>
 
-Burada kullanıcı, doğrudan tek bir makine üzerinde yayınladığımı bir uygulamaya erişir. Kullanıcı sayısı arttığında, doğru orantılı olarak sunucu üzerindeki CPU ve RAM kullanım miktarlarımızda artacaktır. Biz de buna paralel olarak daha fazla CPU ve RAM ekleyerek, artan yükü karşılamaya çalışırız. Bu yaptığımız işleme *Dikey Ölçekleme* adı verilir. [10]
+Burada kullanıcı, doğrudan tek bir makine üzerinde yayınladığımı bir uygulamaya erişir. Kullanıcı sayısı arttığında, doğru orantılı olarak sunucu üzerindeki CPU ve RAM kullanım miktarlarımızda artacaktır. Biz de buna paralel olarak daha fazla CPU ve RAM ekleyerek, artan yükü karşılamaya çalışırız. Bu yaptığımız işleme _Dikey Ölçekleme_ adı verilir. [10]
 
-Ancak bu tarz bir ölçeklemede çeşitli sınırlar vardır. Belirli bir noktadan sonra daha fazla CPU ve RAM eklememiz olanaksız hale gelir. Bu nedenle, *Yatay Ölçekleme* mimarisi kullanılır.
+Ancak bu tarz bir ölçeklemede çeşitli sınırlar vardır. Belirli bir noktadan sonra daha fazla CPU ve RAM eklememiz olanaksız hale gelir. Bu nedenle, _Yatay Ölçekleme_ mimarisi kullanılır.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/02.png">
 </div>
 
-Bu yaklaşımda, kullanıcı ilk olarak bir *Load Balancer (Yük Dengeleyici)* tarafından karşılandır. Daha sonra bu kullanıcı istekleri, arka tarafta bulunan **N** sayıdaki herhangi bir makineye iletilebilir. Bu şekilde, oldukça fazla bir yükü karşılayabilirsiniz. 
+Bu yaklaşımda, kullanıcı ilk olarak bir _Load Balancer (Yük Dengeleyici)_ tarafından karşılandır. Daha sonra bu kullanıcı istekleri, arka tarafta bulunan **N** sayıdaki herhangi bir makineye iletilebilir. Bu şekilde, oldukça fazla bir yükü karşılayabilirsiniz.
 
-*Ancak doğadaki hiçbir şey sonsuz güzellikte değildir ve hiçbir zaman hiçbir çözüm tüm problemleri sonsuza kadar çözemez.*
+_Ancak doğadaki hiçbir şey sonsuz güzellikte değildir ve hiçbir zaman hiçbir çözüm tüm problemleri sonsuza kadar çözemez._
 
-Bu şekilde bir mimari kurduğumuzu ve e-ticaret uygulamamızı bu mimari uygulamamızda çalıştırdığımızı düşünelim. Gündüz saatlerinde yükümüzün çok fazla olmasına rağmen, gece saatlerinde bu yük azalacaktır. Ancak sistemimizi yükün az olduğu zamana göre kuramayız. Bu nedenle geceleri çok fazla ihtiyacımız olmayan onlarca, belki de yüzlerde makineyi sistemimize dahil etmiş olacağız. Bir de, *Black Friday* gibi aşırı yoğunlukların yaşandığı dönemlerde, bu sisteme kolay bir şekilde yeni makineler ilave edemeyebiliriz. 
+Bu şekilde bir mimari kurduğumuzu ve e-ticaret uygulamamızı bu mimari uygulamamızda çalıştırdığımızı düşünelim. Gündüz saatlerinde yükümüzün çok fazla olmasına rağmen, gece saatlerinde bu yük azalacaktır. Ancak sistemimizi yükün az olduğu zamana göre kuramayız. Bu nedenle geceleri çok fazla ihtiyacımız olmayan onlarca, belki de yüzlerde makineyi sistemimize dahil etmiş olacağız. Bir de, _Black Friday_ gibi aşırı yoğunlukların yaşandığı dönemlerde, bu sisteme kolay bir şekilde yeni makineler ilave edemeyebiliriz.
 
-Sorunlar bununla da bitmez. Uygulamamızın yeni bir sürümü çıktığında, tüm makinelerde tek tek güncellenmesi çok zaman alacaktır. Ek olarak, tüm makinelerin güncellemelerinin yapılması ve çeşitli bakımlar da hem personel, hem zaman ve doğal olarak maliyet olarak karşımıza çıkar. 
+Sorunlar bununla da bitmez. Uygulamamızın yeni bir sürümü çıktığında, tüm makinelerde tek tek güncellenmesi çok zaman alacaktır. Ek olarak, tüm makinelerin güncellemelerinin yapılması ve çeşitli bakımlar da hem personel, hem zaman ve doğal olarak maliyet olarak karşımıza çıkar.
 
 En başta yaptığımız problem tanımını hatırlayın; biz küçük bir ekibiz ve çok fazla kaynağımız yok. Belki bir ihtimal bir milyon kullanıcı gelebilir diyerek bu kadar devasa masraflara katlanamayız.
 
@@ -127,13 +126,13 @@ Kurduladığımız mimariyi şu şekilde açıklayabiliriz;
 - GitLab CI/CD yapılandırması, bu sürümü GitLab Runner üzerinde Docker ile paketler ve işletim sistemiyle birlikte sanallaştırılan bu sürüm, AWS üzerinde bulunan ECR servisine gönderilir.
 - AWS üzerinde bulunan ECS'de, ECR üzerinde muhafaza ettiğimiz bu paketlenmiş uygulamayı, nasıl bir makinede çalıştırmak istediğimizi tanımlarız (Task Definition).
 - ECS üzerinde, nasıl bir cluster yapısına sahip olmak istediğimizi ve ne şartlarda bu cluster'a yeni bir makine ekleneceğini, ne şartlarda var olan makinelerin kaldırılacağını tanımlarız.
-- AWS üzerinde bir *Load Balancer* oluşturur ve burada topladığımız trafiği ECS üzerinde oluşturduğumuz Cluster'a yönlendiririz.
+- AWS üzerinde bir _Load Balancer_ oluşturur ve burada topladığımız trafiği ECS üzerinde oluşturduğumuz Cluster'a yönlendiririz.
 
 #### 6. Adım Adım Gerçekleştirme
 
 Buraya kadar yeterince, hatta gereğinden fazla konuştuk. Şimdi tüm adımları teker teker gerçekleştireceğiz.
 
-Öncelikle, [mavi-api](https://gitlab.com/iozguradem/mavi-api) dosyalarınızı lokal geliştirme ortamına indirebilirsiniz. 
+Öncelikle, [mavi-api](https://gitlab.com/iozguradem/mavi-api) dosyalarınızı lokal geliştirme ortamına indirebilirsiniz.
 
 {% highlight php %}
 $ git clone git@gitlab.com:iozguradem/mavi-api.git
@@ -202,12 +201,10 @@ Successfully built 0d2273eca2d3
 Successfully tagged mavi-api:latest
 </code></pre>
 
-*"Successfully tagged mavi-api:latest"* mesajını gördüğünüzde, uygulamanız başarılı bir şekilde dockerize edilmiş demekdir. Aşağıdaki komutla birlikte, kolaylıkla uygulamayı kendi bilgisayarınızda çalıştırabilirsiniz;
-
+_"Successfully tagged mavi-api:latest"_ mesajını gördüğünüzde, uygulamanız başarılı bir şekilde dockerize edilmiş demekdir. Aşağıdaki komutla birlikte, kolaylıkla uygulamayı kendi bilgisayarınızda çalıştırabilirsiniz;
 
 <pre><code class="language-bash">$ sudo docker run -p 8181:80 mavi-api
 </code></pre>
-
 
 Tarayıcı üzerinden `localhost:8181` adresine gittiğinizde, uygulamanın çalışan halini görebilirsiniz.
 
@@ -217,7 +214,7 @@ Tarayıcı üzerinden `localhost:8181` adresine gittiğinizde, uygulamanın çal
 
 #### 6.2. AWS Login
 
-Eğer henüz bir AWS hesabınız yoksa hemen oluşturabilirsiniz. Eğer hali hazırda bir AWS hesabınız varsa **console** oturup açarak, AWS servislerine ulaşabilirsiniz. 
+Eğer henüz bir AWS hesabınız yoksa hemen oluşturabilirsiniz. Eğer hali hazırda bir AWS hesabınız varsa **console** oturup açarak, AWS servislerine ulaşabilirsiniz.
 
 > Bu aşamadan sonra yapacağımız işlemler AWS'de ücrete tabi olabilir. Eğer herhangi bir ücret ödemek istemiyorsanız, yapmayınız. Eğer yapıyorsanız da, bu tamamen sizin sorumluluğunuzdadır.
 
@@ -229,7 +226,7 @@ AWS üzerinde oturum açtıktan sonra sizi bu şekilde bir ekran karşılayacakt
 
 #### 6.3. AWS ECR Repository Oluşturma
 
-Oturum açtıktan sonra, ECR servisinin sayfasına gidiniz. Daha önce hiç ECR içinde repository oluşturmamışsanız, *Create a Repository* bölümü altından *Get Started* diyebilirsiniz. Amacımız yeni bir repository oluşturmak. Açılan ekranda size repository adını girmeniz beklenmektedir. Bilgileri aşağıdaki gibi doldurarak **Create Repository** butonuna tıklayabilirsiniz;
+Oturum açtıktan sonra, ECR servisinin sayfasına gidiniz. Daha önce hiç ECR içinde repository oluşturmamışsanız, _Create a Repository_ bölümü altından _Get Started_ diyebilirsiniz. Amacımız yeni bir repository oluşturmak. Açılan ekranda size repository adını girmeniz beklenmektedir. Bilgileri aşağıdaki gibi doldurarak **Create Repository** butonuna tıklayabilirsiniz;
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/06.png">
@@ -249,7 +246,7 @@ Daha sonra, AWS size sahip olduğunuz repository listesini gösterecektir. Bu li
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/08.png">
 </div>
 
-Ancak *Set Permissions* adımında, *"Attach existing policies directly"* sekmesi altından, resimde görünen iki tane yetkiyi bu kullanıcıya vermeniz gerekiyor. Bu makeledeki işlemleri GitLab'a gerçekleştirebilmek için her iki yetkiye de ihtiyacımız var.
+Ancak _Set Permissions_ adımında, _"Attach existing policies directly"_ sekmesi altından, resimde görünen iki tane yetkiyi bu kullanıcıya vermeniz gerekiyor. Bu makeledeki işlemleri GitLab'a gerçekleştirebilmek için her iki yetkiye de ihtiyacımız var.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/09.png">
@@ -274,10 +271,9 @@ Bu değerleri, yeni bir kullanıcı oluşturduktan sonra AWS size verecektir. AW
 
 Bu aşamadan sonra GitLab, AWS'e erişebilecektir. Bunu nasıl yapacağımızı bir sonraki adımda görüyoruz.
 
-
 #### 6.5. GitLab CI/CD
 
-GitLab'da, varsayılan olarak oluşturulan her repository içerisinde GitLab'ın sağlamış olduğu *Shared Runner*'lar kullanılabiliyor. Ancak bunlara ne gibi işlemler yaptırmak istediğimizi, GitLab'a tarif etmek zorundayız. Bunun için, projenin ana dizininde, `.gitlab-ci.yml` isminde bir dosya oluşturmamız gerekiyor. Bu dosya içerisini aşağıdaki gibi doldurabilirsiniz;
+GitLab'da, varsayılan olarak oluşturulan her repository içerisinde GitLab'ın sağlamış olduğu _Shared Runner_'lar kullanılabiliyor. Ancak bunlara ne gibi işlemler yaptırmak istediğimizi, GitLab'a tarif etmek zorundayız. Bunun için, projenin ana dizininde, `.gitlab-ci.yml` isminde bir dosya oluşturmamız gerekiyor. Bu dosya içerisini aşağıdaki gibi doldurabilirsiniz;
 
 <pre><code class="language-yaml">stages:
   - deploy
@@ -317,7 +313,7 @@ Eğer bu kodu GitLab'a push'larsak, GitLab üzerinden bulunan CI/CD burada yazd�
 
 #### 6.6. Task Definition
 
-Artık ECR üzerinde muhafaza ettiğimiz bir Docker image'ı mevcut. Şimdi ise bu image'ın nasıl çalıştırılacağını tanımlayacağız. Bunun için AWS üzerinden ECS servisini bulacağız. Bu servisin detayında, **Task Definitions** bölümü altında gideceğiz ve yeni bir *Task Definition* tanımı yapacağız. Task Definition oluştururken, **Fargate** teknolojisini seçmemiz gerekiyor. Biz elimizden geldiğince bütün işi AWS'e yıkmak istiyoruz ve **Fargate** bunu bizim için gerçekleştiriyor. [11]
+Artık ECR üzerinde muhafaza ettiğimiz bir Docker image'ı mevcut. Şimdi ise bu image'ın nasıl çalıştırılacağını tanımlayacağız. Bunun için AWS üzerinden ECS servisini bulacağız. Bu servisin detayında, **Task Definitions** bölümü altında gideceğiz ve yeni bir _Task Definition_ tanımı yapacağız. Task Definition oluştururken, **Fargate** teknolojisini seçmemiz gerekiyor. Biz elimizden geldiğince bütün işi AWS'e yıkmak istiyoruz ve **Fargate** bunu bizim için gerçekleştiriyor. [11]
 
 Oluşturma ekranının ikinci aşamasında, genel bilgileri ve rolleri seçiyoruz. Bu aşamada her şeyi varsayılanlarda bırakabiliriz. Ancak dikkat etmeniz gereken, Memory ve CPU özelliklerini seçtiğimiz bölüm. Burada, her bir makine için ne kadarlık bir CPU ve Ram kullanacağımızı seçiyoruz. Bu değerleri dilediğiniz gibi seçebilirsiniz. Ancak ne kadar yüksek değerler seçerseniz, her bir makinenizin maliyeti o kadar fazla olacaktır.
 
@@ -325,13 +321,13 @@ Oluşturma ekranının ikinci aşamasında, genel bilgileri ve rolleri seçiyoru
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/13.png">
 </div>
 
-Aynı sayfanın hemen alt bölümünde, **Add Container** bölümü bizim için önemli. Az önce ECR üzerinde muhafaza etmeye başladığımız Docker image'ını, burada kullanacağımızı belirtmemiz gerekiyor. Bunun için *Add Container* butonuna tıklıyoruz ve sağ tarafta minik bir modal içerisinde aşağıdaki gibi bir tanım gerçekleştiriyoruz;
+Aynı sayfanın hemen alt bölümünde, **Add Container** bölümü bizim için önemli. Az önce ECR üzerinde muhafaza etmeye başladığımız Docker image'ını, burada kullanacağımızı belirtmemiz gerekiyor. Bunun için _Add Container_ butonuna tıklıyoruz ve sağ tarafta minik bir modal içerisinde aşağıdaki gibi bir tanım gerçekleştiriyoruz;
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/14.png">
 </div>
 
-Buradaki tanımlar bizim için yeterlidir. Diğer tüm özellikleri varsayılan değerleriyle bırakabiliriz. **Add** butonuna tıklayarak, bu container tanımımızı *Task Definition* içerisine dahil edebiliriz. Daha sonra tek yapmamız gereken **Create** butonuna tıklamak ve artık her bir makinemizin özelliklerinin nasıl olması gerektiğini tanımlamış olduk.
+Buradaki tanımlar bizim için yeterlidir. Diğer tüm özellikleri varsayılan değerleriyle bırakabiliriz. **Add** butonuna tıklayarak, bu container tanımımızı _Task Definition_ içerisine dahil edebiliriz. Daha sonra tek yapmamız gereken **Create** butonuna tıklamak ve artık her bir makinemizin özelliklerinin nasıl olması gerektiğini tanımlamış olduk.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/15.png">
@@ -345,7 +341,7 @@ Bu adımda, kullanıcıdan gelen istekleri karşılamak için bir **Load Balance
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/16.png">
 </div>
 
-Bu IP adresimizi Load Balancer'a tahsis edeceğiz. Load Balancer oluşturmak için, **Load Balancers** sekmesini kullanıyoruz. **Create New Load Balancer** menüsü üzerinden, yeni bir **Network Load Balancer** oluşturacağız. İlk adımda bir isim veriyoruz ve hangi portları dinleyeceğimizi seçiyoruz. SSL için 443 numaralı portu da dinleyebiliriz ancak biz şimdilik sadece 80 numaralı portu seçeceğiz. Daha sonra hangi *Availability Zones* üzerinde konuşlanacağımıza karar veriyoruz. Bu aşamada az önce ayırdığımız statik IP adresini de kullanabiliriz. Aşağıdaki gibi yapılandırmamızı yaptıktan sonra, bir sonraki aşamaya geçebiliriz. 
+Bu IP adresimizi Load Balancer'a tahsis edeceğiz. Load Balancer oluşturmak için, **Load Balancers** sekmesini kullanıyoruz. **Create New Load Balancer** menüsü üzerinden, yeni bir **Network Load Balancer** oluşturacağız. İlk adımda bir isim veriyoruz ve hangi portları dinleyeceğimizi seçiyoruz. SSL için 443 numaralı portu da dinleyebiliriz ancak biz şimdilik sadece 80 numaralı portu seçeceğiz. Daha sonra hangi _Availability Zones_ üzerinde konuşlanacağımıza karar veriyoruz. Bu aşamada az önce ayırdığımız statik IP adresini de kullanabiliriz. Aşağıdaki gibi yapılandırmamızı yaptıktan sonra, bir sonraki aşamaya geçebiliriz.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/17.png">
@@ -381,7 +377,7 @@ Cluster detay sayfasında, **Services** sekmesindeki **Create** butonuna tıklay
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/21.png">
 </div>
 
-Birinci adımda, **Configure Service** bölümü altında, çok temel servis ayarlarını yapıyoruz. Yine her zaman yaptığımız gibi **Fargate**'i seçiyoruz. Önceki adımlarda oluşturduğumuz **Task Definition**'ı bu bölümde seçiyoruz. Task definition'ın farklı sürümleri olabilir. Üzerinde yapılan her bir değişiklik bir sürümü temsil eder. Biz son sürümünü seçiyoruz. **Service Name** bölümüne *mavi-api-service* yazıyoruz. **Number of tasks** bölümünde, bu serviste kaç tane task çalıştırılacağını soruyor. Biz buraya şimdilik **1** yazabiliriz. Ancak 3. aşamada yapacağımız auto scaling ayarları sonrası buraya yazdığımız değer önemsiz hale gelecek. Geriye kalan her şeyi varsayılan haliyle bırakabiliriz ve sonraki adıma geçebiliriz.
+Birinci adımda, **Configure Service** bölümü altında, çok temel servis ayarlarını yapıyoruz. Yine her zaman yaptığımız gibi **Fargate**'i seçiyoruz. Önceki adımlarda oluşturduğumuz **Task Definition**'ı bu bölümde seçiyoruz. Task definition'ın farklı sürümleri olabilir. Üzerinde yapılan her bir değişiklik bir sürümü temsil eder. Biz son sürümünü seçiyoruz. **Service Name** bölümüne _mavi-api-service_ yazıyoruz. **Number of tasks** bölümünde, bu serviste kaç tane task çalıştırılacağını soruyor. Biz buraya şimdilik **1** yazabiliriz. Ancak 3. aşamada yapacağımız auto scaling ayarları sonrası buraya yazdığımız değer önemsiz hale gelecek. Geriye kalan her şeyi varsayılan haliyle bırakabiliriz ve sonraki adıma geçebiliriz.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/22.png">
@@ -403,7 +399,7 @@ Bu adımda son olarak **Enable service discovery integration** bölümündeki ch
 
 Üçüncü adımda, **Set Auto Scaling (optional)** başlığını göreceksiniz. İşte burası, ECS'in kalbidir. Bu bölümde, ne gibi şartlarda yeni makineler oluşturularak servise eklenecek, ne gibi şartlarda makine sayısı düşürülecek belirleyebiliyoruz.
 
-*"Configure Service Auto Scaling to adjust your service’s desired count"*, seçeneğini seçtiğimizde hemen aşağıda bir takım bilgiler girilmesi isteniyor. Bilgileri aşağıdaki gibi doldurabiliriz. Burada, en az kaç task'ımızın olması gerektiğine, kaç tane task çalıştırılmasını arzuladığımızı ve en fazla kaç task çalıştırabileceğimizi seçebiliyoruz.
+_"Configure Service Auto Scaling to adjust your service’s desired count"_, seçeneğini seçtiğimizde hemen aşağıda bir takım bilgiler girilmesi isteniyor. Bilgileri aşağıdaki gibi doldurabiliriz. Burada, en az kaç task'ımızın olması gerektiğine, kaç tane task çalıştırılmasını arzuladığımızı ve en fazla kaç task çalıştırabileceğimizi seçebiliyoruz.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/25.png">
@@ -449,9 +445,9 @@ Eğer her şey yolundaysa, Load Balancer'a bağladığınız IP adresinizi kulla
 
 #### 6.11 Auto Scaling Tetikleme
 
-Benim geliştirdiğimiz uygulamada, memory mikrarını arttırmak için özel olarak tasarladığım bir route var; `http://3.124.14.233/image`. Bu route'a gönderdiğiniz her istekten sonra, bir resim dosyası açılıyor ve içeriği bir diziye atılıyor. Her istekte dizi sürekli büyüdüğü için memory kullanımı da artıyor. Bu URL'e istek göndererek kullanılan RAM miktarını arttırdığımızda, belirlediğimiz *Auto Scaling Policy* gereği, yeni bir task daha ECS tarafından otomatik olarak oluşturulacaktır.
+Benim geliştirdiğimiz uygulamada, memory mikrarını arttırmak için özel olarak tasarladığım bir route var; `http://3.124.14.233/image`. Bu route'a gönderdiğiniz her istekten sonra, bir resim dosyası açılıyor ve içeriği bir diziye atılıyor. Her istekte dizi sürekli büyüdüğü için memory kullanımı da artıyor. Bu URL'e istek göndererek kullanılan RAM miktarını arttırdığımızda, belirlediğimiz _Auto Scaling Policy_ gereği, yeni bir task daha ECS tarafından otomatik olarak oluşturulacaktır.
 
-> Bizim hazırladığımız protokole göre, 5 dakika boyunca bu *yoğun bellek kullanımı* senaryosu devam etmek zorunda.
+> Bizim hazırladığımız protokole göre, 5 dakika boyunca bu _yoğun bellek kullanımı_ senaryosu devam etmek zorunda.
 
 <div class="flex justify-center pt-4 pb-4">
   <img class="rounded shadow-md" src="/images/posts/gitlab-ci-aws/32.png">
@@ -467,7 +463,7 @@ Yukarıdaki resimde de gördüğünüz gibi, bellek beklediğimizden üst seviye
 
 Buraya kadar yaptığımız işlemler bir seferlik işlemlerdi. Ancak bir nokta eksik kaldı, o da otomatik olarak yeni bir sürümün yayınlanması. Bu iş için GitLab'ın CI/CD teknolojisinden yararlanacağız.
 
-AWS bize komut satırından kullanılabilecek *aws-cli* aracını sağlıyor. Zaten bu araç vasıtası ile GitLab üzerinden uygulamamızı dockerize ederek ECR'e pushladık. Aynı aracı kullanarak, dilediğimiz servis için yeniden deployment yapılmasını isteyebiliyoruz. `.gitlab-ci.yml` dosyasındaki script bölümünün son satırına, aşağıdaki komutu da yazarsak, yeni image ECR'a yüklendikten sonra oluşturduğumuz servis için yeni bir deployment yapılması gerektiğini ECS'e söyleyebiliriz.
+AWS bize komut satırından kullanılabilecek _aws-cli_ aracını sağlıyor. Zaten bu araç vasıtası ile GitLab üzerinden uygulamamızı dockerize ederek ECR'e pushladık. Aynı aracı kullanarak, dilediğimiz servis için yeniden deployment yapılmasını isteyebiliyoruz. `.gitlab-ci.yml` dosyasındaki script bölümünün son satırına, aşağıdaki komutu da yazarsak, yeni image ECR'a yüklendikten sonra oluşturduğumuz servis için yeni bir deployment yapılması gerektiğini ECS'e söyleyebiliriz.
 
 <pre><code class="language-yaml">stages:
   - deploy
@@ -494,14 +490,13 @@ deploy-api:
     - ~/.local/bin/aws ecs update-service --cluster mavi-api-cluster --service mavi-api-service --force-new-deployment
 </code></pre>
 
-Lütfen son satırdaki komuta dikkat edin. Son komutta, ECS üzerindeki *mavi-api-cluster*, içerisinde bulunan *mavi-api-service* servisi için yeni bir deployment yapılması gerektiğini söylüyoruz. Bu komut çalıştırıldıktan sonra, ECS yeni sürümden taskları otomatik olarak oluşturur. Ancak eski versiyonları kapatmaz. Ne zaman ki yeni sürümler sağlıklı olarak işaretlenir, o zaman eski sürümler tek tek kaldırılır. Dolayısıyla son kullanıcı hiç bir şey fark etmez.
+Lütfen son satırdaki komuta dikkat edin. Son komutta, ECS üzerindeki _mavi-api-cluster_, içerisinde bulunan _mavi-api-service_ servisi için yeni bir deployment yapılması gerektiğini söylüyoruz. Bu komut çalıştırıldıktan sonra, ECS yeni sürümden taskları otomatik olarak oluşturur. Ancak eski versiyonları kapatmaz. Ne zaman ki yeni sürümler sağlıklı olarak işaretlenir, o zaman eski sürümler tek tek kaldırılır. Dolayısıyla son kullanıcı hiç bir şey fark etmez.
 
 ### Sonuç
 
 Zaten yazı hali hazırda epey uzun olduğu için çok fazla şey yazmak istemiyorum. Sonuç ortada, görüyorsunuz. Suya sabuna dokunmadan, devase bir sistem kurduk. Üstelik son derece düşük maliyetle. Bir milyon kullanıcı da gelse, sistemimiz ona göre kendisini ayarlayabilir. Ancak bir milyon kullanıcının bir dakika içerisinde gelmesi hala bir sıkıntı. Bu yüzden Task Definition içerisinde oluşturulan makinelerin CPU ve RAM miktarlarının çok da düşük seçilmemesi gerekiyor. Her şeye rağmen, sonuç yine de harika.
 
 Ancak oluşturduğumuz hemen hemen her şeyi ayrı ayrı faturanıza yansıyayacağınızı unutmayın. Lütfen her bir ürünün fiyatlandırma detayını kontrol edin. Eğer uygulamayı kendi hesabınızda denediyseniz, denemeleriniz bittikten sonra hepsini silmenizi öneririm. Aksi takdirde kullanmadığınız servislere gereksiz faturalar ödeyebilirsiniz.
-
 
 ### Referanslar
 

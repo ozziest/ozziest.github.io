@@ -1,16 +1,15 @@
 ---
 layout: post
-title:  "Adonis Web Framework İncelemesi"
-date:   2016-02-21 13:30
+title: "Adonis Web Framework İncelemesi"
+date: 2016-02-21 13:30
 categories: [Turkish, Coding]
-tags: adonis, nodejs, web framework, adonis nedir, laravel for nodejs
-meta: adonis, nodejs, web framework, adonis nedir, laravel for nodejs
-author: ozziest
+keywords: adonis, nodejs, web framework, adonis nedir, laravel for nodejs
+author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 ---
 
-[Adonis](http://adonisjs.com), **NodeJS** ile daha az kod yazarak uygulama geliştirmeyi amaçlayan ve MVC mimarisine göre oluşturulmuş bir framework'dür. Diğer NodeJS web frameworklerine göre öne çıkan başlıca özellikleri **ES6** ile geliştirme yapmayı amaçlaması ve **PHP** dili için geliştirimiş [Laravel](https://laravel.com)'in mimarisine benzer olmasıdır. 
+[Adonis](http://adonisjs.com), **NodeJS** ile daha az kod yazarak uygulama geliştirmeyi amaçlayan ve MVC mimarisine göre oluşturulmuş bir framework'dür. Diğer NodeJS web frameworklerine göre öne çıkan başlıca özellikleri **ES6** ile geliştirme yapmayı amaçlaması ve **PHP** dili için geliştirimiş [Laravel](https://laravel.com)'in mimarisine benzer olmasıdır.
 
 ### Laravel Benzerliği
 
@@ -128,7 +127,7 @@ $ ./ace make:model User
 
 ### Sonuç
 
-Benim görüşlerime göre ***gelecek vaadeden***, ancak ***zamana*** ve ***desteğe*** ihtiyacı olan bir framework denemesidir. Eğer zaman içerisinde ihtiyacı olan desteği diğer developerlardan bulabilir ve geliştirmeler ivme kazanırsa, NodeJS topluluğu tarafından sahiplenilecektir. 
+Benim görüşlerime göre **_gelecek vaadeden_**, ancak **_zamana_** ve **_desteğe_** ihtiyacı olan bir framework denemesidir. Eğer zaman içerisinde ihtiyacı olan desteği diğer developerlardan bulabilir ve geliştirmeler ivme kazanırsa, NodeJS topluluğu tarafından sahiplenilecektir.
 
 ### Kaynaklar
 
@@ -136,4 +135,3 @@ Benim görüşlerime göre ***gelecek vaadeden***, ancak ***zamana*** ve ***dest
 - [Adonis Core Repo](https://github.com/adonisjs/adonis-framework)
 - [Adonis Application Repo](https://github.com/adonisjs/adonis-app)
 - [Screen Casts](https://www.youtube.com/playlist?list=PLWmIA5YpCsizOMoM3tH5NSp1sHmdzVLvW)
-

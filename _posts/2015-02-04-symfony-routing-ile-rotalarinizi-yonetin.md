@@ -1,20 +1,19 @@
 ---
 layout: post
-title:  "Symfony/Routing İle Rotalarınızı Yönetin"
-date:   2015-02-04 22:00
+title: "Symfony/Routing İle Rotalarınızı Yönetin"
+date: 2015-02-04 22:00
 categories: [Turkish, Coding]
-tags: symfony, routing, rota, http-foundation, link
-meta: symfony routing rota http-foundation link
-author: ozziest
+keywords: symfony, routing, rota, http-foundation, link
+author: Özgür Adem Işıklı
 ---
 
-Genellikle birçok projemizde bir yönlendirme (link) yapısına ihtiyacımız olur. Bunu kimi zaman `.htaccess` dosyalarıyla çözeriz, kimi zaman da doğrudan **PHP** dosyalarının adını linkmiş gibi veririz. Fakat tüm bunlar amatör işi çözümlerdir. 
+Genellikle birçok projemizde bir yönlendirme (link) yapısına ihtiyacımız olur. Bunu kimi zaman `.htaccess` dosyalarıyla çözeriz, kimi zaman da doğrudan **PHP** dosyalarının adını linkmiş gibi veririz. Fakat tüm bunlar amatör işi çözümlerdir.
 
 Yeni bir projeye başlayacaksanız mutlaka **framework** kullanın. Eğer illa kendinize bir framework yazmak istiyorsanız, olabildiğince hazır çözümlerden yararlanın. Bu yazımızda projelerinizde ya da eğer yazacak kadar deliyseniz kendi frameworkünüzde kullanabileceğiniz bir paketi tanıtacağım; [Symfony/Routing](https://github.com/symfony/Routing).
 
 ## Kimler Kullanıyor?
 
-Bu paket **Symfony Framework**'ü için geliştirilmiştir. Ancak o kadar güçlü bir tasarıma sahiptir ki; başka frameworkler de bu paketi yönlendirme işlemleri için kullanmaktadır. Bu frameworkler arasında oldukça tanıdık bir isim daha var; **Laravel**. 
+Bu paket **Symfony Framework**'ü için geliştirilmiştir. Ancak o kadar güçlü bir tasarıma sahiptir ki; başka frameworkler de bu paketi yönlendirme işlemleri için kullanmaktadır. Bu frameworkler arasında oldukça tanıdık bir isim daha var; **Laravel**.
 
 ## Nasıl Kullanacağım?
 
@@ -29,19 +28,19 @@ Paketi kullanmanın en iyi yolu, paketi **Composer** ile birlikte projenize dahi
 }
 </code></pre>
 
-Bu işlemden sonra `composer update` komutunu kullanarak bağımlılıkların projenize dahil olmasını sağlayabilirsiniz. 
+Bu işlemden sonra `composer update` komutunu kullanarak bağımlılıkların projenize dahil olmasını sağlayabilirsiniz.
 
-> `http-foundation` benim vereceğim örnekte kullanılacağı için ben dahil ettim. Bu paket yalnızca benim işlerimi biraz daha kolaylaştırmaktır. 
+> `http-foundation` benim vereceğim örnekte kullanılacağı için ben dahil ettim. Bu paket yalnızca benim işlerimi biraz daha kolaylaştırmaktır.
 
-## Örnek Kullanım 
+## Örnek Kullanım
 
 **Symfony/Routing** paketi temel olarak aşağıdaki 3 adımda çalışmaktadır;
 
-* Rota koleksiyonu (RouteCollection) oluşturulur.
-* Rotalar uygulama içerisinden koleksiyona aktarılır.
-* Mevcut kullanıcı isteği rota koleksiyonunda var mı kontrol edilir, yoksa exception fırlatılır.
+- Rota koleksiyonu (RouteCollection) oluşturulur.
+- Rotalar uygulama içerisinden koleksiyona aktarılır.
+- Mevcut kullanıcı isteği rota koleksiyonunda var mı kontrol edilir, yoksa exception fırlatılır.
 
-### Koleksiyon Oluşturma 
+### Koleksiyon Oluşturma
 
 Aşağıda koleksiyon oluşturma işlemini görebilirsiniz;
 
@@ -80,7 +79,7 @@ $routes->add('welcome', new Route('/welcome', ['controller' => 'WelcomeControlle
 
 ### Rota Kontrolü
 
-Rota kontrolü için kullanıcı hangi url'yi çağırıyor kontrol ettirmemiz gerekmektedir. Bunu birçok farklı yol izleyerek yapabilirsiniz. Ancak amacımız az kodla çok iş yapmak olduğundan, Symfony tarafından hazırlanan [HttpFoundation](https://github.com/symfony/HttpFoundation) paketindeki `Request` sınıfını kullanmamız yerinde bir tercih olacaktır. 
+Rota kontrolü için kullanıcı hangi url'yi çağırıyor kontrol ettirmemiz gerekmektedir. Bunu birçok farklı yol izleyerek yapabilirsiniz. Ancak amacımız az kodla çok iş yapmak olduğundan, Symfony tarafından hazırlanan [HttpFoundation](https://github.com/symfony/HttpFoundation) paketindeki `Request` sınıfını kullanmamız yerinde bir tercih olacaktır.
 
 <pre><code class="language-php">
 // Sınıflar çağırılır
@@ -112,14 +111,11 @@ try {
 }
 </code></pre>
 
-
-Bu işlem rota karşılaştırma işlemidir. Son satırda eğer rota varsa rota tanımlama aşamasında kaydedilen parametreler bize geri döner. Eğer yoksa bir Exception fırlatılır; `ResourceNotFoundException`. Biz de try-catch blogu ile bu hatayı yaklayamaya çalışıyoruz. 
+Bu işlem rota karşılaştırma işlemidir. Son satırda eğer rota varsa rota tanımlama aşamasında kaydedilen parametreler bize geri döner. Eğer yoksa bir Exception fırlatılır; `ResourceNotFoundException`. Biz de try-catch blogu ile bu hatayı yaklayamaya çalışıyoruz.
 
 Hepsi bu kadar. Yalnızca dakikalar içerisinde oldukça kullanışlı bir yönlendirme işlemimiz oldu. Ancak bu makalede anlatılanlar Routing paketinin son derece yalın bir kullanımıdır. Aşağıdaki kaynaklardan daha detaylı bilgiler edinebilirsiniz;
 
-* [Symfony/Routing](https://packagist.org/packages/symfony/routing)
-* [Symfony/HttpFoundation](https://packagist.org/packages/symfony/http-foundation)
-* [Symfony Routing API](http://api.symfony.com/2.3/Symfony/Component/Routing.html)
-* [Symfony HttpFoundation API](http://api.symfony.com/2.3/Symfony/Component/HttpFoundation.html)
-
-
+- [Symfony/Routing](https://packagist.org/packages/symfony/routing)
+- [Symfony/HttpFoundation](https://packagist.org/packages/symfony/http-foundation)
+- [Symfony Routing API](http://api.symfony.com/2.3/Symfony/Component/Routing.html)
+- [Symfony HttpFoundation API](http://api.symfony.com/2.3/Symfony/Component/HttpFoundation.html)

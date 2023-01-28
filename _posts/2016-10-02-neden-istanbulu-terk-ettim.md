@@ -3,9 +3,8 @@ layout: post
 title: "Neden İstanbul’u Terk Ettim?"
 date: 2016-10-02 18:00
 categories: [Turkish, Essays]
-tags: istanbul, sakarya
-meta: istanbul, sakarya
-author: ozziest
+keywords: istanbul, sakarya
+author: Özgür Adem Işıklı
 post_img: 04.jpg
 post_img_link: https://pixabay.com/en/galata-istanbul-turkey-tower-1204927
 ---

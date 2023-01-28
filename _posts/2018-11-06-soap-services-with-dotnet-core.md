@@ -1,18 +1,17 @@
 ---
 layout: post
-title:  "How To Use SOAP Services With Dotnet Core"
-date:   2018-11-06 21:45
+title: "How To Use SOAP Services With Dotnet Core"
+date: 2018-11-06 21:45
 categories: [English, Coding]
-tags: soap services, dotnet core, wcf, wsdl
-meta: soap services, dotnet core, wcf, wsdl
-author: ozziest
+keywords: soap services, dotnet core, wcf, wsdl
+author: Özgür Adem Işıklı
 post_img: 05.jpg
 post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
 ---
 
 ## Generating Service Classes
 
-First of all, in a dotnet core project we should define SOAP services classes. If you use Visual Studio you can find some tools about it but If you don't like user interfaces like me, you can have another option to do that. 
+First of all, in a dotnet core project we should define SOAP services classes. If you use Visual Studio you can find some tools about it but If you don't like user interfaces like me, you can have another option to do that.
 
 In first step, you should add `dotnet-svcutil` tool reference in your project and execute `dotnet restore`;
 
@@ -44,9 +43,9 @@ IMyService service = factory.CreateChannel();
 // then you can call the service
 ```
 
-If you have some authentication configuration, you should set them in `BasicHttpBinding` section. In this example I use `http` protocol, not `https`. If you are using https  protocol, please be careful to select BasicHttp**s**Binding object.
+If you have some authentication configuration, you should set them in `BasicHttpBinding` section. In this example I use `http` protocol, not `https`. If you are using https protocol, please be careful to select BasicHttp**s**Binding object.
 
-## Usage 
+## Usage
 
 ```csharp
 await service.GetUsersAsync()

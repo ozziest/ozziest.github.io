@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Junior PHP Tecrübelerim"
-date:   2013-08-04 19:00
+title: "Junior PHP Tecrübelerim"
+date: 2013-08-04 19:00
 categories: [Turkish, Coding]
-tags: php tecrübesi, junior, php, tecrübe, kendime notlar
-meta: php tecrübesi, junior, php, tecrübe, kendime notlar
-author: ozziest
+keywords: php tecrübesi, junior, php, tecrübe, kendime notlar
+author: Özgür Adem Işıklı
 ---
 
 Merhaba,

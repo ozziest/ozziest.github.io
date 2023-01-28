@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#4 C#'da Self Signed Sertifika Oluşturma"
-date:   2016-09-28 18:00
+title: "#4 C#'da Self Signed Sertifika Oluşturma"
+date: 2016-09-28 18:00
 categories: [Turkish, Notes]
-tags: csharp, self signed, sertifika
-meta: csharp, self signed, sertifika
-author: ozziest
+keywords: csharp, self signed, sertifika
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---

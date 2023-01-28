@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#9 CSharp İle Generic Sınıf İşlemleri"
-date:   2017-05-05 23:00
+title: "#9 CSharp İle Generic Sınıf İşlemleri"
+date: 2017-05-05 23:00
 categories: [Turkish, Notes]
-tags: csharp, generic, class, instance
-meta: csharp, generic, class, instance
-author: ozziest
+keywords: csharp, generic, class, instance
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---
@@ -14,7 +13,7 @@ post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 
 ### Giriş
 
-C# üzerinde sevdiğim bir başka özellik, zarif kullanımları açısından ***Generic Classes*** kavramı. Bu tarz sınıflar belirli işlemlerin gerçekleştirilmesini, belirli sabit veri türlerinden bağımsız olarak yapmaya yarıyor. Bu yazı üzerinde de unutmak istemediğim bazı kullanımları not almayı istiyorum.
+C# üzerinde sevdiğim bir başka özellik, zarif kullanımları açısından **_Generic Classes_** kavramı. Bu tarz sınıflar belirli işlemlerin gerçekleştirilmesini, belirli sabit veri türlerinden bağımsız olarak yapmaya yarıyor. Bu yazı üzerinde de unutmak istemediğim bazı kullanımları not almayı istiyorum.
 
 ### Uygulama
 

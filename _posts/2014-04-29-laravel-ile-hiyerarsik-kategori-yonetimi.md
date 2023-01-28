@@ -1,17 +1,16 @@
 ---
 layout: post
-title:  "Laravel İle Hiyerarşik Kategori Yönetimi"
-date:   2014-04-29 19:00
+title: "Laravel İle Hiyerarşik Kategori Yönetimi"
+date: 2014-04-29 19:00
 categories: [Turkish, Coding]
-tags: php, laravel, hiyerarşi, kategori, nested, list, baum
-meta: php laravel hiyerarşi kategori nested list baum
-author: ozziest
+keywords: php, laravel, hiyerarşi, kategori, nested, list, baum
+author: Özgür Adem Işıklı
 ---
 
 Yazılım dünyasında sık karşılaşılan problemlerden biri de hiyerarşik yapıya sahip kategorilerdir. Bu yapıyı kurabilmek için iki türlü model kullanılmaktadır;
 
-* Tümleşik Yapı Kalıbı (The Adjacency List Model)
-* Yerleşim Yapı Kalıbı ( Nested Set Model)
+- Tümleşik Yapı Kalıbı (The Adjacency List Model)
+- Yerleşim Yapı Kalıbı ( Nested Set Model)
 
 ## Tümleşik Yapı Kalıbı (The Adjacency List Mode)
 
@@ -38,5 +37,3 @@ $root = Category::create(['name' => 'Yazılım']);
 $php = Category::create(['name' => 'PHP']); 
 $php->makeChildOf($root);
 </code></pre>
-
-

@@ -3,9 +3,8 @@ layout: post
 title: "How to manage URL search params in React apps with hooks"
 date: 2021-12-04 18:20
 categories: [English, Coding]
-tags: react, hooks, url, search, parameters, URLSearchParams
-meta: react, hooks, url, search, parameters, URLSearchParams
-author: ozziest
+keywords: react, hooks, url, search, parameters, URLSearchParams
+author: Özgür Adem Işıklı
 post_img: 37.jpg
 post_img_link: https://pixabay.com/photos/red-fox-animal-road-fox-wildlife-6796430/
 ---

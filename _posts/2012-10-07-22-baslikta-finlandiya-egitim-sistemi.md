@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "22 Başlıkta Finlandiya Eğitim Sistemi"
-date:   2012-10-07 19:00
+title: "22 Başlıkta Finlandiya Eğitim Sistemi"
+date: 2012-10-07 19:00
 categories: [Turkish, Essays]
-tags: finlandiya eğitimi, fin eğitim sistemi, eğitim sistemi
-meta: finlandiya eğitimi, fin eğitim sistemi, eğitim sistemi
-author: ozziest
+keywords: finlandiya eğitimi, fin eğitim sistemi, eğitim sistemi
+author: Özgür Adem Işıklı
 ---
 
 - Finlandiya’da çocuklar 7 yaşlarını bitirmeden okula başlamazlar.

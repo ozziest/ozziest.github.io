@@ -3,9 +3,8 @@ layout: post
 title: "How to sign AWS S3 files in Node.js"
 date: 2021-12-04 13:50
 categories: [English, Coding]
-tags: aws, s3, signing, pre-signed, files, permission
-meta: aws, s3, signing, pre-signed, files, permission
-author: ozziest
+keywords: aws, s3, signing, pre-signed, files, permission
+author: Özgür Adem Işıklı
 post_img: 36.jpg
 post_img_link: https://pixabay.com/photos/binding-contract-contract-secure-948442/
 ---

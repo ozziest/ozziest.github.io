@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Dependency Injection Neden Önemlidir?"
-date:   2014-05-20 21:00
+title: "Dependency Injection Neden Önemlidir?"
+date: 2014-05-20 21:00
 categories: [Turkish, Coding]
-tags: yazılım, geliştirme, dependency, injection, bağımlılık
-meta: yazılım, geliştirme, dependency, injection, bağımlılık
-author: ozziest
+keywords: yazılım, geliştirme, dependency, injection, bağımlılık
+author: Özgür Adem Işıklı
 ---
 
 **Dependency Injection** Türkçe’ye çevrildiğinde genelde **Bağımlılık Enjeksiyonu** gibi garip bir kavram ortaya çıkıyor. Bu kavramın zor anlaşılmasındaki esas sorun, her tür teknik bilgiyi birebir çevirmedeki inadımız diyebiliriz. Hatta Enjeksiyon kelimesinin de Fransızca olduğunu düşünürsek, el birliği ile oldukça başarısız bir Türkçeleştirme çalışması yaptığımız aşikardır.
@@ -51,13 +50,11 @@ class User {
 }
 </code></pre>
 
-
 Yukarıdaki kodumuzu yazdıktan sonra işlerimiz sarpa sarar. Çünkü **User** sınıfının çalışabilmesi için **Email** sınıfını tanımasına ihtiyacı vardır. Siz User sınıfını alıp başka bir yerde de kullanmak isterseniz, Email sınıfını da kopyalamanız ya da e-posta gönderilen satırları yeniden düzenlemeniz gerekecektir.
 
 Sadece bu da değil. Siz yukarıdaki sınıfı geliştirdiniz ve sistemi yayına aldınız diyelim. **Müşteriler** çok harika isteklerle gelmeye bayılırlar. :) Dediler ki “Adı Ahmet olanlara e-posta, diğerlerine SMS gönderelim.” Bu durumda sizin User sınıfını değiştirmeniz gerekecektir. Ancak bu işlem, sınıfa hem **yeni bir bağımlılık** hem de yeni **if-else** yapıları eklemek demektir. User sınıfı haddinden fazla şey bilmeye başlayacaktır. İlk önce oldukça basit görünen sınıf, müşteriden gelen bir taleple bir anda bambaşka boyutlara taşınabilir.
 
 Bir diğer önemli husus ise Unit Test yazımında karşımıza çıkacaktır. Siz bu User sınıfını test ederken Email sınıfını da çalışır hale getirmek zorundasınız. Eğer Email sınıfında bir hata varsa bu User sınıfını da etkiler. Bu da test yazmanızı zorlaştırır. Email sınıfını taklit de edemezsiniz. Çünkü User ve Email sınıfları artık içli dışlı olmuşlardır. Bu sorunu ortadan kaldırmak için Email sınıfımızın ne olduğunu User sınıfının bilmemesi gerekmektedir.
-
 
 <pre><code class="language-php">
 class User {
@@ -78,7 +75,7 @@ class User {
 }
 </code></pre>
 
-User sınıfımızı yukarıdaki gibi değiştirdik. Dikkat ederseniz sınıfımız içinde new komutu ile bir sınıf oluşturulmuyor. User sınıfının oluşturulması anında bir Email sınıfını dışarıdan Notification aracı olarak kullanmak için gönderebiliriz. Böylelikle User sınıfı Email sınıfını kendisi çağırmıyor, çalışacağı sınıfın ne olduğunu hiç mi hiç bilmiyor. Aşağıdaki şekilde User sınıfını, Notification aracı olarak  kullanabiliriz.
+User sınıfımızı yukarıdaki gibi değiştirdik. Dikkat ederseniz sınıfımız içinde new komutu ile bir sınıf oluşturulmuyor. User sınıfının oluşturulması anında bir Email sınıfını dışarıdan Notification aracı olarak kullanmak için gönderebiliriz. Böylelikle User sınıfı Email sınıfını kendisi çağırmıyor, çalışacağı sınıfın ne olduğunu hiç mi hiç bilmiyor. Aşağıdaki şekilde User sınıfını, Notification aracı olarak kullanabiliriz.
 
 <pre><code class="language-php">
 $user = new User(new Email);

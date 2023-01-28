@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Tam Bağımsız ve Tekil Sorumlu Try-Catch"
-date:   2013-06-17 19:00
+title: "Tam Bağımsız ve Tekil Sorumlu Try-Catch"
+date: 2013-06-17 19:00
 categories: [Turkish, Coding]
-tags: try catch, solid
-meta: try catch, solid
-author: ozziest
+keywords: try catch, solid
+author: Özgür Adem Işıklı
 ---
 
 Try-Catch bloklarını kullanarak hata yakalama sürecine aşina olduğunuzu varsayıyorum. Eğer değilseniz [buradan](https://web.archive.org/web/20140906095623/http://php.net/manual/en/language.exceptions.php) temel bilgileri edinebilirsiniz. Yazı boyunca SOLID prensiplerinden Single Responsibility (Tek Sorumluluk) prensibine de değineceğim. Eğer bu konuda da ön bilginiz yoksa [buradan](https://web.archive.org/web/20140920213104/http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074) faydalanabilirsiniz.
@@ -42,7 +41,6 @@ class UserInsertController
 </code></pre>
 
 Bu tür bir yapı kurduğunuzda tek sorumluluk ilkesini uygulamış oluyorsunuz. Ancak çağırdığınız alt metotlarda oluşacak bir hatada bir sonraki adıma devam etmeden ilgili hatayı kullanıcıya göstermeniz gerekiyor. Bu tür durumlarda genel itibariyle bir çok developer (eskiden ben de buna dahildim) bir metotun işini sorunsuz yapıp yapmadığını anlamak için true-false gibi bir değer döndürmesini bekliyor. Bu yöntemi kullandığınızda ciddi bir kod karmaşası ortaya çıkıyor. Tıpkı aşağıdaki gibi;
-
 
 <pre><code class="language-php">
 class UserInsertController
@@ -121,4 +119,3 @@ class UserInsertController
 </code></pre>
 
 Bu yapıya baktığınızda tek sorumluluk ilkesini hem uyguladığımızı hem de kod karmaşasını engellediğimizi görüyoruz. Ayrıca hata durumunda diğer işlemler de otomatik olarak duruyor. Hata mesajını da sorunsuz bir şekilde alabiliyoruz. provider metodumuz içerisinde bir üst tarafa da hatayı bildirebilirdik. Böylece her bölüm tamamen birbirinden bağımsız olarak çalışmış olurdu. Bu yapıda hiç bir metot başka bir yerde oluşan hayatı kontrol etmek zorunda kalmaz.
-

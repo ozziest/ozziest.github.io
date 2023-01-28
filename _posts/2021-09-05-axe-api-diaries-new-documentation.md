@@ -3,9 +3,8 @@ layout: post
 title: "Axe API Diaries: New Documentation"
 date: 2021-09-05 20:50
 categories: [English, Coding]
-tags: api, rest-api, nodejs, axe-api
-meta: api, rest-api, nodejs, axe-api
-author: ozziest
+keywords: api, rest-api, nodejs, axe-api
+author: Özgür Adem Işıklı
 post_img: 35.jpg
 post_img_link: https://pixabay.com/photos/coding-programming-working-macbook-924920/
 ---

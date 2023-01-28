@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Küçük İş Parçacıkları"
-date:   2013-08-12 19:00
+title: "Küçük İş Parçacıkları"
+date: 2013-08-12 19:00
 categories: [Turkish, Coding]
-tags: küçük iş parçacıkları, solid, separation of concerns
-meta: küçük iş parçacıkları, solid, separation of concerns
-author: ozziest
+keywords: küçük iş parçacıkları, solid, separation of concerns
+author: Özgür Adem Işıklı
 ---
 
 Merhabalar,
@@ -19,4 +18,3 @@ Eğer kendimizi tekrar etmek istemiyorsak, yaptığımız her iş parçacağın�
 Bir noktadan sonra kullandığınız controllerın hiç bir yönetim işlemi yapmadığının farkına varabilirsiniz. Üstelik binlerce satır da kodlamış olabilirsiniz. Bazen bu hataya ben düşebiliyordum fakat şuanda daha çok dikkat ediyorum. Basit bir anlayışla, **iş yapan bir method eğer içinde kontrol ifadeleri barındırıyorsa yanlış yolda olduğunuzu söyleyebilirim. İş yapan parçacıkların sadece kendi işlerini yapmalarını ve en önemlisi minimum işi yapmalarını sağlayın.**
 
 Edit: [http://en.wikipedia.org/wiki/Separation_of_concerns](http://en.wikipedia.org/wiki/Separation_of_concerns)
-

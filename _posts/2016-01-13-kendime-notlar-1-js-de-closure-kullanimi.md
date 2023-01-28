@@ -1,24 +1,23 @@
 ---
 layout: post
-title:  "#1 JS'de Closure Kullanımı"
-date:   2016-01-13 18:00
+title: "#1 JS'de Closure Kullanımı"
+date: 2016-01-13 18:00
 categories: [Turkish, Notes]
-tags: js, closure, private data object, closure nedir
-meta: js, closure, private data object, closure nedir
-author: ozziest
+keywords: js, closure, private data object, closure nedir
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---
 
-> Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum. 
+> Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.
 
 Her ne kadar **Closure** kelimesinin **Kaplam** olarak çevirilerine daha önce denk gelmiş olsam da, açıkçası bu kelimeyi tam olarak kendi yazılım lügatımıza aktarabileceğimizi sanmıyorum. [1] Çeviri yönünden ele alındığında oldukça zor bir kelime ve belki de bu yüzden bir çok farklı kaynaktan tam olarak anlamaya çalıştığım bir yapı oldu.
 
 Çeviri tartışmasını bir yana bırakırsak ve nedir bu **Closure** irdelemek istersek şöyle bir cümle kurabiliriz;
 
-> JavaScript dünyasında genellikle olay yakalayıcılarda (event handler) ve ***callback***'lerde **veri mahremiyeti** amacıyla ***Closure*** yapıları kullanıyor. [2]
+> JavaScript dünyasında genellikle olay yakalayıcılarda (event handler) ve **_callback_**'lerde **veri mahremiyeti** amacıyla **_Closure_** yapıları kullanıyor. [2]
 
-Bu noktada ***"JavaScript'de neyin mahremiyetinden bahsediyoruz?"*** dediğinizi duyar gibiyim. Bu nedenle biraz kod görelim.
+Bu noktada **_"JavaScript'de neyin mahremiyetinden bahsediyoruz?"_** dediğinizi duyar gibiyim. Bu nedenle biraz kod görelim.
 
 ### Veri Mahremiyeti
 
@@ -38,14 +37,13 @@ console.log(john.name);  // undefined
 console.log(john.get()); // John
 </code></pre>
 
-
-Burada oluşturduğumuz `User` isimli objemiz `name` isimli bir parametre alıyor. Ancak bu name ***Closure*** sayesinde dışarıdan ulaşılabilir değil. Bu nedenle `name` değişkeni üzerinden veriyi doğrudan almaya çalıştığımızda geriye ***undefined*** dönüyor. Veriye ulaşabilmemiz mümkün olmadığı için değiştirebilmemiz de mümkün olmuyor. Bu nedenle `User` objesine bağlı ve dışarıya açılan (bizim ulaşabileceğimiz) bir `get` fonksiyonu oluşturuyoruz. Bu fonksiyonun özelliği kendi kapsamının (scope) daha üzerindeki kapsama da (User kapsamına) ulaşabilmesi. Böylelikle sakladığımız veriyi, kendi yazdığımız fonksiyonlarla dilersek dışarı açabiliyoruz.
+Burada oluşturduğumuz `User` isimli objemiz `name` isimli bir parametre alıyor. Ancak bu name **_Closure_** sayesinde dışarıdan ulaşılabilir değil. Bu nedenle `name` değişkeni üzerinden veriyi doğrudan almaya çalıştığımızda geriye **_undefined_** dönüyor. Veriye ulaşabilmemiz mümkün olmadığı için değiştirebilmemiz de mümkün olmuyor. Bu nedenle `User` objesine bağlı ve dışarıya açılan (bizim ulaşabileceğimiz) bir `get` fonksiyonu oluşturuyoruz. Bu fonksiyonun özelliği kendi kapsamının (scope) daha üzerindeki kapsama da (User kapsamına) ulaşabilmesi. Böylelikle sakladığımız veriyi, kendi yazdığımız fonksiyonlarla dilersek dışarı açabiliyoruz.
 
 Bu Closure kullanımı veri mahremiyeti amacıyla kullanım şeklini temsil ediyor.
 
 ### Paketleme
 
-***Paketleme*** kelimesi benim uydurduğum (5 dakika evvel) bir kavram. Ancak anlatacağım yapının da genel geçer bir adını bulamadım. Yine öncelikle örneği gösterecek, sonra açıklamasını yapacağım.
+**_Paketleme_** kelimesi benim uydurduğum (5 dakika evvel) bir kavram. Ancak anlatacağım yapının da genel geçer bir adını bulamadım. Yine öncelikle örneği gösterecek, sonra açıklamasını yapacağım.
 
 <pre><code class="language-js">
 const message = (text) => () => text;
@@ -60,7 +58,6 @@ Buradaki örneğimizde genel bir `message` sabiti oluşturuyoruz. Bu sabiti dı�
 ### Ön Çağırım
 
 Herhangi bir işi gerçekleştirmek üzere kullandığımız bir fonksiyonun olduğunu varsayalım. Uygulamanızın her yerinden çağırdığınız bu fonksiyona çoğu zaman bazı parametreleri sabit olarak kullanarak çağırıyoruz. Böyle bir durumlarda aşağıdaki yapıyı kullanabiliriz;
-
 
 <pre><code class="language-js">
 const partialApply = (fn, ...fixedArgs) => {
@@ -77,7 +74,7 @@ console.log(add10(5));
 
 Burada yer alan `partialApply` fonksiyonu ilk parametre olak bir başka fonksiyonu alıyor ve devamında dinamik olarak birden fazla parametre gönderilmesine izin veriyor. Sonuç olarak ise geriye bir başka fonskiyon döndürüyor. Bu geriye gönderilen fonksiyon çağırıldığında ise, ilk etapta gönderilen fonksiyon, ilk ve ikinci çağırımda gönderilen parametrelerle birlikte çağırılıyor. Böylece asıl fonksiyonumuz için bir kolay çağırım fonksiyonu elde etmiş oluyoruz. Çok mu karışık? Biraz da çalışma anını adım adım inceleyelim.
 
-`const add = (a, b) => a + b` satırında yer alan `add` fonksiyonu bizim asıl fonksiyonumuz ve iki parametre alıyor. Bir alt satırda yer alan `partialApply(add, 10)` çağırımımızdan geriye bir fonksiyon geliyor, biz bu fonksiyonu `add10` sabiti içerisinde muhafaza ediyoruz. Son satırda `add10(5)` şeklinde elimize gelen bu en son fonksiyonu çağırıyoruz. 
+`const add = (a, b) => a + b` satırında yer alan `add` fonksiyonu bizim asıl fonksiyonumuz ve iki parametre alıyor. Bir alt satırda yer alan `partialApply(add, 10)` çağırımımızdan geriye bir fonksiyon geliyor, biz bu fonksiyonu `add10` sabiti içerisinde muhafaza ediyoruz. Son satırda `add10(5)` şeklinde elimize gelen bu en son fonksiyonu çağırıyoruz.
 
 Bu kodla birlikte `partialApply`den bize gelen ve `add10` içerisinde tuttuğumuz fonksiyonı çalıştırmış oluyoruz. Bu fonksiyon içerisinde ilk etapta gönderdiğimiz `add` fonksiyonunu, ilk parametreler ve son parametrelerle birlikte çalıştırmış oluyoruz.
 
@@ -85,9 +82,9 @@ Buradaki amacımız şu; sürekli 10 ile bir sayısı toplamak istediğimizde, 1
 
 ### Sonuç
 
-Şuan fıkrasına gülünmeyen adam gibiyim belki ama bu benim cehaletimden kaynaklanıyor da olabilir. Bu bir ***kendime not*** yazısı olmasına rağmen neden gerek olduğunu anlatmaya çalışacağım.
+Şuan fıkrasına gülünmeyen adam gibiyim belki ama bu benim cehaletimden kaynaklanıyor da olabilir. Bu bir **_kendime not_** yazısı olmasına rağmen neden gerek olduğunu anlatmaya çalışacağım.
 
-Buradaki örnekler basit örnekler ve öğrenmeyi kolay kılması açısından kasıtlı olarak basit seçildiler. Ancak gerçek uygulamalarda işler karışabiliyor ve siz bazı verilerin bazı yerlerden erişilmesini istemeyebiliyorsunuz. Bunu uygulama güvenliği için değil, geliştirme güvenliği amacıyla yapmak istiyorsunuz. Çünkü hangi veriyi değiştirmemeniz gerekeceğini zamanla unutacak ve değiştireceksiniz. 
+Buradaki örnekler basit örnekler ve öğrenmeyi kolay kılması açısından kasıtlı olarak basit seçildiler. Ancak gerçek uygulamalarda işler karışabiliyor ve siz bazı verilerin bazı yerlerden erişilmesini istemeyebiliyorsunuz. Bunu uygulama güvenliği için değil, geliştirme güvenliği amacıyla yapmak istiyorsunuz. Çünkü hangi veriyi değiştirmemeniz gerekeceğini zamanla unutacak ve değiştireceksiniz.
 
 ### Kaynaklar
 

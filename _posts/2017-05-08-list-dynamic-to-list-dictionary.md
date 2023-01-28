@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#10 - From Dynamic List To Dictionary List In C#"
-date:   2017-05-08 20:00
+title: "#10 - From Dynamic List To Dictionary List In C#"
+date: 2017-05-08 20:00
 categories: [English, Notes]
-tags: csharp, list, dynmaic, dictionary, convert
-meta: csharp, list, dynmaic, dictionary, convert
-author: ozziest
+keywords: csharp, list, dynmaic, dictionary, convert
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---

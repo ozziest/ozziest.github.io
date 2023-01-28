@@ -1,26 +1,23 @@
 ---
 layout: post
-title:  "Kredi Kartı Numarasından Banka Öğrenme İşlemi"
-date:   2015-09-12 19:00
+title: "Kredi Kartı Numarasından Banka Öğrenme İşlemi"
+date: 2015-09-12 19:00
 categories: [Turkish, Coding]
-tags: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
-meta: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
-author: ozziest
+keywords: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
+author: Özgür Adem Işıklı
 ---
 
+Bu sefer teknik bir yazı yerine, kullanışlı bir bilgi vermek amacıyla yazıyorum. :)
 
-Bu sefer teknik bir yazı yerine, kullanışlı bir bilgi vermek amacıyla yazıyorum. :) 
-
-Geçtiğimiz günlerde kredi kartından (banka kartı da olabilir) kart tipini ve ilgili kartın ait olduğu bankayı öğrenip öğrenemeyeceğimi merak etmiştim. Biraz araştırmadan sonra bingo; **binlist** adı verilen bir yapı ile karşılaştım. 
+Geçtiğimiz günlerde kredi kartından (banka kartı da olabilir) kart tipini ve ilgili kartın ait olduğu bankayı öğrenip öğrenemeyeceğimi merak etmiştim. Biraz araştırmadan sonra bingo; **binlist** adı verilen bir yapı ile karşılaştım.
 
 ### BIN/IIN List Nedir?
 
-Kredi kart numaralarının ilk altı karakteri **Issuer Identification Number (IIN)** olarak adlandırılmaktadır. Daha önceden bu adlandırma işlemi **Bank Identification Number (BIN)** olarak yapılıyormuş. Bu ilk 6 numara aracılığı ile kartın tipi ve ait olduğu banka bilgilerini bilme imkanımız oluyor. 
-
+Kredi kart numaralarının ilk altı karakteri **Issuer Identification Number (IIN)** olarak adlandırılmaktadır. Daha önceden bu adlandırma işlemi **Bank Identification Number (BIN)** olarak yapılıyormuş. Bu ilk 6 numara aracılığı ile kartın tipi ve ait olduğu banka bilgilerini bilme imkanımız oluyor.
 
 ### Binlist.net
 
-Bu işlemi yapabileceğimiz ilk kaynağımız [binlist.net](http://www.binlist.net). Doğrudan site üzerinden size tanınan arayüzle ya da ücretsiz olarak sunulan ***(günlük 10.000 istek limitli)*** API aracılığı ile sorgulama yapabiliyorsunuz. Kart tipinde genelde sorun yaşanmasa da, bazen banka bilgileri eksik gelebiliyor. Ancak eğer siz bu bilgileri biliyorsanız [binlist-data](https://github.com/binlist/binlist-data) reposu üzerine katkıda bulunarak banka bilgilerine yenilerini ekleyebilirsiniz.
+Bu işlemi yapabileceğimiz ilk kaynağımız [binlist.net](http://www.binlist.net). Doğrudan site üzerinden size tanınan arayüzle ya da ücretsiz olarak sunulan **_(günlük 10.000 istek limitli)_** API aracılığı ile sorgulama yapabiliyorsunuz. Kart tipinde genelde sorun yaşanmasa da, bazen banka bilgileri eksik gelebiliyor. Ancak eğer siz bu bilgileri biliyorsanız [binlist-data](https://github.com/binlist/binlist-data) reposu üzerine katkıda bulunarak banka bilgilerine yenilerini ekleyebilirsiniz.
 
 Hatta eğer projelerinizde AngularJS kullanıyorsanız, aşağıdaki servis aracılığı ile hızlıca sorgulama yapabilirsiniz.
 
@@ -44,10 +41,9 @@ app.factory('$bin', function ($http) {
 });
 </code></pre>
 
-
 ### Gist Üzerindeki Dosyalar
 
-Bir diğer kaynağımız ***Türkiye*** için hazırlanmış olan BIN listeleri. Bulabildiklerimi aşağıda paylaşıyorum. 
+Bir diğer kaynağımız **_Türkiye_** için hazırlanmış olan BIN listeleri. Bulabildiklerimi aşağıda paylaşıyorum.
 
 - [CSV - berkayunal](https://gist.github.com/berkayunal/1595676)
 - [SQL - ismailbaskin](https://gist.github.com/ismailbaskin/2489587)

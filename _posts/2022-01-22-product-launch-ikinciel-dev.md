@@ -3,9 +3,8 @@ layout: post
 title: "Product Launch: ikinciel.dev"
 date: 2022-01-22 19:00
 categories: [Turkish, Coding]
-tags: ikinciel.dev, product, launch, coding, github
-meta: ikinciel.dev, product, launch, coding, github
-author: ozziest
+keywords: ikinciel.dev, product, launch, coding, github
+author: Özgür Adem Işıklı
 post_img: 38.jpg
 post_img_link: https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/
 ---

@@ -3,9 +3,8 @@ layout: post
 title: "A new approach to create APIs"
 date: 2021-07-26 20:50
 categories: [Turkish, Essays]
-tags: api, rest-api, nodejs, axe-api
-meta: api, rest-api, nodejs, axe-api
-author: ozziest
+keywords: api, rest-api, nodejs, axe-api
+author: Özgür Adem Işıklı
 post_img: 34.jpg
 post_img_link: https://pixabay.com/photos/greece-parthenon-temple-ruins-1594689/
 ---

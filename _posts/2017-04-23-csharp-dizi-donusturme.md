@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "#7 C# Liste Dönüştürme"
-date:   2017-04-23 12:50
+title: "#7 C# Liste Dönüştürme"
+date: 2017-04-23 12:50
 categories: [Turkish, Notes]
-tags: csharp, list, convert
-meta: csharp, list, convert
-author: ozziest
+keywords: csharp, list, convert
+author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 ---
@@ -74,5 +73,3 @@ public static User MyConverter (Dictionary<string, dynamic> input)
 </code></pre>
 
 Burada; List tipinde olan `items` değişkeninin `ConvertAll` metodunu, yeni bir `Converter` göndererek çağırıyoruz. Bu `Converter`'ın giriş değerininin `Dictionary<string, dynamic>`, dönüş değerinin ise `User` sınıfının bir örneği olmasını belirtiyoruz. Son olarak da bu şartları sağlayan dönüştürücü metodumuzun hangisi olduğunu belirtiyoruz. Bizim örneğimizde bu metot `MyConverter` isimli metot. `ConvertAll` metodu sırayla tüm elemanlar için gönderdiğimiz metodu çağırarak oluşan yeni liste değişkenini bize geriye gönderiyor.
-
-

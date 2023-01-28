@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "PHP ve Hata Yönetimi"
-date:   2013-08-19 19:00
+title: "PHP ve Hata Yönetimi"
+date: 2013-08-19 19:00
 categories: [Turkish, Coding]
-tags: php ve hata yönetimi, bende çalışıyor
-meta: php ve hata yönetimi, bende çalışıyor
-author: ozziest
+keywords: php ve hata yönetimi, bende çalışıyor
+author: Özgür Adem Işıklı
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;
@@ -29,5 +28,4 @@ Burada başka bir soruna da göz atmak gerekir. Şahsen ben iki türde hata mesa
 
 **@** işareti ile olası hataları gizlemek, true/false gibi boolean tipte değerler döndürmek, hata kodları ile hata durumlarını geriye döndürmek asla yapmamanız gereken hatalar. Bunlardan uzak durun. Yazılımınıza asla güvenmeyin. Mutlaka sizin görmediğiniz hatalar çıkacaktır. Bunları sürekli loglayın ve sürekli olarak logları inceleyin. Kullanıcı bile ne olduğunu anlamadan hatayı çözme şansınız var. Aksi halde müşteri sizi arar, “Kullanıcı kayıt olamıyor” der ve siz saatlerce hatayı ararsınız. Log yoksa elinizde sorun nerededir bilemezsiniz. Sonra cevabınız şu olur;
 
-***“Ama ben de çalışıyor…”***
-
+**_“Ama ben de çalışıyor…”_**

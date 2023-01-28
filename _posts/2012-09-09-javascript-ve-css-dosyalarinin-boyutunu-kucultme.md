@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "JavaScript ve CSS Dosyalarının Boyutunu Küçültme"
-date:   2012-09-09 19:00
+title: "JavaScript ve CSS Dosyalarının Boyutunu Küçültme"
+date: 2012-09-09 19:00
 categories: [Turkish, Coding]
-tags: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
-meta: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
-author: ozziest
+keywords: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
+author: Özgür Adem Işıklı
 ---
 
 Bir çok web sitesinin kodlarını incelediğimizde artık JS dosyalarının isimlerinde min eklentisi görürüz. Bu eklenti o JS dosyasının sıkıştırılmış olduğunu bize gösterir. Kodları incelediğimizde birbiri içine sıkışmış kodlar bulunur ve gayet düzensizdir. JS kodlarının bu şekilde bir yapıya sokulmasının amaçları vardır. Bu yazımızda bu amaçları ve bu işlemi nasıl yaptığımızı inceleyeceğiz.
