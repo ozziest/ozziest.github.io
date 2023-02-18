@@ -5,6 +5,7 @@ date: 2014-05-16 18:00
 categories: [Turkish, Essays]
 keywords: eğitim
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Eğitim; bireylere tüm yaşamları boyunca, kendilerine lazım olacak bilgi ve becerilerin sistematik bir şekilde öğretilmesi işi olarak tanımlanmaktadır. Peki; bundan otuz yıl önce minik cep aletleriyle kıtalararası görüntülü telefon görüşmesi yapabilmenin hayalini bile zor kurarken, bugün 6 yaşında olan bir çocuğa 65 yaşına kadar yetecek bilgi ve tecrübeyi nasıl aktarabiliriz? Bu soru dikkate alınmadan tasarlanan her eğitim modelini sakıncalı buluyorum.

@@ -7,6 +7,7 @@ keywords: twitter, linkedin, cards, open graph, protocol, react, vue, spa, nginx
 author: Özgür Adem Işıklı
 post_img: 40.jpg
 post_img_link: https://pixabay.com/photos/proxy-proxy-server-free-proxy-4605834/
+lang: en
 ---
 
 ## What is Open Graph?

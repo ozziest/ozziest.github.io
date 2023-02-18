@@ -7,6 +7,7 @@ keywords: api, rest-api, nodejs, axe-api
 author: Özgür Adem Işıklı
 post_img: 34.jpg
 post_img_link: https://pixabay.com/photos/greece-parthenon-temple-ruins-1594689/
+lang: en
 ---
 
 I wanted to put a very simple question on the table;

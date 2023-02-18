@@ -7,6 +7,7 @@ keywords: angularjs, cache, çözüm önerisi, cache sorunu
 author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
+lang: tr
 ---
 
 AngularJS kullanarak çok güçlü web uygulamaları geliştirmeniz mümkün. Ancak **_html_** ya da **_javascript_** yüklemeleri genellikle tarayıcılar tarafından ön bellekte tutularak, uygulamanızın performansının arttırılması sağlanmaktadır.

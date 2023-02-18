@@ -7,6 +7,7 @@ keywords: video, içerik, yazmak, makale
 author: Özgür Adem Işıklı
 post_img: 33.jpg
 post_img_link: https://pixabay.com/photos/video-camera-optics-photography-2562034
+lang: tr
 ---
 
 2010 yılında keşfedilen yeni bulgulara göre ilk modern insanların genleri yaklaşık 300.000 yıl öncesine kadar dayandırılabiliyor. [1] Ancak buna rağmen elimizdeki en erken yazılı kaynaklar yaklaşık olarak 5000 yıl öncesine ait. [2] Bu koşullar altında insanoğluğunun geçmişinden bugüne ana iletişim aracının sözlü iletişim olduğunu ve her ne kadar tüm süreç boyunca sözlü iletişim bugünkü kalite ve düzeyde olmasa da, insanlığın iletişimindeki ana omurgayı sözlü iletişimin oluşturduğu söylemek yersiz olmaz. Bu nedenle, yazıdan videoya doğru bir dönüşüm içerisinde olan veri paylaşım alışkanlıklığımızın olmasını son derece normal karşılayabiliriz.

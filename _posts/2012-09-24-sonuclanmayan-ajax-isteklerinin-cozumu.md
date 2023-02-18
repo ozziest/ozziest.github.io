@@ -5,6 +5,7 @@ date: 2012-09-24 19:00
 categories: [Turkish, Coding]
 keywords: ajax, timeout sorunu, timeout çözümü
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Ajax istekleri demek sistemin daha hızlı çalışması ve sistem kaynaklarının etkili kullanılması demektir. Ajax’la ilgili bir önceki yazımda Zaman Aralıklı Ajax İsteği Hataları‘nı anlatmıştım ve çözüm yollarından bahsederek sisteminizi nasıl stabil hale getirebileceğinizden bahsetmiştim. Şimdi ise bir başka olası ajax hatasından bahsetmek istiyorum; sonuçlanmayan ajax isteklerinden sonra yapılacak işlemler.

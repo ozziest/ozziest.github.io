@@ -5,6 +5,7 @@ date: 2014-07-18 22:39:28
 categories: [Turkish, Coding]
 keywords: php, döküman, ddd, test
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Son 6 ayımı **Laravel** üzerine aktif olarak çalışarak geçirdim. Beni **test yazma** ve **SOLID Prensipleri** gibi birçok nimeti kullanmaya zorladığı için kendisine minnettarım. Özellikle paket tabanlı çalışmanın, kodların tekrar tekrar kullanılabilmesi açısından önemli olduğunu düşünmeye başladım bu süreç içerisinde. Ancak en büyük kazancım; tamamen spontane bir şekilde gelişen döküman yazma özelliğim oldu.

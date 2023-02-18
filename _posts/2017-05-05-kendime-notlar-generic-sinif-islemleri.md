@@ -7,6 +7,7 @@ keywords: csharp, generic, class, instance
 author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
+lang: tr
 ---
 
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.

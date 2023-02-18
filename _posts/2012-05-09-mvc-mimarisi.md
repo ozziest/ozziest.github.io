@@ -5,6 +5,7 @@ date: 2012-05-09 19:00
 categories: [Turkish, Coding]
 keywords: mvc, mvc nedir, mvc mimarisi
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 ### MVC Nedir?

@@ -5,6 +5,7 @@ date: 2012-09-09 19:00
 categories: [Turkish, Coding]
 keywords: js, css, minift, dosya sıkıştırma, js sıkıştırma, css sıkıştırma
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Bir çok web sitesinin kodlarını incelediğimizde artık JS dosyalarının isimlerinde min eklentisi görürüz. Bu eklenti o JS dosyasının sıkıştırılmış olduğunu bize gösterir. Kodları incelediğimizde birbiri içine sıkışmış kodlar bulunur ve gayet düzensizdir. JS kodlarının bu şekilde bir yapıya sokulmasının amaçları vardır. Bu yazımızda bu amaçları ve bu işlemi nasıl yaptığımızı inceleyeceğiz.

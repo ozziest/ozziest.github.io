@@ -5,6 +5,7 @@ date: 2014-07-04 18:00
 categories: [Turkish, Essays]
 keywords: taciz
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Gelişen bilişim sektörünün istatistik bilimine yaptığı etki midir bilinmez, son yıllarda taciz olayları ciddi bir artış gösterdi. Artık her gün bir taciz haberini, gazetelerde ya da bizzat sokakta görür olduk. Bu durumun sosyolojik ve psikolojik olarak bir çok nedeninin bulunması kuvvetle muhtemeldir. Bense bu yazı boyunca, erkeklerin tacize bakışı üzerinde durmaya çalışacağım.

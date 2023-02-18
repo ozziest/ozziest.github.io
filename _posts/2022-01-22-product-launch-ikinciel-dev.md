@@ -7,6 +7,7 @@ keywords: ikinciel.dev, product, launch, coding, github
 author: Özgür Adem Işıklı
 post_img: 38.jpg
 post_img_link: https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/
+lang: tr
 ---
 
 5 Aralık 2021'de, detaylara çok fazla takılmadan, oldukça hızlı bir şekilde geliştirdiğimiz [ikinciel.dev](https://ikinciel.dev/) projesini aşağıdaki tweet aracılığı ile Twitter üzerinden duyurduk.

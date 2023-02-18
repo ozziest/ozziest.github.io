@@ -5,6 +5,7 @@ date: 2012-09-23 19:00
 categories: [Turkish, Coding]
 keywords: ajax, periyodik ajax istekleri
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Ajax günümüz web sitelerinin olmazsa olmazlarındandır. Bir çok veriyi kaydederken ya da sorgulama yaparken sayfayı tamamen yenilemek yerinde sadece ilgili bölgede işlem yaparak sonuca hızlı bir şekilde ve sistemi yormadan ulaşmamızı sağlamaktadır. Bu yöntem sayesinde web sayfalarımız çok daha hızlı ve kullanışlı olmaktadırlar. Gmail’in ve Facebook’un bu kadar çok kullanılmasının sebepleri arasında Ajax yöntemi yer almaktadır.

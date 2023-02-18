@@ -5,6 +5,7 @@ date: 2014-07-15 18:00
 categories: [Turkish, Essays]
 keywords: deneme
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Öfkeliyiz ve günden güne öfkemiz daha da artıyor. Cumhuriyet tarihi işkenceler, tecavüzler, hukuk dışı tutuklamalar, idamlar ve darbelerden geçilmiyor. Herkes bir hesaplaşma derdinde, herkes haklı ve herkesin kendine göre nedenleri var. Henüz genç biri olmama rağmen tüm bunlardan yorulduğumu hissediyorum. Bu yüzden bizzat sizden rica ediyorum; bırakın güneş içeri girsin. Bırakın güneş kalbinizi ısıtsın.

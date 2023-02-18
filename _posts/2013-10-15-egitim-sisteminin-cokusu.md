@@ -5,6 +5,7 @@ date: 2013-10-15 19:00
 categories: [Turkish, Essays]
 keywords: eğitim sisteminin çöküşü
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Bunun çok iddialı bir cümle olduğunun farkındayım. Bir nefeste ağızdan çıkar bir söz değil, aksine yıllarca süren öğrencilik deneyimlerimin ve aldığım sözüm ona formasyonun sonucu. Ben muhtelif devlet okullarında eğitim görmüş, meslek lisesi geçmişi olan, lisans düzeyinde pedagojik formasyon eğitimi almış ancak hiç bir zaman bir devlet kurumunda öğretmenlik yapmamış bir öğretmen olarak bu yazıyı kalem alıyorum.

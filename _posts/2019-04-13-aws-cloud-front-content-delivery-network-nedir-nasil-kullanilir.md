@@ -7,6 +7,7 @@ keywords: aws, amazon, cloudfront, s3, cdn, spa
 author: Özgür Adem Işıklı
 post_img: 20.jpg
 post_img_link: https://pixabay.com/photos/dock-ship-container-port-boat-1277744
+lang: tr
 ---
 
 ### 1. Motivasyon

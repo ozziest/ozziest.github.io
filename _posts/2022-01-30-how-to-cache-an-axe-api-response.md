@@ -7,6 +7,7 @@ keywords: axe-api, redis, caching, rest, api
 author: Özgür Adem Işıklı
 post_img: 39.jpg
 post_img_link: https://pixabay.com/photos/cheetah-cat-wildcat-predator-5537416/
+lang: en
 ---
 
 ## What is Axe API?

@@ -5,6 +5,7 @@ date: 2014-04-29 19:00
 categories: [Turkish, Coding]
 keywords: php, laravel, hiyerarşi, kategori, nested, list, baum
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Yazılım dünyasında sık karşılaşılan problemlerden biri de hiyerarşik yapıya sahip kategorilerdir. Bu yapıyı kurabilmek için iki türlü model kullanılmaktadır;

@@ -7,6 +7,7 @@ keywords: api, rest-api, nodejs, axe-api
 author: Özgür Adem Işıklı
 post_img: 35.jpg
 post_img_link: https://pixabay.com/photos/coding-programming-working-macbook-924920/
+lang: en
 ---
 
 I asked myself what a blog should be after I realized that I don't write too much. I thought and I decided that it should be whatever I like. That's why you are reading this post. I am going to tell in here what I am doing more often.

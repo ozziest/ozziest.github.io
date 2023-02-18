@@ -5,6 +5,7 @@ date: 2015-03-10 22:20
 categories: [Turkish, Coding]
 keywords: ros, robot, operating, system, robotik, c++, python
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Öncelikle ROS'u kısaca tanımlamaya çalışacağım;

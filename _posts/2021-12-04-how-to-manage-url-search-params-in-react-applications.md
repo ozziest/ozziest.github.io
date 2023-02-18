@@ -7,6 +7,7 @@ keywords: react, hooks, url, search, parameters, URLSearchParams
 author: Özgür Adem Işıklı
 post_img: 37.jpg
 post_img_link: https://pixabay.com/photos/red-fox-animal-road-fox-wildlife-6796430/
+lang: en
 ---
 
 ## Terminology

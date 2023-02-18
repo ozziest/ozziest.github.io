@@ -5,6 +5,7 @@ date: 2015-04-20 21:30:28
 categories: [Turkish, Coding]
 keywords: single page application, spa, web uygulaması, angular, javascript, tecrübe
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Bundan dört ay önce [SPA, Angular, Gulp ve Bower](/web/2014/12/13/spa-angular-bower-gulp.html) başlıklı bir blog yazısı kaleme almıştım. O dönemde web sitesinden web uygulamalarına daha yeni yeni geçiş yapıyordum. Şuanda da üst düzey bir uzman olmasam da, bu konuda epey yol katettiğimi ve tecrübe kazandığımı söyleyebilirim. Bu blog yazısında da elimden geldiğince ve aklıma geldiğince düşüncelerimi anlatmaya çalışacağım.

@@ -5,6 +5,7 @@ date: 2015-02-04 22:00
 categories: [Turkish, Coding]
 keywords: symfony, routing, rota, http-foundation, link
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Genellikle birçok projemizde bir yönlendirme (link) yapısına ihtiyacımız olur. Bunu kimi zaman `.htaccess` dosyalarıyla çözeriz, kimi zaman da doğrudan **PHP** dosyalarının adını linkmiş gibi veririz. Fakat tüm bunlar amatör işi çözümlerdir.

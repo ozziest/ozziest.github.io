@@ -5,6 +5,7 @@ date: 2012-09-14 19:00
 categories: [Turkish, Coding]
 keywords: oracle, sql döngüsü
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Oracle üzerinde belirli bir veriye göre ardı ardına SQL kodu çalıştırmak istediğiniz döngü kullanmak zorundasınızdır. Tabi döngü kullanmak demek PL/SQL’e giriş yapmak demektir. Aşağıdaki kod parçası bu işi gerçekleştirmekte. Genel olarak bakıldığında öğrenci tablosundaki tüm öğrenci_no alanlarına göre notlar tablosuna her öğrenci için sözlü notu ekliyor. Siz de bu kodu istediğini şekilde düzenleyerek kullanabilirsiniz.

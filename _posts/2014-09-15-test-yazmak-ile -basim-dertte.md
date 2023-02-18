@@ -5,6 +5,7 @@ date: 2014-09-15 22:39:28
 categories: [Turkish, Coding]
 keywords: php, test, unit test, codeception, acceptance
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Anlatmak istediklerimi anlatmadan önce, lütfen aşağıdaki kod bloğunu satır satır inceleyiniz;

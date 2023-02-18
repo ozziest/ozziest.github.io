@@ -5,6 +5,7 @@ date: 2014-05-04 18:00
 categories: [Turkish, Essays]
 keywords: türkler, dahiler, eğitim
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Einstein'ın, Steve Jobs'un ya da Beethoven'ın bir Türk olduğunu düşünün. Anadolu'nun herhangi bir şehrinde doğduklarını ve göçle birlikte İstanbul'a yerleştiklerini hayal edin. Bugün biz hâlâ bu insanların adını biliyor olur muyduk Cevap: "Hayır." Bu konuda oldukça eminim. Gelin yakından inceleyelim.

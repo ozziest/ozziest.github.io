@@ -5,6 +5,7 @@ date: 2014-02-24 19:00
 categories: [Turkish, Coding]
 keywords: php, git, vcs, branch
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Versiyon Kontrol Sistemleri (VCS) proje geliştirirken olmazsa olmazlarımızın başında geliyor artık. Bir noktadan sonra “Eskiden biz nasıl kod geliştiriyor muşuz?” demeden edemiyoruz. Uzunca bir süredir ben de her projemde ilk olarak versiyon kontrol sistemi (benim için Git) kuruyorum. Ancak özellikle tek başıma çalıştığım geliştirmelerde hiç branch oluşturma ihtiyacı duymuyordum.

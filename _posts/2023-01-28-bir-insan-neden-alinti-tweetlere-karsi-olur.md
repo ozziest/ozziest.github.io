@@ -4,6 +4,7 @@ date: 2023-01-28 16:00
 categories: [Turkısh, Genel]
 keywords: twitter, alıntı tweet, sosyal medya, linç, troll
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Alıntı tweetler hemen her gün karşılaştığımız basit bir _Twitter_ özelliği. Bir insanın neden buna karşı olduğunu merak ediyor olabilirsin. Ben karşıyım ve neden karşı olduğumu açıklamak istiyorum.

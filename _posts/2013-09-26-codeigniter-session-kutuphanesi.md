@@ -5,6 +5,7 @@ date: 2013-09-26 19:00
 categories: [Turkish, Coding]
 keywords: codeigniter, session, library, cookie, hata
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Merhaba,

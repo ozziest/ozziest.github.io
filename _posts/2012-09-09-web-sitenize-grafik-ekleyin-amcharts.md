@@ -5,6 +5,7 @@ date: 2012-09-09 19:00
 categories: [Turkish, Coding]
 keywords: web, grafik, amcharts
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Eğer siz de web sitenizde çeşitli verilere göre pasta, sütun yada bar vb. grafikler oluşturmak istiyorsanız amCharts tam size göre HTML5 tabanlı JavaScript kütüphanesi. Bu kütüphane aracılığı ile verilerinizi hızlı bir şekilde grafiklere dökebilirsiniz. JavaScript tabanlı olduğundan tarayıcınızı yormadan ve tüm tarayıcılara tam uyumlu olarak çalışıyor.

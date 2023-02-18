@@ -5,6 +5,7 @@ date: 2013-08-04 19:00
 categories: [Turkish, Coding]
 keywords: php tecrübesi, junior, php, tecrübe, kendime notlar
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Merhaba,

@@ -7,6 +7,7 @@ keywords: kusursuz sunum, sunum teknikleri, sunum yöntemleri, sunum önerileri
 author: Özgür Adem Işıklı
 post_img: 09.jpg
 post_img_link: https://pixabay.com/en/concept-man-papers-person-plan-1868728
+lang: tr
 ---
 
 Yazılım camiasında son dönemde harika etkinlikler gerçekleştiriliyor. Her haftasonu mutlaka bir yerlerde size uygun bir etkinlik bulabilirsiniz. Peki bu etkinliklerde gerçekleştiren sunumların yeterlilikleri ne durumda?

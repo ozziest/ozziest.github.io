@@ -5,6 +5,7 @@ date: 2012-10-09 19:00
 categories: [Turkish, Coding]
 keywords: web, grafik, google chart tools, grafik ekleme
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Google Developers henüz yeni sayılan yayın hayatında bir çok Api ve kütüphane ile geliştiricilere destek veriyor. Bunların her birine ayrı ayrı değinmek gerek tabii fakat bu yazımda projelerimde kullandığım bir Javascript kütüphanesinden bahsetmek istiyorum. Eğer sizde projelerinizde verileri kullanıcılara grafikler aracılığı ile ulaştırmak istiyorsanız internette çeşitli kütüphaneler ile bunu gerçekleştirebilirsiniz. Bu kütüphanelere bir alternatif de Google aracılığı ile hazırlanmış. Google Chart Tools adı altında sunulan Api aracılığı ile hızlı bir şekilde projelerinizde farklı türlerde grafikler ekleyebiliyorsunuz.

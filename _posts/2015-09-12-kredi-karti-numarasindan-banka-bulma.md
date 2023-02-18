@@ -5,6 +5,7 @@ date: 2015-09-12 19:00
 categories: [Turkish, Coding]
 keywords: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Bu sefer teknik bir yazı yerine, kullanışlı bir bilgi vermek amacıyla yazıyorum. :)

@@ -7,6 +7,7 @@ keywords: apaçi dansı
 author: Özgür Adem Işıklı
 post_img: 03.jpg
 post_img_link: https://commons.wikimedia.org/wiki/File:Giovanni_Domenico_Tiepolo_-_Ball_in_the_Country_-_WGA22372.jpg
+lang: tr
 ---
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/apa%C3%A7i-dans%C4%B1-d7b4b232d7c1) üzerinde yayınlanmıştır.

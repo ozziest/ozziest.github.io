@@ -5,6 +5,7 @@ date: 2014-04-27 19:00
 categories: [Turkish, Coding]
 keywords: php, laravel, codeigniter
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Yaklaşık bir buçuk yıl kadar CodeIgniter (CI) ile bir proje geliştirmekteydim. Şartlar CI ile projeye başlamak için gayet uygundu. Tahmin edersiniz ki yapacağımız işi maddi kaygılar belirlediğinden, başladığınız projenin nereye gideceğini ve nerede son bulacağını bilemiyoruz.

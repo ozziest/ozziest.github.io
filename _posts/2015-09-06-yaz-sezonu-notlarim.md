@@ -5,6 +5,7 @@ date: 2015-09-06 22:00
 categories: [Turkish, Essays]
 keywords: yaz sezonu, kişisel, kendime notlar, son gelişmeler
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Hayatın hızını yakalayabilmek gerçekten çok zor. Bazı anlar geldiğinde, geçmişte neler yaşadığımı unuttuğum oluyor. Bu nedenle bu yaz yaşadıklarımı kendim için not almam gerektiğine karar verdim.

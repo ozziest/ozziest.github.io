@@ -7,6 +7,7 @@ keywords: gitlab, ci, cd, devops, continuous integration, continuous delivery
 author: Özgür Adem Işıklı
 post_img: 12.jpg
 post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
+lang: tr
 ---
 
 > Bu makaleyi iyi bir şekilde özümseyebilmek için temel düzeyde Linux ve Docker bilgisi gerekmektedir.

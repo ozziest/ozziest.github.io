@@ -7,6 +7,7 @@ keywords: patika, php, routing, package, routes
 author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
+lang: tr
 ---
 
 Bugün [Patika](http://ozguradem.net/patika) isimli PHP tabanlı rota yönetim kütüphanesini yayınladım. Bu blog yazısında elimden geldiğince paketi tanıtmaya çalışacağım.

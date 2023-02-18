@@ -7,6 +7,7 @@ keywords: artificial intelligence, ai, evolutionary, evolution, dna
 author: Özgür Adem Işıklı
 post_img: 30.jpg
 post_img_link: https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696
+lang: en
 ---
 
 #### Abstract

@@ -4,6 +4,7 @@ date: 2023-02-17 20:00
 categories: [English, Programming]
 keywords: styled-components, react, css, css-in-js
 author: Özgür Adem Işıklı
+lang: en
 ---
 
 ## What is styled-components?

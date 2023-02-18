@@ -7,6 +7,7 @@ keywords: okuma notları, okuduğum kitaplar, kitaplar, 2016, notlar
 author: Özgür Adem Işıklı
 post_img: 11.jpg
 post_img_link: https://pixabay.com/en/map-discovery-america-ship-train-3409359
+lang: tr
 ---
 
 İlk defa böyle bir yazı hazırlıyorum. Bu ihtiyacı hissettim çünkü her şeyden evvel çok az okuduğumu farkettim. Okumalarımı sıklaştırdıktan sonra da, yıllar sonra dönüp baktığımda neler okumuşum ve ne hissetmişim görmenin bana mutluluk vereceğine karar verdim. Gelecekte bir parça mutlu olabilmek ve kendime **_anı_** biriktirebilmek adına, **2016** yılında okuduğum kitapları not alıyorum.

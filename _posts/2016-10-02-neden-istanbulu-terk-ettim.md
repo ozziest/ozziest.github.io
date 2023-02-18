@@ -7,6 +7,7 @@ keywords: istanbul, sakarya
 author: Özgür Adem Işıklı
 post_img: 04.jpg
 post_img_link: https://pixabay.com/en/galata-istanbul-turkey-tower-1204927
+lang: tr
 ---
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/neden-i%CC%87stanbulu-terk-ettim-a486f513c73a) üzerinde yayınlanmıştır.

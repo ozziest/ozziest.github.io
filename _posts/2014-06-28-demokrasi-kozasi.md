@@ -5,6 +5,7 @@ date: 2014-06-28 18:00
 categories: [Turkish, Essays]
 keywords: demokrasi
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Ülkemize baktığımızda, demokrasimizin henüz emekleme aşamasının ilerisinde olduğunu söylemek güç. Siyasetçilerimiz ezelden beri basit yöntem ve söylevler kullanmışlardır. Şüphesiz, bunda toplumumuzun entelektüel bilgi birikiminin kıtlığı da önemli bir etkendir. Bu yolculuk uzun ve zahmetli bir yolculuktur ve ne yazık ki yaşadığımız sorunların kısa vadede çözümü mümkün değildir. Uzun vadede yol alırken, günden güne uydurduğumuz ve yamadan öteye gidemeyen su üstü çözümler de bizi daha büyük bir bataklığa sürüklemektedir. Bataklıktan kurtulmak için öncelikle tutkumuzun sükunetine ihtiyacımız vardır.

@@ -5,6 +5,7 @@ date: 2012-09-24 19:00
 categories: [Turkish, Essays]
 keywords: sosyal medya, kullanıcı egosu
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Sosyal medya etkisini her geçen gün ciddi bir oranda arttırmakta ve her alanda hayatımıza müdahil olmaktadır. Sosyal medyanın olmazsa olmazı kullanıcılar gün içerisinde terabaytlar mertebesinde veriyi sosyal ağlar aracılığı ile arkadaş ve takipçileriyle paylaşmakta, dünya üzerinde var olan sosyal ağ firmaları çok ciddi oranlarda kazanç sağlamaktadırlar. Sosyal medyanın bu denli yüksek orandaki gelişim hızı ve Kuzey Afrika’daki eylemlerde olduğu gibi insan hayatına yaptığı etkiler artık günümüzde başka soruları sormamızı zorunlu kılmıştır.

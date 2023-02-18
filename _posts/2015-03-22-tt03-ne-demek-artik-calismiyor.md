@@ -5,6 +5,7 @@ date: 2015-03-22 18:00
 categories: [Turkish, Presentation]
 keywords: php, test, hata, yazılım, unit test, birim test, kabul testi, entegrasyon testi
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 > Bu blog yazısı, geçtiğimiz Cumartesi (21 Mart 2015) günü [Mavidurak-IO](http://mavidurak.github.io) ve [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr)'nin gerçekleştirdiği **Tech Talk #03** etkinliğinde gerçekleştirdiğim sunumun özetini içermektedir.

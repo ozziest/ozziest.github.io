@@ -5,6 +5,7 @@ date: 2015-05-01 20:00:00
 categories: [Turkish, Coding]
 keywords: mavidurak-io, yazılım topluluğu, seminer, tech talk, workshop, değerlendirme, atölye
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Bundan yaklaşık 1 sene önce birkaç arkadaşımla birlikte **Sakarya**'da faaliyet gösterecek bir yazılım topluluğunun kurulum aşamasında görev aldım. Sakarya küçük bir şehir olduğu için sektörel imkanlarının **İstanbul** gibi şehirlerle yarışmasına imkan yoktu ve biz de sürekli İstanbul'un yolunu tutar bir haldeydik. [Mavidurak-IO](http://mavidurak.github.io) ile bu sorunu tamamen çözemesek de, azaltmayı hedefledik ve çalışmaya koyulduk.

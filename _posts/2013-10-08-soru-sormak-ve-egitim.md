@@ -5,6 +5,7 @@ date: 2013-10-08 19:00
 categories: [Turkish, Essays]
 keywords: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Merhaba,

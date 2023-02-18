@@ -7,6 +7,7 @@ keywords: web geliştirme alet çantası, kullanışlı araçlar, geliştirici a
 author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
+lang: tr
 ---
 
 Bu başlık altında bir web geliştiricinin **_(Full Stack)_** sık kullandığı ya da kullanabileceği araçlara değineceğim. Bu araçlar benim geliştirme ortamlarımda kurulu olan ve çoğu zaman başvurduğum araçlardan oluşmaktadır.

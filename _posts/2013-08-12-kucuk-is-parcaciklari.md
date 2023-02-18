@@ -5,6 +5,7 @@ date: 2013-08-12 19:00
 categories: [Turkish, Coding]
 keywords: küçük iş parçacıkları, solid, separation of concerns
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Merhabalar,

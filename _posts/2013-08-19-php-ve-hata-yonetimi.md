@@ -5,6 +5,7 @@ date: 2013-08-19 19:00
 categories: [Turkish, Coding]
 keywords: php ve hata yönetimi, bende çalışıyor
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;

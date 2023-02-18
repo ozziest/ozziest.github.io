@@ -7,6 +7,7 @@ keywords: soap services, dotnet core, wcf, wsdl
 author: Özgür Adem Işıklı
 post_img: 05.jpg
 post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
+lang: en
 ---
 
 ## Generating Service Classes

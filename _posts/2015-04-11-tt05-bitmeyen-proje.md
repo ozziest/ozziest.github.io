@@ -5,6 +5,7 @@ date: 2015-03-22 18:00
 categories: [Turkish, Presentation]
 keywords: php, test, hata, yazılım, unit test, birim test, kabul testi, entegrasyon testi
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Geçtiğimiz Cumartesi (11 Nisan 2015) günü [Mavidurak-IO](http://mavidurak.github.io) ve [Ahir Ar-Ge Danışmanlık AŞ](http://ahir.com.tr)'nin gerçekleştirdiği **Tech Talk #05** etkinliğinde gerçekleştirdiğim "**Bitmeyen Proje**" başlıklı bir sunum gerçekleştirdim. Gerçekleştirmiş olduğum sunuma aşağıdaki link aracılığı ile ulaşabilirsiniz.

@@ -5,6 +5,7 @@ date: 2014-05-20 21:00
 categories: [Turkish, Coding]
 keywords: yazılım, geliştirme, dependency, injection, bağımlılık
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 **Dependency Injection** Türkçe’ye çevrildiğinde genelde **Bağımlılık Enjeksiyonu** gibi garip bir kavram ortaya çıkıyor. Bu kavramın zor anlaşılmasındaki esas sorun, her tür teknik bilgiyi birebir çevirmedeki inadımız diyebiliriz. Hatta Enjeksiyon kelimesinin de Fransızca olduğunu düşünürsek, el birliği ile oldukça başarısız bir Türkçeleştirme çalışması yaptığımız aşikardır.

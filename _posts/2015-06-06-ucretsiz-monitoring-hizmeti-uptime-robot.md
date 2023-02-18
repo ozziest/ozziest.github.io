@@ -5,6 +5,7 @@ date: 2015-06-06 13:00
 categories: [Turkish, Coding]
 keywords: monitoring, uptime, robot, ücretsiz
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Sizlere son dönemde karşılaştığım ve doğrudan kullanmaya başladığım bir online uygulmadan bahsetmek istiyorum; [Uptime Robot](https://uptimerobot.com)

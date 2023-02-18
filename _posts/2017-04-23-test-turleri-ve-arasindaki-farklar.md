@@ -7,6 +7,7 @@ keywords: software, tests, unit test, acceptance test, integration test
 author: Özgür Adem Işıklı
 post_img: 07.jpg
 post_img_link: https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188
+lang: tr
 ---
 
 ### 1. Giriş

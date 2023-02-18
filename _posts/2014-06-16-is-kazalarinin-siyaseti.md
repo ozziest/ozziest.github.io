@@ -5,6 +5,7 @@ date: 2014-06-16 18:00
 categories: [Turkish, Essays]
 keywords: iş kazası, siyaset
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Hayatınızda bazen öyle bir an gelir ki, bembeyaz duvarlar tüm ışığını kaybeder ve her lokma ekmek kursağınızda kalır. Gözleriniz dolar ama ağlamaya bile utanırsınız. Yine de bu cümleler geçtiğimiz haftalarda Soma'da yaşadığımız faciayı özetleyemez.

@@ -5,6 +5,7 @@ date: 2014-08-19 22:39:28
 categories: [Turkish, Coding]
 keywords: php, exception, hata, log
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;

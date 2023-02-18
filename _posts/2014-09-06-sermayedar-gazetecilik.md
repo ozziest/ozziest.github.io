@@ -5,6 +5,7 @@ date: 2014-09-06 18:00
 categories: [Turkish, Essays]
 keywords: deneme, gazetecilik
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 <a href="https://pixabay.com/en/crow-raven-bird-black-animal-828944/" target="_blank">

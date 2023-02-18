@@ -5,6 +5,7 @@ date: 2013-08-04 19:00
 categories: [Turkish, Essays]
 keywords: teknik öğretmen, eleştiri
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Merhaba,

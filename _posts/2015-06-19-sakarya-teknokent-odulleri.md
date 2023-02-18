@@ -5,6 +5,7 @@ date: 2015-06-19 22:00
 categories: [Turkish, Essays]
 keywords: sakarya teknokent, ahir ar-ge danışmanlık, argedb, ödül
 author: Özgür Adem Işıklı
+lang: tr
 ---
 
 Geçtiğimiz günlerde [Ahir Ar-Ge Danışmanlık A.Ş.](http://ahir.com.tr) olarak bünyesinde faaliyet gösterdiğimiz [Sakarya Teknokent](http://www.sakaryateknokent.com) tarafından, teknokent firmalarının birbirlerini daha iyi tanımlaları amacıyla bir kahve etkinliği düzenlendi. Bizde **Ahir Ar-Ge Danışmanlık. A.Ş.** olarak bu etkinlikte yer aldık.
