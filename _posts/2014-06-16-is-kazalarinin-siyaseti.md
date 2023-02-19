@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: iş kazası, siyaset
 author: Özgür Adem Işıklı
 lang: tr
+description: İş kazaları ve siyaset ilişkisini sorguladığım bir makale.
 ---
 
 Hayatınızda bazen öyle bir an gelir ki, bembeyaz duvarlar tüm ışığını kaybeder ve her lokma ekmek kursağınızda kalır. Gözleriniz dolar ama ağlamaya bile utanırsınız. Yine de bu cümleler geçtiğimiz haftalarda Soma'da yaşadığımız faciayı özetleyemez.

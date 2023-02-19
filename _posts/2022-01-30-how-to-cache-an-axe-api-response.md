@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 39.jpg
 post_img_link: https://pixabay.com/photos/cheetah-cat-wildcat-predator-5537416/
 lang: en
+description: In this article you can find how to cache Axe API responses without pain.
 ---
 
 ## What is Axe API?

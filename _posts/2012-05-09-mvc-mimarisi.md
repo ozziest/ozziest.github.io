@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: mvc, mvc nedir, mvc mimarisi
 author: Özgür Adem Işıklı
 lang: tr
+description: MVC mimarisinin temellerini bu makale aracılığıyla öğrenebilirsiniz.
 ---
 
 ### MVC Nedir?

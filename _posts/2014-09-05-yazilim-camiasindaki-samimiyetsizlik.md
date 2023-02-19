@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: yazılım, samimiyetsizlik
 author: Özgür Adem Işıklı
 lang: tr
+description: Türk yazılım camiasındaki samimiyetsizliği neden eleştiriyorum?
 ---
 
 Kendi sektörümde her denk geldiğim insanın, deyim yerindeyse yakasına yapışıyorum. Çünkü öğrenilecek çok şey olduğunu biliyorum. Ne kadar çok kişiyi Twitter'da takip edersem ve ne kadar çok blog yazısı okursam o kadar ufkum genişliyor. Ancak midemi bulandıran iki mevzu var; birincisi **ego fetişi**, ikincisi **samimiyetsizlik.**

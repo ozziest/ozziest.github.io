@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: fast router, php, router, rota, url, packages
 author: Özgür Adem Işıklı
 lang: tr
+description: Fast Route kütüphanesi hakkında yazdığım bir tanıtım yazısı.
 ---
 
 Geçtiğimiz aylarda [Symfony/Routing İle Rotalarınızı Yönetin](/php/2015/02/04/symfony-routing-ile-rotalarinizi-yonetin.html) başlıklı bir yazı yayınlamıştım. O yazıda Symfony/Routing kütüphanesi ile PHP projelerinizde nasıl rotalama işlemi gerçekleştirebileceğinizden bahsetmiştim. Ancak bu yazıda, bir başka rotalama kütüphanesine değineceğim; [Fast Route](https://github.com/nikic/FastRoute)

@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php, test, unit test, codeception, acceptance
 author: Özgür Adem Işıklı
 lang: tr
+description: Yazılımda test yazma serüvenimi anlattığım bir makale. Bu makalede kullandığım yöntemleri ve hangi çalışmalarla başarı sağladığımı bulabilirsiniz.
 ---
 
 Anlatmak istediklerimi anlatmadan önce, lütfen aşağıdaki kod bloğunu satır satır inceleyiniz;

@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: küçük iş parçacıkları, solid, separation of concerns
 author: Özgür Adem Işıklı
 lang: tr
+description: Programlamada kullanılan atomik kod parçacıkları üzerine yazdığım bir inceleme yazısı.
 ---
 
 Merhabalar,

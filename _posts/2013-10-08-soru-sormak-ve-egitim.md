@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: soru sormak, eğitim, soru sormanın önemi, sürekli sormak
 author: Özgür Adem Işıklı
 lang: tr
+description: Soru sormanın eğitim sistemi içerisindeki önemini irdeleyen bir makale.
 ---
 
 Merhaba,

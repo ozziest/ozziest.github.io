@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php, laravel, hiyerarşi, kategori, nested, list, baum
 author: Özgür Adem Işıklı
 lang: tr
+description: PHP'de Laravel framework'ünü kullanarak hiyerarşik verileri nasıl yönetebileceğimizi inceleyebilirsiniz.
 ---
 
 Yazılım dünyasında sık karşılaşılan problemlerden biri de hiyerarşik yapıya sahip kategorilerdir. Bu yapıyı kurabilmek için iki türlü model kullanılmaktadır;

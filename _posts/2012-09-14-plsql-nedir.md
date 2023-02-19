@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: plsql, nedir
 author: Özgür Adem Işıklı
 lang: tr
+description: PL/SQL konusunu incelediğim giriş seviyesinde bir makale.
 ---
 
 Bilmeyenler için önce SQL‘in tanımından başlamakta yarar var. SQL (Structured Query Language, Yapılandırılmış Sorgluama Dili) veri tabanı işlemlerinde verileri yönetmek için kullanılan veritabanı yönetim sistemidir. Bir çok kişi tarafından bir programlama dili olarak da bilinir. Amacı veritabanı üzerinde işlem yapmaktır ve yardımcı bir dildir. Bir program yazamazsınız, yazdığınız program ve veritabanı arasındaki veri alışverişini yönetirsiniz.

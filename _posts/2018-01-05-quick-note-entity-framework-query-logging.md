@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 lang: en
+description: In this article you can learn that tow to log queries in Entity Framework.
 ---
 
 > In case I forget later, this is a simple note for me.

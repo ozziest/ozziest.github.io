@@ -5,6 +5,7 @@ categories: [Turkısh, Genel]
 keywords: twitter, alıntı tweet, sosyal medya, linç, troll
 author: Özgür Adem Işıklı
 lang: tr
+description: Bu makale neden alıntı tweetlere karşı olduğumu irdeliyorum.
 ---
 
 Alıntı tweetler hemen her gün karşılaştığımız basit bir _Twitter_ özelliği. Bir insanın neden buna karşı olduğunu merak ediyor olabilirsin. Ben karşıyım ve neden karşı olduğumu açıklamak istiyorum.

@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: ekitap, php, paket, oluşturma, tasarlama, composer, package
 author: Özgür Adem Işıklı
 lang: tr
+description: PHP için nasıl paket geliştirebileceğinizi, bu paketleri nasıl yayınlayabileceğinizi ve nelere dikkat etmeniz gerektiğini anlattığım bir e-kitap tanıtım yazısı.
 ---
 
 Son birkaç aydır **PHP İle Paket Geliştrme** konusu üzerinde bir e-kitap çalışması içerisindeydim. Epey bir uğraştan sonra geçtiğimiz günlerde bu çalışmamı sonlandırdım ve **LeanPub** üzerinden yayınlamaya başladım. Siz de aşağıdaki link aracılığı ile e-kitaba ücretsiz olarak ulaşabilirsiniz;

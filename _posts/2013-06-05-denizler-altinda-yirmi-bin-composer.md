@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php, paket yöneticisi, composer nedir, neden kullanılır
 author: Özgür Adem Işıklı
 lang: tr
+description: PHP paket yöneticisi olan Composer hakkında bir inceleme yazısı.
 ---
 
 > Önemli Not: Bu yazı temel Composer bilgisi olanlar içindir. Eğer Composer’ı hiç duymadıysanız [buraya](https://web.archive.org/web/20140816200545/https://getcomposer.org/) ve [buraya](https://web.archive.org/web/20140906052958/http://www.cangelis.com/php-composer-nedir-nasil-kullanilir/) tıklayarak hakkında detaylı bilgi edinebilirsiniz.

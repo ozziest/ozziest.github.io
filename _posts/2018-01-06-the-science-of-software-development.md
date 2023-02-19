@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 06.jpg
 post_img_link: https://pixabay.com/en/space-center-spacex-control-center-693251
 lang: en
+description: In this article I am discussing the science of software development.
 ---
 
 I am not **_Uncle Bob_** or **_Martin Fowler_**. I am just a developer who develop web applications in all day by using another frameworks and libraries. I am not creating a new approach about how to use your classes or your patterns in cases you have. Nevertheless I am sick of reading somethings which is not scientific about software development. In this article, I want to talk about that.

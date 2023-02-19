@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: laravel, php, unit, test workbench, package, testcase
 author: Özgür Adem Işıklı
 lang: tr
+description: Laravel Workbench inceleme yazısı. Workbench nedir ve nasıl kullanılır sorularının cevaplarını bu makalede bulabilirsiniz.
 ---
 
 **Laravel** üzerinde geliştirme yaptığınız sırada yeni bir paket oluşturarak çalışmanız çoğu zaman yararınıza olacaktır. Bir işi yapan bir paket geliştirdiğinizde, paketi **composer** ve **packagist** yardımıyla yayınlayabilir ve dilediğiniz projenizde sadece composer üzerine ekleme yaparak yeniden kullanabilirsiniz. Bu nedenle paketlerle çalışmak oldukça önemlidir.

@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 lang: tr
+description: Microservices hakkında derlediğim notlarımı bulabileceğiniz bir makale.
 ---
 
 > Bu bir kendime not yazısıdır. Daha sonradan unutma ihtimalime karşın kendimce notlar alıyorum.

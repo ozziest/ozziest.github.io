@@ -5,6 +5,7 @@ categories: [English, Programming]
 keywords: complexity, cyclomatic complexity, reducing complexity, refactoring, serverless, software, architecture, microservices
 author: Özgür Adem Işıklı
 lang: en
+description: In this article, I claim that reducing programming complexity is just an illusion and the only thing that we can do is distribute the complexity.
 ---
 
 Every day, a new article has been published to show how to reduce programming complexity in your code. Best practices, new methods, and techniques are in every corner. But we are not questioning what it means, or even if it is really possible.

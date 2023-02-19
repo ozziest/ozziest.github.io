@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: google glass, internete girmek
 author: Özgür Adem Işıklı
 lang: tr
+description: Akıllı gözlük teknolojisi hakkında neden heyecanlandığımı anlattığım bir makale.
 ---
 
 Apple‘ın akıllı telefonlardaki yenilikleri ve bu alandaki gelişmeler son bir kaç yıldır hepimizi farklı noktalara taşıdı. Artık internet kullanımı ve sosyal medya masaüstünden kalkarak cebimize kadar girdi. İşe giderken ya da işten dönerken otobüste ya da metrobüste biraz gözlem yaptığınızda özellikle 16-30 yaş arası bireylerin artık ellerinden akıllı telefonları düşürmediklerini göreceksiniz. İnternet kullanıcıların çoğu her an durum güncellemesi, check-in ve multimedya paylaşımları yapmaktadırlar.

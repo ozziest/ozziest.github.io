@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: eğitim sisteminin çöküşü
 author: Özgür Adem Işıklı
 lang: tr
+description: Günümüzdeki eğitim sisteminin neden yetersiz ve değişmek zorunda olduğunu irdelediğim bir makale.
 ---
 
 Bunun çok iddialı bir cümle olduğunun farkındayım. Bir nefeste ağızdan çıkar bir söz değil, aksine yıllarca süren öğrencilik deneyimlerimin ve aldığım sözüm ona formasyonun sonucu. Ben muhtelif devlet okullarında eğitim görmüş, meslek lisesi geçmişi olan, lisans düzeyinde pedagojik formasyon eğitimi almış ancak hiç bir zaman bir devlet kurumunda öğretmenlik yapmamış bir öğretmen olarak bu yazıyı kalem alıyorum.

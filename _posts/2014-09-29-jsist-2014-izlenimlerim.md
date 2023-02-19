@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: js, jsist, conference
 author: Özgür Adem Işıklı
 lang: tr
+description: Jsist 2014 konferansı hakkınd bir inceleme yazısı.
 ---
 
 Geçtiğimiz haftasonu (27-28 Eylül) İstanbul'da düzenlenen Jsist etkinliğine katıldım. Katılımcılar olarak oldukça verimli bir etkinlik geçirdik. Ben de naçizane görüşlerimle bir etkinlik değerledirmesi yapacağım.

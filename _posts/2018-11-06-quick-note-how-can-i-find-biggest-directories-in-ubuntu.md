@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 lang: en
+description: In this article you can learn how you can find the biggest directories in Ubuntu.
 ---
 
 > In case I forget later, this is a simple note for me.

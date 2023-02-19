@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: codeigniter, session, library, cookie, hata
 author: Özgür Adem Işıklı
 lang: tr
+description: CodeIgniter framework'ü içerisinde bulunan Session sınıfında yer alan kritik bir özellik üzerinde yazdığım bir inceleme yazısı.
 ---
 
 Merhaba,

@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: teknik öğretmen, eleştiri
 author: Özgür Adem Işıklı
 lang: tr
+description: Türkiye'de bulunan teknik öğretmenlere yönelik yazdığım eleştiri yazısı.
 ---
 
 Merhaba,

@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 30.jpg
 post_img_link: https://pixabay.com/photos/dna-dns-biology-genetic-material-1388696
 lang: en
+description: In this article I am discussing the opportunity that can we create a general artificial intelligence by using evolutionary fundamentalsç
 ---
 
 #### Abstract

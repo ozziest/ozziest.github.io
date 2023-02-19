@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: kredi kartı numarası, banka bilgisi öğrenme, kredi kartı, kart tipi
 author: Özgür Adem Işıklı
 lang: tr
+description: Kredi kartından nasıl banka numarasını öğrenebileceğinizi gösteren bir makale.
 ---
 
 Bu sefer teknik bir yazı yerine, kullanışlı bir bilgi vermek amacıyla yazıyorum. :)

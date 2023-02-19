@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: ros, robot, operating, system, robotik, c++, python
 author: Özgür Adem Işıklı
 lang: tr
+description: ROS nedir ve ne değildir anlatılan giriş seviyesinde bir makale.
 ---
 
 Öncelikle ROS'u kısaca tanımlamaya çalışacağım;

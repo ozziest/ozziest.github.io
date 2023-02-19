@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php ve hata yönetimi, bende çalışıyor
 author: Özgür Adem Işıklı
 lang: tr
+description: PHP projelerinde hata yönetiminin nasıl yapılabileceği hakkında yazdığım bir inceleme yazısı.
 ---
 
 Geliştirdiğimiz uygulamalar hiçbir zaman hatasız olmayacak. Ancak hata dediğimiz zaman, bizim bunları ikiye ayırmamız gerekiyor;

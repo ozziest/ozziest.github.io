@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 lang: tr
+description: PHP projelerinde test yazmak ve bir test yapısı kurmak hakkında bir makale.
 ---
 
 Yazılım bloglarında tonla **_"Neden Test Yazmalıyız?"_** başlıklı makaleler bulabilirsiniz. Bu nedenle bu soruyu cevaplamayacağım. Eğer burayı okuyorsanız **test** kavramı hakkında en azından bir kaç şey duymuşsunuzdur diye düşünüyorum.

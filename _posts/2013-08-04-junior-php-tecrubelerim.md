@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php tecrübesi, junior, php, tecrübe, kendime notlar
 author: Özgür Adem Işıklı
 lang: tr
+description: Junior PHP Developer olarak edindiğim tecrübeleri anlattığım bir makale.
 ---
 
 Merhaba,

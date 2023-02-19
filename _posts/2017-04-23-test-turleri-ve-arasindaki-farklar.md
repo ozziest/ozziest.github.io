@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 07.jpg
 post_img_link: https://pixabay.com/en/eyeglasses-exam-optometry-vision-2003188
 lang: tr
+description: Yazılımdaki genel test türleri ve bunların arasındaki farklar nedir öğrenebileceğiniz bir makale.
 ---
 
 ### 1. Giriş

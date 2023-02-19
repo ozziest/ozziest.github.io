@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 11.jpg
 post_img_link: https://pixabay.com/en/map-discovery-america-ship-train-3409359
 lang: tr
+description: 2019 yılındaki kitap okuma notlarıma genel bir bakış.
 ---
 
 İlk defa 2016 yılında, okuduğum kitaplar hakındaki notlarımı derlediğim bir yazı hazırlamıştım (Bkz [2016 Okuma Notları](/turkish/books/2016/12/16/okuma-notlari/)). O dönemden sonra okumaya devam etsem de, aldığım notları tekrar yayınlama ihtiyacı hissetmemiştim. Ancak bu sene, biraz da odaklanmama yardımcı olması amacıyla, kitaplar hakkında aldığım notlara yazı ile yer vereceğim ve bu yazıyı sürekli olarak güncelleyeceğim.

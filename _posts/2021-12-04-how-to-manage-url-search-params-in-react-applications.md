@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 37.jpg
 post_img_link: https://pixabay.com/photos/red-fox-animal-road-fox-wildlife-6796430/
 lang: en
+description: In this article you can learn to manage URLSearchParameters in a React application.
 ---
 
 ## Terminology

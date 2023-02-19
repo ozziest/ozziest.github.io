@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: ösym, meb, atama, şeffaflık
 author: Özgür Adem Işıklı
 lang: tr
+description: ÖSYM ve MEB yaptıkları sınavlarda ne kadar şeffaflar? Bu makale ile sınav sistemi üzerindeki kapalı kaynak yazılım sorunlarını irdeliyorum.
 ---
 
 Bugünlerde Türkiye yeni bir skandalla çalkalanıyor. Skandalın yeni adı YGS şifreleri. Bir çok yetkili kurumdan yalanlama gelse bile binlerce gencin umutları çürütülmüş ve ÖSYM’ye olan güven neredeyse bitmiştir. Buna KPSS skandalıda dahildir elbette. Tabi ki KPSS skandalının tam dokuz aydır bir sonuca bağlanamaması ve hala soruşturmanın sürmesi akıllarda dahada büyük soru işareti bırakmıştır. Peki biz Türkiye’deki gençlerin tüm hayatlarını derinden etkileyen ÖSYM’ye artık ne kadar güvenebiliriz? Bu soru önümüzde duruyor elbette. Fakat her ne kadar gündem YGS skandalı olsa da ben başka bir boyuta taşımak istiyorum tartışmayı. Bu boyutta MEB’in yaptığı öğretmen atamalarıdır.

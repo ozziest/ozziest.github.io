@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 31.jpg
 post_img_link: https://pixabay.com/photos/container-port-loading-stacked-3118783
 lang: tr
+description: Bu makalede GitLab CI/CD kullanarak AWS üzerinde nasıl ölçeklenebilir bir uygulama yayınlayabileceğimizden bahsediyorum.
 ---
 
 > Bu makaleye konu olan sunumu [MaviDurak-IO](https://kommunity.com/mavidurakio) ve [Sakarya Coders](https://www.meetup.com/Sakarya-Coders/) işbirliği ile [15 Ekim](https://kommunity.com/mavidurakio/events/gitlab-cicd-ile-aws-uzerinde-olceklenebilir-uygulama-yayinlama)'de yapılan bir etkinlikte gerçekleştirdim. Hazır bu kadar belgeyi bir araya getirmişken, üzerinde biraz daha emek vererek bir blog yazısı yazmak mantıklı geldi. Bu makaledeki ilk iki bölüm, daha önceden yazdığım [Amazon CloudFront Nedir ve Nasıl Kullanılır?](https://ozguradem.net/turkish/coding/2019/04/13/aws-cloud-front-content-delivery-network-nedir-nasil-kullanilir/) başlıklı makalemden aynen kopyalanmıştır.

@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php, laravel, migrasyon, veritabanı, versiyon, taşıma, migration
 author: Özgür Adem Işıklı
 lang: tr
+description: Laravel'de neden migrasyonları kullanmamız gerektiğini anlattığım bir makale.
 ---
 
 _“Biz yıllardır phpmyadmin ile veritabanı dizayn etmiş adamız. Eski köye yeni adet getiriyorlar. MVC falan, bunlar bir takım dış mihrakların uydurduğu şeyler. Kendi framework’ümde gül gibi kod yazıyorum. Bir kere daha güvenli. Bir de alışkanlık var tabi. Öğrenmek için ayıracak vakit yok.”_

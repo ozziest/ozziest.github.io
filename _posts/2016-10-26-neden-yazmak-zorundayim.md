@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 08.jpg
 post_img_link: https://pixabay.com/en/france-french-revolution-civil-war-63022
 lang: tr
+description: Bir şeyler yazma motivasyonum hakkında yazmış olduğum bir deneme.
 ---
 
 > Bu makale ilk olarak [Medium](https://medium.com/@iozguradem/neden-yazmak-zorunday%C4%B1m-a5ca451cb192) üzerinde yayınlanmıştır.

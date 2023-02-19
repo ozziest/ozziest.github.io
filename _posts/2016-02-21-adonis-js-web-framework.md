@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 lang: tr
+description: Node.js tabanlı AdonisJS frameworkü tanıtım yazısı.
 ---
 
 [Adonis](http://adonisjs.com), **NodeJS** ile daha az kod yazarak uygulama geliştirmeyi amaçlayan ve MVC mimarisine göre oluşturulmuş bir framework'dür. Diğer NodeJS web frameworklerine göre öne çıkan başlıca özellikleri **ES6** ile geliştirme yapmayı amaçlaması ve **PHP** dili için geliştirimiş [Laravel](https://laravel.com)'in mimarisine benzer olmasıdır.

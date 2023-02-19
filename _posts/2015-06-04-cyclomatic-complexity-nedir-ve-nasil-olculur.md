@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 lang: tr
+description: Cyclomatic Complexity nedir inceleyen ve bu konuda somut örnekler içeren bir yazı.
 ---
 
 **[Cyclomatic Complexity](http://en.wikipedia.org/wiki/Cyclomatic_complexity)** kavramı yazılım camiasına ait bir terimdir ve geliştirilen kodların karmaşasının ölçülmesi olarak ifade edilir. Ölçüm yapılırken akış diyagramındaki bağımsız bölümler ve karar yapıları göz önünde bulundurulur. Ne kadar çok karar yapısı bulunuyorsa, kod karmaşası o kadar artık. Kod karmaşasının arttığı durumlarda üzerinde çalışılan projenin sürdürülebilir olması güçleşir, hata ile karşılaşma oranında artış gözlemlenir. Bu nedenle kod karmaşasının minumumda tutulması her zaman için önerilir.

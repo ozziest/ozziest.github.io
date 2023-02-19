@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: soa, angular, bower, gulp, spa
 author: Özgür Adem Işıklı
 lang: tr
+description: Single Page Application, Angular Bower, ve Gulp dörtlüsünü incelediğim bir makale.
 ---
 
 Uzun zamandır sürdürmek zorunda kaldığım bir proje üzerine çalışıyorum ve son dönemlerde oldukça fazla sürdürülebilirlik sorunları yaşıyordum. Bir yandan günden güne çöplüğe dönen kodlar, bir yandan yeni özelliklerin eklenmesinde yaşadığım zorluklar alıp başını gidiyordu. Uzunca bir düşünme safhasından sonra, kendimce cesur bir adım atarak proje çekirdeğinde refactoring yapma kararı aldım.

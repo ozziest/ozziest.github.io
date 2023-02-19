@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: symfony, routing, rota, http-foundation, link
 author: Özgür Adem Işıklı
 lang: tr
+description: Symfony ile routing işlemlerini nasıl yönetilebileceğini anlatan bir makale.
 ---
 
 Genellikle birçok projemizde bir yönlendirme (link) yapısına ihtiyacımız olur. Bunu kimi zaman `.htaccess` dosyalarıyla çözeriz, kimi zaman da doğrudan **PHP** dosyalarının adını linkmiş gibi veririz. Fakat tüm bunlar amatör işi çözümlerdir.

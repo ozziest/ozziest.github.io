@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: codeigniter, form tasarlama, hizli formlar,
 author: Özgür Adem Işıklı
 lang: tr
+description: CodeIgniter kullanarak nasıl hızlı bir şekilde form tasarlayabileceğinizi öğrenebilirsiniz.
 ---
 
 CodeIgniter (PHP için geliştirilmiş uygulama çatısı) PHP çatısını kullananları belkide en çok zorlayan şey formları hazırlamaktır. Her ne kadar Form Validation sınıfı CodeIgniter’da default olarak kullanıma sunulsa da, hızlı bir şekilde form yazmak, formların kurallarını belirlemek, MVC ilişkilerini kurmak epey zaman almaktadır.

@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: mysql, satır sayısı
 author: Özgür Adem Işıklı
 lang: tr
+description: MySQL sorgularına satır sayısının nasıl eklenebileceğini bu makalede bulabilirsiniz.
 ---
 
 MySQL ile çalışırken yazdığınız SQL sorgularının sonuçlarına otomatik olarak satır sayısı alanı da ekleyebilirsiniz. Aşağıdaki SQL kodunda bu işlemin nasıl yapıldığı gösterilmektedir.

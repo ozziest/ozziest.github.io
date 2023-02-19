@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: apple, samsung, patent saçmalığı, patent savaşları
 author: Özgür Adem Işıklı
 lang: tr
+description: Patent davaları üzerine yazdığım ve patentlerin yararları kadar zararları da olabildiğini vurguladığım bir deneme.
 ---
 
 Bugünlerde bilişim camiasında Apple kurucularından Steve Wozniak‘ın yaptığı açıklamalar konuşuluyor. Geçtiğimiz günlerde Apple ve Samsung arasında yaşanan patent davalarında Apple haklı bulunmuş ve Samsung Apple’a 1 milyar dolar ödemeye mahkum edilmişti. Samsung karara itiraz etti ve kararın bozulması için girişimlere başladı. Para henüz Apple’a geçmeden Apple kurucusu Steve Wozniak patent davalarından nefret ettiğini açıkladı. Bu sırada ise Apple Samsung ürünlerini ABD pazarında yasaklatmak için hamle üzerine hamle yapıyor.

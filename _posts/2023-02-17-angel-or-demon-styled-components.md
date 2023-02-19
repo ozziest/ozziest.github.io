@@ -5,6 +5,7 @@ categories: [English, Programming]
 keywords: styled-components, react, css, css-in-js
 author: Özgür Adem Işıklı
 lang: en
+description: In this article, I review styled-components library in all aspects.
 ---
 
 ## What is styled-components?

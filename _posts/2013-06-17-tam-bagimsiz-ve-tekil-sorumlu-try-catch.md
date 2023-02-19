@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: try catch, solid
 author: Özgür Adem Işıklı
 lang: tr
+description: Programlamada sıklıkla kullandığımız try-catch blokları hakkında bir inceleme yazısı.
 ---
 
 Try-Catch bloklarını kullanarak hata yakalama sürecine aşina olduğunuzu varsayıyorum. Eğer değilseniz [buradan](https://web.archive.org/web/20140906095623/http://php.net/manual/en/language.exceptions.php) temel bilgileri edinebilirsiniz. Yazı boyunca SOLID prensiplerinden Single Responsibility (Tek Sorumluluk) prensibine de değineceğim. Eğer bu konuda da ön bilginiz yoksa [buradan](https://web.archive.org/web/20140920213104/http://code.tutsplus.com/tutorials/solid-part-1-the-single-responsibility-principle--net-36074) faydalanabilirsiniz.

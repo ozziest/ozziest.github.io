@@ -6,6 +6,7 @@ categories: [Turkish, Essays]
 keywords: finlandiya, okul mimarisi, okul dizaynı, iyi eğitim örnekleri
 author: Özgür Adem Işıklı
 lang: tr
+description: Finlandiya okul mimarisi nasıl? Nerelere dikkat ediliyor ve hangi açılardan ön plana çıkıyor?
 ---
 
 Finlandiya’da okul mimarisine özel önem verilmektedir. Çok katlı binalaryerine geniş bahçeler içerisinde tek katlı yapılar tercih edilmektedir. Okulbahçelerindeki oyun ve etkinlik alanları ülkede uzun süren kış mevsimi degöz önünde bulundurularak düzenlenmektedir. Finlandiya okul mimarisininayırıcı özelliği okul içindeki düzenlemeleridir. Okulların iç mimari sistemirahatlık ve açıklık üzerine kurulmuştur. Öğrencilerin kendilerini ev ortamındaymış gibi hissetmeleri amaçlanmaktadır. Öğrenciler standart birüniforma ile okula gelmek zorunda olmadıkları gibi okul ortamında çoraplarıile dolaşabilmekte ve dışarı çıktığında oynamak için farklı kıyafetler giyerekkar üzerinde kayabilmekteler.

@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 36.jpg
 post_img_link: https://pixabay.com/photos/binding-contract-contract-secure-948442/
 lang: en
+description: In this article you can learn how to sign an AWS S3 file in Node.js.
 ---
 
 I noticed that every time I need to sign an S3 file, I already forgot how I could do that. Because I can be bored so easily, I am creating this documentation to remember it easily.

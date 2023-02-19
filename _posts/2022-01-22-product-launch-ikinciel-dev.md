@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 38.jpg
 post_img_link: https://pixabay.com/photos/rocket-launch-rocket-take-off-67643/
 lang: tr
+description: Bu makalede ikinciel.dev projesini geliştirme ve yayına alma süreçlerimizi bulabilirsiniz.
 ---
 
 5 Aralık 2021'de, detaylara çok fazla takılmadan, oldukça hızlı bir şekilde geliştirdiğimiz [ikinciel.dev](https://ikinciel.dev/) projesini aşağıdaki tweet aracılığı ile Twitter üzerinden duyurduk.

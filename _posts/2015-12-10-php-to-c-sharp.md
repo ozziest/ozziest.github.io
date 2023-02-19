@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: coding.jpg
 post_img_link: https://pixabay.com/en/rocket-launch-rocket-take-off-nasa-67643
 lang: tr
+description: Kariyerimde yaptığım PHP-C# geçişinden sonra her iki teknolojisi karşılaştırdığım bir yazı.
 ---
 
 Uzunca bir süredir **PHP** ile birlikte uygulamalar geliştiriyor olsam da, şartlar beni geçtiğimiz günlerde **.NET** ile bir uygulama geliştirmeye götürdü. **PHP** ile belirli bir seviyeye gelmiş uygulama, sonrasında **C#** ve **.NET** platformu bileşenleri kullanılarak geliştirildi. Ben de bu yazıda bir yandan **PHP** ile **C#**'ı, bir yandan da **.NET** platformunu irdelemek istedim. Eğer bir gün olur da **PHP**'den sıkılırsanız, nelerle karşılaşabileceğinizi dilim döndüğünce anlatmak istiyorum.

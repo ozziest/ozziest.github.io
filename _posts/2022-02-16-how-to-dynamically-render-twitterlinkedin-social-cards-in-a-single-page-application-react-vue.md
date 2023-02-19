@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 40.jpg
 post_img_link: https://pixabay.com/photos/proxy-proxy-server-free-proxy-4605834/
 lang: en
+description: In this article you can learn how to create social cards in a Single Page Application.
 ---
 
 ## What is Open Graph?

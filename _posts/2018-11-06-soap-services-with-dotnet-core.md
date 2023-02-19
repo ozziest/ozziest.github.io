@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 05.jpg
 post_img_link: https://pixabay.com/en/michelangelo-abstract-boy-child-71282
 lang: en
+description: In this article you can learn how to use a SOAP servıces in dotnet core
 ---
 
 ## Generating Service Classes

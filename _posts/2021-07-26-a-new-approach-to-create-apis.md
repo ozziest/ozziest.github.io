@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: 34.jpg
 post_img_link: https://pixabay.com/photos/greece-parthenon-temple-ruins-1594689/
 lang: en
+description: In this article you can find a new approach to create Rest APIs qucikly
 ---
 
 I wanted to put a very simple question on the table;

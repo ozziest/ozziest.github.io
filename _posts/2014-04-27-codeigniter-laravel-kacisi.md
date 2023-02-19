@@ -6,6 +6,7 @@ categories: [Turkish, Coding]
 keywords: php, laravel, codeigniter
 author: Özgür Adem Işıklı
 lang: tr
+description: PHP ile geliştirdiğim bir projede neden CodeIgniter yerine Laravel kullanmaya başladığımızı irdelediğim bir makale.
 ---
 
 Yaklaşık bir buçuk yıl kadar CodeIgniter (CI) ile bir proje geliştirmekteydim. Şartlar CI ile projeye başlamak için gayet uygundu. Tahmin edersiniz ki yapacağımız işi maddi kaygılar belirlediğinden, başladığınız projenin nereye gideceğini ve nerede son bulacağını bilemiyoruz.

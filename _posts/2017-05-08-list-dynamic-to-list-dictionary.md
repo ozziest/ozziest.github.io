@@ -8,6 +8,7 @@ author: Özgür Adem Işıklı
 post_img: notes.jpg
 post_img_link: https://pixabay.com/en/books-pages-story-stories-notes-1245690
 lang: en
+description: In this article you can find how to convert a dynamic list to dictionary list in C#
 ---
 
 > In case I forget later, this is a simple note for me.
